@@ -79,6 +79,30 @@
         ],
         "hidden": true
     },
+    "act1enabled": {
+        "yaml_option": [
+            "Act_1_Enabled"
+        ],
+        "hidden": true
+    },
+    "act2enabled": {
+        "yaml_option": [
+            "Act_2_Enabled"
+        ],
+        "hidden": true
+    },
+    "act3enabled": {
+        "yaml_option": [
+            "Act_3_Enabled"
+        ],
+        "hidden": true
+    },
+    "kayceeenabled": {
+        "yaml_option": [
+            "Act_3_Enabled"
+        ],
+        "hidden": true
+    },
     "Avian": {
         "hidden": true
     },
@@ -104,15 +128,6 @@
         "hidden": true
     },
     "Undead": {
-        "hidden": true
-    },
-    "Sapphire": {
-        "hidden": true
-    },
-    "Emerald": {
-        "hidden": true
-    },
-    "Ruby": {
         "hidden": true
     }
 }

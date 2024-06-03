@@ -48,7 +48,7 @@ Don't choose a goal that includes an act you're not going to play.
 
 Make sure a copy of the Manual world is in the lib/world directory of your client-side installation.
 If you include Kaycee's Mod in your settings, either have a save file with everything unlocked in Kaycee's Mod, or use the [Unlock All Mod](https://thunderstore.io/c/inscryption/p/IngoH/Unlock_All/) on the Thunderstore Mod Manager.
-If you don't have a save with everything unlocked in the base game, you can press Alt + K + C + M
+If you don't have a save with everything unlocked in the base game, you can press Alt + K + C + M to unlock chapter select.
 
 ## Joining a MultiWorld Game
 
