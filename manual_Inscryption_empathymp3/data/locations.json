@@ -4,6 +4,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Avian"
         ],
         "region": "Act I - Pre-Prospector"
@@ -13,6 +14,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Avian"
         ],
         "region": "Act I - Pre-Prospector"
@@ -22,6 +24,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Avian"
         ],
         "region": "Act I - Pre-Prospector"
@@ -31,6 +34,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Avian"
         ],
         "region": "Act I - Pre-Prospector"
@@ -41,6 +45,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Avian",
             "Beast"
         ],
@@ -51,6 +56,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Avian"
         ],
         "region": "Act I - Pre-Prospector"
@@ -69,6 +75,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Canine",
             "Beast"
         ],
@@ -80,6 +87,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Canine",
             "Beast"
         ],
@@ -98,16 +106,18 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Canine",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
         "name": "Coyote",
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Canine"
         ],
         "region": "Act I - Pre-Prospector"
@@ -117,6 +127,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Canine"
         ],
         "region": "Act I - Pre-Prospector"
@@ -126,6 +137,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Hooved",
             "Rare"
         ],
@@ -136,6 +148,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Hooved",
             "Rare"
         ],
@@ -146,6 +159,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Hooved"
         ],
         "region": "Act I - Pre-Prospector"
@@ -156,6 +170,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Hooved",
             "Beast"
         ],
@@ -167,6 +182,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Hooved",
             "Beast"
         ],
@@ -177,6 +193,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Hooved"
         ],
         "region": "Act I - Pre-Prospector"
@@ -186,6 +203,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Hooved"
         ],
         "region": "Act I - Pre-Prospector"
@@ -196,6 +214,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Insect",
             "Rare",
             "Beast"
@@ -207,6 +226,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect",
             "Rare"
         ],
@@ -217,16 +237,18 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector",
-        "requires": "|Beehive|"
+        "requires": "|@Act I:15|"
     },
     {
         "name": "Beehive",
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -236,6 +258,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -245,6 +268,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -254,6 +278,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -263,6 +288,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -271,6 +297,7 @@
         "name": "Stinkbug",
         "category": [
             "Act I",
+            "act1",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -280,6 +307,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector"
@@ -289,6 +317,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Insect"
         ],
         "region": "Act I - Pre-Prospector",
@@ -299,6 +328,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Reptile",
             "Rare"
         ],
@@ -323,6 +353,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Reptile",
             "Beast"
         ],
@@ -333,6 +364,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Reptile"
         ],
         "region": "Act I - Pre-Prospector"
@@ -343,6 +375,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Reptile",
             "Beast"
         ],
@@ -353,6 +386,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Reptile"
         ],
         "region": "Act I - Pre-Prospector"
@@ -362,6 +396,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Reptile"
         ],
         "region": "Act I - Pre-Prospector"
@@ -370,7 +405,8 @@
         "name": "Rabbit Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -378,7 +414,8 @@
         "name": "Wolf Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -386,7 +423,8 @@
         "name": "Golden Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -396,6 +434,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Rare",
             "Beast"
         ],
@@ -407,6 +446,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Rare"
         ],
         "region": "Act I - Post-Prospector"
@@ -416,6 +456,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Rare"
         ],
         "region": "Act I - Post-Prospector"
@@ -425,6 +466,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Rare"
         ],
         "region": "Act I - Post-Prospector"
@@ -435,6 +477,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Rare",
             "Beast"
         ],
@@ -445,6 +488,7 @@
         "category": [
             "Act I",
             "Kaycee's Mod",
+            "act1kaycee",
             "Rare"
         ],
         "region": "Act I - Post-Prospector"
@@ -455,9 +499,10 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
         "name": "Cat",
@@ -465,6 +510,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
         "region": "Act I - Pre-Prospector"
@@ -473,7 +519,8 @@
         "name": "Hand Tentacle",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -481,7 +528,8 @@
         "name": "Mirror Tentacle",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -491,6 +539,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
         "region": "Act I - Pre-Prospector"
@@ -499,7 +548,8 @@
         "name": "Porcupine",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -507,7 +557,8 @@
         "name": "River Otter",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -515,7 +566,8 @@
         "name": "Skunk",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -525,9 +577,10 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
         "name": "Warren",
@@ -535,6 +588,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
         "region": "Act I - Pre-Prospector"
@@ -543,7 +597,8 @@
         "name": "Beaver",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -551,7 +606,8 @@
         "name": "Bell Tentacle",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -561,6 +617,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
         "region": "Act I - Pre-Prospector"
@@ -569,7 +626,8 @@
         "name": "Rat King",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -577,7 +635,8 @@
         "name": "Great White",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -587,6 +646,7 @@
             "Act I",
             "Act II",
             "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
         "region": "Act I - Pre-Prospector"
@@ -595,7 +655,8 @@
         "name": "Opossum",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -603,42 +664,48 @@
         "name": "Bat",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Custom Deathcard",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Louis",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Kaycee",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Kaminski",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Reginald",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -646,7 +713,8 @@
         "name": "Boulder",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -654,31 +722,34 @@
         "name": "Frozen Opossum",
         "category": [
             "Act I",
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Rabbit",
         "category": [
-            "Act I",
             "Act II",
-            "Kaycee's Mod",
+            "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act II - Pre-Bridge"
     },
     {
         "name": "The Smoke",
         "category": [
-            "Act I"
+            "Act I",
+            "Kaycee's Mod",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
     },
     {
         "name": "Greater Smoke",
         "category": [
-            "Act I"
+            "Act I",
+            "act1"
         ],
         "region": "Act I - Pre-Prospector"
     },
@@ -687,6 +758,7 @@
         "category": [
             "Act II",
             "Kaycee's Mod",
+            "act2kaycee",
             "Rare",
             "Beast"
         ],
@@ -696,6 +768,7 @@
         "name": "Hrokkal",
         "category": [
             "Act II",
+            "act2",
             "Rare",
             "Beast"
         ],
@@ -705,6 +778,7 @@
         "name": "Squirrel Ball",
         "category": [
             "Act II",
+            "act2",
             "Beast"
         ],
         "region": "Act II - Pre-Bridge"
@@ -713,14 +787,16 @@
         "name": "Hawk",
         "category": [
             "Act II",
+            "act2",
             "Beast"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Salmon",
         "category": [
             "Act II",
+            "act2",
             "Beast"
         ],
         "region": "Act II - Pre-Bridge"
@@ -729,14 +805,16 @@
         "name": "Spore Mice",
         "category": [
             "Act II",
+            "act2",
             "Beast"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Mycologists"
     },
     {
         "name": "Bone Heap",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -746,6 +824,7 @@
         "name": "Tomb Robber",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -755,6 +834,7 @@
         "name": "Necromancer",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -764,6 +844,7 @@
         "name": "Drowned Soul",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -773,6 +854,7 @@
         "name": "Dead Hand",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -782,6 +864,7 @@
         "name": "Headless Horseman",
         "category": [
             "Act II",
+            "act2",
             "Undead",
             "Rare"
         ],
@@ -791,38 +874,43 @@
         "name": "Skeleton",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Draugr",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Gravedigger",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Act II - Beginning"
     },
     {
         "name": "Sporedigger",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Mycologists"
     },
     {
         "name": "Banshee",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -831,6 +919,7 @@
         "name": "Skelemagus",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -839,14 +928,16 @@
         "name": "Zombie",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Bone Lord's Horn",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge",
@@ -856,6 +947,7 @@
         "name": "Broken Obol Left",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -864,6 +956,7 @@
         "name": "Broken Obol Right",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -872,6 +965,7 @@
         "name": "Revenant",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -880,6 +974,7 @@
         "name": "Ghost Ship",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -888,6 +983,7 @@
         "name": "Sarcophagus",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -896,6 +992,7 @@
         "name": "The Walkers",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -904,14 +1001,16 @@
         "name": "Frank & Stein",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Pharaoh's Pets",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -920,6 +1019,7 @@
         "name": "Bonehound",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -928,6 +1028,7 @@
         "name": "Mummy Lord",
         "category": [
             "Act II",
+            "act2",
             "Undead"
         ],
         "region": "Act II - Pre-Bridge"
@@ -936,6 +1037,7 @@
         "name": "Plasma Jimmy",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -945,6 +1047,7 @@
         "name": "Curve Hopper",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -954,6 +1057,7 @@
         "name": "Energy Conduit",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -963,6 +1067,7 @@
         "name": "Mox Module",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -972,6 +1077,7 @@
         "name": "Mrs. Bomb",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -981,6 +1087,7 @@
         "name": "Shutterbug",
         "category": [
             "Act II",
+            "act2",
             "Technology",
             "Rare"
         ],
@@ -990,14 +1097,17 @@
         "name": "L33pb0t",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Null Conduit",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1006,6 +1116,8 @@
         "name": "Sentry Drone",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1014,23 +1126,27 @@
         "name": "Sentry Spore",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Mycologists"
     },
     {
         "name": "49er",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Buff Conduit",
         "category": [
             "Act II",
             "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1039,6 +1155,8 @@
         "name": "Energy Bot",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1047,6 +1165,8 @@
         "name": "Explode Bot",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1055,6 +1175,7 @@
         "name": "M3atB0t",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1063,14 +1184,16 @@
         "name": "Automaton",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Factory Conduit",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1079,6 +1202,7 @@
         "name": "Gamblobot",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1088,6 +1212,7 @@
         "category": [
             "Act II",
             "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1096,6 +1221,7 @@
         "name": "Steel Mice",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1104,14 +1230,17 @@
         "name": "Thick Droid",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Bolthound",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1120,22 +1249,26 @@
         "name": "Double Gunner",
         "category": [
             "Act II",
+            "Act III",
+            "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act III - Beginning"
     },
     {
         "name": "Steambot",
         "category": [
             "Act II",
+            "act2",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Bleene's Mox",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Rare"
         ],
@@ -1145,6 +1278,7 @@
         "name": "Goranj's Mox",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Rare"
         ],
@@ -1154,6 +1288,7 @@
         "name": "Master Bleene",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Rare"
         ],
@@ -1163,6 +1298,7 @@
         "name": "Master Goranj",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Rare"
         ],
@@ -1172,6 +1308,7 @@
         "name": "Master Orlu",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Rare"
         ],
@@ -1181,41 +1318,46 @@
         "name": "Emerald Mox",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Emerald"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Ruby Mox",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Ruby"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Sapphire Mox",
         "category": [
             "Act II",
+            "act2",
             "Magickal",
             "Sapphire"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Mage Pupil",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Gourmage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Post-Bridge"
@@ -1224,6 +1366,7 @@
         "name": "Green Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Post-Bridge"
@@ -1232,14 +1375,16 @@
         "name": "Junior Sage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Stim Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1248,14 +1393,16 @@
         "name": "Mage Knight",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Orange Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1264,6 +1411,7 @@
         "name": "Practice Wizard",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1272,6 +1420,7 @@
         "name": "Ruby Golem",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1280,22 +1429,25 @@
         "name": "Blue Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
         "name": "Spore Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Mycologists"
     },
     {
         "name": "Force Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1304,6 +1456,7 @@
         "name": "Gem Fiend",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1312,6 +1465,7 @@
         "name": "Hover Mage",
         "category": [
             "Act II",
+            "act2",
             "Magickal"
         ],
         "region": "Act II - Pre-Bridge"
@@ -1319,231 +1473,264 @@
     {
         "name": "Son1a",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Qui77",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Gr1zz",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Bomb Latcher",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Exeskeleton",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Shield Latcher",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Skel-e-latcher",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Gems Conduit",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Kind Cell",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Tough Cell",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Splinter Cell",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Bleene's Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Goranj's Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Orlu's Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Gem Detonator",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Gem Guardian",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Gembound Ripper",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Empty Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Beginning"
     },
     {
         "name": "Emerald Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Ruby Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Sapphire Vessel",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Act 3 Custom Card",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Post-Bridge"
     },
     {
         "name": "Amoebot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Initial Gauntlet"
     },
     {
         "name": "Gift Bot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Initial Gauntlet"
     },
     {
         "name": "Lonely Wizbot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Alarm Bot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Initial Gauntlet"
     },
     {
         "name": "Busted 3D Printer",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Initial Gauntlet"
     },
     {
         "name": "Fishbot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Shieldbot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Beginning"
     },
     {
         "name": "Sniper Bot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Beginning"
     },
     {
         "name": "Swapbot",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Initial Gauntlet"
     },
     {
         "name": "Captive File",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge"
     },
     {
         "name": "Bad Fish",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge",
         "requires": "|Fishbot|"
@@ -1551,7 +1738,8 @@
     {
         "name": "More Fish",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge",
         "requires": "|Fishbot|"
@@ -1559,15 +1747,25 @@
     {
         "name": "Good Fish",
         "category": [
-            "Act III"
+            "Act III",
+            "act3"
         ],
         "region": "Act III - Pre-Bridge",
         "requires": "|Fishbot|"
     },
     {
+        "name": "Mycobot",
+        "category": [
+            "Act III",
+            "mycobot"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
         "name": "Cuckoo",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Avian"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1576,6 +1774,7 @@
         "name": "Lammergeier",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Avian"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1584,6 +1783,7 @@
         "name": "Dire Wolf Pup",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Canine"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1592,6 +1792,7 @@
         "name": "Dire Wolf",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Canine"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1600,6 +1801,7 @@
         "name": "Red Hart",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Hooved"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1608,6 +1810,7 @@
         "name": "Wild Bull",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Hooved"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1616,6 +1819,7 @@
         "name": "Pelt Lice",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Insect",
             "Rare"
         ],
@@ -1626,6 +1830,7 @@
         "name": "Flying Ant",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Insect"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1634,6 +1839,7 @@
         "name": "Mealworm",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Insect"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1642,6 +1848,7 @@
         "name": "Mud Turtle",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Reptile"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1650,6 +1857,7 @@
         "name": "Ijiraq",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Rare"
         ],
         "region": "Kaycee's Mod - Post-Prospector",
@@ -1659,14 +1867,16 @@
         "name": "Hodag",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Rare"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Tadpole",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Rare"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1675,6 +1885,7 @@
         "name": "Curious Egg",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Rare"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1682,21 +1893,24 @@
     {
         "name": "Aquasquirrel",
         "category": [
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Raccoon",
         "category": [
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Wolverine",
         "category": [
-            "Kaycee's Mod"
+            "Kaycee's Mod",
+            "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
     },
@@ -1704,18 +1918,10 @@
         "name": "Glitched Card",
         "category": [
             "Kaycee's Mod",
-            "Act I"
+            "Act I",
+            "act1kaycee"
         ],
         "region": "Act I - Pre-Prospector"
-    },
-    {
-        "name": "Hydra",
-        "category": [
-            "Kaycee's Mod",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - Post-Prospector",
-        "requires": "|@Kaycee's Mod:15|"
     },
     {
         "name": "End of Act I",
@@ -1723,8 +1929,7 @@
         "category": [
             "Victory"
         ],
-        "region": "Act II - Pre-Bridge",
-        "requires": "|Caged Wolf|"
+        "region": "Act I - End"
     },
     {
         "name": "End of Act II",
@@ -1732,8 +1937,7 @@
         "category": [
             "Victory"
         ],
-        "region": "Act II - Post-Bridge",
-        "requires": "{ItemValue(act_2_offense:10)}"
+        "region": "Act II - End"
     },
     {
         "name": "End of Act III",
@@ -1741,7 +1945,7 @@
         "category": [
             "Victory"
         ],
-        "requires": "{ItemValue(act_3_offense:10)}"
+        "region": "Act III - End"
     },
     {
         "name": "End of Kaycee's Mod",
@@ -1749,6 +1953,6 @@
         "category": [
             "Victory"
         ],
-        "requires": "{ItemValue(kaycees_mod_offense:10)}"
+        "region": "Kaycee's Mod - End"
     }
 ]

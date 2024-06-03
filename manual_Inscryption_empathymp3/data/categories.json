@@ -1,23 +1,83 @@
 {
-    "Act 1 Enabled": {
+    "act1": {
         "yaml_option": [
             "Act_1_Enabled"
-        ]
+        ],
+        "hidden": true
     },
-    "Act 2 Enabled": {
+    "act2": {
         "yaml_option": [
             "Act_2_Enabled"
-        ]
+        ],
+        "hidden": true
     },
-    "Act 3 Enabled": {
+    "act3": {
         "yaml_option": [
             "Act_3_Enabled"
-        ]
+        ],
+        "hidden": true
     },
-    "Kaycee's Mod Enabled": {
+    "kaycee": {
         "yaml_option": [
             "Kaycees_Mod_Enabled"
-        ]
+        ],
+        "hidden": true
+    },
+    "act2kaycee": {
+        "yaml_option": [
+            "Act_2_or_Kaycees_Mod_Enabled"
+        ],
+        "hidden": true
+    },
+    "act2act3": {
+        "yaml_option": [
+            "Act_2_or_Act_3_Enabled"
+        ],
+        "hidden": true
+    },
+    "act1act2kaycee": {
+        "yaml_option": [
+            "Act_1_or_Act_2_or_Kaycees_Mod_Enabled"
+        ],
+        "hidden": true
+    },
+    "act1kaycee": {
+        "yaml_option": [
+            "Act_1_or_Kaycee_Enabled"
+        ],
+        "hidden": true
+    },
+    "act1disabled": {
+        "yaml_option": [
+            "!Act_1_Enabled"
+        ],
+        "hidden": true
+    },
+    "act2disabled": {
+        "yaml_option": [
+            "!Act_2_Enabled"
+        ],
+        "hidden": true
+    },
+    "act3disabled": {
+        "yaml_option": [
+            "!Act_3_Enabled"
+        ],
+        "hidden": true
+    },
+    "kayceedisabled": {
+        "yaml_option": [
+            "!Kaycees_Mod_Enabled"
+        ],
+        "hidden": true
+    },
+    "mycobot": {
+        "yaml_option": [
+            "Act_3_Enabled",
+            "Act_2_Enabled",
+            "Act_2_or_Act_3_Enabled"
+        ],
+        "hidden": true
     },
     "Avian": {
         "hidden": true

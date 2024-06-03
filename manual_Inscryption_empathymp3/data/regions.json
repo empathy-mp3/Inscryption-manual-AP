@@ -1,49 +1,126 @@
 {
-    "Act I - Pre-Prospector": {
+    "Act I - Beginning": {
         "connects_to": [
-            "Act I - Post-Prospector"
+            "Act I - Pre-Prospector"
         ],
         "starting": true,
         "requires": []
     },
+    "Act I - Pre-Prospector": {
+        "connects_to": [
+            "Act I - Post-Prospector"
+        ],
+        "requires": "({ItemValue(act_1_offense:1)} and |Squirrel|) or |@act1disabled|"
+    },
     "Act I - Post-Prospector": {
+        "connects_to": [
+            "Act I - Post-Angler"
+        ],
+        "requires": "(|@Act I:3| and |Squirrel| and {ItemValue(act_1_offense:4)}) or |@act1disabled|"
+    },
+    "Act I - Post-Angler": {
+        "connects_to": [
+            "Act I - Post-Trapper"
+        ],
+        "requires": "(|@Act I:5| and |Squirrel| and ({ItemValue(act_1_offense:7)} or {ItemValue(act_1_offense:5,act_1_defense:4)} or {ItemValue(act_1_offense:5,act_1_utility:3)} or {ItemValue(act_1_offense:4,act_1_defense:3,act_1_utility:2)})) or |@act1disabled|"
+    },
+    "Act I - Post-Trapper": {
+        "connects_to": [
+            "Act I - End"
+        ],
+        "requires": "(|@Act I:8| and |Squirrel| and ({ItemValue(act_1_offense:9)} or {ItemValue(act_1_offense:6,act_1_defense:5)} or {ItemValue(act_1_offense:6,act_1_utility:4)} or {ItemValue(act_1_offense:5,act_1_defense:4,act_1_utility:3)})) or |@act1disabled|"
+    },
+    "Act I - End": {
+        "connects_to": [
+            "Act II - Beginning"
+        ],
+        "requires": "(|Caged Wolf| and |@Act I:11| and |Squirrel| and ({ItemValue(act_1_offense:11)} or {ItemValue(act_1_offense:8,act_1_defense:6)} or {ItemValue(act_1_offense:8,act_1_utility:5)} or {ItemValue(act_1_offense:7,act_1_defense:5,act_1_utility:4)})) or |@act1disabled|"
+    },
+    "Act II - Beginning": {
         "connects_to": [
             "Act II - Pre-Bridge"
         ],
-        "requires": "|@Act I:3| and |Squirrel|"
+        "requires": []
     },
     "Act II - Pre-Bridge": {
         "connects_to": [
             "Act II - Post-Bridge"
         ],
-        "requires": "|Caged Wolf|"
+        "requires": "|@Act II:4| or |@act2disabled|"
     },
     "Act II - Post-Bridge": {
         "connects_to": [
+            "Act II - Mycologists"
+        ],
+        "requires": "|@Act II:6| or |@act2disabled|"
+    },
+    "Act II - Mycologists": {
+        "connects_to": [
+            "Act II - End"
+        ],
+        "requires": "|@Act II:9| or |@act2disabled|"
+    },
+    "Act II - End": {
+        "connects_to": [
+            "Act III - Beginning"
+        ],
+        "requires": "|@Act II:12| or |@act2disabled|"
+    },
+    "Act III - Beginning": {
+        "connects_to": [
             "Act III - Pre-Bridge"
         ],
-        "requires": ""
+        "requires": []
+    },
+    "Act III - Initial Gauntlet": {
+        "connects_to": [
+            "Act III - Pre-Bridge"
+        ],
+        "requires": "(|@Act III:4| and |Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)) or |@act3disabled|"
     },
     "Act III - Pre-Bridge": {
         "connects_to": [
             "Act III - Post-Bridge"
         ],
-        "requires": ""
+        "requires": "(|@Act III:6| and ({ItemValue(act_3_offense:6)} or {ItemValue(act_3_offense:5,act_3_defense:3)} or {ItemValue(act_3_offense:5,act_3_utility:3)} or {ItemValue(act_3_offense:4,act_3_defense:3,act_3_utility:2)})) or |@act3disabled|"
     },
     "Act III - Post-Bridge": {
         "connects_to": [
             "Kaycee's Mod - Pre-Prospector"
         ],
-        "requires": ""
+        "requires": "(|@Act III:10| and ({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:3)} or {ItemValue(act_3_offense_bridge:1,act_3_defense:4)} or {ItemValue(act_3_defense_bridge:6)} or {ItemValue(act_3_offense:8,act_3_utility:7)} or {ItemValue(act_3_offense_bridge:1,act_3_utility:6)} or {ItemValue(act_3_utility_bridge:6)} or {ItemValue(act_3_offense:6,act_3_defense:5,act_3_utility:4)} or {ItemValue(act_3_offense_bridge:2,act_3_defense:3,act_3_utility:2)} or {ItemValue(act_3_defense_bridge:5,act_3_utility_bridge:5)})) or |@act3disabled|"
+    },
+    "Act III - End": {
+        "connects_to": [
+            "Kaycee's Mod - Pre-Prospector"
+        ],
+        "requires": "(|@Act III:12| and ({ItemValue(act_3_offense:9)} or {ItemValue(act_3_offense_bridge:4)} or {ItemValue(act_3_offense_bridge:2,act_3_defense:5)} or {ItemValue(act_3_defense_bridge:7)} or {ItemValue(act_3_offense:9,act_3_utility:8)} or {ItemValue(act_3_offense_bridge:2,act_3_utility:7)} or {ItemValue(act_3_utility_bridge:7)} or {ItemValue(act_3_offense:7,act_3_defense:6,act_3_utility:5)} or {ItemValue(act_3_offense_bridge:2,act_3_defense:4,act_3_utility:3)} or {ItemValue(act_3_defense_bridge:6,act_3_utility_bridge:6)})) or |@act3disabled|"
     },
     "Kaycee's Mod - Pre-Prospector": {
         "connects_to": [
             "Kaycee's Mod - Post-Prospector"
         ],
-        "starting": true,
-        "requires": []
+        "requires": "(|Squirrel| or |Aquasquirrel|) and |@Kaycee's Mod:2|"
     },
     "Kaycee's Mod - Post-Prospector": {
-        "requires": "|@Kaycee's Mod:3| and (|Squirrel| or |Aquasquirrel|)"
+        "connects_to": [
+            "Kaycee's Mod - Post-Angler"
+        ],
+        "requires": "(|@Kaycee's Mod:3| and (|Squirrel| or |Aquasquirrel|)) or |@kayceedisabled|"
+    },
+    "Kaycee's Mod - Post-Angler": {
+        "connects_to": [
+            "Kaycee's Mod - Post-Trapper"
+        ],
+        "requires": "|@Kaycee's Mod:5| or |@kayceedisabled|"
+    },
+    "Kaycee's Mod - Post-Trapper": {
+        "connects_to": [
+            "Kaycee's Mod - End"
+        ],
+        "requires": "(|@Kaycee's Mod:8| and |Squirrel|) or |@kayceedisabled|"
+    },
+    "Kaycee's Mod - End": {
+        "requires": "(|@Kaycee's Mod:11| and |Squirrel|) or |@kayceedisabled|"
     }
 }
