@@ -18,5 +18,41 @@
         "yaml_option": [
             "Kaycees_Mod_Enabled"
         ]
+    },
+    "Avian": {
+        "hidden": true
+    },
+    "Canine": {
+        "hidden": true
+    },
+    "Hooved": {
+        "hidden": true
+    },
+    "Insect": {
+        "hidden": true
+    },
+    "Reptile": {
+        "hidden": true
+    },
+    "Beast": {
+        "hidden": true
+    },
+    "Technology": {
+        "hidden": true
+    },
+    "Magickal": {
+        "hidden": true
+    },
+    "Undead": {
+        "hidden": true
+    },
+    "Sapphire": {
+        "hidden": true
+    },
+    "Emerald": {
+        "hidden": true
+    },
+    "Ruby": {
+        "hidden": true
     }
 }

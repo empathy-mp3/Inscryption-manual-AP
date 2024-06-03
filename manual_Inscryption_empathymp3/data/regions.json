@@ -1,1 +1,49 @@
-{}
+{
+    "Act I - Pre-Prospector": {
+        "connects_to": [
+            "Act I - Post-Prospector"
+        ],
+        "starting": true,
+        "requires": []
+    },
+    "Act I - Post-Prospector": {
+        "connects_to": [
+            "Act II - Pre-Bridge"
+        ],
+        "requires": "|@Act I:3| and |Squirrel|"
+    },
+    "Act II - Pre-Bridge": {
+        "connects_to": [
+            "Act II - Post-Bridge"
+        ],
+        "requires": "|Caged Wolf|"
+    },
+    "Act II - Post-Bridge": {
+        "connects_to": [
+            "Act III - Pre-Bridge"
+        ],
+        "requires": ""
+    },
+    "Act III - Pre-Bridge": {
+        "connects_to": [
+            "Act III - Post-Bridge"
+        ],
+        "requires": ""
+    },
+    "Act III - Post-Bridge": {
+        "connects_to": [
+            "Kaycee's Mod - Pre-Prospector"
+        ],
+        "requires": ""
+    },
+    "Kaycee's Mod - Pre-Prospector": {
+        "connects_to": [
+            "Kaycee's Mod - Post-Prospector"
+        ],
+        "starting": true,
+        "requires": []
+    },
+    "Kaycee's Mod - Post-Prospector": {
+        "requires": "|@Kaycee's Mod:3| and (|Squirrel| or |Aquasquirrel|)"
+    }
+}

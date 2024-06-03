@@ -685,8 +685,7 @@
         "name": "Rabbit Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod",
-            "Reptile"
+            "Kaycee's Mod"
         ],
         "useful": true
     },
@@ -694,8 +693,7 @@
         "name": "Wolf Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod",
-            "Reptile"
+            "Kaycee's Mod"
         ],
         "useful": true
     },
@@ -703,8 +701,7 @@
         "name": "Golden Pelt",
         "category": [
             "Act I",
-            "Kaycee's Mod",
-            "Pelt"
+            "Kaycee's Mod"
         ],
         "useful": true
     },
@@ -1853,7 +1850,10 @@
         "value": {
             "act_2_offense": 0,
             "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_utility": 1,
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 2
         },
         "progression": true
     },
@@ -1945,12 +1945,16 @@
         "name": "Insectodrone",
         "category": [
             "Act II",
+            "Act III",
             "Technology"
         ],
         "value": {
             "act_2_offense": 1,
             "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_utility": 1,
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 0
         },
         "progression": true
     },
@@ -2041,20 +2045,6 @@
     },
     {
         "name": "Goranj's Mox",
-        "category": [
-            "Act II",
-            "Magickal",
-            "Rare"
-        ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
-    },
-    {
-        "name": "Bleene's Mox",
         "category": [
             "Act II",
             "Magickal",
@@ -2424,18 +2414,6 @@
         "progression": true
     },
     {
-        "name": "Buff Conduit",
-        "category": [
-            "Act III"
-        ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 2
-        },
-        "progression": true
-    },
-    {
         "name": "Gems Conduit",
         "category": [
             "Act III"
@@ -2688,18 +2666,6 @@
         "progression": true
     },
     {
-        "name": "Insectodrone",
-        "category": [
-            "Act III"
-        ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
-        "progression": true
-    },
-    {
         "name": "Shieldbot",
         "category": [
             "Act III"
@@ -2766,7 +2732,8 @@
     {
         "name": "Cuckoo",
         "category": [
-            "Act III"
+            "Kaycee's Mod",
+            "Avian"
         ],
         "value": {
             "kaycees_mod_offense": 1,
@@ -2776,14 +2743,220 @@
         "progression": true
     },
     {
-        "name": "Cuckoo",
+        "name": "Lammergeier",
         "category": [
-            "Act III"
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Dire Wolf Pup",
+        "category": [
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "value": {
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Dire Wolf",
+        "category": [
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "value": {
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Red Hart",
+        "category": [
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "value": {
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Wild Bull",
+        "category": [
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "value": {
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Pelt Lice",
+        "category": [
+            "Kaycee's Mod",
+            "Insect"
         ],
         "value": {
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Flying Ant",
+        "category": [
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Mealworm",
+        "category": [
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Tadpole",
+        "category": [
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Mud Turtle",
+        "category": [
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Ijiraq",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Hodag",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Curious Egg",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Aquasquirrel",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Raccoon",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Wolverine",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Hydra",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
         },
         "progression": true
     }

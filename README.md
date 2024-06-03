@@ -1,8 +1,9 @@
 # Inscryption Manual Randomizer Guide
 
-This is my take on the Inscryption randomizer! There's only 2 rules: 
+This is my take on the Inscryption randomizer! There's 3 rules: 
 1. If you haven't received the item for a card, you aren't allowed to play it.
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
+3. Cards that fly onto the board (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them.
 
 ## Where is the settings page?
 
@@ -16,7 +17,15 @@ Cards that appear in multiple acts have one associated item and one associated l
 
 ## What is the goal of Inscryption when randomized?
 
-(unfinished)
+4 Different Goals:
+
+- End of Act I
+- End of Act II
+- End of Act III
+- End of Kaycee's Mod
+
+If all these acts are enabled, they are logically in that exact order. 
+Disabling acts doesn't do anything yet, so early goals still have items for later acts.
 
 ## Required Software
 

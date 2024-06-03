@@ -1,327 +1,1754 @@
 [
     {
-        "name": "Beat the Game - Ryu",
-        "category": ["Starter Team", "Left Side"],
-        "requires": "|Ryu|"
+        "name": "Kingfisher",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Chun-Li",
-        "category": ["Starter Team", "Left Side"],
-        "requires": "|Chun-Li|"
+        "name": "Raven Egg",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Akuma",
-        "category": ["Starter Team", "Left Side"],
-        "requires": "|Akuma|"
-    },
-
-    {
-        "name": "Beat the Game - Jill",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Jill| and {ItemValue(star:5)}"
+        "name": "Sparrow",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Shuma-Gorath",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Shuma-Gorath|"
+        "name": "Magpie",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Nemesis T-Type",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Nemesis T-Type|"
+        "name": "Raven",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Avian",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Firebrand",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Firebrand|"
+        "name": "Turkey Vulture",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Strider Hiryu",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Strider Hiryu|"
+        "name": "Stunted Wolf",
+        "category": [
+            "Act I",
+            "Canine"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Phoenix Wright",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Phoenix Wright|"
+        "name": "Wolf Cub",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Nova",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Nova|"
+        "name": "Bloodhound",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Ghost Rider",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Ghost Rider|"
+        "name": "Caged Wolf",
+        "category": [
+            "Act I",
+            "Canine"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Hawkeye",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Hawkeye|"
+        "name": "Wolf",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Doctor Strange",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Doctor Strange|"
+        "name": "Coyote",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Chris",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Chris|"
+        "name": "Alpha",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Arthur",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Arthur|"
+        "name": "Child 13",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Frank West",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Frank West|"
+        "name": "Long Elk",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Vergil",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Vergil|"
+        "name": "Black Goat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Iron Fist",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Iron Fist|"
+        "name": "Elk Fawn",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Hooved",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Rocket Raccoon",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Rocket Raccoon|"
+        "name": "Elk",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Hooved",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Captain America",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Captain America|"
+        "name": "Pronghorn",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Dormammu",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Dormammu|"
+        "name": "Moose Buck",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Wesker",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Wesker|"
+        "name": "Mantis God",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Insect",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Zero",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Zero|"
+        "name": "Strange Larva",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect",
+            "Rare"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Dante",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Dante|"
+        "name": "Bee",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector",
+        "requires": "|Beehive|"
     },
     {
-        "name": "Beat the Game - Deadpool",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Deadpool|"
+        "name": "Beehive",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Wolverine",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Wolverine|"
+        "name": "Mantis",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Iron Man",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Iron Man|"
+        "name": "Ring Worm",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Doctor Doom",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Doctor Doom|"
+        "name": "Worker Ant",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Morrigan",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Morrigan|"
+        "name": "Ant Queen",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Tron",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Tron|"
+        "name": "Stinkbug",
+        "category": [
+            "Act I",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Trish",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Trish|"
+        "name": "Cockroach",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - X-23",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|X-23|"
+        "name": "Corpse Maggots",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Act I - Pre-Prospector",
+        "requires": "|Corpse Maggots|"
     },
     {
-        "name": "Beat the Game - Storm",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Storm|"
+        "name": "Geck",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile",
+            "Rare"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Thor",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Thor|"
+        "name": "Ouroboros/Ourobot",
+        "category": [
+            "Act I",
+            "Act II",
+            "Act III",
+            "Kaycee's Mod",
+            "Reptile",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - M.O.D.O.K.",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|M.O.D.O.K.|"
+        "name": "Bullfrog",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Reptile",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Felicia",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Felicia|"
+        "name": "Skink",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Spencer",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Spencer|"
+        "name": "Adder",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Reptile",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Viewtiful Joe",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Viewtiful Joe|"
+        "name": "River Snapper",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Spider-Man",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Spider-Man|",
-        "prehint": true
+        "name": "Rattler",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Sentinel",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Sentinel|"
+        "name": "Rabbit Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Hulk",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Hulk|"
+        "name": "Wolf Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Super-Skrull",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Super-Skrull|"
+        "name": "Golden Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Hsien-Ko",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Hsien-Ko|"
+        "name": "Mole Man",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Haggar",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Haggar|"
+        "name": "Amalgam",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - C. Viper",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|C. Viper|"
+        "name": "Pack Rat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Amaterasu",
-        "category": ["Unlocked Teams", "Left Side"],
-        "requires": "|Amaterasu|"
+        "name": "The Daus",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Phoenix",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Phoenix|"
+        "name": "Urayuli",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - Magneto",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Magneto|"
+        "name": "Amoeba",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Act I - Post-Prospector"
     },
     {
-        "name": "Beat the Game - She-Hulk",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|She-Hulk|"
+        "name": "Squirrel",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
     {
-        "name": "Beat the Game - Taskmaster",
-        "category": ["Unlocked Teams", "Right Side"],
-        "requires": "|Taskmaster|"
+        "name": "Cat",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
     },
-
     {
-        "name": "We Saved the World!",
+        "name": "Hand Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Mirror Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Mole",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Porcupine",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "River Otter",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Skunk",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Stoat",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Warren",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Beaver",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Bell Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Field Mice",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Rat King",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Great White",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Grizzly",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Opossum",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Bat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Custom Deathcard",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Louis",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Kaycee",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Kaminski",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Reginald",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Boulder",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Frozen Opossum",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Rabbit",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "The Smoke",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Greater Smoke",
+        "category": [
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Great Kraken",
+        "category": [
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Hrokkal",
+        "category": [
+            "Act II",
+            "Rare",
+            "Beast"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Squirrel Ball",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Hawk",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Salmon",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Spore Mice",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Bone Heap",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Tomb Robber",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Necromancer",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Drowned Soul",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Dead Hand",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Headless Horseman",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Skeleton",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Draugr",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Gravedigger",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Sporedigger",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Banshee",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Skelemagus",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Zombie",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Bone Lord's Horn",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge",
+        "requires": "|Broken Obol Left| and |Broken Obol Right|"
+    },
+    {
+        "name": "Broken Obol Left",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Broken Obol Right",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Revenant",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Ghost Ship",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Sarcophagus",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "The Walkers",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Frank & Stein",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Pharaoh's Pets",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Bonehound",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Mummy Lord",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Plasma Jimmy",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Curve Hopper",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Energy Conduit",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Mox Module",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Mrs. Bomb",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Shutterbug",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "L33pb0t",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Null Conduit",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Sentry Drone",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Sentry Spore",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "49er",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Buff Conduit",
+        "category": [
+            "Act II",
+            "Act III",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Energy Bot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Explode Bot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "M3atB0t",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Automaton",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Factory Conduit",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Gamblobot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Insectodrone",
+        "category": [
+            "Act II",
+            "Act III",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Steel Mice",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Thick Droid",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Bolthound",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Double Gunner",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Steambot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Bleene's Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Goranj's Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Master Bleene",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Master Goranj",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Master Orlu",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Emerald Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Emerald"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Ruby Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Ruby"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Sapphire Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Sapphire"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Mage Pupil",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Gourmage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Green Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Junior Sage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Stim Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Mage Knight",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Orange Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Practice Wizard",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Ruby Golem",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Blue Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Spore Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Force Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Gem Fiend",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Hover Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Son1a",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Qui77",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Gr1zz",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Bomb Latcher",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Exeskeleton",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Shield Latcher",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Skel-e-latcher",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Gems Conduit",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Kind Cell",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Tough Cell",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Splinter Cell",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Bleene's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Goranj's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Orlu's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Gem Detonator",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Gem Guardian",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Gembound Ripper",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Empty Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Emerald Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Ruby Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Sapphire Vessel",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Act 3 Custom Card",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Amoebot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Gift Bot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Lonely Wizbot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Alarm Bot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Busted 3D Printer",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Fishbot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Shieldbot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Sniper Bot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Swapbot",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Captive File",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Bad Fish",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge",
+        "requires": "|Fishbot|"
+    },
+    {
+        "name": "More Fish",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge",
+        "requires": "|Fishbot|"
+    },
+    {
+        "name": "Good Fish",
+        "category": [
+            "Act III"
+        ],
+        "region": "Act III - Pre-Bridge",
+        "requires": "|Fishbot|"
+    },
+    {
+        "name": "Cuckoo",
+        "category": [
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Lammergeier",
+        "category": [
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Dire Wolf Pup",
+        "category": [
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Dire Wolf",
+        "category": [
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Red Hart",
+        "category": [
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Wild Bull",
+        "category": [
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Pelt Lice",
+        "category": [
+            "Kaycee's Mod",
+            "Insect",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Post-Prospector",
+        "requires": "|Pelt Lice|"
+    },
+    {
+        "name": "Flying Ant",
+        "category": [
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Mealworm",
+        "category": [
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Mud Turtle",
+        "category": [
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Ijiraq",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Post-Prospector",
+        "requires": "|Ijiraq|"
+    },
+    {
+        "name": "Hodag",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Tadpole",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Curious Egg",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Aquasquirrel",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Raccoon",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Wolverine",
+        "category": [
+            "Kaycee's Mod"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Glitched Card",
+        "category": [
+            "Kaycee's Mod",
+            "Act I"
+        ],
+        "region": "Act I - Pre-Prospector"
+    },
+    {
+        "name": "Hydra",
+        "category": [
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "region": "Kaycee's Mod - Post-Prospector",
+        "requires": "|@Kaycee's Mod:15|"
+    },
+    {
+        "name": "End of Act I",
         "victory": true,
-        "category": ["All Characters Complete!"],
-        "requires": [
-            "Jill",
-            "Shuma-Gorath",
-            "Nemesis T-Type",
-            "Firebrand",
-            "Strider Hiryu",
-            "Phoenix Wright",
-            "Nova",
-            "Ghost Rider",
-            "Hawkeye",
-            "Doctor Strange",
-            "Chris",
-            "Arthur",
-            "Frank West",
-            "Vergil",
-            "Iron Fist",
-            "Rocket Raccoon",
-            "Captain America",
-            "Dormammu",
-            "Wesker",
-            "Zero",
-            "Dante",
-            "Deadpool",
-            "Wolverine",
-            "Iron Man",
-            "Doctor Doom",
-            "Morrigan",
-            "Tron",
-            "Trish",
-            "X-23",
-            "Storm",
-            "Thor",
-            "M.O.D.O.K.",
-            "Felicia",
-            "Spencer",
-            "Viewtiful Joe",
-            "Spider-Man",
-            "Sentinel",
-            "Hulk",
-            "Super-Skrull",
-            "Hsien-Ko",
-            "Haggar",
-            "C. Viper",
-            "Amaterasu",
-            "Phoenix",
-            "Magneto",
-            "She-Hulk",
-            "Taskmaster"
-        ]
+        "category": [
+            "Victory"
+        ],
+        "region": "Act II - Pre-Bridge",
+        "requires": "|Caged Wolf|"
     },
     {
-        "name": "Marvel%",
+        "name": "End of Act II",
         "victory": true,
-        "category": ["All Characters Complete!"],
-        "requires": "|@Right Side:all|"
+        "category": [
+            "Victory"
+        ],
+        "region": "Act II - Post-Bridge",
+        "requires": "{ItemValue(act_2_offense:10)}"
     },
     {
-        "name": "Capcom%",
+        "name": "End of Act III",
         "victory": true,
-        "category": ["All Characters Complete!"],
-        "requires": "|@Left Side:all|"
+        "category": [
+            "Victory"
+        ],
+        "requires": "{ItemValue(act_3_offense:10)}"
     },
     {
-        "name": "Stars%",
+        "name": "End of Kaycee's Mod",
         "victory": true,
-        "category": ["All Characters Complete!"],
-        "requires": "{ItemValue(star:10)}"
+        "category": [
+            "Victory"
+        ],
+        "requires": "{ItemValue(kaycees_mod_offense:10)}"
     }
 ]
