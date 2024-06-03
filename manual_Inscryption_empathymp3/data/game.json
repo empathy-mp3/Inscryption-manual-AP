@@ -1,0 +1,15 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "Inscryption",
+  "creator": "empathymp3",
+  "filler_item_name": "Nothing",
+  "starting_items": [
+    {
+      "items": [
+        "Stoat",
+        "Squirrel"
+      ]
+    }
+  ],
+  "death_link": true
+}

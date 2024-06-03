@@ -1,0 +1,2790 @@
+[
+    {
+        "name": "Kingfisher",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Raven Egg",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Sparrow",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Magpie",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 3,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Raven",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Avian",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Turkey Vulture",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Avian"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Stunted Wolf",
+        "category": [
+            "Act I",
+            "Canine"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Wolf Cub",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bloodhound",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Caged Wolf",
+        "category": [
+            "Act I",
+            "Canine"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Wolf",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Coyote",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Alpha",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Canine"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Child 13",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Long Elk",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Black Goat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 3,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Elk Fawn",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Hooved",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Elk",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Hooved",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Pronghorn",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Moose Buck",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Hooved"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 4,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 4,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Mantis God",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Insect",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 3,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "act_2_offense": 3,
+            "act_2_defense": 0,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 3,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Strange Larva",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Bee",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Beehive",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Mantis",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Ring Worm",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Worker Ant",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Ant Queen",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Stinkbug",
+        "category": [
+            "Act I",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Cockroach",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Corpse Maggots",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Insect"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Geck",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Ouroboros/Ourobot",
+        "category": [
+            "Act I",
+            "Act II",
+            "Act III",
+            "Kaycee's Mod",
+            "Reptile",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 5,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 6,
+            "act_3_offense": 0,
+            "act_3_defense": 0,
+            "act_3_utility": 8,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Bullfrog",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Reptile",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Skink",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Adder",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Reptile",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "River Snapper",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 3,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Rattler",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Rabbit Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Wolf Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Reptile"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Golden Pelt",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Pelt"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Mole Man",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 3,
+            "act_1_utility": 0,
+            "act_2_offense": 0,
+            "act_2_defense": 3,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Amalgam",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Pack Rat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "The Daus",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Urayuli",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Amoeba",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "Rare"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Squirrel",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 3,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Cat",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Hand Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 3,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 3,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Mirror Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Mole",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "act_2_offense": 0,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Porcupine",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "River Otter",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Skunk",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 3,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Stoat",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Warren",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Beaver",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 3,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bell Tentacle",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Field Mice",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 1,
+            "act_1_utility": 2,
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 1,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Rat King",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 2,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Great White",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Grizzly",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 3,
+            "act_1_utility": 0,
+            "act_2_offense": 2,
+            "act_2_defense": 3,
+            "act_2_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Opossum",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Bat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 0,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 2,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Custom Deathcard",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 2,
+            "act_1_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Louis",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 1,
+            "act_1_defense": 0,
+            "act_1_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Kaycee",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 2,
+            "act_1_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Kaminski",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Reginald",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 2,
+            "act_1_defense": 1,
+            "act_1_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Boulder",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 2,
+            "act_1_utility": 0,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 3,
+            "kaycees_mod_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Frozen Opossum",
+        "category": [
+            "Act I",
+            "Kaycee's Mod"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 2,
+            "act_1_utility": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 2,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Rabbit",
+        "category": [
+            "Act I",
+            "Act II",
+            "Kaycee's Mod",
+            "Beast"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 1,
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "The Smoke",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 1,
+            "act_1_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Greater Smoke",
+        "category": [
+            "Act I"
+        ],
+        "value": {
+            "act_1_offense": 0,
+            "act_1_defense": 2,
+            "act_1_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Great Kraken",
+        "category": [
+            "Act II",
+            "Kaycee's Mod",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 1,
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Hrokkal",
+        "category": [
+            "Act II",
+            "Rare",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Squirrel Ball",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Hawk",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 3,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Salmon",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spore Mice",
+        "category": [
+            "Act II",
+            "Beast"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Bone Heap",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Tomb Robber",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Necromancer",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Drowned Soul",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Dead Hand",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Headless Horseman",
+        "category": [
+            "Act II",
+            "Undead",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Skeleton",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Draugr",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Gravedigger",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 2,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Sporedigger",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Banshee",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Skelemagus",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Zombie",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bone Lord's Horn",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Broken Obol Left",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Broken Obol Right",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Revenant",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Ghost Ship",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Sarcophagus",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "The Walkers",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Frank & Stein",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Pharaoh's Pets",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Bonehound",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Mummy Lord",
+        "category": [
+            "Act II",
+            "Undead"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Plasma Jimmy",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 2,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Curve Hopper",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 2,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Energy Conduit",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Mox Module",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Mrs. Bomb",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Shutterbug",
+        "category": [
+            "Act II",
+            "Technology",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "L33pb0t",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "act_3_offense": 0,
+            "act_3_defense": 2,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Null Conduit",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Sentry Drone",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 2,
+            "act_2_utility": 0,
+            "act_3_offense": 0,
+            "act_3_defense": 3,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Sentry Spore",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "49er",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 0,
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Buff Conduit",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Energy Bot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1,
+            "act_3_offense": 0,
+            "act_3_defense": 1,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Explode Bot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 1,
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "M3atB0t",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Automaton",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Factory Conduit",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Gamblobot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Insectodrone",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Steel Mice",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Thick Droid",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bolthound",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 1,
+            "act_2_utility": 0,
+            "act_3_offense": 1,
+            "act_3_defense": 1,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Double Gunner",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 2,
+            "act_2_defense": 0,
+            "act_2_utility": 0,
+            "act_3_offense": 2,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Steambot",
+        "category": [
+            "Act II",
+            "Technology"
+        ],
+        "value": {
+            "act_2_offense": 1,
+            "act_2_defense": 0,
+            "act_2_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bleene's Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Goranj's Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Bleene's Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Master Bleene",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Master Goranj",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Master Orlu",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Emerald Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Emerald"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Ruby Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Ruby"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Sapphire Mox",
+        "category": [
+            "Act II",
+            "Magickal",
+            "Sapphire"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 0,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Mage Pupil",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_e": 2,
+            "act_2_defense_e": 0,
+            "act_2_utility_e": 0,
+            "act_2_offense_r": 2,
+            "act_2_defense_r": 0,
+            "act_2_utility_r": 0,
+            "act_2_offense_s": 2,
+            "act_2_defense_s": 0,
+            "act_2_utility_s": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Gourmage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_e": 1,
+            "act_2_defense_e": 0,
+            "act_2_utility_e": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Green Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_e": 1,
+            "act_2_defense_e": 1,
+            "act_2_utility_e": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Junior Sage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_e": 1,
+            "act_2_defense_e": 1,
+            "act_2_utility_e": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Stim Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_e": 2,
+            "act_2_defense_e": 1,
+            "act_2_utility_e": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Mage Knight",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_r": 1,
+            "act_2_defense_r": 1,
+            "act_2_utility_r": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Orange Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_r": 1,
+            "act_2_defense_r": 0,
+            "act_2_utility_r": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Practice Wizard",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_r": 0,
+            "act_2_defense_r": 2,
+            "act_2_utility_r": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Ruby Golem",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_r": 1,
+            "act_2_defense_r": 0,
+            "act_2_utility_r": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Blue Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_s": 0,
+            "act_2_defense_s": 0,
+            "act_2_utility_s": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Spore Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_s": 0,
+            "act_2_defense_s": 0,
+            "act_2_utility_s": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Force Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_s": 0,
+            "act_2_defense_s": 2,
+            "act_2_utility_s": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Gem Fiend",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_s": 2,
+            "act_2_defense_s": 0,
+            "act_2_utility_s": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Hover Mage",
+        "category": [
+            "Act II",
+            "Magickal"
+        ],
+        "value": {
+            "act_2_offense_s": 1,
+            "act_2_defense_s": 0,
+            "act_2_utility_s": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Son1a",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 2,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Qui77",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 2,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Gr1zz",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 1,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bomb Latcher",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 0,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Exeskeleton",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Shield Latcher",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 0,
+            "act_3_defense": 1,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Skel-e-latcher",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Buff Conduit",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Gems Conduit",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Kind Cell",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Tough Cell",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Splinter Cell",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 2,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Bleene's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 1,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Goranj's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 1,
+            "act_3_utility_bridge": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Orlu's Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Gem Detonator",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Gem Guardian",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 1,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Gembound Ripper",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 3,
+            "act_3_defense_bridge": 0,
+            "act_3_utility_bridge": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Empty Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 0,
+            "act_3_defense": 5,
+            "act_3_utility": 5
+        },
+        "progression": true
+    },
+    {
+        "name": "Emerald Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 7,
+            "act_3_utility_bridge": 5
+        },
+        "progression": true
+    },
+    {
+        "name": "Ruby Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 2,
+            "act_3_defense_bridge": 5,
+            "act_3_utility_bridge": 5
+        },
+        "progression": true
+    },
+    {
+        "name": "Sapphire Vessel",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 0,
+            "act_3_defense_bridge": 5,
+            "act_3_utility_bridge": 7
+        },
+        "progression": true
+    },
+    {
+        "name": "Act 3 Custom Card",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense_bridge": 2,
+            "act_3_defense_bridge": 2,
+            "act_3_utility_bridge": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Amoebot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Gift Bot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 0,
+            "act_3_defense": 1,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Lonely Wizbot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 3,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Alarm Bot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 2,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Busted 3D Printer",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 0,
+            "act_3_defense": 2,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Fishbot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 2,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Insectodrone",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Shieldbot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 3,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Sniper Bot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 0,
+            "act_3_utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Swapbot",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "act_3_offense": 1,
+            "act_3_defense": 2,
+            "act_3_utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Captive File",
+        "category": [
+            "Act III"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Bad Fish",
+        "category": [
+            "Act III"
+        ],
+        "useful": true
+    },
+    {
+        "name": "More Fish",
+        "category": [
+            "Act III"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Good Fish",
+        "category": [
+            "Act III"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Cuckoo",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Cuckoo",
+        "category": [
+            "Act III"
+        ],
+        "value": {
+            "kaycees_mod_offense": 1,
+            "kaycees_mod_defense": 0,
+            "kaycees_mod_utility": 2
+        },
+        "progression": true
+    }
+]

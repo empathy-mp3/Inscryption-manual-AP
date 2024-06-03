@@ -1,0 +1,22 @@
+{
+    "Act 1 Enabled": {
+        "yaml_option": [
+            "Act_1_Enabled"
+        ]
+    },
+    "Act 2 Enabled": {
+        "yaml_option": [
+            "Act_2_Enabled"
+        ]
+    },
+    "Act 3 Enabled": {
+        "yaml_option": [
+            "Act_3_Enabled"
+        ]
+    },
+    "Kaycee's Mod Enabled": {
+        "yaml_option": [
+            "Kaycees_Mod_Enabled"
+        ]
+    }
+}
