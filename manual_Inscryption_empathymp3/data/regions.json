@@ -1,20 +1,27 @@
 {
     "Act I - Beginning": {
         "connects_to": [
-            "Act I - Pre-Prospector"
+            "Act I - Pre-Prospector",
+            "Act III - Beginning"
         ],
         "starting": true,
         "requires": []
     },
     "Act I - Pre-Prospector": {
         "connects_to": [
-            "Act I - Post-Prospector"
+            "Act I - Post-Prospector",
+            "Act I - Pre-Prospector or Act II - Pre-Bridge",
+            "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
         ],
         "requires": "({ItemValue(act_1_offense:1)} and |Squirrel|) or |@act1disabled|"
     },
     "Act I - Post-Prospector": {
         "connects_to": [
-            "Act I - Post-Angler"
+            "Act I - Post-Angler",
+            "Act I - Post-Prospector or Act II - Pre-Bridge",
+            "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector",
+            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
         ],
         "requires": "(|@Act I:3| and |Squirrel| and {ItemValue(act_1_offense:4)}) or |@act1disabled|"
     },
@@ -38,15 +45,25 @@
     },
     "Act II - Beginning": {
         "connects_to": [
-            "Act II - Pre-Bridge"
+            "Act II - Pre-Bridge",
+            "Act II - Beginning or Act III - Initial Guantlet"
         ],
         "requires": []
     },
     "Act II - Pre-Bridge": {
         "connects_to": [
-            "Act II - Post-Bridge"
+            "Act II - Post-Bridge",
+            "Act II - Pre-Bridge or Act III - Beginning",
+            "Act II - Pre-Bridge or Act III - Initial Guantlet",
+            "Act II - Pre-Bridge or Act III - Post-Bridge"
         ],
         "requires": "(|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|))) or |@act2disabled|"
+    },
+    "Act I - Pre-Prospector or Act II - Pre-Bridge": {
+        "requires": "({ItemValue(act_1_offense:1)} and |Squirrel| and |@act1enabled|) or (|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled| and |@act1disabled|)"
+    },
+    "Act I - Post-Prospector or Act II - Pre-Bridge": {
+        "requires": "(|@Act I:3| and |Squirrel| and {ItemValue(act_1_offense:4)} and |@act1enabled|) or (|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled| and |@act1disabled|)"
     },
     "Act II - Post-Bridge": {
         "connects_to": [
@@ -61,9 +78,6 @@
         "requires": "(|@Act II:10| and ({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:7)} and {ItemValue(act_2_defense:6)}) or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:5)}) or (({ItemValue(act_2_offense:5)} or {ItemValue(act_2_defense:5)} or {ItemValue(act_2_utility:5)}) and (({ItemValue(act_2_offense_r:3)} and {ItemValue(act_2_defense_r:1)} and {ItemValue(act_2_utility_r:1)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and {ItemValue(act_2_defense_s:1)} and {ItemValue(act_2_utility_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or |@act2disabled|"
     },
     "Act II - End": {
-        "connects_to": [
-            "Act III - Beginning"
-        ],
         "requires": "(|@Act II:12| and ({ItemValue(act_2_offense:10)} or ({ItemValue(act_2_offense:8)} and {ItemValue(act_2_defense:7)}) or ({ItemValue(act_2_offense:7)} and {ItemValue(act_2_defense:6)}) or (({ItemValue(act_2_offense:6)} or {ItemValue(act_2_defense:6)} or {ItemValue(act_2_utility:6)}) and (({ItemValue(act_2_offense_r:3)} and {ItemValue(act_2_defense_r:1)} and {ItemValue(act_2_utility_r:1)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and {ItemValue(act_2_defense_s:1)} and {ItemValue(act_2_utility_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or |@act2disabled|"
     },
     "Act III - Beginning": {
@@ -72,11 +86,20 @@
         ],
         "requires": []
     },
+    "Act II - Pre-Bridge or Act III - Beginning": {
+        "requires": "(|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled|) or (|@act3enabled| and |@act2disabled|)"
+    },
     "Act III - Initial Gauntlet": {
         "connects_to": [
             "Act III - Pre-Bridge"
         ],
         "requires": "(|@Act III:4| and |Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)) or |@act3disabled|"
+    },
+    "Act II - Beginning or Act III - Initial Guantlet": {
+        "requires": "|@act2enabled| or (|@Act III:4| and |Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|) and |@act3enabled| and |@act2disabled|)"
+    },
+    "Act II - Pre-Bridge or Act III - Initial Guantlet": {
+        "requires": "(|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled|) or (|@Act III:4| and |Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|) and |@act3enabled| and |@act2disabled|)"
     },
     "Act III - Pre-Bridge": {
         "connects_to": [
@@ -89,6 +112,9 @@
             "Kaycee's Mod - Pre-Prospector"
         ],
         "requires": "(|@Act III:10| and ({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:3)} or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:4)}) or {ItemValue(act_3_defense_bridge:6)} or ({ItemValue(act_3_offense:8)} and {ItemValue(act_3_utility:7)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_utility:6)}) or {ItemValue(act_3_utility_bridge:6)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_offense_bridge:2)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_defense_bridge:5)} and {ItemValue(act_3_utility_bridge:5)}))) or |@act3disabled|"
+    },
+    "Act II - Pre-Bridge or Act III - Post-Bridge": {
+        "requires": "(|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled|) or (|@Act III:10| and ({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:3)} or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:4)}) or {ItemValue(act_3_defense_bridge:6)} or ({ItemValue(act_3_offense:8)} and {ItemValue(act_3_utility:7)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_utility:6)}) or {ItemValue(act_3_utility_bridge:6)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_offense_bridge:2)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_defense_bridge:5)} and {ItemValue(act_3_utility_bridge:5)})) and |@act3enabled| and |@act2disabled|)"
     },
     "Act III - End": {
         "connects_to": [
@@ -108,11 +134,23 @@
         ],
         "requires": "({ItemValue(kaycees_mod_offense:1)} and (|Squirrel| or |Aquasquirrel|)) or |@kayceedisabled|"
     },
+    "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector": {
+        "requires": "({ItemValue(act_1_offense:1)} and |Squirrel| and |@act1enabled|) or ({ItemValue(kaycees_mod_offense:1)} and (|Squirrel| or |Aquasquirrel|) and |@kayceeenabled| and |@act1disabled|)"
+    },
+    "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector": {
+        "requires": "({ItemValue(act_1_offense:1)} and |Squirrel| and |@act1enabled|) or (|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled| and |@act1disabled|) or ({ItemValue(kaycees_mod_offense:1)} and (|Squirrel| or |Aquasquirrel|) and |@kayceeenabled| and |@act1disabled| and |@act2disabled|)"
+    },
     "Kaycee's Mod - Post-Prospector": {
         "connects_to": [
             "Kaycee's Mod - Post-Angler"
         ],
         "requires": "(|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)}) or |@kayceedisabled|"
+    },
+    "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector": {
+        "requires": "(|@Act I:3| and |Squirrel| and {ItemValue(act_1_offense:4)} and |@act1enabled|) or (|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)} and |@act1disabled|)"
+    },
+    "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector": {
+        "requires": "(|@Act I:3| and |Squirrel| and {ItemValue(act_1_offense:4)} and |@act1enabled|) or (|@Act II:3| and ({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|)) and |@act2enabled| and |@act1disabled|) or (|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)} and |@act1disabled| and |@act2disabled|)"
     },
     "Kaycee's Mod - Post-Angler": {
         "connects_to": [

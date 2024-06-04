@@ -13,6 +13,7 @@ The .yaml file is included with the GitHub release.
 
 Every time you add a card to your deck (or side deck, like Squirrel), you get a check. You can receive those items that allow you to play a card.
 If you start with a certain card in your deck, you can get the check immediately.
+Cards that are only given to you (Bee, Boulder, Frozen Opossum, The Smoke, Greater Smoke, Good Fish, More Fish, Bad Fish, Captive File, and Hydra) have their locations whenever you obtain them in a fight.
 There are unique items for each pre-made deathcard (e.g., Kaycee, Kaminski, etc.), and also an item for Custom Deathcards.
 Cards that appear in multiple acts have one associated item and one associated location, even if they're vastly different in different acts.
 

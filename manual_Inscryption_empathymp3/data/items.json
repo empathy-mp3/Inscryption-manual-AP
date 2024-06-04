@@ -3164,10 +3164,316 @@
             "Rare"
         ],
         "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
+            "kaycees_mod_offense": 0,
+            "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
         },
+        "useful": true
+    },
+    {
+        "name": "ignore this item1",
+        "category": [
+            "only1",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item2",
+        "category": [
+            "only2",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item3",
+        "category": [
+            "only3",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item4",
+        "category": [
+            "onlyk",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item12",
+        "category": [
+            "only12",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item13",
+        "category": [
+            "only13",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item14",
+        "category": [
+            "only1k",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item23",
+        "category": [
+            "only23",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item24",
+        "category": [
+            "only2k",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item34",
+        "category": [
+            "only3k",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20,
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item123",
+        "category": [
+            "only123",
+            "Ignore This Category"
+        ],
+        "value": {
+            "kaycees_mod_offense": 20,
+            "kaycees_mod_defense": 20,
+            "kaycees_mod_utility": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item124",
+        "category": [
+            "only12k",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_3_offense": 20,
+            "act_3_defense": 20,
+            "act_3_utility": 20,
+            "act_3_offense_bridge": 20,
+            "act_3_defense_bridge": 20,
+            "act_3_utility_bridge": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item134",
+        "category": [
+            "only13k",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_2_offense": 20,
+            "act_2_defense": 20,
+            "act_2_utility": 20,
+            "act_2_offense_e": 20,
+            "act_2_defense_e": 20,
+            "act_2_utility_e": 20,
+            "act_2_offense_r": 20,
+            "act_2_defense_r": 20,
+            "act_2_utility_r": 20,
+            "act_2_offense_s": 20,
+            "act_2_defense_s": 20,
+            "act_2_utility_s": 20
+        },
+        "progression": true
+    },
+    {
+        "name": "ignore this item1234",
+        "category": [
+            "only123k",
+            "Ignore This Category"
+        ],
         "progression": true
     }
 ]
