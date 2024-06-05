@@ -343,6 +343,7 @@
             "Act II",
             "Beast",
             "Act III",
+            "Misc. Act III Area",
             "Kaycee's Mod",
             "Rare"
         ],
@@ -1141,6 +1142,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Beginning or Act III - Initial Gauntlet"
@@ -1160,6 +1162,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
@@ -1179,6 +1182,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Beginning or Act III - Initial Gauntlet"
@@ -1189,6 +1193,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Resplendent Bastion",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Post-Bridge"
@@ -1199,6 +1204,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Beginning"
@@ -1209,6 +1215,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
@@ -1255,6 +1262,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
@@ -1283,6 +1291,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
@@ -1293,6 +1302,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "region": "Act II - Pre-Bridge or Act III - Beginning"
@@ -1532,6 +1542,7 @@
         "name": "Son1a",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1540,6 +1551,7 @@
         "name": "Qui77",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1548,6 +1560,7 @@
         "name": "Gr1zz",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1556,6 +1569,7 @@
         "name": "Bomb Latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1564,6 +1578,7 @@
         "name": "Exeskeleton",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1572,6 +1587,7 @@
         "name": "Shield Latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1580,6 +1596,7 @@
         "name": "Skel-e-latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1588,6 +1605,7 @@
         "name": "Gems Conduit",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1596,6 +1614,7 @@
         "name": "Kind Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1604,6 +1623,7 @@
         "name": "Tough Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1612,6 +1632,7 @@
         "name": "Splinter Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1620,6 +1641,7 @@
         "name": "Bleene's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1628,6 +1650,7 @@
         "name": "Goranj's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1636,6 +1659,7 @@
         "name": "Orlu's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1644,6 +1668,7 @@
         "name": "Gem Detonator",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1652,6 +1677,7 @@
         "name": "Gem Guardian",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1660,6 +1686,7 @@
         "name": "Gembound Ripper",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1668,6 +1695,7 @@
         "name": "Empty Vessel",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Beginning"
@@ -1676,6 +1704,7 @@
         "name": "Emerald Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1684,6 +1713,7 @@
         "name": "Ruby Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1692,6 +1722,7 @@
         "name": "Sapphire Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1700,6 +1731,7 @@
         "name": "Act 3 Custom Card",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "region": "Act III - Post-Bridge"
@@ -1708,6 +1740,7 @@
         "name": "Amoebot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Initial Gauntlet"
@@ -1716,6 +1749,7 @@
         "name": "Gift Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Initial Gauntlet"
@@ -1724,6 +1758,7 @@
         "name": "Lonely Wizbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1732,6 +1767,7 @@
         "name": "Alarm Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Initial Gauntlet"
@@ -1740,6 +1776,7 @@
         "name": "Busted 3D Printer",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Initial Gauntlet"
@@ -1748,6 +1785,7 @@
         "name": "Fishbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1756,6 +1794,7 @@
         "name": "Bad Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Pre-Bridge",
@@ -1765,6 +1804,7 @@
         "name": "More Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Pre-Bridge",
@@ -1774,6 +1814,7 @@
         "name": "Good Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Pre-Bridge",
@@ -1783,6 +1824,7 @@
         "name": "Shieldbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Beginning"
@@ -1791,6 +1833,7 @@
         "name": "Sniper Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Beginning"
@@ -1799,6 +1842,7 @@
         "name": "Swapbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Initial Gauntlet"
@@ -1807,6 +1851,7 @@
         "name": "Captive File",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "region": "Act III - Pre-Bridge"
@@ -1815,6 +1860,7 @@
         "name": "Mycobot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "mycobot"
         ],
         "region": "Act III - Post-Bridge"

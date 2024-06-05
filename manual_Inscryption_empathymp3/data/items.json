@@ -598,6 +598,7 @@
             "Act II",
             "Beast",
             "Act III",
+            "Misc. Act III Area",
             "Kaycee's Mod",
             "Rare"
         ],
@@ -1821,6 +1822,7 @@
             "Act II",
             "Undead",
             "Act III",
+            "Resplendent Bastion",
             "act2act3"
         ],
         "value": {
@@ -1926,6 +1928,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -1958,6 +1961,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -1988,6 +1992,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2006,6 +2011,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Resplendent Bastion",
             "act2act3"
         ],
         "value": {
@@ -2024,6 +2030,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2042,6 +2049,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2116,6 +2124,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2162,6 +2171,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2180,6 +2190,7 @@
             "Act II",
             "Technology",
             "Act III",
+            "Misc. Act III Area",
             "act2act3"
         ],
         "value": {
@@ -2558,6 +2569,7 @@
         "name": "Son1a",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "value": {
@@ -2571,6 +2583,7 @@
         "name": "Qui77",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "value": {
@@ -2584,6 +2597,7 @@
         "name": "Gr1zz",
         "category": [
             "Act III",
+            "Foul Backwater",
             "act3"
         ],
         "value": {
@@ -2597,6 +2611,7 @@
         "name": "Bomb Latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "value": {
@@ -2610,6 +2625,7 @@
         "name": "Exeskeleton",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "value": {
@@ -2623,6 +2639,7 @@
         "name": "Shield Latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "value": {
@@ -2636,6 +2653,7 @@
         "name": "Skel-e-latcher",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "value": {
@@ -2649,6 +2667,7 @@
         "name": "Gems Conduit",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "value": {
@@ -2662,6 +2681,7 @@
         "name": "Kind Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "value": {
@@ -2675,6 +2695,7 @@
         "name": "Tough Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "value": {
@@ -2688,6 +2709,7 @@
         "name": "Splinter Cell",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "value": {
@@ -2701,6 +2723,7 @@
         "name": "Bleene's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2714,6 +2737,7 @@
         "name": "Goranj's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2727,6 +2751,7 @@
         "name": "Orlu's Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2740,6 +2765,7 @@
         "name": "Gem Detonator",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2753,6 +2779,7 @@
         "name": "Gem Guardian",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2766,6 +2793,7 @@
         "name": "Gembound Ripper",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2779,6 +2807,7 @@
         "name": "Empty Vessel",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2792,6 +2821,7 @@
         "name": "Emerald Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2805,6 +2835,7 @@
         "name": "Ruby Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2818,6 +2849,7 @@
         "name": "Sapphire Vessel",
         "category": [
             "Act III",
+            "Gaudy Gem Land",
             "act3"
         ],
         "value": {
@@ -2831,6 +2863,7 @@
         "name": "Act 3 Custom Card",
         "category": [
             "Act III",
+            "Resplendent Bastion",
             "act3"
         ],
         "value": {
@@ -2844,6 +2877,7 @@
         "name": "Amoebot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2857,6 +2891,7 @@
         "name": "Gift Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2870,6 +2905,7 @@
         "name": "Lonely Wizbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2883,6 +2919,7 @@
         "name": "Alarm Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2896,6 +2933,7 @@
         "name": "Busted 3D Printer",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2909,6 +2947,7 @@
         "name": "Fishbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2922,6 +2961,7 @@
         "name": "Shieldbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2935,6 +2975,7 @@
         "name": "Sniper Bot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2948,6 +2989,7 @@
         "name": "Swapbot",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "value": {
@@ -2961,6 +3003,7 @@
         "name": "Captive File",
         "category": [
             "Act III",
+            "Filthy Corpse World",
             "act3"
         ],
         "useful": true
@@ -2969,6 +3012,7 @@
         "name": "Bad Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
@@ -2977,6 +3021,7 @@
         "name": "More Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
@@ -2985,6 +3030,7 @@
         "name": "Good Fish",
         "category": [
             "Act III",
+            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
