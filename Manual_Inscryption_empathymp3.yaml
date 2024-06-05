@@ -33,9 +33,9 @@ Manual_Inscryption_empathymp3:
 
   goal:
     # Choose your victory condition. Make sure to choose a goal for an enabled act (preferably the last one you have enabled).
-    end of act i: 0
+    end of act i: 1
     end of act ii: 0
-    end of act iii: 1
+    end of act iii: 0
     end of kaycee's mod: 0
 
   death_link:
@@ -45,11 +45,13 @@ Manual_Inscryption_empathymp3:
 
   Act_1_Enabled: true
 
-  Act_2_Enabled: true
+  Act_2_Enabled: false
 
-  Act_3_Enabled: true
+  Act_3_Enabled: false
 
   Kaycees_Mod_Enabled: false
+    # Select what acts you want to play in the randomizer.
+
 
   Act_2_or_Kaycees_Mod_Enabled: false
   Act_2_or_Act_3_Enabled: false

@@ -1,6 +1,6 @@
 # Inscryption Manual Randomizer Guide
 
-**Note: This fails generation about half of the time. I have no idea why (probably because I used experimental features), but... just keep that in mind! I don't know how to fix it, but if I find out how, I will try my best!**
+**Note: This fails generation about half the time when you play with more than one act. If I can figure out why it doesn't generate sometimes, I'll try to fix it.**
 
 This is my take on the Inscryption randomizer! There's 3 rules: 
 1. If you haven't received the item for a card, you aren't allowed to play it.
