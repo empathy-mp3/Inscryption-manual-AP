@@ -72,6 +72,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -123,6 +124,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -144,6 +146,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -282,6 +285,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -303,6 +307,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -358,6 +363,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare"
@@ -557,6 +563,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Act III",
             "Kaycee's Mod",
             "Rare"
@@ -582,6 +589,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -620,6 +628,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -702,6 +711,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare"
@@ -724,6 +734,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare"
@@ -782,6 +793,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare"
@@ -822,6 +834,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -843,6 +856,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -898,6 +912,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -970,6 +985,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -991,6 +1007,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -1046,6 +1063,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -1101,6 +1119,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -1255,6 +1274,7 @@
         "category": [
             "Act I",
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
@@ -1302,6 +1322,7 @@
         "name": "Great Kraken",
         "category": [
             "Act II",
+            "Beast",
             "Kaycee's Mod",
             "act2kaycee",
             "Rare"
@@ -1320,6 +1341,7 @@
         "name": "Hrokkal",
         "category": [
             "Act II",
+            "Beast",
             "act2",
             "Rare"
         ],
@@ -1334,6 +1356,7 @@
         "name": "Squirrel Ball",
         "category": [
             "Act II",
+            "Beast",
             "act2"
         ],
         "value": {
@@ -1347,6 +1370,7 @@
         "name": "Hawk",
         "category": [
             "Act II",
+            "Beast",
             "act2"
         ],
         "value": {
@@ -1360,6 +1384,7 @@
         "name": "Salmon",
         "category": [
             "Act II",
+            "Beast",
             "act2"
         ],
         "value": {
@@ -1373,6 +1398,7 @@
         "name": "Spore Mice",
         "category": [
             "Act II",
+            "Beast",
             "act2"
         ],
         "value": {
@@ -1386,6 +1412,7 @@
         "name": "Bone Heap",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1400,6 +1427,7 @@
         "name": "Tomb Robber",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1414,6 +1442,7 @@
         "name": "Necromancer",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1428,6 +1457,7 @@
         "name": "Drowned Soul",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1442,6 +1472,7 @@
         "name": "Dead Hand",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1456,6 +1487,7 @@
         "name": "Headless Horseman",
         "category": [
             "Act II",
+            "Undead",
             "act2",
             "Rare"
         ],
@@ -1470,6 +1502,7 @@
         "name": "Skeleton",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1483,6 +1516,7 @@
         "name": "Draugr",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1496,6 +1530,7 @@
         "name": "Gravedigger",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1509,6 +1544,7 @@
         "name": "Sporedigger",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1522,6 +1558,7 @@
         "name": "Banshee",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1535,6 +1572,7 @@
         "name": "Skelemagus",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1548,6 +1586,7 @@
         "name": "Zombie",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1561,6 +1600,7 @@
         "name": "Bone Lord's Horn",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1574,6 +1614,7 @@
         "name": "Broken Obol Left",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1587,6 +1628,7 @@
         "name": "Broken Obol Right",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1600,6 +1642,7 @@
         "name": "Revenant",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1613,6 +1656,7 @@
         "name": "Ghost Ship",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1626,6 +1670,7 @@
         "name": "Sarcophagus",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1639,6 +1684,7 @@
         "name": "The Walkers",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1652,6 +1698,7 @@
         "name": "Frank & Stein",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1665,6 +1712,7 @@
         "name": "Pharaoh's Pets",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1678,6 +1726,7 @@
         "name": "Bonehound",
         "category": [
             "Act II",
+            "Undead",
             "act2"
         ],
         "value": {
@@ -1691,6 +1740,7 @@
         "name": "Mummy Lord",
         "category": [
             "Act II",
+            "Undead",
             "Act III",
             "act2act3"
         ],
@@ -1705,6 +1755,7 @@
         "name": "Plasma Jimmy",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1719,6 +1770,7 @@
         "name": "Curve Hopper",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1733,6 +1785,7 @@
         "name": "Energy Conduit",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1747,6 +1800,7 @@
         "name": "Mox Module",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1761,6 +1815,7 @@
         "name": "Mrs. Bomb",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1775,6 +1830,7 @@
         "name": "Shutterbug",
         "category": [
             "Act II",
+            "Technology",
             "act2",
             "Rare"
         ],
@@ -1789,6 +1845,7 @@
         "name": "L33pb0t",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1806,6 +1863,7 @@
         "name": "Null Conduit",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1819,6 +1877,7 @@
         "name": "Sentry Drone",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1848,6 +1907,7 @@
         "name": "49er",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1865,6 +1925,7 @@
         "name": "Buff Conduit",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1882,6 +1943,7 @@
         "name": "Energy Bot",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1899,6 +1961,7 @@
         "name": "Explode Bot",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1916,6 +1979,7 @@
         "name": "M3atB0t",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1929,6 +1993,7 @@
         "name": "Automaton",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1942,6 +2007,7 @@
         "name": "Factory Conduit",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1955,6 +2021,7 @@
         "name": "Gamblobot",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1968,6 +2035,7 @@
         "name": "Insectodrone",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -1985,6 +2053,7 @@
         "name": "Steel Mice",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -1998,6 +2067,7 @@
         "name": "Thick Droid",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -2011,6 +2081,7 @@
         "name": "Bolthound",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -2028,6 +2099,7 @@
         "name": "Double Gunner",
         "category": [
             "Act II",
+            "Technology",
             "Act III",
             "act2act3"
         ],
@@ -2045,6 +2117,7 @@
         "name": "Steambot",
         "category": [
             "Act II",
+            "Technology",
             "act2"
         ],
         "value": {
@@ -2058,6 +2131,7 @@
         "name": "Bleene's Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2072,6 +2146,7 @@
         "name": "Goranj's Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2086,6 +2161,7 @@
         "name": "Orlu's Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2100,6 +2176,7 @@
         "name": "Master Bleene",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2114,6 +2191,7 @@
         "name": "Master Goranj",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2128,6 +2206,7 @@
         "name": "Master Orlu",
         "category": [
             "Act II",
+            "Magickal",
             "act2",
             "Rare"
         ],
@@ -2142,6 +2221,7 @@
         "name": "Emerald Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2155,6 +2235,7 @@
         "name": "Ruby Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2168,6 +2249,7 @@
         "name": "Sapphire Mox",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2181,6 +2263,7 @@
         "name": "Mage Pupil",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2200,6 +2283,7 @@
         "name": "Gourmage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2213,6 +2297,7 @@
         "name": "Green Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2226,6 +2311,7 @@
         "name": "Junior Sage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2239,6 +2325,7 @@
         "name": "Muscle Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2252,6 +2339,7 @@
         "name": "Stim Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2265,6 +2353,7 @@
         "name": "Mage Knight",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2278,6 +2367,7 @@
         "name": "Orange Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2291,6 +2381,7 @@
         "name": "Practice Wizard",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2304,6 +2395,7 @@
         "name": "Ruby Golem",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2317,6 +2409,7 @@
         "name": "Blue Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2330,6 +2423,7 @@
         "name": "Spore Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2343,6 +2437,7 @@
         "name": "Force Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2356,6 +2451,7 @@
         "name": "Gem Fiend",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
@@ -2369,6 +2465,7 @@
         "name": "Hover Mage",
         "category": [
             "Act II",
+            "Magickal",
             "act2"
         ],
         "value": {
