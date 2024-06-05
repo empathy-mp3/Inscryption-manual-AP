@@ -1256,6 +1256,14 @@
         "region": "Act II - Beginning"
     },
     {
+        "name": "Muscle Mage",
+        "category": [
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Beginning"
+    },
+    {
         "name": "Stim Mage",
         "category": [
             "Act II",

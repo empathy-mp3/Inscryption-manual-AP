@@ -2222,6 +2222,19 @@
         "progression": true
     },
     {
+        "name": "Muscle Mage",
+        "category": [
+            "Act II",
+            "act2"
+        ],
+        "value": {
+            "act_2_offense_e": 1,
+            "act_2_defense_e": 0,
+            "act_2_utility_e": 0
+        },
+        "progression": true
+    },
+    {
         "name": "Stim Mage",
         "category": [
             "Act II",
