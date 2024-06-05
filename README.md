@@ -7,6 +7,8 @@ This is my take on the Inscryption randomizer! There's 3 rules:
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
 3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them (and thus the corresponding checks are locked behind those).
 
+However, you can play Stoat in the first Act I tutorial battle, and no other place (until you get the item).
+
 ## Where is the settings page?
 
 The .yaml file is included with the GitHub release.

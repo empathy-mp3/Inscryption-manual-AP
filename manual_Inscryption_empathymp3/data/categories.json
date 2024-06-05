@@ -214,33 +214,6 @@
         ],
         "hidden": true
     },
-    "Avian": {
-        "hidden": true
-    },
-    "Canine": {
-        "hidden": true
-    },
-    "Hooved": {
-        "hidden": true
-    },
-    "Insect": {
-        "hidden": true
-    },
-    "Reptile": {
-        "hidden": true
-    },
-    "Beast": {
-        "hidden": true
-    },
-    "Technology": {
-        "hidden": true
-    },
-    "Magickal": {
-        "hidden": true
-    },
-    "Undead": {
-        "hidden": true
-    },
     "skip1": {
         "hidden": true
     },
