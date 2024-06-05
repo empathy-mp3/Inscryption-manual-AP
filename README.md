@@ -1,5 +1,7 @@
 # Inscryption Manual Randomizer Guide
 
+**Note: This fails generation about half of the time. I have no idea why (probably because I used experimental features), but... just keep that in mind! I don't know how to fix it, but if I find out how, I will try my best!**
+
 This is my take on the Inscryption randomizer! There's 3 rules: 
 1. If you haven't received the item for a card, you aren't allowed to play it.
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
@@ -13,21 +15,20 @@ The .yaml file is included with the GitHub release.
 
 Every time you add a card to your deck (or side deck, like Squirrel), you get a check. You can receive those items that allow you to play a card.
 If you start with a certain card in your deck, you can get the check immediately.
-Cards that are only given to you (Bee, Boulder, Frozen Opossum, The Smoke, Greater Smoke, Good Fish, More Fish, Bad Fish, Captive File, and Hydra) have their locations whenever you obtain them in a fight.
-There are unique items for each pre-made deathcard (e.g., Kaycee, Kaminski, etc.), and also an item for Custom Deathcards.
+Cards that are only given to you (Bee, Boulder, Frozen Opossum, The Smoke, Greater Smoke, Good Fish, More Fish, Bad Fish, Captive File, and Hydra (and Amalgam if Act I is disabled)) have their locations whenever you obtain them in a fight.
+There are unique items and locations for each pre-made deathcard (e.g., Kaycee, Kaminski, etc.), and also an item and location for Custom Deathcards.
+There are also locations for the bosses that appear in each act (mostly because there are too few locations in this otherwise).
 Cards that appear in multiple acts have one associated item and one associated location, even if they're vastly different in different acts.
 
 ## What's up with the weird .yaml settings?
 
 The way this randomizer works, is you start in Act I, then go to Act II, then go to Act III, then go to Kaycee's Mod. (always this order)
 But you can disable acts (since playing both Act I and Kaycee's Mod is probably unnecessary), which will allow you to skip from Act I to Act III for example.
-Due to the overlap in cards between acts, and some other shenanigans, you need to make absolutely sure to do this:
+Since there is overlap between cards in acts, there are other settings corresponding to multiple acts, but you can ignore them. The triggers in the template yaml will deal with them (unless you mess with those triggers).
 
-Enable all options that include the name of any act that you plan on playing.
+Also, make sure to check off the location that tells you to immediately check it off, when you've begun.
 
-For example, if you want to do a randomizer where you want to play Act III and then Kaycee's Mod (in that order), you would enable the `Act_1_or_Act_2_or_Kaycees_Mod_Enabled`, `Act_2_or_Act_3_Enabled`, `Act_3_Enabled`, `Kaycees_Mod_Enabled`, and `Act_2_or_Kaycees_Mod_Enabled` settings, and disable `Act_1_Enabled` and `Act_2_Enabled`.
-
-Also, Act II and Kaycee's Mod aren't done yet. So play at your own risk!
+If you want to mess around with the triggers, (which you shouldn't), you just need to enable every setting that has one of the acts you're playing in the name.
 
 ## What is the goal of Inscryption when randomized?
 

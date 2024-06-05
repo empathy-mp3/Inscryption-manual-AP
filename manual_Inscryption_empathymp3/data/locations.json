@@ -7,7 +7,7 @@
             "act1kaycee",
             "Avian"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Raven Egg",
@@ -65,6 +65,7 @@
         "name": "Stunted Wolf",
         "category": [
             "Act I",
+            "act1",
             "Canine"
         ],
         "region": "Act I - Pre-Prospector"
@@ -97,6 +98,7 @@
         "name": "Caged Wolf",
         "category": [
             "Act I",
+            "act1",
             "Canine"
         ],
         "region": "Act I - Pre-Prospector"
@@ -110,7 +112,7 @@
             "Canine",
             "Beast"
         ],
-        "region": "Act I - Beginning"
+        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
     },
     {
         "name": "Coyote",
@@ -120,7 +122,7 @@
             "act1kaycee",
             "Canine"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Alpha",
@@ -141,7 +143,7 @@
             "Hooved",
             "Rare"
         ],
-        "region": "Act I - Post-Prospector"
+        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Long Elk",
@@ -152,7 +154,7 @@
             "Hooved",
             "Rare"
         ],
-        "region": "Act I - Post-Prospector"
+        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Black Goat",
@@ -162,7 +164,7 @@
             "act1kaycee",
             "Hooved"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Elk Fawn",
@@ -219,7 +221,7 @@
             "Rare",
             "Beast"
         ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
+        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "Strange Larva",
@@ -271,7 +273,7 @@
             "act1kaycee",
             "Insect"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Worker Ant",
@@ -291,7 +293,7 @@
             "act1kaycee",
             "Insect"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Stinkbug",
@@ -332,7 +334,7 @@
             "Reptile",
             "Rare"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Ouroboros/Ourobot",
@@ -345,8 +347,7 @@
             "Rare",
             "Beast"
         ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-        "requires": "(|@Act III:6| and ({ItemValue(act_3_offense:6)} or ({ItemValue(act_3_offense:5)} and {ItemValue(act_3_defense:3)}) or ({ItemValue(act_3_offense:5)} and {ItemValue(act_3_utility:3)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}))) or |@act3disabled| or |@act1enabled| or |@act2enabled|"
+        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Bullfrog",
@@ -358,7 +359,7 @@
             "Reptile",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "Skink",
@@ -380,7 +381,7 @@
             "Reptile",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "River Snapper",
@@ -390,7 +391,7 @@
             "act1kaycee",
             "Reptile"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Beginning or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Rattler",
@@ -409,7 +410,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Wolf Pelt",
@@ -418,7 +419,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Golden Pelt",
@@ -427,7 +428,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
+        "region": "Act I - Post-Angler or Kaycee's Mod - Post-Angler"
     },
     {
         "name": "Mole Man",
@@ -459,7 +460,7 @@
             "act1kaycee",
             "Rare"
         ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "The Daus",
@@ -502,7 +503,7 @@
             "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Beginning"
+        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
     },
     {
         "name": "Cat",
@@ -513,7 +514,7 @@
             "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Hand Tentacle",
@@ -542,7 +543,7 @@
             "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "Porcupine",
@@ -569,7 +570,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Stoat",
@@ -580,7 +581,7 @@
             "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Beginning"
+        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
     },
     {
         "name": "Warren",
@@ -591,7 +592,7 @@
             "act1act2kaycee",
             "Beast"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Beaver",
@@ -658,7 +659,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
     },
     {
         "name": "Bat",
@@ -731,10 +732,11 @@
         "name": "Rabbit",
         "category": [
             "Act II",
-            "act2",
+            "Kaycee's Mod",
+            "act2kaycee",
             "Beast"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Pre-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "The Smoke",
@@ -762,7 +764,7 @@
             "Rare",
             "Beast"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Post-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "Hrokkal",
@@ -1101,7 +1103,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Beginning or Act III - Initial Guantlet"
+        "region": "Act II - Beginning or Act III - Initial Gauntlet"
     },
     {
         "name": "Null Conduit",
@@ -1120,7 +1122,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Guantlet"
+        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "Sentry Spore",
@@ -1139,7 +1141,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Beginning or Act III - Initial Guantlet"
+        "region": "Act II - Beginning or Act III - Initial Gauntlet"
     },
     {
         "name": "Buff Conduit",
@@ -1169,7 +1171,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Guantlet"
+        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "M3atB0t",
@@ -1215,7 +1217,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Guantlet"
+        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "Steel Mice",
@@ -1243,7 +1245,7 @@
             "act2act3",
             "Technology"
         ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Guantlet"
+        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "Double Gunner",
@@ -1786,7 +1788,7 @@
             "kaycee",
             "Canine"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
         "name": "Dire Wolf",
@@ -1833,7 +1835,7 @@
             "kaycee",
             "Insect"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
         "name": "Mealworm",
@@ -1879,7 +1881,7 @@
             "kaycee",
             "Rare"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
         "name": "Curious Egg",
@@ -1896,7 +1898,7 @@
             "Kaycee's Mod",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
         "name": "Raccoon",
@@ -1904,7 +1906,7 @@
             "Kaycee's Mod",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
         "name": "Wolverine",
@@ -1930,6 +1932,159 @@
             "kaycee"
         ],
         "region": "Kaycee's Mod - End"
+    },
+    {
+        "name": "Prospector - Act I",
+        "category": [
+            "Act I",
+            "act1",
+            "Boss Fights"
+        ],
+        "region": "Act I - Post-Prospector"
+    },
+    {
+        "name": "Angler - Act I",
+        "category": [
+            "Act I",
+            "act1",
+            "Boss Fights"
+        ],
+        "region": "Act I - Post-Angler"
+    },
+    {
+        "name": "Trapper - Act I",
+        "category": [
+            "Act I",
+            "act1",
+            "Boss Fights"
+        ],
+        "region": "Act I - Post-Trapper"
+    },
+    {
+        "name": "Leshy - Act I",
+        "category": [
+            "Act I",
+            "act1",
+            "Boss Fights"
+        ],
+        "region": "Act I - Post-Trapper"
+    },
+    {
+        "name": "Leshy - Act II",
+        "category": [
+            "Act II",
+            "act2",
+            "Boss Fights"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "Grimora - Act II",
+        "category": [
+            "Act II",
+            "act2",
+            "Boss Fights"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "P03 - Act II",
+        "category": [
+            "Act II",
+            "act2",
+            "Boss Fights"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "Magnificus - Act II",
+        "category": [
+            "Act II",
+            "act2",
+            "Boss Fights"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
+        "name": "The Photographer - Act III",
+        "category": [
+            "Act III",
+            "act3",
+            "Boss Fights"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "The Archivist - Act III",
+        "category": [
+            "Act III",
+            "act3",
+            "Boss Fights"
+        ],
+        "region": "Act II - Pre-Bridge"
+    },
+    {
+        "name": "The Unfinished Boss - Act III",
+        "category": [
+            "Act III",
+            "act3",
+            "Boss Fights"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "G0lly - Act III",
+        "category": [
+            "Act III",
+            "act3",
+            "Boss Fights"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Mycologists - Act III",
+        "category": [
+            "Act III",
+            "mycobot",
+            "Boss Fights"
+        ],
+        "region": "Act III - Post-Bridge"
+    },
+    {
+        "name": "Prospector - Kaycee's Mod",
+        "category": [
+            "Kaycee's Mod",
+            "kaycee",
+            "Boss Fights"
+        ],
+        "region": "Kaycee's Mod - Post-Prospector"
+    },
+    {
+        "name": "Angler - Kaycee's Mod",
+        "category": [
+            "Kaycee's Mod",
+            "kaycee",
+            "Boss Fights"
+        ],
+        "region": "Kaycee's Mod - Post-Angler"
+    },
+    {
+        "name": "Trapper - Kaycee's Mod",
+        "category": [
+            "Kaycee's Mod",
+            "kaycee",
+            "Boss Fights"
+        ],
+        "region": "Kaycee's Mod - Post-Trapper"
+    },
+    {
+        "name": "Leshy - Kaycee's Mod",
+        "category": [
+            "Kaycee's Mod",
+            "kaycee",
+            "Boss Fights"
+        ],
+        "region": "Kaycee's Mod - Post-Trapper"
     },
     {
         "name": "End of Act I",

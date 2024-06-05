@@ -43,31 +43,7 @@
     },
     "act1kaycee": {
         "yaml_option": [
-            "Act_1_or_Kaycee_Enabled"
-        ],
-        "hidden": true
-    },
-    "act1disabled": {
-        "yaml_option": [
-            "!Act_1_Enabled"
-        ],
-        "hidden": true
-    },
-    "act2disabled": {
-        "yaml_option": [
-            "!Act_2_Enabled"
-        ],
-        "hidden": true
-    },
-    "act3disabled": {
-        "yaml_option": [
-            "!Act_3_Enabled"
-        ],
-        "hidden": true
-    },
-    "kayceedisabled": {
-        "yaml_option": [
-            "!Kaycees_Mod_Enabled"
+            "Act_1_or_Kaycees_Mod_Enabled"
         ],
         "hidden": true
     },
@@ -263,6 +239,30 @@
         "hidden": true
     },
     "Undead": {
+        "hidden": true
+    },
+    "skip1": {
+        "hidden": true
+    },
+    "skip2": {
+        "hidden": true
+    },
+    "skip3": {
+        "hidden": true
+    },
+    "skipk": {
+        "hidden": true
+    },
+    "do1": {
+        "hidden": true
+    },
+    "do2": {
+        "hidden": true
+    },
+    "do3": {
+        "hidden": true
+    },
+    "dok": {
         "hidden": true
     }
 }

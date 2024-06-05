@@ -1778,7 +1778,8 @@
         "name": "Mummy Lord",
         "category": [
             "Act II",
-            "act2",
+            "Act III",
+            "act2act3",
             "Undead"
         ],
         "value": {
@@ -2926,6 +2927,7 @@
         "name": "Cuckoo",
         "category": [
             "Kaycee's Mod",
+            "kaycee",
             "Avian"
         ],
         "value": {
@@ -3174,6 +3176,10 @@
         "name": "ignore this item1",
         "category": [
             "only1",
+            "do1",
+            "skip2",
+            "skip3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3205,6 +3211,10 @@
         "name": "ignore this item2",
         "category": [
             "only2",
+            "skip1",
+            "do2",
+            "skip3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3227,6 +3237,10 @@
         "name": "ignore this item3",
         "category": [
             "only3",
+            "skip1",
+            "skip2",
+            "do3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3255,6 +3269,10 @@
         "name": "ignore this item4",
         "category": [
             "onlyk",
+            "skip1",
+            "skip2",
+            "skip3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3286,6 +3304,10 @@
         "name": "ignore this item12",
         "category": [
             "only12",
+            "do1",
+            "do2",
+            "skip3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3305,6 +3327,10 @@
         "name": "ignore this item13",
         "category": [
             "only13",
+            "do1",
+            "skip2",
+            "do3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3330,6 +3356,10 @@
         "name": "ignore this item14",
         "category": [
             "only1k",
+            "do1",
+            "skip2",
+            "skip3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3361,6 +3391,10 @@
         "name": "ignore this item23",
         "category": [
             "only23",
+            "skip1",
+            "do2",
+            "do3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3377,6 +3411,10 @@
         "name": "ignore this item24",
         "category": [
             "only2k",
+            "skip1",
+            "do2",
+            "skip3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3396,6 +3434,10 @@
         "name": "ignore this item34",
         "category": [
             "only3k",
+            "skip1",
+            "skip2",
+            "do3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3421,6 +3463,10 @@
         "name": "ignore this item123",
         "category": [
             "only123",
+            "do1",
+            "do2",
+            "do3",
+            "skipk",
             "Ignore This Category"
         ],
         "value": {
@@ -3434,6 +3480,10 @@
         "name": "ignore this item124",
         "category": [
             "only12k",
+            "do1",
+            "do2",
+            "skip3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3450,6 +3500,10 @@
         "name": "ignore this item134",
         "category": [
             "only13k",
+            "do1",
+            "skip2",
+            "do3",
+            "dok",
             "Ignore This Category"
         ],
         "value": {
@@ -3469,9 +3523,30 @@
         "progression": true
     },
     {
+        "name": "ignore this item234",
+        "category": [
+            "only23k",
+            "skip1",
+            "do2",
+            "do3",
+            "dok",
+            "Ignore This Category"
+        ],
+        "value": {
+            "act_1_offense": 20,
+            "act_1_defense": 20,
+            "act_1_utility": 20
+        },
+        "progression": true
+    },
+    {
         "name": "ignore this item1234",
         "category": [
             "only123k",
+            "do1",
+            "do2",
+            "do3",
+            "dok",
             "Ignore This Category"
         ],
         "progression": true
