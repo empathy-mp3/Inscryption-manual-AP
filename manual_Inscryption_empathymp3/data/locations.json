@@ -3,6 +3,7 @@
         "name": "Kingfisher",
         "category": [
             "Act I",
+            "Avian",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -12,6 +13,7 @@
         "name": "Raven Egg",
         "category": [
             "Act I",
+            "Avian",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -21,6 +23,7 @@
         "name": "Sparrow",
         "category": [
             "Act I",
+            "Avian",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -30,6 +33,7 @@
         "name": "Magpie",
         "category": [
             "Act I",
+            "Avian",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -39,6 +43,7 @@
         "name": "Raven",
         "category": [
             "Act I",
+            "Avian",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -50,6 +55,7 @@
         "name": "Turkey Vulture",
         "category": [
             "Act I",
+            "Avian",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -59,6 +65,7 @@
         "name": "Stunted Wolf",
         "category": [
             "Act I",
+            "Canine",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -67,6 +74,7 @@
         "name": "Wolf Cub",
         "category": [
             "Act I",
+            "Canine",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -78,6 +86,7 @@
         "name": "Bloodhound",
         "category": [
             "Act I",
+            "Canine",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -89,6 +98,7 @@
         "name": "Caged Wolf",
         "category": [
             "Act I",
+            "Canine",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -97,6 +107,7 @@
         "name": "Wolf",
         "category": [
             "Act I",
+            "Canine",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -106,6 +117,7 @@
         "name": "Coyote",
         "category": [
             "Act I",
+            "Canine",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -115,6 +127,7 @@
         "name": "Alpha",
         "category": [
             "Act I",
+            "Canine",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -124,6 +137,7 @@
         "name": "Child 13",
         "category": [
             "Act I",
+            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -134,6 +148,7 @@
         "name": "Long Elk",
         "category": [
             "Act I",
+            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -144,6 +159,7 @@
         "name": "Black Goat",
         "category": [
             "Act I",
+            "Hooved",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -153,6 +169,7 @@
         "name": "Elk Fawn",
         "category": [
             "Act I",
+            "Hooved",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -164,6 +181,7 @@
         "name": "Elk",
         "category": [
             "Act I",
+            "Hooved",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -175,6 +193,7 @@
         "name": "Pronghorn",
         "category": [
             "Act I",
+            "Hooved",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -184,6 +203,7 @@
         "name": "Moose Buck",
         "category": [
             "Act I",
+            "Hooved",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -193,6 +213,7 @@
         "name": "Mantis God",
         "category": [
             "Act I",
+            "Insect",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -205,6 +226,7 @@
         "name": "Strange Larva",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -215,6 +237,7 @@
         "name": "Bee",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -225,6 +248,7 @@
         "name": "Beehive",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -234,6 +258,7 @@
         "name": "Mantis",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -243,6 +268,7 @@
         "name": "Ring Worm",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -252,6 +278,7 @@
         "name": "Worker Ant",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -261,6 +288,7 @@
         "name": "Ant Queen",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -270,6 +298,7 @@
         "name": "Stinkbug",
         "category": [
             "Act I",
+            "Insect",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -278,6 +307,7 @@
         "name": "Cockroach",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -287,6 +317,7 @@
         "name": "Corpse Maggots",
         "category": [
             "Act I",
+            "Insect",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -297,6 +328,7 @@
         "name": "Geck",
         "category": [
             "Act I",
+            "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -307,6 +339,7 @@
         "name": "Ouroboros/Ourobot",
         "category": [
             "Act I",
+            "Reptile",
             "Act II",
             "Beast",
             "Act III",
@@ -319,6 +352,7 @@
         "name": "Bullfrog",
         "category": [
             "Act I",
+            "Reptile",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -330,6 +364,7 @@
         "name": "Skink",
         "category": [
             "Act I",
+            "Reptile",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -339,6 +374,7 @@
         "name": "Adder",
         "category": [
             "Act I",
+            "Reptile",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -350,6 +386,7 @@
         "name": "River Snapper",
         "category": [
             "Act I",
+            "Reptile",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -359,6 +396,7 @@
         "name": "Rattler",
         "category": [
             "Act I",
+            "Reptile",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -368,6 +406,7 @@
         "name": "Rabbit Pelt",
         "category": [
             "Act I",
+            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -377,6 +416,7 @@
         "name": "Wolf Pelt",
         "category": [
             "Act I",
+            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -386,6 +426,7 @@
         "name": "Golden Pelt",
         "category": [
             "Act I",
+            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -395,6 +436,7 @@
         "name": "Mole Man",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -407,6 +449,11 @@
         "name": "Amalgam",
         "category": [
             "Act I",
+            "Avian",
+            "Canine",
+            "Hooved",
+            "Insect",
+            "Reptile",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare"
@@ -417,6 +464,7 @@
         "name": "Pack Rat",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -427,6 +475,7 @@
         "name": "The Daus",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -437,6 +486,7 @@
         "name": "Urayuli",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -449,6 +499,7 @@
         "name": "Amoeba",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare"
@@ -459,6 +510,7 @@
         "name": "Squirrel",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -470,6 +522,7 @@
         "name": "Cat",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -481,6 +534,7 @@
         "name": "Hand Tentacle",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -490,6 +544,7 @@
         "name": "Mirror Tentacle",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -499,6 +554,7 @@
         "name": "Mole",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -510,6 +566,7 @@
         "name": "Porcupine",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -519,6 +576,7 @@
         "name": "River Otter",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -528,6 +586,7 @@
         "name": "Skunk",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -537,6 +596,7 @@
         "name": "Stoat",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -548,6 +608,7 @@
         "name": "Warren",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -559,6 +620,7 @@
         "name": "Beaver",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -568,6 +630,7 @@
         "name": "Bell Tentacle",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -577,6 +640,7 @@
         "name": "Field Mice",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -588,6 +652,7 @@
         "name": "Rat King",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -597,6 +662,7 @@
         "name": "Great White",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -606,6 +672,7 @@
         "name": "Grizzly",
         "category": [
             "Act I",
+            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
@@ -617,6 +684,7 @@
         "name": "Opossum",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -626,6 +694,7 @@
         "name": "Bat",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -635,6 +704,7 @@
         "name": "Custom Deathcard",
         "category": [
             "Act I",
+            "Deathcard",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -643,6 +713,7 @@
         "name": "Louis",
         "category": [
             "Act I",
+            "Deathcard",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -651,6 +722,7 @@
         "name": "Kaycee",
         "category": [
             "Act I",
+            "Deathcard",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -659,6 +731,7 @@
         "name": "Kaminski",
         "category": [
             "Act I",
+            "Deathcard",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -667,6 +740,7 @@
         "name": "Reginald",
         "category": [
             "Act I",
+            "Deathcard",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -675,6 +749,7 @@
         "name": "Boulder",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -684,6 +759,7 @@
         "name": "Frozen Opossum",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -703,6 +779,7 @@
         "name": "The Smoke",
         "category": [
             "Act I",
+            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -712,6 +789,7 @@
         "name": "Greater Smoke",
         "category": [
             "Act I",
+            "Tribeless",
             "act1"
         ],
         "region": "Act I - Pre-Prospector"
@@ -722,6 +800,7 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
+            "Tribeless",
             "act2kaycee",
             "Rare"
         ],
@@ -1744,6 +1823,7 @@
         "name": "Cuckoo",
         "category": [
             "Kaycee's Mod",
+            "Avian",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1752,6 +1832,7 @@
         "name": "Lammergeier",
         "category": [
             "Kaycee's Mod",
+            "Avian",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1760,6 +1841,7 @@
         "name": "Dire Wolf Pup",
         "category": [
             "Kaycee's Mod",
+            "Canine",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Beginning"
@@ -1768,6 +1850,7 @@
         "name": "Dire Wolf",
         "category": [
             "Kaycee's Mod",
+            "Canine",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1776,6 +1859,7 @@
         "name": "Red Hart",
         "category": [
             "Kaycee's Mod",
+            "Hooved",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1784,6 +1868,7 @@
         "name": "Wild Bull",
         "category": [
             "Kaycee's Mod",
+            "Hooved",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1792,6 +1877,7 @@
         "name": "Pelt Lice",
         "category": [
             "Kaycee's Mod",
+            "Insect",
             "kaycee",
             "Rare"
         ],
@@ -1802,6 +1888,7 @@
         "name": "Flying Ant",
         "category": [
             "Kaycee's Mod",
+            "Insect",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Beginning"
@@ -1810,6 +1897,7 @@
         "name": "Mealworm",
         "category": [
             "Kaycee's Mod",
+            "Insect",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1818,6 +1906,7 @@
         "name": "Mud Turtle",
         "category": [
             "Kaycee's Mod",
+            "Reptile",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1826,6 +1915,7 @@
         "name": "Ijiraq",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee",
             "Rare"
         ],
@@ -1836,6 +1926,7 @@
         "name": "Hodag",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee",
             "Rare"
         ],
@@ -1845,6 +1936,7 @@
         "name": "Tadpole",
         "category": [
             "Kaycee's Mod",
+            "Reptile",
             "kaycee",
             "Rare"
         ],
@@ -1854,6 +1946,7 @@
         "name": "Curious Egg",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee",
             "Rare"
         ],
@@ -1863,6 +1956,7 @@
         "name": "Aquasquirrel",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Beginning"
@@ -1871,6 +1965,7 @@
         "name": "Raccoon",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Beginning"
@@ -1879,6 +1974,7 @@
         "name": "Wolverine",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Pre-Prospector"
@@ -1887,6 +1983,7 @@
         "name": "Glitched Card",
         "category": [
             "Kaycee's Mod",
+            "Tribeless",
             "Act I",
             "act1kaycee"
         ],
@@ -1896,6 +1993,11 @@
         "name": "Hydra",
         "category": [
             "Kaycee's Mod",
+            "Avian",
+            "Canine",
+            "Hooved",
+            "Insect",
+            "Reptile",
             "kaycee"
         ],
         "region": "Kaycee's Mod - End"
