@@ -1173,6 +1173,15 @@
         "region": "Act II - Post-Bridge"
     },
     {
+        "name": "Orlu's Mox",
+        "category": [
+            "Act II",
+            "act2",
+            "Rare"
+        ],
+        "region": "Act II - Post-Bridge"
+    },
+    {
         "name": "Master Bleene",
         "category": [
             "Act II",

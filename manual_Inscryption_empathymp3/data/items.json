@@ -2083,6 +2083,20 @@
         "progression": true
     },
     {
+        "name": "Orlu's Mox",
+        "category": [
+            "Act II",
+            "act2",
+            "Rare"
+        ],
+        "value": {
+            "act_2_offense": 0,
+            "act_2_defense": 1,
+            "act_2_utility": 2
+        },
+        "progression": true
+    },
+    {
         "name": "Master Bleene",
         "category": [
             "Act II",
