@@ -55,30 +55,6 @@
         ],
         "hidden": true
     },
-    "act1enabled": {
-        "yaml_option": [
-            "Act_1_Enabled"
-        ],
-        "hidden": true
-    },
-    "act2enabled": {
-        "yaml_option": [
-            "Act_2_Enabled"
-        ],
-        "hidden": true
-    },
-    "act3enabled": {
-        "yaml_option": [
-            "Act_3_Enabled"
-        ],
-        "hidden": true
-    },
-    "kayceeenabled": {
-        "yaml_option": [
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
     "only1": {
         "yaml_option": [
             "Act_1_Enabled",
