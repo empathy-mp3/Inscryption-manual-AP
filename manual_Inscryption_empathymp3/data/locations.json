@@ -7,7 +7,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Raven Egg",
@@ -111,7 +111,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
+        "region": "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Coyote",
@@ -121,7 +121,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Alpha",
@@ -163,7 +163,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Elk Fawn",
@@ -220,7 +220,7 @@
             "act1act2kaycee",
             "Rare"
         ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
+        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Strange Larva",
@@ -292,7 +292,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Stinkbug",
@@ -333,7 +333,7 @@
             "act1kaycee",
             "Rare"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - No Cost Deck or Kaycee's Mod - Post-Prospector"
     },
     {
         "name": "Ouroboros/Ourobot",
@@ -359,7 +359,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
+        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Skink",
@@ -381,7 +381,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "River Snapper",
@@ -517,7 +517,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
+        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
     },
     {
         "name": "Cat",
@@ -561,7 +561,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Porcupine",
@@ -591,7 +591,7 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Stoat",
@@ -603,7 +603,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
+        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck"
     },
     {
         "name": "Warren",
@@ -615,7 +615,7 @@
             "Kaycee's Mod",
             "act1act2kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Beaver",
@@ -776,7 +776,7 @@
             "Kaycee's Mod",
             "act2kaycee"
         ],
-        "region": "Act II - Pre-Bridge or Kaycee's Mod - Beginning"
+        "region": "Act II - Post-Bridge or Kaycee's Mod - No Cost Deck"
     },
     {
         "name": "The Smoke",
@@ -807,7 +807,7 @@
             "act2kaycee",
             "Rare"
         ],
-        "region": "Act II - Post-Bridge or Kaycee's Mod - Beginning"
+        "region": "Act II - Post-Bridge or Kaycee's Mod - Waterborne Deck"
     },
     {
         "name": "Hrokkal",
@@ -835,7 +835,7 @@
             "Beast",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Beast Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Salmon",
@@ -922,7 +922,7 @@
             "Undead",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Draugr",
@@ -931,7 +931,7 @@
             "Undead",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Gravedigger",
@@ -940,7 +940,7 @@
             "Undead",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Sporedigger",
@@ -976,7 +976,7 @@
             "Undead",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Bone Lord's Horn",
@@ -1049,7 +1049,7 @@
             "Undead",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Pharaoh's Pets",
@@ -1147,7 +1147,7 @@
             "Misc. Act III Area",
             "act2act3"
         ],
-        "region": "Act II - Beginning or Act III - Initial Gauntlet"
+        "region": "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "Null Conduit",
@@ -1187,7 +1187,7 @@
             "Misc. Act III Area",
             "act2act3"
         ],
-        "region": "Act II - Beginning or Act III - Initial Gauntlet"
+        "region": "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
     },
     {
         "name": "Buff Conduit",
@@ -1238,7 +1238,7 @@
             "Technology",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Factory Conduit",
@@ -1285,7 +1285,7 @@
             "Technology",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Bolthound",
@@ -1316,7 +1316,7 @@
             "Technology",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Bleene's Mox",
@@ -1385,7 +1385,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Ruby Mox",
@@ -1394,7 +1394,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Sapphire Mox",
@@ -1403,7 +1403,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Mage Pupil",
@@ -1412,7 +1412,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Gourmage",
@@ -1439,7 +1439,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Muscle Mage",
@@ -1448,7 +1448,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Pre-Bridge"
     },
     {
         "name": "Stim Mage",
@@ -1466,7 +1466,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Orange Mage",
@@ -1502,7 +1502,7 @@
             "Magickal",
             "act2"
         ],
-        "region": "Act II - Beginning"
+        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
     },
     {
         "name": "Spore Mage",
@@ -1892,7 +1892,7 @@
             "Canine",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Beginning"
+        "region": "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Dire Wolf",
@@ -1939,7 +1939,7 @@
             "Insect",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Beginning"
+        "region": "Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Mealworm",
@@ -1988,7 +1988,7 @@
             "kaycee",
             "Rare"
         ],
-        "region": "Kaycee's Mod - Beginning"
+        "region": "Kaycee's Mod - No Cost Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Curious Egg",
@@ -1998,7 +1998,7 @@
             "kaycee",
             "Rare"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Curious Egg Deck"
     },
     {
         "name": "Aquasquirrel",
@@ -2016,7 +2016,7 @@
             "Tribeless",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Beginning"
+        "region": "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
     },
     {
         "name": "Wolverine",
@@ -2048,7 +2048,8 @@
             "Reptile",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - End"
+        "region": "Kaycee's Mod - End",
+        "requires": "|Curious Egg Deck|"
     },
     {
         "name": "Boulder in a Bottle",
@@ -2270,6 +2271,138 @@
         "region": "Kaycee's Mod - Post-Angler"
     },
     {
+        "name": "Beast Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Beast Deck|"
+    },
+    {
+        "name": "Undead Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Undead Deck|"
+    },
+    {
+        "name": "Technology Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Technology Deck|"
+    },
+    {
+        "name": "Magick Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Magick Deck|"
+    },
+    {
+        "name": "Vanilla Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Vanilla Deck|"
+    },
+    {
+        "name": "High Cost Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|High Cost Deck|"
+    },
+    {
+        "name": "Ant Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Ant Deck|"
+    },
+    {
+        "name": "Mantis God Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Mantis God Deck|"
+    },
+    {
+        "name": "Waterborne Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Waterborne Deck|"
+    },
+    {
+        "name": "Bone Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Bone Deck|"
+    },
+    {
+        "name": "No Cost Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|No Cost Deck|"
+    },
+    {
+        "name": "Curious Egg Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "region": "Kaycee's Mod - Post-Angler",
+        "requires": "|Curious Egg Deck|"
+    },
+    {
         "name": "Prospector - Act I",
         "category": [
             "Act I",
@@ -2466,6 +2599,16 @@
     },
     {
         "name": "Also Check off this Location Immediately",
+        "category": [
+            "check this immediately"
+        ],
+        "place_item_category": [
+            "Ignore This Category"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Check off this Location As Well",
         "category": [
             "check this immediately"
         ],

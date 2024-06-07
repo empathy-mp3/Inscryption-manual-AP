@@ -216,6 +216,18 @@
         ],
         "hidden": true
     },
+    "yesdeck": {
+        "yaml_option": [
+            "Starter_Deck_Rando_Enabled"
+        ],
+        "hidden": true
+    },
+    "nodeck": {
+        "yaml_option": [
+            "!Starter_Deck_Rando_Enabled"
+        ],
+        "hidden": true
+    },
     "skip1": {
         "hidden": true
     },

@@ -3,5 +3,19 @@
   "game": "Inscryption",
   "creator": "empathymp3",
   "filler_item_name": "Nothing",
-  "death_link": true
+  "death_link": true,
+  "starting_items": [
+    {
+      "item_categories": [
+        "act2starter"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "kayceestarter"
+      ],
+      "random": 1
+    }
+  ]
 }

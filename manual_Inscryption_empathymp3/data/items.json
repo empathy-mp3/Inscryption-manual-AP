@@ -3506,6 +3506,126 @@
         "progression": true
     },
     {
+        "name": "Beast Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Undead Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Technology Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Magick Deck",
+        "category": [
+            "Act II",
+            "Starter Deck",
+            "act2",
+            "act2starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Vanilla Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "High Cost Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Ant Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Mantis God Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Waterborne Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Bone Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "No Cost Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Curious Egg Deck",
+        "category": [
+            "Kaycee's Mod",
+            "Starter Deck",
+            "kaycee",
+            "kayceestarter"
+        ],
+        "progression": true
+    },
+    {
         "name": "ignore this item1",
         "category": [
             "only1",
@@ -3897,6 +4017,22 @@
         "category": [
             "Ignore This Category",
             "noconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemydeck",
+        "category": [
+            "Ignore This Category",
+            "yesdeck"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemndeck",
+        "category": [
+            "Ignore This Category",
+            "nodeck"
         ],
         "progression": true
     }
