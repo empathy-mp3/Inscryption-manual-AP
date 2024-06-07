@@ -6,6 +6,7 @@ This is my take on the Inscryption randomizer! There's 3 rules:
 1. If you haven't received the item for a card, you aren't allowed to play it.
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
 3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them (and thus the corresponding checks are locked behind those).
+4. If you have Consumable Rando turned on, you cannot play a Consumable Item unless you have the Archipelago Item for it.
 
 However, you can play Stoat in the first Act I tutorial battle, and no other place (until you get the item).
 

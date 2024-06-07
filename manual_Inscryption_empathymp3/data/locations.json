@@ -754,7 +754,8 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Boulder in a Bottle| or |@noconsumable|"
     },
     {
         "name": "Frozen Opossum",
@@ -764,7 +765,8 @@
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Frozen Opossum in a Bottle| or |@noconsumable|"
     },
     {
         "name": "Rabbit",
@@ -2049,6 +2051,225 @@
         "region": "Kaycee's Mod - End"
     },
     {
+        "name": "Boulder in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Squirrel in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "Special Dagger",
+        "category": [
+            "Consumable",
+            "Act I",
+            "act1",
+            "act1consumable"
+        ],
+        "region": "Act I - Pre-Prospector",
+        "requires": "|Caged Wolf| and (|Squirrel in a Bottle| or |Pliers| or |Fish Hook|)"
+    },
+    {
+        "name": "Scissors",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Pliers",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "Hoggy Bank",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Hourglass",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Failure",
+        "category": [
+            "Consumable",
+            "Act I",
+            "act1",
+            "act1consumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Black Goat in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Frozen Opossum in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Fish Hook",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Post-Angler or Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "Harpie's Birdleg Fan",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
+    },
+    {
+        "name": "Extra Battery",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "region": "Act III - Initial Gauntlet"
+    },
+    {
+        "name": "Mrs. Bomb's Remote",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "region": "Act III - Pre-Bridge"
+    },
+    {
+        "name": "Nano Armor Generator",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "region": "Act III - Initial Gauntlet"
+    },
+    {
+        "name": "Wiseclock",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Magickal Bleach",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Magpie's Lens",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "region": "Kaycee's Mod - Pre-Prospector"
+    },
+    {
+        "name": "Skinning Knife",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "region": "Kaycee's Mod - Post-Angler"
+    },
+    {
         "name": "Prospector - Act I",
         "category": [
             "Act I",
@@ -2166,7 +2387,7 @@
         "region": "Act III - Post-Bridge"
     },
     {
-        "name": "Prospector - Kaycee's Mod",
+        "name": "Boss 1 - Kaycee's Mod",
         "category": [
             "Kaycee's Mod",
             "kaycee",
@@ -2175,7 +2396,7 @@
         "region": "Kaycee's Mod - Post-Prospector"
     },
     {
-        "name": "Angler - Kaycee's Mod",
+        "name": "Boss 2 - Kaycee's Mod",
         "category": [
             "Kaycee's Mod",
             "kaycee",
@@ -2184,7 +2405,7 @@
         "region": "Kaycee's Mod - Post-Angler"
     },
     {
-        "name": "Trapper - Kaycee's Mod",
+        "name": "Boss 3 - Kaycee's Mod",
         "category": [
             "Kaycee's Mod",
             "kaycee",
@@ -2193,7 +2414,7 @@
         "region": "Kaycee's Mod - Post-Trapper"
     },
     {
-        "name": "Leshy - Kaycee's Mod",
+        "name": "Final Boss - Kaycee's Mod",
         "category": [
             "Kaycee's Mod",
             "kaycee",
@@ -2235,6 +2456,16 @@
     },
     {
         "name": "Please Check off this Location Immediately",
+        "category": [
+            "check this immediately"
+        ],
+        "place_item_category": [
+            "Ignore This Category"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Also Check off this Location Immediately",
         "category": [
             "check this immediately"
         ],

@@ -3296,6 +3296,216 @@
         "useful": true
     },
     {
+        "name": "Boulder in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Squirrel in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Special Dagger",
+        "category": [
+            "Consumable",
+            "Act I",
+            "act1",
+            "act1consumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Scissors",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Pliers",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Hoggy Bank",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Hourglass",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Failure",
+        "category": [
+            "Consumable",
+            "Act I",
+            "act1"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Black Goat in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Frozen Opossum in a Bottle",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Fish Hook",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Harpie's Birdleg Fan",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "Act I",
+            "act1kaycee",
+            "act1consumable",
+            "kayceeconsumable"
+        ],
+        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
+        "progression": true
+    },
+    {
+        "name": "Extra Battery",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Mrs. Bomb's Remote",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Nano Armor Generator",
+        "category": [
+            "Act III",
+            "Consumable",
+            "act3",
+            "act3consumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wiseclock",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Magickal Bleach",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Magpie's Lens",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Skinning Knife",
+        "category": [
+            "Kaycee's Mod",
+            "Consumable",
+            "kaycee",
+            "kayceeconsumable"
+        ],
+        "progression": true
+    },
+    {
         "name": "ignore this item1",
         "category": [
             "only1",
@@ -3671,6 +3881,22 @@
             "do3",
             "dok",
             "Ignore This Category"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemyc",
+        "category": [
+            "Ignore This Category",
+            "yesconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemnc",
+        "category": [
+            "Ignore This Category",
+            "noconsumable"
         ],
         "progression": true
     }

@@ -50,8 +50,12 @@ Manual_Inscryption_empathymp3:
   Act_3_Enabled: false
 
   Kaycees_Mod_Enabled: false
-    # Select what acts you want to play in the randomizer.
+    # Select what acts you want to play in the randomizer. If you play more than one act, be warned of failed generations!
 
+  Consumable_Rando_Enabled:
+    # Should the ability to play consumables be randomized?
+    false: 0
+    true: 50
 
   Act_2_or_Kaycees_Mod_Enabled: false
   Act_2_or_Act_3_Enabled: false

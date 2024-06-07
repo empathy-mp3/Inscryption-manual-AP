@@ -51,21 +51,22 @@
     "Act I - Post-Angler": {
         "connects_to": [
             "Act I - Post-Trapper",
-            "Act I - Post-Angler or Kaycee's Mod - Post-Angler"
+            "Act I - Post-Angler or Kaycee's Mod - Post-Angler",
+            "Act I - Post-Angler or Kaycee's Mod - Beginning"
         ],
-        "requires": "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))"
+        "requires": "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)})) and (|@act1consumable:3| or |@noconsumable|)"
     },
     "Act I - Post-Trapper": {
         "connects_to": [
             "Act I - End"
         ],
-        "requires": "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))"
+        "requires": "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)})) and (|@act1consumable:5| or |@noconsumable|)"
     },
     "Act I - End": {
         "connects_to": [
             "pre-act2"
         ],
-        "requires": "|Caged Wolf| and ({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))"
+        "requires": "|Caged Wolf| and ({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)})) and (|Special Dagger| or |@noconsumable|)"
     },
     "pre-act2": {
         "connects_to": [
@@ -162,14 +163,14 @@
             "Act III - Post-Bridge",
             "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector"
         ],
-        "requires": "({ItemValue(act_3_offense:3)} or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)}))"
+        "requires": "({ItemValue(act_3_offense:3)} or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)})) and (|@act3consumable:1| or |@noconsumable|)"
     },
     "Act III - Post-Bridge": {
         "connects_to": [
             "Act III - End",
             "Act II - Pre-Bridge or Act III - Post-Bridge"
         ],
-        "requires": "({ItemValue(act_3_offense:5)} or {ItemValue(act_3_offense_bridge:2)} or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:3)}) or {ItemValue(act_3_defense_bridge:4)} or ({ItemValue(act_3_offense:3)} and {ItemValue(act_3_utility:3)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_utility:4)}) or {ItemValue(act_3_utility_bridge:4)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)}) or ({ItemValue(act_3_defense_bridge:3)} and {ItemValue(act_3_utility_bridge:3)}))"
+        "requires": "({ItemValue(act_3_offense:5)} or {ItemValue(act_3_offense_bridge:2)} or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:3)}) or {ItemValue(act_3_defense_bridge:4)} or ({ItemValue(act_3_offense:3)} and {ItemValue(act_3_utility:3)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_utility:4)}) or {ItemValue(act_3_utility_bridge:4)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)}) or ({ItemValue(act_3_defense_bridge:3)} and {ItemValue(act_3_utility_bridge:3)})) and (|@act3consumable:2| or |@noconsumable|)"
     },
     "Act III - End": {
         "connects_to": [
@@ -195,7 +196,8 @@
             "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Beginning",
             "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
             "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act II - Pre-Bridge or Kaycee's Mod - Beginning"
+            "Act II - Pre-Bridge or Kaycee's Mod - Beginning",
+            "Act I - Post-Angler or Kaycee's Mod - Beginning"
         ],
         "requires": "|@dok|"
     },
@@ -218,23 +220,23 @@
             "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector",
             "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
         ],
-        "requires": "|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)}"
+        "requires": "|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)} and (|@kayceeconsumable:1| or |@noconsumable|)"
     },
     "Kaycee's Mod - Post-Angler": {
         "connects_to": [
             "Kaycee's Mod - Post-Trapper",
             "Act I - Post-Angler or Kaycee's Mod - Post-Angler"
         ],
-        "requires": "({ItemValue(kaycees_mod_offense:6)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_utility:2)}) or ({ItemValue(kaycees_mod_offense:3)} and {ItemValue(kaycees_mod_defense:2)} and {ItemValue(kaycees_mod_utility:1)}))"
+        "requires": "({ItemValue(kaycees_mod_offense:6)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_utility:2)}) or ({ItemValue(kaycees_mod_offense:3)} and {ItemValue(kaycees_mod_defense:2)} and {ItemValue(kaycees_mod_utility:1)})) and (|@kayceeconsumable:3| or |@noconsumable|)"
     },
     "Kaycee's Mod - Post-Trapper": {
         "connects_to": [
             "Kaycee's Mod - End"
         ],
-        "requires": "({ItemValue(kaycees_mod_offense:7)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_utility:3)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_defense:3)} and {ItemValue(kaycees_mod_utility:2)}))"
+        "requires": "({ItemValue(kaycees_mod_offense:7)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_utility:3)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_defense:3)} and {ItemValue(kaycees_mod_utility:2)})) and (|@kayceeconsumable:5| or |@noconsumable|)"
     },
     "Kaycee's Mod - End": {
-        "requires": "({ItemValue(kaycees_mod_offense:8)} or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_defense:5)}) or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_utility:4)}) or ({ItemValue(kaycees_mod_offense:6)} and {ItemValue(kaycees_mod_defense:4)} and {ItemValue(kaycees_mod_utility:3)}))"
+        "requires": "({ItemValue(kaycees_mod_offense:8)} or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_defense:5)}) or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_utility:4)}) or ({ItemValue(kaycees_mod_offense:6)} and {ItemValue(kaycees_mod_defense:4)} and {ItemValue(kaycees_mod_utility:3)})) and (|@kayceeconsumable:6| or |@noconsumable|)"
     },
     "Act I - Beginning or Kaycee's Mod - Beginning": {
         "requires": ""
@@ -306,6 +308,9 @@
         "requires": ""
     },
     "Act II - Pre-Bridge or Kaycee's Mod - Beginning": {
+        "requires": ""
+    },
+    "Act I - Post-Angler or Kaycee's Mod - Beginning": {
         "requires": ""
     }
 }

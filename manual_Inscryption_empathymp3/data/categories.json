@@ -190,6 +190,32 @@
         ],
         "hidden": true
     },
+    "Consumable": {
+        "yaml_option": [
+            "Consumable_Rando_Enabled"
+        ]
+    },
+    "act1consumable": {
+        "hidden": true
+    },
+    "act3consumable": {
+        "hidden": true
+    },
+    "kayceeconsumable": {
+        "hidden": true
+    },
+    "yesconsumable": {
+        "yaml_option": [
+            "Consumable_Rando_Enabled"
+        ],
+        "hidden": true
+    },
+    "noconsumable": {
+        "yaml_option": [
+            "!Consumable_Rando_Enabled"
+        ],
+        "hidden": true
+    },
     "skip1": {
         "hidden": true
     },
