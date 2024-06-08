@@ -7,6 +7,7 @@ This is my take on the Inscryption randomizer! There's 3 rules:
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
 3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them (and thus the corresponding checks are locked behind those).
 4. If you have Consumable Rando turned on, you cannot play a Consumable Item unless you have the Archipelago Item for it.
+5. If you have Starter Deck Rando turned on, you cannot use a Starter Deck unless you have the Archipelago Item for it.
 
 However, you can play Stoat in the first Act I tutorial battle, and no other place (until you get the item).
 
@@ -22,6 +23,8 @@ Cards that are only given to you (Bee, Boulder, Frozen Opossum, The Smoke, Great
 There are unique items and locations for each pre-made deathcard (e.g., Kaycee, Kaminski, etc.), and also an item and location for Custom Deathcards.
 There are also locations for the bosses that appear in each act (mostly because there are too few locations in this otherwise).
 Cards that appear in multiple acts have one associated item and one associated location, even if they're vastly different in different acts.
+If you have Consumable Rando turned on, their locations are obtained by getting that consumable.
+If you have Starter Deck Rando turned on, their locations are obtained by using that starter deck.
 
 ## What's up with the weird .yaml settings?
 
