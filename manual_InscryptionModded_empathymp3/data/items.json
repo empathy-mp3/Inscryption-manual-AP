@@ -1,0 +1,1308 @@
+[
+    {
+        "name": "Ancient Guardian",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Hooved",
+            "Shadow"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Baby Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "BFB",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Avian"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 2,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Birchnutter",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Blue Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "value": {
+            "offense_blue": 1,
+            "defense_blue": 0,
+            "utility_blue": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Blue Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Blue Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "value": {
+            "offense_blue": 1,
+            "defense_blue": 1,
+            "utility_blue": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Cave Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Chester",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Clockwork Bishop",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Clockwork Knight",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Clockwork Rook",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Crawling Horror",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense_green": 1,
+            "defense_green": 2,
+            "utility_green": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Crawling Nightmare",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Shadow"
+        ],
+        "value": {
+            "offense_green": 1,
+            "defense_green": 2,
+            "utility_green": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Dangling Depths Dweller",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Dark Sword",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow",
+            "Can't Be Added To Deck"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Depths Worm",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 2,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 2,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Gestalt",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Lunar"
+        ],
+        "value": {
+            "offense_orange": 1,
+            "defense_orange": 0,
+            "utility_orange": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Green Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Horror Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Lunar"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Hutch",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Reptile"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 2,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Krampus",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Lavae",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense_orange": 1,
+            "defense_orange": 2,
+            "utility_orange": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Misshapen Bird",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Moonblind Crow",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Moonrock Pengull",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Moose",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved",
+            "Avian",
+            "Rare"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Mossling",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Hooved",
+            "Can't Be Added To Deck"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Mr. Skitts",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Night Hand",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense_orange": 1,
+            "defense_orange": 0,
+            "utility_orange": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Nightmarebeak",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow",
+            "Rare"
+        ],
+        "value": {
+            "offense_blue": 3,
+            "defense_blue": 0,
+            "utility_blue": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Nurse Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense_blue": 1,
+            "defense_blue": 0,
+            "utility_blue": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Orange Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Piko",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 2,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Pipspook",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 2
+        },
+        "progression": true
+    },
+    {
+        "name": "Poison Birchnut Tree",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Poison Spear",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Can't Be Added To Deck"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Pugalisk",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Reptile",
+            "Canine",
+            "Rare"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 3,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Rabbit",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Red Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "value": {
+            "offense_orange": 1,
+            "defense_orange": 1,
+            "utility_orange": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Retinazor",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare"
+        ],
+        "value": {
+            "offense_orange": 2,
+            "defense_orange": 1,
+            "utility_orange": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Ro Bin",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Saladmander",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Lunar",
+            "Reptile",
+            "Plant"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 3,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Sea Strider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense_green": 1,
+            "defense_green": 0,
+            "utility_green": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Shattered Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense_orange": 1,
+            "defense_orange": 0,
+            "utility_orange": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Snaptooth Flytrap",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Snaptooth Seedling",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spazmatism",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare"
+        ],
+        "value": {
+            "offense_green": 2,
+            "defense_green": 1,
+            "utility_green": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spider Den",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spider Monkey",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Spider Queen",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect",
+            "Rare"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 3
+        },
+        "progression": true
+    },
+    {
+        "name": "Spider Warrior",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Spitter",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Swimming Horror",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Teen Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Terrorbeak",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense_blue": 2,
+            "defense_blue": 0,
+            "utility_blue": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Terrorclaw",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense_blue": 2,
+            "defense_blue": 0,
+            "utility_blue": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Treeguard",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant",
+            "Rare"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Unassuming Plant",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "value": {
+            "offense_green": 0,
+            "defense_green": 3,
+            "utility_green": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Wanda",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Wavey Jones",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Weather Pain",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Can't Be Added To Deck"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Wendy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 1,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "Wes",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "useful": true
+    },
+    {
+        "name": "Wilson",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 2,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Woodie",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 3,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Wortox",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 1
+        },
+        "progression": true
+    },
+    {
+        "name": "WX-78",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "value": {
+            "offense": 2,
+            "defense": 0,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "Yellow Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "value": {
+            "offense": 1,
+            "defense": 1,
+            "utility": 0
+        },
+        "progression": true
+    },
+    {
+        "name": "You No Longer Have To Use The Gem Deer Side Decks That Cost Energy",
+        "category": [
+            "Misc. Restrictions"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Rabbit Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ]
+    },
+    {
+        "name": "Wolf Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ]
+    },
+    {
+        "name": "Golden Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ]
+    },
+    {
+        "name": "Squirrel",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ]
+    },
+    {
+        "name": "Black Goat",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ]
+    },
+    {
+        "name": "Boulder",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ]
+    },
+    {
+        "name": "Frozen Opossum",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ]
+    },
+    {
+        "name": "The Smoke",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ]
+    },
+    {
+        "name": "Boulder in a Bottle",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Squirrel in a Bottle",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Scissors",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Pliers",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Hoggy Bank",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Hourglass",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Black Goat in a Bottle",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Frozen Opossum in a Bottle",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Fish Hook",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Harpie's Birdleg Fan",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wiseclock",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Magickal Bleach",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Magpie's Lens",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Skinning Knife",
+        "category": [
+            "Consumable",
+            "Base Game"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wilson Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wendy Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "WX-78 Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Woodie Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wes Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wortox Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Wanda Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemyc",
+        "category": [
+            "Ignore This Category",
+            "yesconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemnc",
+        "category": [
+            "Ignore This Category",
+            "noconsumable"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemydeck",
+        "category": [
+            "Ignore This Category",
+            "yesdeck"
+        ],
+        "progression": true
+    },
+    {
+        "name": "ignore this itemndeck",
+        "category": [
+            "Ignore This Category",
+            "nodeck"
+        ],
+        "progression": true
+    }
+]

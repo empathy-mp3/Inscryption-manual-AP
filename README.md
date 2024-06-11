@@ -2,14 +2,14 @@
 
 **Note: This fails generation about half the time when you play with more than one act. If I can figure out why it doesn't generate sometimes, I'll try to fix it. It works perfectly well with only one act, though.**
 
-This is my take on the Inscryption randomizer! There's 3 rules: 
+This is my take on the Inscryption randomizer! There's 5 rules: 
 1. If you haven't received the item for a card, you aren't allowed to play it.
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
 3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them (and thus the corresponding checks are locked behind those).
 4. If you have Consumable Rando turned on, you cannot play a Consumable Item unless you have the Archipelago Item for it.
 5. If you have Starter Deck Rando turned on, you cannot use a Starter Deck unless you have the Archipelago Item for it.
 
-However, you can play Stoat in the first Act I tutorial battle, and no other place (until you get the item).
+However, you can play Stoat and 1 Squirrel in the first Act I tutorial battle, and no other place (until you get the item).
 
 ## Where is the settings page?
 
@@ -69,3 +69,25 @@ If you don't have a save with everything unlocked in the base game, you can pres
 ## Manual Client
 
 In the "Tracker and Locations" tab you'll find buttons corresponding with all the available locations in the Randomizer. Since this is a manual game its built on trust™ you press the locations when you get to them, hopefully in the future only what you can access will be visible but at the moment you could press victory and it would accept it. Also, if you have death_link enabled, there's a button at the top right to trigger and receive death links.
+
+## How does the Modded Inscryption work?
+
+You need to use the latest version of my [DontStarveExpansion mod](https://thunderstore.io/c/inscryption/p/empathymp3/DontStarveExpansion/).
+You need to use the alternate apworlds and yaml files. (with Modded in the name).
+There are a few differences from the original rando:
+- Play on Kaycee's Mod.
+- Disable the vanilla card pack.
+- Put "Manual_InscryptionModded_empathymp3" in the manual client.
+- Don't use the aquasquirrel challenge.
+- In the side deck selection screen, you should use the gem deer side deck that costs energy, until you get the "You No Longer Have To Use The Gem Deer Side Decks That Cost Energy" item, at which point you should use the gem deer side deck that doesn't cost energy. After you select either of those, you can choose your gem colors.
+- There are no cards that fly onto the board, so you don't have to be concerned about those.
+- The cards that have locations but cannot be added to your deck (whose locations are obtained by simply having it in your hand) are:
+  - Dark Sword
+  - Mossling
+  - Poison Spear
+  - Weather Pain
+  - Squirrel
+  - Black Goat
+  - Boulder
+  - Frozen Opossum
+  - The Smoke

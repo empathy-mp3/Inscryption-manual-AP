@@ -2481,7 +2481,7 @@
             "act3",
             "Boss Fights"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act III - Pre-Bridge"
     },
     {
         "name": "The Archivist - Act III",
@@ -2490,7 +2490,7 @@
             "act3",
             "Boss Fights"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act III - Pre-Bridge"
     },
     {
         "name": "The Unfinished Boss - Act III",
@@ -2553,7 +2553,7 @@
             "kaycee",
             "Boss Fights"
         ],
-        "region": "Kaycee's Mod - Post-Trapper"
+        "region": "Kaycee's Mod - End"
     },
     {
         "name": "End of Act I",

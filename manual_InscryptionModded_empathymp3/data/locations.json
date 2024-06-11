@@ -1,0 +1,999 @@
+[
+    {
+        "name": "Ancient Guardian",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Hooved",
+            "Shadow"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Baby Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "region": "Pre-Boss or Wes Deck"
+    },
+    {
+        "name": "BFB",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Avian"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Birchnutter",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Blue Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Blue Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Blue Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "region": "Pre-Boss or Wortox Deck"
+    },
+    {
+        "name": "Cave Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Chester",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Clockwork Bishop",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Clockwork Knight",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Clockwork Rook",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Crawling Horror",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss or Wilson Deck"
+    },
+    {
+        "name": "Crawling Nightmare",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Rare",
+            "Shadow"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Dangling Depths Dweller",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Dark Sword",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+    },
+    {
+        "name": "Depths Worm",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "region": "Pre-Boss or Wes Deck"
+    },
+    {
+        "name": "Gestalt",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Lunar"
+        ],
+        "region": "Pre-Boss or Wendy Deck"
+    },
+    {
+        "name": "Green Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Horror Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Lunar"
+        ],
+        "region": "Pre-Boss or Wanda Deck"
+    },
+    {
+        "name": "Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Hutch",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Reptile"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Krampus",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Lavae",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Misshapen Bird",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Moonblind Crow",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "region": "Pre-Boss or WX-78 Deck"
+    },
+    {
+        "name": "Moonrock Pengull",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Lunar"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Moose",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Hooved",
+            "Avian",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Mossling",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian",
+            "Hooved",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Post-Boss 1",
+        "requires": "|Moose|"
+    },
+    {
+        "name": "Mr. Skitts",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Night Hand",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Nightmarebeak",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Nurse Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Orange Gem Deer",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Side Deck"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Piko",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss or Woodie Deck"
+    },
+    {
+        "name": "Pipspook",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Poison Birchnut Tree",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "region": "Pre-Boss or Woodie Deck"
+    },
+    {
+        "name": "Poison Spear",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+    },
+    {
+        "name": "Pugalisk",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Reptile",
+            "Canine",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Rabbit",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Red Hound",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Retinazor",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Ro Bin",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Saladmander",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Lunar",
+            "Reptile",
+            "Plant"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Sea Strider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Shattered Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Snaptooth Flytrap",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Snaptooth Seedling",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Spazmatism",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Spider",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Spider Den",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Spider Monkey",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Spider Queen",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Spider Warrior",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Spitter",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Insect"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Swimming Horror",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Teen Doydoy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Avian"
+        ],
+        "region": "Pre-Boss or Wes Deck"
+    },
+    {
+        "name": "Terrorbeak",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss or Wilson Deck"
+    },
+    {
+        "name": "Terrorclaw",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Treeguard",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant",
+            "Rare"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Unassuming Plant",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Plant"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Wanda",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Wanda Deck"
+    },
+    {
+        "name": "Wavey Jones",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Shadow"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Weather Pain",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+    },
+    {
+        "name": "Wendy",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Wendy Deck"
+    },
+    {
+        "name": "Wes",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Wes Deck"
+    },
+    {
+        "name": "Wilson",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Wilson Deck"
+    },
+    {
+        "name": "Woodie",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Woodie Deck"
+    },
+    {
+        "name": "Wortox",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or Wortox Deck"
+    },
+    {
+        "name": "WX-78",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Tribeless",
+            "Rare",
+            "Survivor"
+        ],
+        "region": "Post-Boss 1 or WX-78 Deck"
+    },
+    {
+        "name": "Yellow Crocodog",
+        "category": [
+            "Don't Starve Mod",
+            "Card",
+            "Canine",
+            "Reptile"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Rabbit Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Wolf Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Golden Pelt",
+        "category": [
+            "Base Game",
+            "Card"
+        ],
+        "region": "Post-Boss 2"
+    },
+    {
+        "name": "Squirrel",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Beginning",
+        "requires": "|Squirrel in a Bottle| or |@noconsumable|"
+    },
+    {
+        "name": "Black Goat",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Black Goat in a Bottle| or |@noconsumable|"
+    },
+    {
+        "name": "Boulder",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Boulder in a Bottle| or |@noconsumable|"
+    },
+    {
+        "name": "Frozen Opossum",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Pre-Boss",
+        "requires": "|Frozen Opossum in a Bottle| or |@noconsumable|"
+    },
+    {
+        "name": "The Smoke",
+        "category": [
+            "Base Game",
+            "Card",
+            "Can't Be Added To Deck"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Boulder in a Bottle",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Squirrel in a Bottle",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Scissors",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Pliers",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Hoggy Bank",
+        "category": [
+            "Base Game"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Hourglass",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Black Goat in a Bottle",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Frozen Opossum in a Bottle",
+        "category": [
+            "Base Game"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Fish Hook",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Beginning"
+    },
+    {
+        "name": "Harpie's Birdleg Fan",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Wiseclock",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Magickal Bleach",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Magpie's Lens",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Pre-Boss"
+    },
+    {
+        "name": "Skinning Knife",
+        "category": [
+            "Base Game",
+            "Consumable"
+        ],
+        "region": "Post-Boss 2"
+    },
+    {
+        "name": "Wilson Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Wilson Deck|"
+    },
+    {
+        "name": "Wendy Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Wendy Deck|"
+    },
+    {
+        "name": "WX-78 Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|WX-78 Deck|"
+    },
+    {
+        "name": "Woodie Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Woodie Deck|"
+    },
+    {
+        "name": "Wes Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Wes Deck|"
+    },
+    {
+        "name": "Wortox Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Wortox Deck|"
+    },
+    {
+        "name": "Wanda Deck",
+        "category": [
+            "Starter Deck",
+            "starter"
+        ],
+        "region": "Beginning",
+        "requires": "|Wanda Deck|"
+    },
+    {
+        "name": "Boss 1",
+        "category": [
+            "Boss Fights"
+        ],
+        "region": "Post-Boss 1"
+    },
+    {
+        "name": "Boss 2",
+        "category": [
+            "Boss Fights"
+        ],
+        "region": "Post-Boss 2"
+    },
+    {
+        "name": "Boss 3",
+        "category": [
+            "Boss Fights"
+        ],
+        "region": "Post-Boss 3"
+    },
+    {
+        "name": "Final Boss",
+        "victory": true,
+        "category": [
+            "Victory"
+        ],
+        "region": "End"
+    },
+    {
+        "name": "Please Check off this Location Immediately",
+        "category": [
+            "check this immediately"
+        ],
+        "place_item_category": [
+            "Ignore This Category"
+        ],
+        "requires": []
+    },
+    {
+        "name": "Also Check off this Location Immediately",
+        "category": [
+            "check this immediately"
+        ],
+        "place_item_category": [
+            "Ignore This Category"
+        ],
+        "requires": []
+    }
+]

@@ -197,7 +197,7 @@
         "connects_to": [
             "Act II - End"
         ],
-        "requires": "({ItemValue(act_2_offense:7)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))"
+        "requires": "({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))"
     },
     "Act II - End": {
         "connects_to": [
@@ -239,20 +239,20 @@
             "Act III - Post-Bridge",
             "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector"
         ],
-        "requires": "({ItemValue(act_3_offense:3)} or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense:2)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)})) and (|@act3consumable:1| or |@noconsumable|)"
+        "requires": "({ItemValue(act_3_offense:5)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:3)})) and (|@act3consumable:1| or |@noconsumable|)"
     },
     "Act III - Post-Bridge": {
         "connects_to": [
             "Act III - End",
             "Act II - Pre-Bridge or Act III - Post-Bridge"
         ],
-        "requires": "({ItemValue(act_3_offense:5)} or {ItemValue(act_3_offense_bridge:2)} or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:3)}) or {ItemValue(act_3_defense_bridge:4)} or ({ItemValue(act_3_offense:3)} and {ItemValue(act_3_utility:3)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_utility:4)}) or {ItemValue(act_3_utility_bridge:4)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:3)} and {ItemValue(act_3_utility:2)}) or ({ItemValue(act_3_offense_bridge:1)} and {ItemValue(act_3_defense:2)} and {ItemValue(act_3_utility:1)}) or ({ItemValue(act_3_defense_bridge:3)} and {ItemValue(act_3_utility_bridge:3)})) and (|@act3consumable:2| or |@noconsumable|)"
+        "requires": "({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:5)} or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:6)}) or {ItemValue(act_3_defense_bridge:7)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:3)} and {ItemValue(act_3_utility:7)}) or {ItemValue(act_3_utility_bridge:6)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_defense_bridge:4)} and {ItemValue(act_3_utility_bridge:5)})) and (|@act3consumable:2| or |@noconsumable|)"
     },
     "Act III - End": {
         "connects_to": [
             "pre-kaycee"
         ],
-        "requires": ""
+        "requires": "({ItemValue(act_3_offense:9)} or {ItemValue(act_3_offense_bridge:6)} or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:7)}) or {ItemValue(act_3_defense_bridge:8)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_utility:8)}) or {ItemValue(act_3_utility_bridge:7)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_defense:6)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_defense_bridge:5)} and {ItemValue(act_3_utility_bridge:6)}))"
     },
     "pre-kaycee": {
         "connects_to": [

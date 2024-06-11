@@ -609,9 +609,9 @@
             "act_2_offense": 1,
             "act_2_defense": 1,
             "act_2_utility": 6,
-            "act_3_offense": 0,
-            "act_3_defense": 0,
-            "act_3_utility": 8,
+            "act_3_offense": 8,
+            "act_3_defense": 3,
+            "act_3_utility": 7,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 1
@@ -889,7 +889,8 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "Side Deck"
         ],
         "value": {
             "act_1_offense": 0,
@@ -1977,7 +1978,9 @@
     {
         "name": "Sentry Spore",
         "category": [
-            "Act II"
+            "Act II",
+            "Technology",
+            "act2"
         ],
         "value": {
             "act_2_offense": 0,
@@ -2808,7 +2811,8 @@
         "category": [
             "Act III",
             "Misc. Act III Area",
-            "act3"
+            "act3",
+            "Side Deck"
         ],
         "value": {
             "act_3_offense": 0,
@@ -2822,7 +2826,8 @@
         "category": [
             "Act III",
             "Gaudy Gem Land",
-            "act3"
+            "act3",
+            "Side Deck"
         ],
         "value": {
             "act_3_offense_bridge": 0,
@@ -2836,7 +2841,8 @@
         "category": [
             "Act III",
             "Gaudy Gem Land",
-            "act3"
+            "act3",
+            "Side Deck"
         ],
         "value": {
             "act_3_offense_bridge": 2,
@@ -2850,7 +2856,8 @@
         "category": [
             "Act III",
             "Gaudy Gem Land",
-            "act3"
+            "act3",
+            "Side Deck"
         ],
         "value": {
             "act_3_offense_bridge": 0,
@@ -3239,7 +3246,8 @@
         "category": [
             "Kaycee's Mod",
             "Tribeless",
-            "kaycee"
+            "kaycee",
+            "Side Deck"
         ],
         "value": {
             "kaycees_mod_offense": 0,
