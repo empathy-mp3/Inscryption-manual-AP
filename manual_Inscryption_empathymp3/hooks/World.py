@@ -37,10 +37,40 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
+    act1 = get_option_value(multiworld, player, "Act_1_Enabled") or False
+    act2 = get_option_value(multiworld, player, "Act_2_Enabled") or False
+    act3 = get_option_value(multiworld, player, "Act_3_Enabled") or False
+    kaycee = get_option_value(multiworld, player, "Kaycees_Mod_Enabled") or False
+    consumable = get_option_value(multiworld, player, "Consumable_Rando_Enabled") or False
+    starter = get_option_value(multiworld, player, "Starter_Deck_Enabled") or False
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
 
     # Add your code here to calculate which locations to remove
+
+    for location in world.location_table:
+        if "act1" in location.get("category", []) and not act1:
+            locationNamesToRemove.append(location["name"])
+        elif "act2" in location.get("category", []) and not act2:
+            locationNamesToRemove.append(location["name"])
+        elif "act3" in location.get("category", []) and not act3:
+            locationNamesToRemove.append(location["name"])
+        elif "kaycee" in location.get("category", []) and not kaycee:
+            locationNamesToRemove.append(location["name"])
+        elif "act2kaycee" in location.get("category", []) and not (act2 or kaycee):
+            locationNamesToRemove.append(location["name"])
+        elif "act2act3" in location.get("category", []) and not (act2 or act3):
+            locationNamesToRemove.append(location["name"])
+        elif "act1act2kaycee" in location.get("category", []) and not (act1 or act2 or kaycee):
+            locationNamesToRemove.append(location["name"])
+        elif "act1kaycee" in location.get("category", []) and not (act1 or kaycee):
+            locationNamesToRemove.append(location["name"])
+        elif "mycobot" in location.get("category", []) and not (act2 and act3):
+            locationNamesToRemove.append(location["name"])
+        elif "Consumable" in location.get("category", []) and not consumable:
+            locationNamesToRemove.append(location["name"])
+        elif "Starter Deck" in location.get("category", []) and not starter:
+            locationNamesToRemove.append(location["name"])
 
     for region in multiworld.regions:
         if region.player == player:
@@ -88,13 +118,150 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    # Use this hook to modify the access rules for a given location
+    act1 = get_option_value(multiworld, player, "Act_1_Enabled") or False
+    act2 = get_option_value(multiworld, player, "Act_2_Enabled") or False
+    act3 = get_option_value(multiworld, player, "Act_3_Enabled") or False
+    kaycee = get_option_value(multiworld, player, "Kaycees_Mod_Enabled") or False
+    consumable = get_option_value(multiworld, player, "Consumable_Rando_Enabled") or False
+    starter = get_option_value(multiworld, player, "Starter_Deck_Enabled") or False
 
-    def Example_Rule(state: CollectionState) -> bool:
-        # Calculated rules take a CollectionState object and return a boolean
-        # True if the player can access the location
-        # CollectionState is defined in BaseClasses
-        return True
+    def addReq(loc, req):
+        if loc["requires"] == []:
+            loc["requires"] = req
+        else:
+            loc["requires"] = "(" + loc["requires"] + ") and (" + req + ")"
+
+    if act1:
+        addReq(region_table["Act I - Pre-Prospector"], "{ItemValue(act_1_offense:1)} and |Squirrel|")
+        addReq(region_table["Act I - Post-Prospector"], "{ItemValue(act_1_offense:3)}")
+        addReq(region_table["Act I - Post-Angler"], "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
+        addReq(region_table["Act I - Post-Angler"], "|Fish Hook|")
+        addReq(region_table["Act I - Post-Trapper"], "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
+        addReq(region_table["Act I - End"], "|Caged Wolf| and ({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
+
+    if act1 and consumable:
+        addReq(region_table["Act I - Post-Angler"], "|@act1consumable:3|")
+        addReq(region_table["Act I - Post-Trapper"], "|@act1consumable:5|")
+        addReq(region_table["Act I - End"], "|Special Dagger|")
+
+    if act2:
+        addReq(region_table["Act II - Pre-Bridge"], "({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|))")
+        addReq(region_table["Act II - Post-Bridge"], "({ItemValue(act_2_offense:6)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:2)} or {ItemValue(act_2_defense:2)} or {ItemValue(act_2_utility:2)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Mycologists"], "({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+
+    if act2 and starter:
+        addReq(region_table["Act II - Beast Deck"], "|Beast Deck|")
+        addReq(region_table["Act II - Undead Deck"], "|Undead Deck|")
+        addReq(region_table["Act II - Technology Deck"], "|Technology Deck|")
+        addReq(region_table["Act II - Magick Deck"], "|Magick Deck|")
+
+    if act3:
+        addReq(region_table["Act III - Initial Gauntlet"], "|Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)")
+        addReq(region_table["Act III - Pre-Bridge"], "({ItemValue(act_3_offense:5)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:3)}))")
+        addReq(region_table["Act III - Post-Bridge"], "({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:5)} or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:6)}) or {ItemValue(act_3_defense_bridge:7)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:3)} and {ItemValue(act_3_utility:7)}) or {ItemValue(act_3_utility_bridge:6)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_defense_bridge:4)} and {ItemValue(act_3_utility_bridge:5)}))")
+        addReq(region_table["Act III - End"], "({ItemValue(act_3_offense:9)} or {ItemValue(act_3_offense_bridge:6)} or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:7)}) or {ItemValue(act_3_defense_bridge:8)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_utility:8)}) or {ItemValue(act_3_utility_bridge:7)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_defense:6)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_defense_bridge:5)} and {ItemValue(act_3_utility_bridge:6)}))")
+
+    if act3 and consumable:
+        addReq(region_table["Act III - Pre-Bridge"], "|@act3consumable:1|")
+        addReq(region_table["Act III - Post-Bridge"], "|@act3consumable:2|")
+
+    if kaycee:
+        addReq(region_table["Kaycee's Mod - Pre-Prospector"], "{ItemValue(kaycees_mod_offense:1)} and (|Squirrel| or |Aquasquirrel|)")
+        addReq(region_table["Kaycee's Mod - Post-Prospector"], "|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)}")
+        addReq(region_table["Kaycee's Mod - Post-Angler"], "({ItemValue(kaycees_mod_offense:6)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_utility:2)}) or ({ItemValue(kaycees_mod_offense:3)} and {ItemValue(kaycees_mod_defense:2)} and {ItemValue(kaycees_mod_utility:1)}))")
+        addReq(region_table["Kaycee's Mod - Post-Trapper"], "({ItemValue(kaycees_mod_offense:7)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_utility:3)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_defense:3)} and {ItemValue(kaycees_mod_utility:2)}))")
+        addReq(region_table["Kaycee's Mod - End"], "({ItemValue(kaycees_mod_offense:8)} or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_defense:5)}) or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_utility:4)}) or ({ItemValue(kaycees_mod_offense:6)} and {ItemValue(kaycees_mod_defense:4)} and {ItemValue(kaycees_mod_utility:3)}))")
+
+    if kaycee and consumable:
+        addReq(region_table["Kaycee's Mod - Post-Prospector"], "|@kayceeconsumable:1|")
+        addReq(region_table["Kaycee's Mod - Post-Angler"], "|@kayceeconsumable:3|")
+        addReq(region_table["Kaycee's Mod - Post-Trapper"], "|@kayceeconsumable:5|")
+        addReq(region_table["Kaycee's Mod - End"], "|@kayceeconsumable:6|")
+
+    if kaycee and starter:
+        addReq(region_table["Kaycee's Mod - Vanilla Deck"], "|Vanilla Deck|")
+        addReq(region_table["Kaycee's Mod - High Cost Deck"], "|High Cost Deck|")
+        addReq(region_table["Kaycee's Mod - Ant Deck"], "|Ant Deck|")
+        addReq(region_table["Kaycee's Mod - Mantis God Deck"], "|Mantis God Deck|")
+        addReq(region_table["Kaycee's Mod - Waterborne Deck"], "|Waterborne Deck|")
+        addReq(region_table["Kaycee's Mod - Bone Deck"], "|Bone Deck|")
+        addReq(region_table["Kaycee's Mod - No Cost Deck"], "|No Cost Deck|")
+        addReq(region_table["Kaycee's Mod - Curious Egg Deck"], "|Curious Egg Deck|")
+
+    if act1 and not act2 and not act3 and not kaycee: #1
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act I:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act I:ALL|")
+
+    elif not act1 and act2 and not act3 and not kaycee: #2
+        addReq(region_table["Act I - Beginning"], "|@Act II:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act II:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act II:ALL|")
+
+    elif not act1 and not act2 and act3 and not kaycee: #3
+        addReq(region_table["Act I - Beginning"], "|@Act III:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act III:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act III:ALL|")
+
+    elif not act1 and not act2 and not act3 and kaycee: #k
+        addReq(region_table["Act I - Beginning"], "|@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Kaycee's Mod:ALL|")
+
+    elif act1 and act2 and not act3 and not kaycee: #12
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act II:ALL|")
+
+    elif act1 and not act2 and act3 and not kaycee: #13
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act III:ALL|")
+
+    elif act1 and not act2 and not act3 and kaycee: #1k
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
+
+    elif not act1 and act2 and act3 and not kaycee: #23
+        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act II:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act II:ALL| and |@Act III:ALL|")
+
+    elif not act1 and act2 and not act3 and kaycee: #2k
+        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act II:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
+
+    elif not act1 and not act2 and act3 and kaycee: #3k
+        addReq(region_table["Act I - Beginning"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
+
+    elif act1 and act2 and act3 and not kaycee: #123
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
+
+    elif act1 and act2 and not act3 and kaycee: #12k
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
+
+    elif act1 and not act2 and act3 and kaycee: #13k
+        addReq(region_table["Act I - Beginning"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+
+    elif not act1 and act2 and act3 and kaycee: #23k
+        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Beginning"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+
+    elif act1 and act2 and act3 and kaycee: #123k
+        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
 
     ## Common functions:
     # location = world.get_location(location_name, player)

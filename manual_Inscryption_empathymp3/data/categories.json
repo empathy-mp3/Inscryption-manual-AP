@@ -24,169 +24,21 @@
         "hidden": true
     },
     "act2kaycee": {
-        "yaml_option": [
-            "Act_2_or_Kaycees_Mod_Enabled"
-        ],
         "hidden": true
     },
     "act2act3": {
-        "yaml_option": [
-            "Act_2_or_Act_3_Enabled"
-        ],
         "hidden": true
     },
     "act1act2kaycee": {
-        "yaml_option": [
-            "Act_1_or_Act_2_or_Kaycees_Mod_Enabled"
-        ],
         "hidden": true
     },
     "act1kaycee": {
-        "yaml_option": [
-            "Act_1_or_Kaycees_Mod_Enabled"
-        ],
         "hidden": true
     },
     "mycobot": {
         "yaml_option": [
             "Act_3_Enabled",
-            "Act_2_Enabled",
-            "Act_2_or_Act_3_Enabled"
-        ],
-        "hidden": true
-    },
-    "only1": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "!Act_2_Enabled",
-            "!Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only2": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "Act_2_Enabled",
-            "!Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only3": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "!Act_2_Enabled",
-            "Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "onlyk": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "!Act_2_Enabled",
-            "!Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only12": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "Act_2_Enabled",
-            "!Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only13": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "!Act_2_Enabled",
-            "Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only1k": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "!Act_2_Enabled",
-            "!Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only23": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "Act_2_Enabled",
-            "Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only2k": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "Act_2_Enabled",
-            "!Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only3k": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "!Act_2_Enabled",
-            "Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only123": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "Act_2_Enabled",
-            "Act_3_Enabled",
-            "!Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only12k": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "Act_2_Enabled",
-            "!Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only13k": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "!Act_2_Enabled",
-            "Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only23k": {
-        "yaml_option": [
-            "!Act_1_Enabled",
-            "Act_2_Enabled",
-            "Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
-        ],
-        "hidden": true
-    },
-    "only123k": {
-        "yaml_option": [
-            "Act_1_Enabled",
-            "Act_2_Enabled",
-            "Act_3_Enabled",
-            "Kaycees_Mod_Enabled"
+            "Act_2_Enabled"
         ],
         "hidden": true
     },
@@ -202,54 +54,6 @@
         "hidden": true
     },
     "kayceeconsumable": {
-        "hidden": true
-    },
-    "yesconsumable": {
-        "yaml_option": [
-            "Consumable_Rando_Enabled"
-        ],
-        "hidden": true
-    },
-    "noconsumable": {
-        "yaml_option": [
-            "!Consumable_Rando_Enabled"
-        ],
-        "hidden": true
-    },
-    "yesdeck": {
-        "yaml_option": [
-            "Starter_Deck_Rando_Enabled"
-        ],
-        "hidden": true
-    },
-    "nodeck": {
-        "yaml_option": [
-            "!Starter_Deck_Rando_Enabled"
-        ],
-        "hidden": true
-    },
-    "skip1": {
-        "hidden": true
-    },
-    "skip2": {
-        "hidden": true
-    },
-    "skip3": {
-        "hidden": true
-    },
-    "skipk": {
-        "hidden": true
-    },
-    "do1": {
-        "hidden": true
-    },
-    "do2": {
-        "hidden": true
-    },
-    "do3": {
-        "hidden": true
-    },
-    "dok": {
         "hidden": true
     }
 }
