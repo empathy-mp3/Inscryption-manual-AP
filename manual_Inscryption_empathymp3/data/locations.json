@@ -1,1742 +1,2257 @@
 [
     {
-        "name": "Kingfisher",
+        "name": "Woodlands Node 1 (Starting)",
         "category": [
+            "Woodlands Map Area",
             "Act I",
-            "Avian",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Raven Egg",
-        "category": [
-            "Act I",
-            "Avian",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Sparrow",
-        "category": [
-            "Act I",
-            "Avian",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Beginning or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Magpie",
-        "category": [
-            "Act I",
-            "Avian",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Raven",
-        "category": [
-            "Act I",
-            "Avian",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Turkey Vulture",
-        "category": [
-            "Act I",
-            "Avian",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Stunted Wolf",
-        "category": [
-            "Act I",
-            "Canine",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Wolf Cub",
+        "name": "Woodlands Node 1 (Starting) 2",
         "category": [
+            "actonesecond",
+            "Woodlands Map Area",
             "Act I",
-            "Canine",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Bloodhound",
-        "category": [
-            "Act I",
-            "Canine",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Caged Wolf",
-        "category": [
-            "Act I",
-            "Canine",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Wolf",
+        "name": "Woodlands Node 2 (Card)",
         "category": [
+            "Woodlands Map Area",
             "Act I",
-            "Canine",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Coyote",
-        "category": [
-            "Act I",
-            "Canine",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Alpha",
-        "category": [
-            "Act I",
-            "Canine",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Child 13",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Long Elk",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Black Goat",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Elk Fawn",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Elk",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Pronghorn",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Moose Buck",
-        "category": [
-            "Act I",
-            "Hooved",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mantis God",
-        "category": [
-            "Act I",
-            "Insect",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Strange Larva",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Bee",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Beehive|"
-    },
-    {
-        "name": "Beehive",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mantis",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Ring Worm",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Worker Ant",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Ant Queen",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Stinkbug",
-        "category": [
-            "Act I",
-            "Insect",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Cockroach",
+        "name": "Woodlands Node 2 (Card) 2",
         "category": [
+            "actonesecond",
+            "Woodlands Map Area",
             "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Corpse Maggots",
-        "category": [
-            "Act I",
-            "Insect",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Corpse Maggots|"
-    },
-    {
-        "name": "Geck",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - No Cost Deck or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Ouroboros/Ourobot",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Act II",
-            "Beast",
-            "Act III",
-            "Misc. Act III Area",
-            "Kaycee's Mod",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Bullfrog",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Skink",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Adder",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "River Snapper",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Beginning or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Rattler",
-        "category": [
-            "Act I",
-            "Reptile",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Rabbit Pelt",
-        "category": [
-            "Act I",
-            "Pelt",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Wolf Pelt",
-        "category": [
-            "Act I",
-            "Pelt",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Golden Pelt",
-        "category": [
-            "Act I",
-            "Pelt",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Post-Angler or Kaycee's Mod - Post-Angler"
-    },
-    {
-        "name": "Mole Man",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Amalgam",
-        "category": [
-            "Act I",
-            "Avian",
-            "Canine",
-            "Hooved",
-            "Insect",
-            "Reptile",
-            "Kaycee's Mod",
-            "act1act2kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Pack Rat",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "The Daus",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Urayuli",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Amoeba",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare"
-        ],
-        "region": "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Squirrel",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Cat",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Hand Tentacle",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mirror Tentacle",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mole",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Porcupine",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "River Otter",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Skunk",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Stoat",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck"
-    },
-    {
-        "name": "Warren",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Beaver",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Bell Tentacle",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Field Mice",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Rat King",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Great White",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Grizzly",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Opossum",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Bat",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Custom Deathcard",
-        "category": [
-            "Act I",
-            "Deathcard",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Louis",
+        "name": "Woodlands Node 3 (Buff)",
         "category": [
+            "Woodlands Map Area",
             "Act I",
-            "Deathcard",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Kaycee",
+        "name": "Woodlands Node 3 (Buff) 2",
         "category": [
+            "actonesecond",
+            "Woodlands Map Area",
             "Act I",
-            "Deathcard",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Kaminski",
+        "name": "Woodlands Node 4 (Battle)",
         "category": [
+            "Woodlands Map Area",
             "Act I",
-            "Deathcard",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Reginald",
+        "name": "Woodlands Node 4 (Battle) 2",
         "category": [
+            "actonesecond",
+            "Woodlands Map Area",
             "Act I",
-            "Deathcard",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Boulder",
+        "name": "Woodlands Node 5 (Card)",
         "category": [
+            "Woodlands Map Area",
             "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Boulder in a Bottle| or |@noconsumable|"
-    },
-    {
-        "name": "Frozen Opossum",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Frozen Opossum in a Bottle| or |@noconsumable|"
-    },
-    {
-        "name": "Rabbit",
-        "category": [
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act2kaycee"
-        ],
-        "region": "Act II - Post-Bridge or Kaycee's Mod - No Cost Deck"
-    },
-    {
-        "name": "The Smoke",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Greater Smoke",
-        "category": [
-            "Act I",
-            "Tribeless",
             "act1"
         ],
-        "region": "Act I - Pre-Prospector"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Great Kraken",
+        "name": "Woodlands Node 5 (Card) 2",
         "category": [
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "Tribeless",
-            "act2kaycee",
-            "Rare"
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
         ],
-        "region": "Act II - Post-Bridge or Kaycee's Mod - Waterborne Deck"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Hrokkal",
+        "name": "Woodlands Node 6 (Buff)",
         "category": [
-            "Act II",
-            "Beast",
-            "act2",
-            "Rare"
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act I - Beginning"
     },
     {
-        "name": "Squirrel Ball",
+        "name": "Woodlands Node 6 (Buff) 2",
         "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Woodlands Node 7 (Battle)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 7 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 8 (Card)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 8 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 9 (Buff)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 9 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 10 (Battle)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 10 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 11 (Card)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 11 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 12 (Buff)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 12 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 13 (Prospector)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Prospector"
+    },
+    {
+        "name": "Woodlands Node 13 (Prospector) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Prospector"
+    },
+    {
+        "name": "Wetlands Node 1 (Starting)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 1 (Starting) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 2 (Card)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 2 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 3 (Buff)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 3 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 4 (Battle)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 4 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 5 (Card)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 5 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 6 (Buff)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 6 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Wetlands"
+    },
+    {
+        "name": "Wetlands Node 7 (Battle)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 7 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 8 (Card)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 8 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 9 (Buff)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 9 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 10 (Battle)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 10 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 11 (Card)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 11 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 12 (Buff)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 12 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 13 (Angler)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Angler"
+    },
+    {
+        "name": "Wetlands Node 13 (Angler) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Angler"
+    },
+    {
+        "name": "Snow Line Node 1 (Starting)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 1 (Starting) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 2 (Card)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 2 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 3 (Buff)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 3 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 4 (Battle)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 4 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 5 (Card)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 5 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 6 (Buff)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 6 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Early Snow Line"
+    },
+    {
+        "name": "Snow Line Node 7 (Battle)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 7 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 8 (Card)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 8 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 9 (Buff)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 9 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 10 (Battle)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 10 (Battle) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 11 (Card)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 11 (Card) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 12 (Buff)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 12 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 13 (Prospector)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Snow Line Node 13 (Prospector) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Cabin Node 1 (Starting)",
+        "category": [
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Cabin Node 1 (Starting) 2",
+        "category": [
+            "actonesecond",
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Cabin Node 2 (Buff)",
+        "category": [
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Cabin Node 2 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Trapper"
+    },
+    {
+        "name": "Cabin Node 3 (Leshy)",
+        "category": [
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Leshy"
+    },
+    {
+        "name": "Cabin Node 3 (Leshy) 2",
+        "category": [
+            "actonesecond",
+            "Cabin Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Leshy"
+    },
+    {
+        "name": "Pick Up Ring",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Pick Up Ring 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Create Deathcard",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Create Deathcard 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Skink",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Skink 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Ants",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Ants 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Caged Wolf",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Caged Wolf 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Squirrel Head",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Squirrel Head 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Beginning"
+    },
+    {
+        "name": "Get Special Dagger",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Dagger"
+    },
+    {
+        "name": "Get Special Dagger 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Dagger"
+    },
+    {
+        "name": "Get Magic Eye",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Eye"
+    },
+    {
+        "name": "Get Magic Eye 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Eye"
+    },
+    {
+        "name": "Get Film Roll",
+        "category": [
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Eye"
+    },
+    {
+        "name": "Get Film Roll 2",
+        "category": [
+            "actonesecond",
+            "Deathcard Cabin",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Eye"
+    },
+    {
+        "name": "Obtain Clover (Act 2)",
+        "category": [
+            "Act II Misc.",
             "Act II",
-            "Beast",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning",
+        "place_item_category": [
+            "act2cheap"
+        ]
     },
     {
-        "name": "Hawk",
+        "name": "Obtain Clover (Act 2) 2",
         "category": [
+            "acttwosecond",
+            "Act II Misc.",
             "Act II",
-            "Beast",
             "act2"
         ],
-        "region": "Act II - Beast Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning",
+        "place_item_category": [
+            "act2start"
+        ]
     },
     {
-        "name": "Salmon",
+        "name": "Open Salmon Chest",
         "category": [
+            "Act II Misc.",
             "Act II",
-            "Beast",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning",
+        "place_item_category": [
+            "act2start"
+        ]
     },
     {
-        "name": "Spore Mice",
+        "name": "Open Salmon Chest 2",
         "category": [
+            "acttwosecond",
+            "Act II Misc.",
             "Act II",
-            "Beast",
             "act2"
         ],
-        "region": "Act II - Mycologists"
+        "region": "Act II - Beginning",
+        "place_item_category": [
+            "act2start"
+        ]
     },
     {
-        "name": "Bone Heap",
+        "name": "Open Chest by Prospector",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Tomb Robber",
-        "category": [
-            "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Necromancer",
-        "category": [
-            "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Drowned Soul",
-        "category": [
-            "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Dead Hand",
-        "category": [
-            "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Headless Horseman",
-        "category": [
-            "Act II",
-            "Undead",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Skeleton",
-        "category": [
-            "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Draugr",
+        "name": "Open Chest by Prospector 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Gravedigger",
+        "name": "Cabin Deathtouch Puzzle 1st Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Sporedigger",
+        "name": "Cabin Deathtouch Puzzle 1st Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Mycologists"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Banshee",
+        "name": "Cabin Deathtouch Puzzle 2nd Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Skelemagus",
+        "name": "Cabin Deathtouch Puzzle 2nd Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Zombie",
+        "name": "Take Hound Photograph",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Bone Lord's Horn",
+        "name": "Take Hound Photograph 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge",
-        "requires": "|Broken Obol Left| and |Broken Obol Right|"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Broken Obol Left",
+        "name": "Prospector Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "Broken Obol Right",
+        "name": "Prospector Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "Revenant",
+        "name": "Take Fish Bucket Photograph",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "Ghost Ship",
+        "name": "Take Fish Bucket Photograph 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "Sarcophagus",
+        "name": "Take Shark Photograph",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "The Walkers",
+        "name": "Take Shark Photograph 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Prospector"
     },
     {
-        "name": "Frank & Stein",
+        "name": "Angler Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Undead Deck or Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Pharaoh's Pets",
+        "name": "Angler Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Bonehound",
+        "name": "Rabbit Room Chest 1st Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Mummy Lord",
+        "name": "Rabbit Room Chest 1st Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Undead",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Plasma Jimmy",
+        "name": "Rabbit Room Chest 2nd Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Curve Hopper",
-        "category": [
-            "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Energy Conduit",
-        "category": [
-            "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Mox Module",
-        "category": [
-            "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Mrs. Bomb",
-        "category": [
-            "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Shutterbug",
-        "category": [
-            "Act II",
-            "Technology",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "L33pb0t",
-        "category": [
-            "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Null Conduit",
-        "category": [
-            "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Sentry Drone",
+        "name": "Rabbit Room Chest 2nd Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Sentry Spore",
-        "category": [
-            "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Mycologists"
+        "region": "Act II - Angler"
     },
     {
-        "name": "49er",
+        "name": "Take Rabbit Pelt Photograph",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Buff Conduit",
-        "category": [
-            "Act II",
-            "Technology",
-            "Act III",
-            "Resplendent Bastion",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Post-Bridge"
-    },
-    {
-        "name": "Energy Bot",
-        "category": [
-            "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Beginning"
-    },
-    {
-        "name": "Explode Bot",
-        "category": [
-            "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "M3atB0t",
-        "category": [
-            "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Automaton",
+        "name": "Take Rabbit Pelt Photograph 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
+        "region": "Act II - Angler"
     },
     {
-        "name": "Factory Conduit",
+        "name": "Trapper Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Trapper"
     },
     {
-        "name": "Gamblobot",
+        "name": "Trapper Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Trapper"
     },
     {
-        "name": "Insectodrone",
+        "name": "Beat Leshy",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Steel Mice",
-        "category": [
-            "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Thick Droid",
+        "name": "Beat Leshy 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Bolthound",
+        "name": "Leshy 1st Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Double Gunner",
-        "category": [
-            "Act II",
-            "Technology",
-            "Act III",
-            "Misc. Act III Area",
-            "act2act3"
-        ],
-        "region": "Act II - Pre-Bridge or Act III - Beginning"
-    },
-    {
-        "name": "Steambot",
-        "category": [
-            "Act II",
-            "Technology",
             "act2"
         ],
-        "region": "Act II - Technology Deck or Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Bleene's Mox",
+        "name": "Leshy 1st Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Goranj's Mox",
-        "category": [
-            "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Orlu's Mox",
-        "category": [
-            "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Master Bleene",
-        "category": [
-            "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Master Goranj",
-        "category": [
-            "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Master Orlu",
-        "category": [
-            "Act II",
-            "Magickal",
-            "act2",
-            "Rare"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Emerald Mox",
-        "category": [
-            "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Ruby Mox",
+        "name": "Leshy 2nd Card Pack",
         "category": [
+            "Leshy's Cabin",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Sapphire Mox",
+        "name": "Leshy 2nd Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Leshy's Cabin",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Leshy"
     },
     {
-        "name": "Mage Pupil",
+        "name": "Epitaph Piece in front of Grimora",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Gourmage",
+        "name": "Epitaph Piece in front of Grimora 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Green Mage",
+        "name": "Epitaph Piece in front of Kaycee",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Post-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Junior Sage",
+        "name": "Epitaph Piece in front of Kaycee 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Muscle Mage",
+        "name": "Open Coffin above Sawyer",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Stim Mage",
+        "name": "Open Coffin above Sawyer 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Beginning"
     },
     {
-        "name": "Mage Knight",
+        "name": "Kaycee Card Pack",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Orange Mage",
+        "name": "Kaycee Card Pack 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Practice Wizard",
+        "name": "Kaycee Epitaph Piece",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Ruby Golem",
+        "name": "Kaycee Epitaph Piece 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Blue Mage",
+        "name": "Well Epitaph Piece",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Magick Deck or Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Spore Mage",
+        "name": "Well Epitaph Piece 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Mycologists"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Force Mage",
+        "name": "Get Drowned Soul from Well",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Gem Fiend",
+        "name": "Get Drowned Soul from Well 2",
         "category": [
+            "acttwosecond",
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Kaycee"
     },
     {
-        "name": "Hover Mage",
+        "name": "Sawyer Card Pack",
         "category": [
+            "Grimora's Crypt",
             "Act II",
-            "Magickal",
             "act2"
         ],
-        "region": "Act II - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Son1a",
+        "name": "Sawyer Card Pack 2",
         "category": [
-            "Act III",
-            "Foul Backwater",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Qui77",
+        "name": "Sawyer Epitaph Piece",
         "category": [
-            "Act III",
-            "Foul Backwater",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Gr1zz",
+        "name": "Sawyer Epitaph Piece 2",
         "category": [
-            "Act III",
-            "Foul Backwater",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Bomb Latcher",
+        "name": "Epitaph Piece next to Bone Lord",
         "category": [
-            "Act III",
-            "Filthy Corpse World",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Exeskeleton",
+        "name": "Epitaph Piece next to Bone Lord 2",
         "category": [
-            "Act III",
-            "Filthy Corpse World",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Sawyer"
     },
     {
-        "name": "Shield Latcher",
+        "name": "Royal Card Pack",
         "category": [
-            "Act III",
-            "Filthy Corpse World",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Skel-e-latcher",
+        "name": "Royal Card Pack 2",
         "category": [
-            "Act III",
-            "Filthy Corpse World",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Gems Conduit",
+        "name": "Royal Epitaph Piece",
         "category": [
-            "Act III",
-            "Resplendent Bastion",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Kind Cell",
+        "name": "Royal Epitaph Piece 2",
         "category": [
-            "Act III",
-            "Resplendent Bastion",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Tough Cell",
+        "name": "Epitaph Piece from Coffin behind Royal",
         "category": [
-            "Act III",
-            "Resplendent Bastion",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Splinter Cell",
+        "name": "Epitaph Piece from Coffin behind Royal 2",
         "category": [
-            "Act III",
-            "Resplendent Bastion",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Bleene's Vessel",
+        "name": "Card Pack from Coffin behind Royal",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Goranj's Vessel",
+        "name": "Card Pack from Coffin behind Royal 2",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Orlu's Vessel",
+        "name": "Epitaph Piece in Mirror Room",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Gem Detonator",
+        "name": "Epitaph Piece in Mirror Room 2",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Royal"
     },
     {
-        "name": "Gem Guardian",
+        "name": "Defeat Grimora",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Gembound Ripper",
+        "name": "Defeat Grimora 2",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Empty Vessel",
+        "name": "Grimora 1st Card Pack",
         "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Beginning"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Emerald Vessel",
+        "name": "Grimora 1st Card Pack 2",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Ruby Vessel",
+        "name": "Grimora 2nd Card Pack",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Sapphire Vessel",
+        "name": "Grimora 2nd Card Pack 2",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
-            "act3"
+            "acttwosecond",
+            "Grimora's Crypt",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Grimora"
     },
     {
-        "name": "Act 3 Custom Card",
+        "name": "Trash Can Card Pack Left of P03",
         "category": [
-            "Act III",
-            "Resplendent Bastion",
-            "act3"
+            "P03's Factory",
+            "Act II",
+            "act2"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Trash Can Card Pack Left of P03 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Explosion Puzzle 1st Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Explosion Puzzle 1st Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Explosion Puzzle 2nd Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Explosion Puzzle 2nd Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Buff Conduit Puzzle 1st Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Buff Conduit Puzzle 1st Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Buff Conduit Puzzle 2nd Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Factory Buff Conduit Puzzle 2nd Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Inspector Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Inspector"
+    },
+    {
+        "name": "Inspector Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Inspector"
+    },
+    {
+        "name": "Inspection Room Lower Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Inspection Room Lower Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Inspection Room Upper Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Inspection Room Upper Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Card Pack from Inspection Room Left GameCube",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Card Pack from Inspection Room Left GameCube 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Card Pack from Inspection Room Right GameCube",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Card Pack from Inspection Room Right GameCube 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Smelting Room Lower Right Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Smelting Room Lower Right Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Smelting Room Upper Right Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Smelting Room Upper Right Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Smelter Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Smelter Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Smelting Room Lower Left Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Smelting Room Lower Left Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Smelting Room Upper Left Conduit Puzzle",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Smelting Room Upper Left Conduit Puzzle 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Card Pack from Dredging Room Left GameCube",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Card Pack from Dredging Room Left GameCube 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Card Pack from Dredging Room Right GameCube",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Card Pack from Dredging Room Right GameCube 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Smelter"
+    },
+    {
+        "name": "Dredger Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Dredger"
+    },
+    {
+        "name": "Dredger Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Dredger"
+    },
+    {
+        "name": "Defeat P03",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "Defeat P03 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "P03 1st Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "P03 1st Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "P03 2nd Card Pack",
+        "category": [
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "P03 2nd Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "P03's Factory",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - P03"
+    },
+    {
+        "name": "Pick Up Monocle",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Pick Up Monocle 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Tower 1st Floor Chest Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Tower 1st Floor Chest Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Bridge"
+    },
+    {
+        "name": "Goobert Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Goobert"
+    },
+    {
+        "name": "Goobert Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Goobert"
+    },
+    {
+        "name": "Tower 2nd Floor Chest Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Goobert"
+    },
+    {
+        "name": "Tower 2nd Floor Chest Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Goobert"
+    },
+    {
+        "name": "Pike Mage Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Pike Mage"
+    },
+    {
+        "name": "Pike Mage Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Pike Mage"
+    },
+    {
+        "name": "Tower 3rd Floor Rabbit Chest",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Pike Mage"
+    },
+    {
+        "name": "Tower 3rd Floor Rabbit Chest 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Pike Mage"
+    },
+    {
+        "name": "Lonely Wizard Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Lonely Wizard"
+    },
+    {
+        "name": "Lonely Wizard Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Lonely Wizard"
+    },
+    {
+        "name": "Great Kraken Card",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Lonely Wizard"
+    },
+    {
+        "name": "Great Kraken Card 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Lonely Wizard"
+    },
+    {
+        "name": "Defeat Magnificus",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
+    },
+    {
+        "name": "Defeat Magnificus 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
+    },
+    {
+        "name": "Magnificus 1st Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
+    },
+    {
+        "name": "Magnificus 1st Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
+    },
+    {
+        "name": "Magnificus 2nd Card Pack",
+        "category": [
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
+    },
+    {
+        "name": "Magnificus 2nd Card Pack 2",
+        "category": [
+            "acttwosecond",
+            "Magnificus's Tower",
+            "Act II",
+            "act2"
+        ],
+        "region": "Act II - Magnificus"
     },
     {
         "name": "Amoebot",
@@ -2028,16 +2543,6 @@
         "region": "Kaycee's Mod - Pre-Prospector"
     },
     {
-        "name": "Glitched Card",
-        "category": [
-            "Kaycee's Mod",
-            "Tribeless",
-            "Act I",
-            "act1kaycee"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector"
-    },
-    {
         "name": "Hydra",
         "category": [
             "Kaycee's Mod",
@@ -2050,510 +2555,6 @@
         ],
         "region": "Kaycee's Mod - End",
         "requires": "|Curious Egg Deck|"
-    },
-    {
-        "name": "Boulder in a Bottle",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Squirrel in a Bottle",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Special Dagger",
-        "category": [
-            "Consumable",
-            "Act I",
-            "act1",
-            "act1consumable"
-        ],
-        "region": "Act I - Pre-Prospector",
-        "requires": "|Caged Wolf| and (|Squirrel in a Bottle| or |Pliers| or |Fish Hook|)"
-    },
-    {
-        "name": "Scissors",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Pliers",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Beginning or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Hoggy Bank",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Hourglass",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Failure",
-        "category": [
-            "Consumable",
-            "Act I",
-            "act1",
-            "act1consumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Black Goat in a Bottle",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Frozen Opossum in a Bottle",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Fish Hook",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Post-Angler or Kaycee's Mod - Beginning"
-    },
-    {
-        "name": "Harpie's Birdleg Fan",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "Act I",
-            "act1kaycee",
-            "act1consumable",
-            "kayceeconsumable"
-        ],
-        "region": "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-        "requires": "|Squirrel in a Bottle| or |Pliers| or |Fish Hook|"
-    },
-    {
-        "name": "Extra Battery",
-        "category": [
-            "Act III",
-            "Consumable",
-            "act3",
-            "act3consumable"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Mrs. Bomb's Remote",
-        "category": [
-            "Act III",
-            "Consumable",
-            "act3",
-            "act3consumable"
-        ],
-        "region": "Act III - Pre-Bridge"
-    },
-    {
-        "name": "Nano Armor Generator",
-        "category": [
-            "Act III",
-            "Consumable",
-            "act3",
-            "act3consumable"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Wiseclock",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "kaycee",
-            "kayceeconsumable"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Magickal Bleach",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "kaycee",
-            "kayceeconsumable"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Magpie's Lens",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "kaycee",
-            "kayceeconsumable"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Skinning Knife",
-        "category": [
-            "Kaycee's Mod",
-            "Consumable",
-            "kaycee",
-            "kayceeconsumable"
-        ],
-        "region": "Kaycee's Mod - Post-Angler"
-    },
-    {
-        "name": "Beast Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Beast Deck|"
-    },
-    {
-        "name": "Undead Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Undead Deck|"
-    },
-    {
-        "name": "Technology Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Technology Deck|"
-    },
-    {
-        "name": "Magick Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Magick Deck|"
-    },
-    {
-        "name": "Vanilla Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Vanilla Deck|"
-    },
-    {
-        "name": "High Cost Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|High Cost Deck|"
-    },
-    {
-        "name": "Ant Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Ant Deck|"
-    },
-    {
-        "name": "Mantis God Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Mantis God Deck|"
-    },
-    {
-        "name": "Waterborne Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Waterborne Deck|"
-    },
-    {
-        "name": "Bone Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Bone Deck|"
-    },
-    {
-        "name": "No Cost Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|No Cost Deck|"
-    },
-    {
-        "name": "Curious Egg Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "region": "Kaycee's Mod - Post-Angler",
-        "requires": "|Curious Egg Deck|"
-    },
-    {
-        "name": "Prospector - Act I",
-        "category": [
-            "Act I",
-            "act1",
-            "Boss Fights"
-        ],
-        "region": "Act I - Post-Prospector"
-    },
-    {
-        "name": "Angler - Act I",
-        "category": [
-            "Act I",
-            "act1",
-            "Boss Fights"
-        ],
-        "region": "Act I - Post-Angler"
-    },
-    {
-        "name": "Trapper - Act I",
-        "category": [
-            "Act I",
-            "act1",
-            "Boss Fights"
-        ],
-        "region": "Act I - Post-Trapper"
-    },
-    {
-        "name": "Leshy - Act I",
-        "category": [
-            "Act I",
-            "act1",
-            "Boss Fights"
-        ],
-        "region": "Act I - Post-Trapper"
-    },
-    {
-        "name": "Leshy - Act II",
-        "category": [
-            "Act II",
-            "act2",
-            "Boss Fights"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "Grimora - Act II",
-        "category": [
-            "Act II",
-            "act2",
-            "Boss Fights"
-        ],
-        "region": "Act II - Pre-Bridge"
-    },
-    {
-        "name": "P03 - Act II",
-        "category": [
-            "Act II",
-            "act2",
-            "Boss Fights"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "Magnificus - Act II",
-        "category": [
-            "Act II",
-            "act2",
-            "Boss Fights"
-        ],
-        "region": "Act II - Post-Bridge"
-    },
-    {
-        "name": "The Photographer - Act III",
-        "category": [
-            "Act III",
-            "act3",
-            "Boss Fights"
-        ],
-        "region": "Act III - Pre-Bridge"
-    },
-    {
-        "name": "The Archivist - Act III",
-        "category": [
-            "Act III",
-            "act3",
-            "Boss Fights"
-        ],
-        "region": "Act III - Pre-Bridge"
-    },
-    {
-        "name": "The Unfinished Boss - Act III",
-        "category": [
-            "Act III",
-            "act3",
-            "Boss Fights"
-        ],
-        "region": "Act III - Post-Bridge"
-    },
-    {
-        "name": "G0lly - Act III",
-        "category": [
-            "Act III",
-            "act3",
-            "Boss Fights"
-        ],
-        "region": "Act III - Post-Bridge"
-    },
-    {
-        "name": "Mycologists - Act III",
-        "category": [
-            "Act III",
-            "mycobot",
-            "Boss Fights"
-        ],
-        "region": "Act III - Post-Bridge"
-    },
-    {
-        "name": "Boss 1 - Kaycee's Mod",
-        "category": [
-            "Kaycee's Mod",
-            "kaycee",
-            "Boss Fights"
-        ],
-        "region": "Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Boss 2 - Kaycee's Mod",
-        "category": [
-            "Kaycee's Mod",
-            "kaycee",
-            "Boss Fights"
-        ],
-        "region": "Kaycee's Mod - Post-Angler"
-    },
-    {
-        "name": "Boss 3 - Kaycee's Mod",
-        "category": [
-            "Kaycee's Mod",
-            "kaycee",
-            "Boss Fights"
-        ],
-        "region": "Kaycee's Mod - Post-Trapper"
-    },
-    {
-        "name": "Final Boss - Kaycee's Mod",
-        "category": [
-            "Kaycee's Mod",
-            "kaycee",
-            "Boss Fights"
-        ],
-        "region": "Kaycee's Mod - End"
     },
     {
         "name": "End of Act I",
@@ -2586,29 +2587,5 @@
             "Victory"
         ],
         "region": "Kaycee's Mod - End"
-    },
-    {
-        "name": "Sphere 1 Location 1",
-        "category": [
-            "Sphere 1 Location"
-        ]
-    },
-    {
-        "name": "Sphere 1 Location 2",
-        "category": [
-            "Sphere 1 Location"
-        ]
-    },
-    {
-        "name": "Sphere 1 Location 3",
-        "category": [
-            "Sphere 1 Location"
-        ]
-    },
-    {
-        "name": "Sphere 1 Location 4",
-        "category": [
-            "Sphere 1 Location"
-        ]
     }
 ]

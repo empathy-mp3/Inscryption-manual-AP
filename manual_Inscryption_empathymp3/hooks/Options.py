@@ -50,6 +50,31 @@ class StarterDeckRando(Toggle):
     """Should the ability to use starter decks (In Act II and Kaycee's Mod) be randomized?"""
     display_name = "Starter Deck Rando"
 
+class HammerRando(Toggle):
+    """Should the ability to use the hammer (In Act II and III) be randomized?"""
+    display_name = "Consumable Rando"
+
+class CloverRando(Toggle):
+    """Should the ability to use the clover (In Act I and II) be randomized? Kaycee's Mod already has this with Challenge Rando.
+    In Act I, you'll have to go get the clover yourself.
+    """
+    display_name = "Starter Deck Rando"
+
+class StackSizeRando(Range):
+    """This will reduce the maximum amount of one card you can have in your deck in Act II.
+    The amount you set is how many items will be created that nullify this restriction, one at a time.
+    At the maximum of 15, you can only have 5 of one card, and 15 items will exist that increase this.
+    At the minimum of 0, this restriction is removed. This does not affect other acts."""
+    range_end = 15
+    display_name = "Stack Size Rando"
+    
+class DeckSizeRando(Range):
+    """This will increase the minimum amount of cards you must have in your deck in Act II.
+    The amount you set is how many items will be created that nullify this restriction, one at a time.
+    At the maximum of 15, you must have 35 cards in your deck, and 15 items will exist that decrease this.
+    At the minimum of 0, this restriction is removed. This does not affect other acts."""
+    range_end = 15
+    display_name = "Deck Size Rando"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
@@ -59,6 +84,10 @@ def before_options_defined(options: dict) -> dict:
     options["Kaycees_Mod_Enabled"] = KayceesModEnabled
     options["Consumable_Rando_Enabled"] = ConsumableRando
     options["Starter_Deck_Rando_Enabled"] = StarterDeckRando
+    options["Hammer_Rando_Enabled"] = HammerRando
+    options["Clover_Rando_Enabled"] = CloverRando
+    options["Stack_Size_Rando"] = StackSizeRando
+    options["Deck_Size_Rando"] = DeckSizeRando
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

@@ -1,5 +1,10 @@
 [
     {
+        "name": "Ring the Bell at the Soonest Possible Moment",
+        "trap": true,
+        "count": 0
+    },
+    {
         "name": "Kingfisher",
         "category": [
             "Act I",
@@ -600,7 +605,8 @@
             "Act III",
             "Misc. Act III Area",
             "Kaycee's Mod",
-            "Rare"
+            "Rare",
+            "Ouroboros Strat"
         ],
         "value": {
             "act_1_offense": 1,
@@ -667,7 +673,8 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act2start"
         ],
         "value": {
             "act_1_offense": 2,
@@ -890,7 +897,8 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "Side Deck"
+            "Side Deck",
+            "act2cheap"
         ],
         "value": {
             "act_1_offense": 0,
@@ -1049,7 +1057,8 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act2start"
         ],
         "value": {
             "act_1_offense": 1,
@@ -1072,7 +1081,8 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act2start"
         ],
         "value": {
             "act_1_offense": 0,
@@ -1242,72 +1252,16 @@
         "progression": true
     },
     {
-        "name": "Custom Deathcard",
+        "name": "Deathcard",
         "category": [
             "Act I",
-            "Deathcard",
+            "Tribeless",
             "act1"
         ],
         "value": {
             "act_1_offense": 2,
             "act_1_defense": 2,
             "act_1_utility": 2
-        },
-        "progression": true
-    },
-    {
-        "name": "Louis",
-        "category": [
-            "Act I",
-            "Deathcard",
-            "act1"
-        ],
-        "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 1
-        },
-        "progression": true
-    },
-    {
-        "name": "Kaycee",
-        "category": [
-            "Act I",
-            "Deathcard",
-            "act1"
-        ],
-        "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 2,
-            "act_1_utility": 0
-        },
-        "progression": true
-    },
-    {
-        "name": "Kaminski",
-        "category": [
-            "Act I",
-            "Deathcard",
-            "act1"
-        ],
-        "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 0
-        },
-        "progression": true
-    },
-    {
-        "name": "Reginald",
-        "category": [
-            "Act I",
-            "Deathcard",
-            "act1"
-        ],
-        "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0
         },
         "progression": true
     },
@@ -1452,7 +1406,8 @@
         "category": [
             "Act II",
             "Beast",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 3,
@@ -1584,7 +1539,8 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2cheap"
         ],
         "value": {
             "act_2_offense": 1,
@@ -1598,7 +1554,8 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 0,
@@ -1612,7 +1569,8 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 0,
@@ -1668,7 +1626,8 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -1780,7 +1739,8 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -1930,7 +1890,8 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2cheap"
         ],
         "value": {
             "act_2_offense": 0,
@@ -1996,7 +1957,8 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -2084,7 +2046,8 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -2159,7 +2122,8 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -2211,7 +2175,8 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense": 1,
@@ -2315,7 +2280,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2cheap"
         ],
         "value": {
             "act_2_offense": 0,
@@ -2329,7 +2295,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2cheap"
         ],
         "value": {
             "act_2_offense": 0,
@@ -2343,7 +2310,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2cheap"
         ],
         "value": {
             "act_2_offense": 0,
@@ -2357,7 +2325,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense_e": 2,
@@ -2405,7 +2374,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense_e": 1,
@@ -2447,7 +2417,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense_r": 1,
@@ -2503,7 +2474,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2start"
         ],
         "value": {
             "act_2_offense_s": 0,
@@ -3632,5 +3604,42 @@
             "kayceestarter"
         ],
         "progression": true
+    },
+    {
+        "name": "Hammer",
+        "category": [
+            "Act II",
+            "Misc. Restrictions",
+            "hammer",
+            "Ouroboros Strat"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Clover",
+        "category": [
+            "Act II",
+            "Misc. Restrictions",
+            "clover"
+        ],
+        "useful": true
+    },
+    {
+        "name": "+1 Max Card Stack Size",
+        "category": [
+            "Act II",
+            "Misc. Restrictions"
+        ],
+        "progression": true,
+        "count": 15
+    },
+    {
+        "name": "-1 Min Deck Size",
+        "category": [
+            "Act II",
+            "Misc. Restrictions"
+        ],
+        "progression": true,
+        "count": 15
     }
 ]

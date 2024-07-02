@@ -53,7 +53,28 @@
     "act3consumable": {
         "hidden": true
     },
+    "hammer": {
+        "hidden": true,
+        "yaml_option": [
+            "Hammer_Rando_Enabled"
+        ]
+    },
+    "clover": {
+        "hidden": true,
+        "yaml_option": [
+            "Clover_Rando_Enabled"
+        ]
+    },
     "kayceeconsumable": {
+        "hidden": true
+    },
+    "actonesecond": {
+        "hidden": true
+    },
+    "acttwosecond": {
+        "hidden": true
+    },
+    "act2starter": {
         "hidden": true
     }
 }

@@ -9,18 +9,8 @@
     },
     "Act I - Beginning": {
         "connects_to": [
-            "Act I - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck"
+            "Act I - Late Woodlands",
+            "Act I - Dagger"
         ],
         "requires": []
     },
@@ -30,50 +20,64 @@
         ],
         "requires": []
     },
-    "Act I - Pre-Prospector": {
+    "Act I - Dagger": {
         "connects_to": [
-            "Act I - Post-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - No Cost Deck or Kaycee's Mod - Post-Prospector",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector"
+            "Act I - Eye"
         ],
         "requires": []
     },
-    "Act I - Post-Prospector": {
+    "Act I - Eye": {
+        "requires": []
+    },
+    "Act I - Late Woodlands": {
         "connects_to": [
-            "Act I - Post-Angler",
-            "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector"
+            "Act I - Prospector"
         ],
         "requires": []
     },
-    "Act I - Post-Angler": {
+    "Act I - Prospector": {
         "connects_to": [
-            "Act I - Post-Trapper",
-            "Act I - Role Reversal",
-            "Act I - Post-Angler or Kaycee's Mod - Post-Angler",
-            "Act I - Post-Angler or Kaycee's Mod - Beginning"
+            "Act I - Early Wetlands"
         ],
         "requires": []
     },
-    "Act I - Role Reversal": {
+    "Act I - Early Wetlands": {
+        "connects_to": [
+            "Act I - Late Wetlands"
+        ],
         "requires": []
     },
-    "Act I - Post-Trapper": {
+    "Act I - Late Wetlands": {
+        "connects_to": [
+            "Act I - Angler"
+        ],
+        "requires": []
+    },
+    "Act I - Angler": {
+        "connects_to": [
+            "Act I - Early Snow Line"
+        ],
+        "requires": []
+    },
+    "Act I - Early Snow Line": {
+        "connects_to": [
+            "Act I - Late Snow Line"
+        ],
+        "requires": []
+    },
+    "Act I - Late Snow Line": {
+        "connects_to": [
+            "Act I - Trapper"
+        ],
+        "requires": []
+    },
+    "Act I - Trapper": {
+        "connects_to": [
+            "Act I - Leshy"
+        ],
+        "requires": []
+    },
+    "Act I - Leshy": {
         "connects_to": [
             "Act I - End"
         ],
@@ -94,44 +98,11 @@
     },
     "Act II - Beginning": {
         "connects_to": [
-            "Act II - Pre-Bridge",
-            "Act II - Beginning or Act III - Initial Gauntlet",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act II - Pre-Bridge or Act III - Initial Gauntlet",
-            "Act II - Pre-Bridge or Act III - Beginning",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act II - Beast Deck",
-            "Act II - Undead Deck",
-            "Act II - Technology Deck",
-            "Act II - Magick Deck"
+            "Act II - Prospector",
+            "Act II - Sawyer",
+            "Act II - Kaycee"
         ],
         "requires": []
-    },
-    "Act II - Beast Deck": {
-        "connects_to": [
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck",
-            "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act II - Beast Deck or Act II - Pre-Bridge"
-        ]
-    },
-    "Act II - Undead Deck": {
-        "connects_to": [
-            "Act II - Undead Deck or Act II - Pre-Bridge"
-        ]
-    },
-    "Act II - Technology Deck": {
-        "connects_to": [
-            "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
-        ]
-    },
-    "Act II - Magick Deck": {
-        "connects_to": [
-            "Act II - Magick Deck or Act II - Pre-Bridge"
-        ]
     },
     "Act II - Skip": {
         "connects_to": [
@@ -139,40 +110,104 @@
         ],
         "requires": []
     },
-    "Act II - Pre-Bridge": {
+    "Act II - Prospector": {
         "connects_to": [
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act II - Post-Bridge",
-            "Act II - Pre-Bridge or Act III - Beginning",
-            "Act II - Pre-Bridge or Act III - Initial Gauntlet",
-            "Act II - Pre-Bridge or Act III - Post-Bridge",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck",
-            "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act II - Beast Deck or Act II - Pre-Bridge",
-            "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet",
-            "Act II - Magick Deck or Act II - Pre-Bridge",
-            "Act II - Undead Deck or Act II - Pre-Bridge"
+            "Act II - Angler"
         ],
         "requires": []
     },
-    "Act II - Post-Bridge": {
+    "Act II - Angler": {
         "connects_to": [
-            "Act II - Mycologists",
-            "Act II - Post-Bridge or Kaycee's Mod - Beginning",
-            "Act II - Post-Bridge or Kaycee's Mod - No Cost Deck",
-            "Act II - Post-Bridge or Kaycee's Mod - Waterborne Deck"
+            "Act II - Trapper"
+        ],
+        "requires": []
+    },
+    "Act II - Trapper": {
+        "connects_to": [
+            "Act II - Leshy"
+        ],
+        "requires": []
+    },
+    "Act II - Leshy": {
+        "connects_to": [
+            "Act II - Bridge"
+        ],
+        "requires": []
+    },
+    "Act II - Sawyer": {
+        "connects_to": [
+            "Act II - Royal"
+        ],
+        "requires": []
+    },
+    "Act II - Kaycee": {
+        "connects_to": [
+            "Act II - Royal"
+        ],
+        "requires": []
+    },
+    "Act II - Royal": {
+        "connects_to": [
+            "Act II - Grimora"
+        ],
+        "requires": []
+    },
+    "Act II - Grimora": {
+        "connects_to": [
+            "Act II - Bridge"
+        ],
+        "requires": []
+    },
+    "Act II - Bridge": {
+        "connects_to": [
+            "Act II - Inspector",
+            "Act II - Smelter",
+            "Act II - Goobert"
+        ],
+        "requires": []
+    },
+    "Act II - Inspector": {
+        "requires": []
+    },
+    "Act II - Smelter": {
+        "connects_to": [
+            "Act II - Dredger"
+        ],
+        "requires": []
+    },
+    "Act II - Dredger": {
+        "connects_to": [
+            "Act II - P03"
+        ],
+        "requires": []
+    },
+    "Act II - P03": {
+        "connects_to": [
+            "Act II - Mycologists"
+        ],
+        "requires": []
+    },
+    "Act II - Goobert": {
+        "connects_to": [
+            "Act II - Pike Mage"
+        ],
+        "requires": []
+    },
+    "Act II - Pike Mage": {
+        "connects_to": [
+            "Act II - Lonely Wizard"
+        ],
+        "requires": []
+    },
+    "Act II - Lonely Wizard": {
+        "connects_to": [
+            "Act II - Magnificus"
+        ],
+        "requires": []
+    },
+    "Act II - Magnificus": {
+        "connects_to": [
+            "Act II - Mycologists"
         ],
         "requires": []
     },

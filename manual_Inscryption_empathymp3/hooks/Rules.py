@@ -1,6 +1,6 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
@@ -16,11 +16,18 @@ def overfishedAnywhere(world: World, multiworld: MultiWorld, state: CollectionSt
 
 # You can also pass an argument to your function, like {function_name(15)}
 # Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
-def anyClassLevel(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
-    """Has the player reached the given level in any class?"""
-    for item in ["Figher Level", "Black Belt Level", "Thief Level", "Red Mage Level", "White Mage Level", "Black Mage Level"]:
-        if state.count(item, player) >= int(level):
-            return True
+def enoughDeckSize(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
+    """does the player have a small enough deck?"""
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
+    if deck - state.count("-1 Min Deck Size", player) <= 15 - int(level):
+        return True
+    return False
+
+def enoughStackSize(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
+    """can the player use enough of one card?"""
+    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
+    if stack - state.count("+1 Max Card Stack Size", player) <= 15 - int(level):
+        return True
     return False
 
 # You can also return a string from your function, and it will be evaluated as a requires string.

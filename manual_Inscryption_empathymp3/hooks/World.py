@@ -82,12 +82,63 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
+    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
+    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
+    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
+    starter = is_option_enabled(multiworld, player, "Starter_Deck_Enabled")
+    hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
+    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
+
+    if act1:
+        start_item_list = ["Squirrel"]
+        for item_name in start_item_list:
+            item = next(i for i in item_pool if i.name == item_name)
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+
+    if act2 and starter:
+        multiworld.random.shuffle(item_pool) # shuffles the pool to give random items
+        for count in range(1): # give 1 starting items
+            item = next(i for i in item_pool if "act2starter" in world.item_name_to_item[i.name].get("category", []))
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+
+    if act3:
+        start_item_list = ["Empty Vessel"]
+        for item_name in start_item_list:
+            item = next(i for i in item_pool if i.name == item_name)
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+
+    if kaycee and starter:
+        multiworld.random.shuffle(item_pool) # shuffles the pool to give random items
+        for count in range(1): # give 1 starting items
+            item = next(i for i in item_pool if "kayceestarter" in world.item_name_to_item[i.name].get("category", []))
+            multiworld.push_precollected(item)
+            item_pool.remove(item)
+    
+
     return item_pool
 
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
+
+    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
+    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
+
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
+
+
+    if act2:
+        for i in range(15-stack):
+            itemNamesToRemove.append("+1 Max Card Stack Size")
+        for i in range(15-deck):
+            itemNamesToRemove.append("-1 Min Deck Size")
 
     # Add your code here to calculate which items to remove.
     #
@@ -118,12 +169,15 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    act1 = get_option_value(multiworld, player, "Act_1_Enabled") or False
-    act2 = get_option_value(multiworld, player, "Act_2_Enabled") or False
-    act3 = get_option_value(multiworld, player, "Act_3_Enabled") or False
-    kaycee = get_option_value(multiworld, player, "Kaycees_Mod_Enabled") or False
-    consumable = get_option_value(multiworld, player, "Consumable_Rando_Enabled") or False
-    starter = get_option_value(multiworld, player, "Starter_Deck_Enabled") or False
+    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
+    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
+    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
+    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
+    starter = is_option_enabled(multiworld, player, "Starter_Deck_Enabled")
+    hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
+    stack = is_option_enabled(multiworld, player, "Stack_Size_Rando")
+    deck = is_option_enabled(multiworld, player, "Deck_Size_Rando")
 
     def addReq(loc, req):
         if loc["requires"] == []:
@@ -132,28 +186,40 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             loc["requires"] = "(" + loc["requires"] + ") and (" + req + ")"
 
     if act1:
-        addReq(region_table["Act I - Pre-Prospector"], "{ItemValue(act_1_offense:1)} and |Squirrel|")
-        addReq(region_table["Act I - Post-Prospector"], "{ItemValue(act_1_offense:3)}")
-        addReq(region_table["Act I - Post-Angler"], "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
-        addReq(region_table["Act I - Post-Angler"], "|Fish Hook|")
-        addReq(region_table["Act I - Post-Trapper"], "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
-        addReq(region_table["Act I - End"], "|Caged Wolf| and ({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
+        addReq(region_table["Act I - Late Woodlands"], "{ItemValue(act_1_offense:1)} and |Squirrel|")
+        addReq(region_table["Act I - Dagger"], "|Caged Wolf|")
+        addReq(region_table["Act I - Prospector"], "{ItemValue(act_1_offense:3)}")
+        addReq(region_table["Act I - Late Wetlands"], "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
+        addReq(region_table["Act I - Angler"], "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
+        addReq(region_table["Act I - Late Snow Line"], "({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
+        addReq(region_table["Act I - Trapper"], "({ItemValue(act_1_offense:8)} or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
+        addReq(region_table["Act I - Leshy"], "({ItemValue(act_1_offense:9)} or ({ItemValue(act_1_offense:7)} and {ItemValue(act_1_defense:5)}) or ({ItemValue(act_1_offense:7)} and {ItemValue(act_1_utility:4)}) or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_defense:4)} and {ItemValue(act_1_utility:3)}))")
+        addReq(region_table["Act I - End"], "|Caged Wolf|")
 
     if act1 and consumable:
+        addReq(region_table["Act I - Eye"], "|Special Dagger|")
         addReq(region_table["Act I - Post-Angler"], "|@act1consumable:3|")
         addReq(region_table["Act I - Post-Trapper"], "|@act1consumable:5|")
         addReq(region_table["Act I - End"], "|Special Dagger|")
 
     if act2:
-        addReq(region_table["Act II - Pre-Bridge"], "({ItemValue(act_2_offense:4)} or ({ItemValue(act_2_offense_r:2)} and |Ruby Mox|) or ({ItemValue(act_2_offense_s:2)} and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and |Emerald Mox|))")
-        addReq(region_table["Act II - Post-Bridge"], "({ItemValue(act_2_offense:6)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:2)} or {ItemValue(act_2_defense:2)} or {ItemValue(act_2_utility:2)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
-        addReq(region_table["Act II - Mycologists"], "({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Royal"], "({ItemValue(act_2_offense:5)} or ({ItemValue(act_2_offense:3)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:2)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:2)} or {ItemValue(act_2_defense:2)} or {ItemValue(act_2_utility:2)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Angler"], "({ItemValue(act_2_offense:5)} or ({ItemValue(act_2_offense:3)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:2)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:2)} or {ItemValue(act_2_defense:2)} or {ItemValue(act_2_utility:2)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Trapper"], "({ItemValue(act_2_offense:6)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:2)} or {ItemValue(act_2_defense:2)} or {ItemValue(act_2_utility:2)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Leshy"], "(({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|))")
+        addReq(region_table["Act II - Grimora"], "(({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|))")
+        addReq(region_table["Act II - P03"], "(({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:4)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:5)} or {ItemValue(act_2_defense:6)} or {ItemValue(act_2_utility:6)}) and (({ItemValue(act_2_offense_r:3)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|))")
+        addReq(region_table["Act II - Magnificus"], "(({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:4)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:5)} or {ItemValue(act_2_defense:6)} or {ItemValue(act_2_utility:6)}) and (({ItemValue(act_2_offense_r:3)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|))")
 
     if act2 and starter:
-        addReq(region_table["Act II - Beast Deck"], "|Beast Deck|")
-        addReq(region_table["Act II - Undead Deck"], "|Undead Deck|")
-        addReq(region_table["Act II - Technology Deck"], "|Technology Deck|")
-        addReq(region_table["Act II - Magick Deck"], "|Magick Deck|")
+        addReq(region_table["Act II - Prospector"], "(|Magick Deck| and ((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or (|Undead Deck| and |Skeleton| and (|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:4)}) or (|Beast Deck| and |Squirrel| and (|Stoat| or (|Adder| and |Warren| and |Rabbit| and |Salmon|) or |Hawk|) and {ItemValue(act_2_offense:4)}) or (|Technology Deck| and (|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:4)})")
+        addReq(region_table["Act II - Kaycee"], "(|Magick Deck| and ((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or (|Undead Deck| and |Skeleton| and (|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:4)}) or (|Beast Deck| and |Squirrel| and (|Stoat| or (|Adder| and |Warren| and |Rabbit| and |Salmon|) or |Hawk|) and {ItemValue(act_2_offense:4)}) or (|Technology Deck| and (|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:4)})")
+        addReq(region_table["Act II - Sawyer"], "(|Magick Deck| and ((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or (|Undead Deck| and |Skeleton| and (|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:5)}) or (|Beast Deck| and |Squirrel| and ((|Hawk| or |Stoat|) and |Warren| and |Rabbit| and (|Adder| or |Salmon|)) and {ItemValue(act_2_offense:5)}) or (|Technology Deck| and (|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:5)})")
+        
+    elif act2 and not starter:
+        addReq(region_table["Act II - Prospector"], "(((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or (|Skeleton| and (|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:4)}) or (|Squirrel| and (|Stoat| or (|Adder| and |Warren| and |Rabbit| and |Salmon|) or |Hawk|) and {ItemValue(act_2_offense:4)}) or ((|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:4)})")
+        addReq(region_table["Act II - Kaycee"], "(((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or (|Skeleton| and (|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:4)}) or (|Squirrel| and (|Stoat| or (|Adder| and |Warren| and |Rabbit| and |Salmon|) or |Hawk|) and {ItemValue(act_2_offense:4)}) or ((|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:4)})")
+        addReq(region_table["Act II - Sawyer"], "(((|Emerald Mox| and (|Junior Sage| or |Mage Pupil|)) or (|Sapphire Mox| and |Mage Pupil|) or (|Ruby Mox| and (|Mage Knight| or |Mage Pupil|)))) or ((|Gravedigger| or |Draugr| or |Frank & Stein| or |Zombie|) and {ItemValue(act_2_offense:4)}) or ((((|Hawk| or |Stoat|) and |Warren| and |Rabbit| and (|Adder| or |Salmon|))) and {ItemValue(act_2_offense:4)}) or ((|49er| or |Automaton| or (|L33pb0t| and (|Thick Droid| or |Steambot|))) and {ItemValue(act_2_offense:4)})")
 
     if act3:
         addReq(region_table["Act III - Initial Gauntlet"], "|Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)")
@@ -187,6 +253,37 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Kaycee's Mod - Bone Deck"], "|Bone Deck|")
         addReq(region_table["Kaycee's Mod - No Cost Deck"], "|No Cost Deck|")
         addReq(region_table["Kaycee's Mod - Curious Egg Deck"], "|Curious Egg Deck|")
+
+    if act2 and deck >= 1 and stack == 0:
+        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Sawyer"], "{enoughDeckSize(4)} or (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:4)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:4)} or {ItemValue(act_2_defense:5)} or {ItemValue(act_2_utility:5)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Royal"], "{enoughDeckSize(5)} or (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:5)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:5)}) or (({ItemValue(act_2_offense:4)} or {ItemValue(act_2_defense:6)} or {ItemValue(act_2_utility:6)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Angler"], "{enoughDeckSize(5)}")
+        addReq(region_table["Act II - Trapper"], "{enoughDeckSize(6)}")
+        addReq(region_table["Act II - Leshy"], "{enoughDeckSize(7)}")
+        addReq(region_table["Act II - Grimora"], "{enoughDeckSize(7)}")
+        addReq(region_table["Act II - P03"], "{enoughDeckSize(8)}")
+        addReq(region_table["Act II - Magnificus"], "{enoughDeckSize(8)}")
+
+    elif act2 and stack >= 1 and deck == 0:
+        addReq(region_table["Act II - Royal"], "{enoughStackSize(1)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Angler"], "{enoughStackSize(1)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Trapper"], "{enoughStackSize(2)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Leshy"], "{enoughStackSize(3)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)})")
+        addReq(region_table["Act II - Grimora"], "{enoughStackSize(3)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)})")
+        addReq(region_table["Act II - P03"], "{enoughStackSize(4)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)})")
+        addReq(region_table["Act II - Magnificus"], "{enoughStackSize(4)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)})")
+
+    elif act2 and stack >= 1 and deck >= 1:
+        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Sawyer"], "{enoughDeckSize(4)} or (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:4)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:4)}) or (({ItemValue(act_2_offense:4)} or {ItemValue(act_2_defense:5)} or {ItemValue(act_2_utility:5)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Royal"], "{enoughDeckSize(5)} or (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:6)} and {ItemValue(act_2_defense:5)}) or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:5)}) or (({ItemValue(act_2_offense:4)} or {ItemValue(act_2_defense:6)} or {ItemValue(act_2_utility:6)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Angler"], "({enoughDeckSize(6)} and {enoughStackSize(1)}) or (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))")
+        addReq(region_table["Act II - Trapper"], "({enoughDeckSize(7)} and {enoughStackSize(2)}) or (({enoughDeckSize(1)} and {enoughStackSize(1)}) and (({ItemValue(act_2_offense:8)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|)))))")
+        addReq(region_table["Act II - Leshy"], "({enoughDeckSize(8)} and {enoughStackSize(3)}) or (({enoughDeckSize(3)} and {enoughStackSize(2)}) and (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)}) and {enoughDeckSize(3)}")
+        addReq(region_table["Act II - Grimora"], "({enoughDeckSize(8)} and {enoughStackSize(3)}) or (({enoughDeckSize(3)} and {enoughStackSize(2)}) and (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)} and {enoughDeckSize(3)})")
+        addReq(region_table["Act II - P03"], "({enoughDeckSize(8)} and {enoughStackSize(3)}) or (({enoughDeckSize(3)} and {enoughStackSize(2)}) and (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)} and {enoughDeckSize(3)})")
+        addReq(region_table["Act II - Magnificus"], "({enoughDeckSize(8)} and {enoughStackSize(3)}) or (({enoughDeckSize(3)} and {enoughStackSize(2)}) and (({ItemValue(act_2_offense:9)} or ({ItemValue(act_2_offense:5)} and {ItemValue(act_2_defense:3)}) or ({ItemValue(act_2_offense:4)} and {ItemValue(act_2_defense:3)}) or (({ItemValue(act_2_offense:3)} or {ItemValue(act_2_defense:4)} or {ItemValue(act_2_utility:4)}) and (({ItemValue(act_2_offense_r:2)} and ({ItemValue(act_2_defense_r:1)} or {ItemValue(act_2_utility_r:1)}) and |Ruby Mox|) or ({ItemValue(act_2_offense_s:1)} and ({ItemValue(act_2_defense_s:1)} or {ItemValue(act_2_utility_s:2)}) and |Sapphire Mox|) or ({ItemValue(act_2_offense_e:2)} and {ItemValue(act_2_defense_e:1)} and |Emerald Mox|))))) or (|@Ouroboros Strat:ALL| and (|Skeleton| or |Squirrel|) and {enoughStackSize(2)} and {enoughDeckSize(3)})")
 
     if act1 and not act2 and not act3 and not kaycee: #1
         addReq(region_table["Act I - Skip"], "|@Act I:ALL|")
