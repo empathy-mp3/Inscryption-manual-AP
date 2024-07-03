@@ -90,9 +90,9 @@
             "act_1_offense": 1,
             "act_1_defense": 1,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -145,9 +145,9 @@
             "act_1_offense": 2,
             "act_1_defense": 0,
             "act_1_utility": 0,
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 2,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -168,9 +168,9 @@
             "act_1_offense": 1,
             "act_1_defense": 2,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 2,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -315,9 +315,9 @@
             "act_1_offense": 1,
             "act_1_defense": 1,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -338,9 +338,9 @@
             "act_1_offense": 1,
             "act_1_defense": 1,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -398,9 +398,9 @@
             "act_1_offense": 3,
             "act_1_defense": 0,
             "act_1_utility": 0,
-            "act_2_offense": 3,
-            "act_2_defense": 0,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 3,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 3,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -612,9 +612,9 @@
             "act_1_offense": 1,
             "act_1_defense": 1,
             "act_1_utility": 5,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 6,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 6,
             "act_3_offense": 8,
             "act_3_defense": 3,
             "act_3_utility": 7,
@@ -638,9 +638,9 @@
             "act_1_offense": 1,
             "act_1_defense": 2,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 2,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -680,9 +680,9 @@
             "act_1_offense": 2,
             "act_1_defense": 0,
             "act_1_utility": 1,
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 1,
+            "act_2_offense_blood": 2,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -770,9 +770,9 @@
             "act_1_offense": 0,
             "act_1_defense": 3,
             "act_1_utility": 0,
-            "act_2_offense": 0,
-            "act_2_defense": 3,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 3,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -798,9 +798,9 @@
             "act_1_offense": 2,
             "act_1_defense": 1,
             "act_1_utility": 0,
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -860,9 +860,9 @@
             "act_1_offense": 1,
             "act_1_defense": 2,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 2,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -904,9 +904,6 @@
             "act_1_offense": 0,
             "act_1_defense": 0,
             "act_1_utility": 0,
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 3,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -927,9 +924,9 @@
             "act_1_offense": 0,
             "act_1_defense": 0,
             "act_1_utility": 2,
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -986,9 +983,9 @@
             "act_1_offense": 0,
             "act_1_defense": 2,
             "act_1_utility": 0,
-            "act_2_offense": 0,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 2,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -1064,9 +1061,9 @@
             "act_1_offense": 1,
             "act_1_defense": 2,
             "act_1_utility": 0,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -1088,9 +1085,9 @@
             "act_1_offense": 0,
             "act_1_defense": 1,
             "act_1_utility": 1,
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -1147,9 +1144,9 @@
             "act_1_offense": 1,
             "act_1_defense": 1,
             "act_1_utility": 2,
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 2,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -1206,9 +1203,9 @@
             "act_1_offense": 2,
             "act_1_defense": 3,
             "act_1_utility": 0,
-            "act_2_offense": 2,
-            "act_2_defense": 3,
-            "act_2_utility": 0,
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 2,
+            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -1315,9 +1312,9 @@
             "act_1_offense": 0,
             "act_1_defense": 1,
             "act_1_utility": 1,
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 1,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -1363,9 +1360,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 1,
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -1381,9 +1378,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 2
         },
         "progression": true
     },
@@ -1395,9 +1392,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 1,
+            "act_2_utility_blood": 1
         },
         "progression": true
     },
@@ -1410,9 +1407,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 3,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_blood": 3,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 0
         },
         "progression": true
     },
@@ -1424,9 +1421,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_blood": 1,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 1
         },
         "progression": true
     },
@@ -1438,9 +1435,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_blood": 0,
+            "act_2_defense_blood": 0,
+            "act_2_utility_blood": 2
         },
         "progression": true
     },
@@ -1453,9 +1450,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 2
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1468,9 +1465,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1483,9 +1480,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 2
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1498,9 +1495,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1513,9 +1510,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1528,9 +1525,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 3
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 3
         },
         "progression": true
     },
@@ -1542,11 +1539,6 @@
             "act2",
             "act2cheap"
         ],
-        "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 2
-        },
         "progression": true
     },
     {
@@ -1558,9 +1550,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1573,9 +1565,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 2,
-            "act_2_utility": 2
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 2,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1587,9 +1579,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1601,9 +1593,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1615,9 +1607,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 3
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 3
         },
         "progression": true
     },
@@ -1630,9 +1622,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1644,9 +1636,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 2
         },
         "progression": true
     },
@@ -1658,9 +1650,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1672,9 +1664,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1686,9 +1678,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_bones": 2,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1700,9 +1692,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1714,9 +1706,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 2,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1728,9 +1720,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 1,
+            "act_2_utility_bones": 1
         },
         "progression": true
     },
@@ -1743,9 +1735,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1757,9 +1749,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 3
+            "act_2_offense_bones": 0,
+            "act_2_defense_bones": 0,
+            "act_2_utility_bones": 3
         },
         "progression": true
     },
@@ -1771,9 +1763,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 2,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1787,9 +1779,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0
+            "act_2_offense_bones": 1,
+            "act_2_defense_bones": 2,
+            "act_2_utility_bones": 0
         },
         "progression": true
     },
@@ -1802,9 +1794,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 2,
-            "act_2_utility": 2
+            "act_2_offense_high_energy": 0,
+            "act_2_defense_high_energy": 2,
+            "act_2_utility_high_energy": 2
         },
         "progression": true
     },
@@ -1817,9 +1809,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 2,
-            "act_2_utility": 0
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 2,
+            "act_2_utility_high_energy": 0
         },
         "progression": true
     },
@@ -1832,9 +1824,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_high_energy": 0,
+            "act_2_defense_high_energy": 0,
+            "act_2_utility_high_energy": 2
         },
         "progression": true
     },
@@ -1847,9 +1839,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
+            "act_2_offense_high_energy": 0,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 2
         },
         "progression": true
     },
@@ -1862,9 +1854,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 2
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 0,
+            "act_2_utility_high_energy": 2
         },
         "progression": true
     },
@@ -1877,9 +1869,9 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 1
         },
         "progression": true
     },
@@ -1894,9 +1886,9 @@
             "act2cheap"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 2,
+            "act_2_utility_energy": 0,
             "act_3_offense": 0,
             "act_3_defense": 2,
             "act_3_utility": 0
@@ -1911,9 +1903,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 1
         },
         "progression": true
     },
@@ -1927,9 +1919,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 2,
-            "act_2_utility": 0,
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 2,
+            "act_2_utility_energy": 0,
             "act_3_offense": 0,
             "act_3_defense": 3,
             "act_3_utility": 0
@@ -1944,9 +1936,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 0
+            "act_2_offense_high_energy": 0,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 0
         },
         "progression": true
     },
@@ -1961,9 +1953,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 0,
+            "act_2_offense_energy": 1,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 0,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -1980,9 +1972,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1,
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 1,
+            "act_2_utility_energy": 1,
             "act_3_offense_bridge": 0,
             "act_3_defense_bridge": 0,
             "act_3_utility_bridge": 2
@@ -1999,9 +1991,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1,
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 1,
+            "act_2_utility_energy": 1,
             "act_3_offense": 0,
             "act_3_defense": 1,
             "act_3_utility": 1
@@ -2018,9 +2010,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 1,
+            "act_2_offense_energy": 1,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 1,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 1
@@ -2035,9 +2027,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_energy": 0,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 1
         },
         "progression": true
     },
@@ -2050,9 +2042,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_energy": 1,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 0
         },
         "progression": true
     },
@@ -2064,9 +2056,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 1
+            "act_2_offense_high_energy": 0,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 1
         },
         "progression": true
     },
@@ -2078,9 +2070,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_energy": 2,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 0
         },
         "progression": true
     },
@@ -2094,9 +2086,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 1,
+            "act_2_offense_energy": 1,
+            "act_2_defense_energy": 0,
+            "act_2_utility_energy": 1,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -2111,9 +2103,9 @@
             "act2"
         ],
         "value": {
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 1
+            "act_2_offense_high_energy": 2,
+            "act_2_defense_high_energy": 0,
+            "act_2_utility_high_energy": 1
         },
         "progression": true
     },
@@ -2126,9 +2118,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 0
         },
         "progression": true
     },
@@ -2142,9 +2134,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 1,
-            "act_2_utility": 0,
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 1,
+            "act_2_utility_high_energy": 0,
             "act_3_offense": 1,
             "act_3_defense": 1,
             "act_3_utility": 0
@@ -2161,9 +2153,9 @@
             "act2act3"
         ],
         "value": {
-            "act_2_offense": 2,
-            "act_2_defense": 0,
-            "act_2_utility": 0,
+            "act_2_offense_high_energy": 2,
+            "act_2_defense_high_energy": 0,
+            "act_2_utility_high_energy": 0,
             "act_3_offense": 2,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -2179,9 +2171,9 @@
             "act2start"
         ],
         "value": {
-            "act_2_offense": 1,
-            "act_2_defense": 0,
-            "act_2_utility": 0
+            "act_2_offense_high_energy": 1,
+            "act_2_defense_high_energy": 0,
+            "act_2_utility_high_energy": 0
         },
         "progression": true
     },
@@ -2494,7 +2486,7 @@
         "value": {
             "act_2_offense_s": 0,
             "act_2_defense_s": 0,
-            "act_2_utility_s": 2
+            "act_2_utility_s": 1
         },
         "progression": true
     },
@@ -3482,46 +3474,6 @@
             "Consumable",
             "kaycee",
             "kayceeconsumable"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Beast Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Undead Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Technology Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Magick Deck",
-        "category": [
-            "Act II",
-            "Starter Deck",
-            "act2",
-            "act2starter"
         ],
         "progression": true
     },

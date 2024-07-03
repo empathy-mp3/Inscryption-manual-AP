@@ -47,7 +47,7 @@ class ConsumableRando(Toggle):
     display_name = "Consumable Rando"
 
 class StarterDeckRando(Toggle):
-    """Should the ability to use starter decks (In Act II and Kaycee's Mod) be randomized?"""
+    """Should the ability to use starter decks (In Kaycee's Mod) be randomized?"""
     display_name = "Starter Deck Rando"
 
 class HammerRando(Toggle):
