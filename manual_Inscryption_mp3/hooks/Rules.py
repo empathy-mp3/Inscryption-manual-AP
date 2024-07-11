@@ -7,15 +7,6 @@ import re
 
 # Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
 # Define a function here, and you can use it in a requires string with {function_name()}.
-def overfishedAnywhere(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """Has the player collected all fish from any fishing log?"""
-    for cat, items in world.item_name_groups:
-        if cat.endswith("Fishing Log") and state.has_all(items, player):
-            return True
-    return False
-
-# You can also pass an argument to your function, like {function_name(15)}
-# Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
 def enoughDeckSize(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
     """does the player have a small enough deck?"""
     deck = get_option_value(multiworld, player, "Deck_Size_Rando")
@@ -30,8 +21,8 @@ def enoughStackSize(world: World, multiworld: MultiWorld, state: CollectionState
         return True
     return False
 
-def act_two_blood_power_one(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """blood component for act_two_power 1"""
+def test(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """test"""
     return "(|Squirrel| or |Skeleton|) and ({ItemValue(act_2_offense_blood:2)} or ({ItemValue(act_2_offense_blood:1)} and {ItemValue(act_2_defense_blood:2)}) or ({ItemValue(act_2_offense_blood:1)} and {ItemValue(act_2_utility_blood:1)}))"
 
 def act_two_blood_power(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
@@ -194,7 +185,11 @@ def act_two_power(world: World, multiworld: MultiWorld, state: CollectionState, 
     elif int(level) == 20:
         return "({act_two_blood_power(8)} and {act_two_bone_power(8)} and {act_two_energy_power(8)}) or ({act_two_blood_power(8)} and {act_two_bone_power(8)} and {act_two_magick_power(8)}) or ({act_two_bone_power(8)} and {act_two_energy_power(8)} and {act_two_magick_power(8)}) or ({act_two_bone_power(8)} and {act_two_energy_power(8)} and {act_two_magick_power(8)}) OR ({act_two_blood_power(6)} and {act_two_bone_power(6)} and {act_two_energy_power(6)} and {act_two_magick_power(6)})"
     return ""
-    
+
+# You can also return a string from your function, and it will be evaluated as a requires string.
+def requiresMelee(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """Returns a requires string that checks if the player has unlocked the tank."""
+    return "|Figher Level:15| or |Black Belt Level:15| or |Thief Level:15|"
 
 def ItemValue(world: World, multiworld: MultiWorld, state: CollectionState, player: int, args: str):
     """When passed a string with this format: 'valueName:int',
@@ -296,3 +291,10 @@ def OptAll(world: World, multiworld: MultiWorld, state: CollectionState, player:
     for function in functions:
         requires_list = requires_list.replace("{" + function + "(temp)}", "{" + func_name + "(" + functions[func_name] + ")}")
     return requires_list
+
+# Rule to expose the can_reach_location core function
+def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionState, player: int, location: str):
+    """Can the player reach the given location?"""
+    if state.can_reach_location(location, player):
+        return True
+    return False

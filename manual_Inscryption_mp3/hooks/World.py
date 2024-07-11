@@ -196,7 +196,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Act I - End"], "|Special Dagger|")
 
     if act2:
-        addReq(region_table["Act II - Prospector"], "{act_two_blood_powerOne()}")
+        addReq(region_table["Act II - Prospector"], "{test()}")
         addReq(region_table["Act II - Kaycee"], "{act_two_power(2)}")
         addReq(region_table["Act II - Sawyer"], "{act_two_power(4)}")
         addReq(region_table["Act II - Royal"], "{act_two_power(5)}")
@@ -241,7 +241,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Kaycee's Mod - Curious Egg Deck"], "|Curious Egg Deck|")
 
     if act2 and deck >= 1 and stack == 0:
-        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {act_two_blood_powerOne()}) or {act_two_blood_powerOne()}")
+        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {test()}) or {test()}")
         addReq(region_table["Act II - Sawyer"], "{enoughDeckSize(4)} or ({enoughDeckSize(3)} and {act_two_power(5)}) or {act_two_power(6)}")
         addReq(region_table["Act II - Royal"], "{enoughDeckSize(5)} or ({enoughDeckSize(4)} and {act_two_power(6)}) or {act_two_power(7)}")
         addReq(region_table["Act II - Angler"], "{enoughDeckSize(5)} or ({enoughDeckSize(4)} and {act_two_power(6)}) or {act_two_power(7)}")
@@ -252,7 +252,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Act II - Magnificus"], "{enoughDeckSize(8)} or ({enoughDeckSize(7)} and {act_two_power(9)}) or {act_two_power(10)}")
 
     elif act2 and stack >= 1 and deck == 0:
-        addReq(region_table["Act II - Prospector"], "{enoughStackSize(1)} or {act_two_blood_powerOne()}")
+        addReq(region_table["Act II - Prospector"], "{enoughStackSize(1)} or {test()}")
         addReq(region_table["Act II - Royal"], "{enoughStackSize(1)} or {act_two_power(6)}")
         addReq(region_table["Act II - Angler"], "{enoughStackSize(1)} or {act_two_power(6)}")
         addReq(region_table["Act II - Trapper"], "{enoughStackSize(2)} or {act_two_power(7)}")
@@ -262,7 +262,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Act II - Magnificus"], "{enoughStackSize(4)} or {act_two_power(9)}")
 
     elif act2 and stack >= 1 and deck >= 1:
-        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {act_two_blood_powerOne()}) or {act_two_blood_powerOne()}")
+        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {test()}) or {test()}")
         addReq(region_table["Act II - Sawyer"], "({enoughDeckSize(4)} and {enoughStackSize(1)}) or ({enoughDeckSize(3)} and {enoughStackSize(1)} and {act_two_power(5)}) or {act_two_power(6)}")
         addReq(region_table["Act II - Royal"], "({enoughDeckSize(5)} and {enoughStackSize(1)}) or ({enoughDeckSize(4)} and {enoughStackSize(1)} and {act_two_power(6)}) or {act_two_power(7)}")
         addReq(region_table["Act II - Angler"], "({enoughDeckSize(5)} and {enoughStackSize(1)}) or ({enoughDeckSize(4)} and {enoughStackSize(1)} and {act_two_power(6)}) or {act_two_power(7)}")
@@ -346,6 +346,12 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
         addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
         addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+
+    def Example_Rule(state: CollectionState) -> bool:
+        # Calculated rules take a CollectionState object and return a boolean
+        # True if the player can access the location
+        # CollectionState is defined in BaseClasses
+        return True
 
     ## Common functions:
     # location = world.get_location(location_name, player)
