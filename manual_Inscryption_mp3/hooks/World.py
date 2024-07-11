@@ -17,6 +17,8 @@ from ..Helpers import is_option_enabled, get_option_value
 # calling logging.info("message") anywhere below in this file will output the message to both console and log file
 import logging
 
+from worlds.generic.Rules import set_rule
+
 ########################################################################################
 ## Order of method calls when the world generates:
 ##    1. create_regions - Creates regions and locations
@@ -172,6 +174,60 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     stack = is_option_enabled(multiworld, player, "Stack_Size_Rando")
     deck = is_option_enabled(multiworld, player, "Deck_Size_Rando")
 
+    def late_woodlands(state: CollectionState):
+        if act1:
+            return state.has("Squirrel", player, 1) and state.has_group("act1damage", player, 2)
+        return True
+
+    def dagger(state:CollectionState):
+        if act1 and consumable:
+            return state.has("Caged Wolf", player, 1)
+        return True
+
+    def prospector(state:CollectionState):
+        if act1:
+            return state.has_group("act1damage", player, 3) or (state.has_group("act1damage", player, 2) and state.has_group("act1other", player, 1))
+        return True
+
+    def late_wetlands(state:CollectionState):
+        if act1:
+            return state.has_group("act1damage", player, 4) or (state.has_group("act1damage", player, 3) and state.has_group("act1other", player, 1))
+        return True
+
+    def angler(state:CollectionState):
+        if act1 and consumable:
+            return state.has_group("act1consumable", player, 3) and (state.has_group("act1damage", player, 5) or (state.has_group("act1damage", player, 4) and state.has_group("act1other", player, 2)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 2)) or (state.has_group("act1damage", player, 4) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1)))
+        if act1:
+            return state.has_group("act1damage", player, 5) or (state.has_group("act1damage", player, 4) and state.has_group("act1other", player, 2)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 2)) or (state.has_group("act1damage", player, 4) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
+        return True
+
+    def late_snow_line(state:CollectionState):
+        if act1:
+            return state.has_group("act1damage", player, 6) or (state.has_group("act1damage", player, 5) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 5) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
+        return True
+
+    def trapper(state:CollectionState):
+        if act1:
+            return state.has_group("act1consumable", player, 5) and (state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1)))
+        return True
+
+    def leshy(state:CollectionState):
+        if act1:
+            return state.has_group("act1damage", player, 8) or (state.has_group("act1damage", player, 7) and state.has_group("act1other", player, 4)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1other", player, 4)) or (state.has_group("act1damage", player, 7) and state.has_group("act1otherrare", player, 2)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1otherrare", player, 2))
+        return True
+
+    def end(state:CollectionState):
+        if act1 and consumable:
+            return state.has_all(["Caged Wolf", "Special Dagger"], player)
+        elif act1:
+            return state.has("Caged Wolf", player, 1)
+        return True
+
+    def eye(state:CollectionState):
+        if act1 and consumable:
+            return state.has("Special Dagger", player, 1)
+        return True
+
     def addReq(loc, req):
         if loc["requires"] == []:
             loc["requires"] = req
@@ -179,21 +235,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             loc["requires"] = "(" + loc["requires"] + ") and (" + req + ")"
 
     if act1:
-        addReq(region_table["Act I - Late Woodlands"], "{ItemValue(act_1_offense:1)} and |Squirrel|")
-        addReq(region_table["Act I - Dagger"], "|Caged Wolf|")
-        addReq(region_table["Act I - Prospector"], "{ItemValue(act_1_offense:3)}")
-        addReq(region_table["Act I - Late Wetlands"], "({ItemValue(act_1_offense:4)} or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_utility:1)}) or ({ItemValue(act_1_offense:2)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
-        addReq(region_table["Act I - Angler"], "({ItemValue(act_1_offense:6)} or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_utility:2)}) or ({ItemValue(act_1_offense:3)} and {ItemValue(act_1_defense:2)} and {ItemValue(act_1_utility:1)}))")
-        addReq(region_table["Act I - Late Snow Line"], "({ItemValue(act_1_offense:7)} or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:4)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
-        addReq(region_table["Act I - Trapper"], "({ItemValue(act_1_offense:8)} or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_defense:4)}) or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_utility:3)}) or ({ItemValue(act_1_offense:5)} and {ItemValue(act_1_defense:3)} and {ItemValue(act_1_utility:2)}))")
-        addReq(region_table["Act I - Leshy"], "({ItemValue(act_1_offense:9)} or ({ItemValue(act_1_offense:7)} and {ItemValue(act_1_defense:5)}) or ({ItemValue(act_1_offense:7)} and {ItemValue(act_1_utility:4)}) or ({ItemValue(act_1_offense:6)} and {ItemValue(act_1_defense:4)} and {ItemValue(act_1_utility:3)}))")
-        addReq(region_table["Act I - End"], "|Caged Wolf|")
-
-    if act1 and consumable:
-        addReq(region_table["Act I - Eye"], "|Special Dagger|")
-        addReq(region_table["Act I - Post-Angler"], "|@act1consumable:3|")
-        addReq(region_table["Act I - Post-Trapper"], "|@act1consumable:5|")
-        addReq(region_table["Act I - End"], "|Special Dagger|")
+        for exit_obj in multiworld.get_region("Act I - Late Woodlands", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_woodlands)
+        for exit_obj in multiworld.get_region("Act I - Dagger", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), dagger)
+        for exit_obj in multiworld.get_region("Act I - Prospector", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), prospector)
+        for exit_obj in multiworld.get_region("Act I - Late Wetlands", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_wetlands)
+        for exit_obj in multiworld.get_region("Act I - Angler", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), angler)
+        for exit_obj in multiworld.get_region("Act I - Late Snow Line", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_snow_line)
+        for exit_obj in multiworld.get_region("Act I - Trapper", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), trapper)
+        for exit_obj in multiworld.get_region("Act I - Leshy", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), leshy)
+        for exit_obj in multiworld.get_region("Act I - End", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), end)
+        for exit_obj in multiworld.get_region("Act I - Eye", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), eye)
 
     if act2:
         addReq(region_table["Act II - Prospector"], "{test()}")

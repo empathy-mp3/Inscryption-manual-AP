@@ -10,12 +10,10 @@
             "Act I",
             "Avian",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -28,12 +26,10 @@
             "Act I",
             "Avian",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -46,12 +42,10 @@
             "Act I",
             "Avian",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -64,12 +58,10 @@
             "Act I",
             "Avian",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 3,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 3
@@ -84,12 +76,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 0,
@@ -105,12 +95,10 @@
             "Act I",
             "Avian",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -122,13 +110,9 @@
         "category": [
             "Act I",
             "Canine",
-            "act1"
+            "act1",
+            "act1damage"
         ],
-        "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0
-        },
         "progression": true
     },
     {
@@ -139,12 +123,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "act_2_offense_blood": 2,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 0,
@@ -162,12 +144,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 2,
             "act_2_utility_blood": 0,
@@ -184,11 +164,6 @@
             "Canine",
             "act1"
         ],
-        "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 0
-        },
         "progression": true
     },
     {
@@ -197,12 +172,10 @@
             "Act I",
             "Canine",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -215,12 +188,10 @@
             "Act I",
             "Canine",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -233,12 +204,10 @@
             "Act I",
             "Canine",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -252,12 +221,10 @@
             "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -271,12 +238,10 @@
             "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -289,12 +254,10 @@
             "Act I",
             "Hooved",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 3,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 3
@@ -309,12 +272,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 0,
@@ -332,12 +293,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 0,
@@ -353,12 +312,10 @@
             "Act I",
             "Hooved",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -371,12 +328,10 @@
             "Act I",
             "Hooved",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 4,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 4,
             "kaycees_mod_utility": 0
@@ -392,12 +347,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 3,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "act_2_offense_blood": 3,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 0,
@@ -414,12 +367,10 @@
             "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1otherrare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -435,9 +386,6 @@
             "act1kaycee"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -450,12 +398,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -468,12 +414,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -486,7 +430,8 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1other"
         ],
         "useful": true
     },
@@ -496,12 +441,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -514,12 +457,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -531,13 +472,9 @@
         "category": [
             "Act I",
             "Insect",
-            "act1"
+            "act1",
+            "act1damage"
         ],
-        "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 2
-        },
         "progression": true
     },
     {
@@ -546,12 +483,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -564,12 +499,10 @@
             "Act I",
             "Insect",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -583,12 +516,10 @@
             "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -606,12 +537,10 @@
             "Misc. Act III Area",
             "Kaycee's Mod",
             "Rare",
-            "Ouroboros Strat"
+            "Ouroboros Strat",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 5,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 6,
@@ -632,12 +561,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 2,
             "act_2_utility_blood": 0,
@@ -653,12 +580,10 @@
             "Act I",
             "Reptile",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -674,12 +599,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act2start"
+            "act2start",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "act_2_offense_blood": 2,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 1,
@@ -695,12 +618,10 @@
             "Act I",
             "Reptile",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 3,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -713,12 +634,10 @@
             "Act I",
             "Reptile",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -764,12 +683,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "Rare"
+            "Rare",
+            "act1otherrare"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 3,
-            "act_1_utility": 0,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 3,
             "act_2_utility_blood": 0,
@@ -792,12 +709,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 2,
@@ -814,12 +729,10 @@
             "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 2
@@ -833,12 +746,10 @@
             "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -854,12 +765,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 2,
             "act_2_utility_blood": 0,
@@ -876,12 +785,10 @@
             "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "Rare"
+            "Rare",
+            "act1damagerare"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -901,9 +808,6 @@
             "act2cheap"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -918,12 +822,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 2,
@@ -939,12 +841,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 3,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 3,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -957,12 +857,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 2
@@ -977,12 +875,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 2,
             "act_2_utility_blood": 0,
@@ -998,12 +894,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -1016,12 +910,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -1034,12 +926,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 3,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -1055,12 +945,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act2start"
+            "act2start",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 0,
@@ -1079,12 +967,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act2start"
+            "act2start",
+            "act1other"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 1,
@@ -1100,12 +986,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 3,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -1118,12 +1002,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 1,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -1138,12 +1020,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 1,
-            "act_1_utility": 2,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 1,
             "act_2_utility_blood": 2,
@@ -1159,12 +1039,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -1177,12 +1055,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -1197,12 +1073,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 3,
-            "act_1_utility": 0,
             "act_2_offense_blood": 1,
             "act_2_defense_blood": 2,
             "act_2_utility_blood": 0,
@@ -1218,12 +1092,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 1,
-            "act_1_defense": 0,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -1236,12 +1108,10 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1damage"
         ],
         "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 0,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -1253,13 +1123,9 @@
         "category": [
             "Act I",
             "Tribeless",
-            "act1"
+            "act1",
+            "act1damage"
         ],
-        "value": {
-            "act_1_offense": 2,
-            "act_1_defense": 2,
-            "act_1_utility": 2
-        },
         "progression": true
     },
     {
@@ -1271,9 +1137,6 @@
             "act1kaycee"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 2,
-            "act_1_utility": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -1289,9 +1152,6 @@
             "act1kaycee"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 2,
-            "act_1_utility": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 1
@@ -1309,9 +1169,6 @@
             "act1act2kaycee"
         ],
         "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 1,
             "act_2_offense_blood": 0,
             "act_2_defense_blood": 0,
             "act_2_utility_blood": 1,
@@ -1327,13 +1184,9 @@
             "Act I",
             "Tribeless",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1kaycee",
+            "act1otherrare"
         ],
-        "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 1,
-            "act_1_utility": 1
-        },
         "progression": true
     },
     {
@@ -1341,13 +1194,8 @@
         "category": [
             "Act I",
             "Tribeless",
-            "act1"
+            "act1damagerare"
         ],
-        "value": {
-            "act_1_offense": 0,
-            "act_1_defense": 2,
-            "act_1_utility": 2
-        },
         "progression": true
     },
     {
@@ -1360,9 +1208,6 @@
             "Rare"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2

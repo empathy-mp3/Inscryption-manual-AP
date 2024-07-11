@@ -79,5 +79,17 @@
     },
     "act2start": {
         "hidden": true
+    },
+    "act1damage": {
+        "hidden": true
+    },
+    "act1damagerare": {
+        "hidden": true
+    },
+    "act1other": {
+        "hidden": true
+    },
+    "act1otherrare": {
+        "hidden": true
     }
 }
