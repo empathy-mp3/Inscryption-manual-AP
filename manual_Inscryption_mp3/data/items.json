@@ -77,12 +77,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -96,7 +94,8 @@
             "Avian",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
             "kaycees_mod_offense": 2,
@@ -124,12 +123,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 2,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -145,12 +142,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 2,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -273,12 +268,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -294,12 +287,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -348,12 +339,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "act2damagebloodrare"
         ],
         "value": {
-            "act_2_offense_blood": 3,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 3,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 0
@@ -538,12 +527,10 @@
             "Kaycee's Mod",
             "Rare",
             "Ouroboros Strat",
-            "act1damagerare"
+            "act1damagerare",
+            "act2damagebloodrare"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 6,
             "act_3_offense": 8,
             "act_3_defense": 3,
             "act_3_utility": 7,
@@ -562,12 +549,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 2,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -600,12 +585,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 2,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -684,12 +667,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
-            "act1otherrare"
+            "act1otherrare",
+            "act2otherbloodrare"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 3,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -713,9 +694,6 @@
             "act1damagerare"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -766,12 +744,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "act2damagebloodrare"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 2,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -823,12 +799,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1other"
+            "act1other",
+            "act2otherblood"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 2
@@ -876,12 +850,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1other"
+            "act1other",
+            "act2oetherblood"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 2,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 2,
             "kaycees_mod_utility": 0
@@ -946,12 +918,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 0
@@ -968,12 +938,10 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
-            "act1other"
+            "act1other",
+            "act2otherblood"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -1021,12 +989,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 2,
             "kaycees_mod_offense": 1,
             "kaycees_mod_defense": 1,
             "kaycees_mod_utility": 1
@@ -1074,12 +1040,10 @@
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
-            "act1damage"
+            "act1damage",
+            "act2damageblood"
         ],
         "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 2,
-            "act_2_utility_blood": 0,
             "kaycees_mod_offense": 2,
             "kaycees_mod_defense": 3,
             "kaycees_mod_utility": 0
@@ -1166,12 +1130,10 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee"
+            "act1act2kaycee",
+            "act2otherblood"
         ],
         "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 1,
             "kaycees_mod_offense": 0,
             "kaycees_mod_defense": 0,
             "kaycees_mod_utility": 1
@@ -1220,13 +1182,9 @@
             "Act II",
             "Beast",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagebloodrare"
         ],
-        "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 2
-        },
         "progression": true
     },
     {
@@ -1234,13 +1192,9 @@
         "category": [
             "Act II",
             "Beast",
-            "act2"
+            "act2",
+            "act2otherblood"
         ],
-        "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 1,
-            "act_2_utility_blood": 1
-        },
         "progression": true
     },
     {
@@ -1249,13 +1203,9 @@
             "Act II",
             "Beast",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damageblood"
         ],
-        "value": {
-            "act_2_offense_blood": 3,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 0
-        },
         "progression": true
     },
     {
@@ -1263,13 +1213,9 @@
         "category": [
             "Act II",
             "Beast",
-            "act2"
+            "act2",
+            "act2damagebloodrare"
         ],
-        "value": {
-            "act_2_offense_blood": 1,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 1
-        },
         "progression": true
     },
     {
@@ -1279,12 +1225,7 @@
             "Beast",
             "act2"
         ],
-        "value": {
-            "act_2_offense_blood": 0,
-            "act_2_defense_blood": 0,
-            "act_2_utility_blood": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Bone Heap",
@@ -1292,13 +1233,9 @@
             "Act II",
             "Undead",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagebonesrare"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1307,13 +1244,9 @@
             "Act II",
             "Undead",
             "act2",
-            "Rare"
+            "Rare",
+            "act2otherbonesrare"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1322,13 +1255,9 @@
             "Act II",
             "Undead",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagebonesrare"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1337,13 +1266,9 @@
             "Act II",
             "Undead",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagebonesrare"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1352,13 +1277,9 @@
             "Act II",
             "Undead",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagebonesrare"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1369,12 +1290,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 3
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Skeleton",
@@ -1392,13 +1308,9 @@
             "Act II",
             "Undead",
             "act2",
-            "act2start"
+            "act2start",
+            "act2otherbones"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1407,13 +1319,9 @@
             "Act II",
             "Undead",
             "act2",
-            "act2start"
+            "act2start",
+            "act2otherbones"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 2,
-            "act_2_utility_bones": 2
-        },
         "progression": true
     },
     {
@@ -1423,25 +1331,16 @@
             "Undead",
             "act2"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 1
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Banshee",
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1449,13 +1348,11 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damageblue",
+            "act2damageorange",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 3
-        },
         "progression": true
     },
     {
@@ -1464,13 +1361,9 @@
             "Act II",
             "Undead",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1480,25 +1373,16 @@
             "Undead",
             "act2"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Broken Obol Left",
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2otherbones"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1506,13 +1390,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2otherbones"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1520,13 +1400,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 2,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1534,13 +1410,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1548,13 +1420,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 2,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1562,13 +1430,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 1,
-            "act_2_utility_bones": 1
-        },
         "progression": true
     },
     {
@@ -1577,13 +1441,9 @@
             "Act II",
             "Undead",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1591,13 +1451,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2otherbones"
         ],
-        "value": {
-            "act_2_offense_bones": 0,
-            "act_2_defense_bones": 0,
-            "act_2_utility_bones": 3
-        },
         "progression": true
     },
     {
@@ -1605,13 +1461,9 @@
         "category": [
             "Act II",
             "Undead",
-            "act2"
+            "act2",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 2,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1621,13 +1473,9 @@
             "Undead",
             "Act III",
             "Resplendent Bastion",
-            "act2act3"
+            "act2act3",
+            "act2damagebones"
         ],
-        "value": {
-            "act_2_offense_bones": 1,
-            "act_2_defense_bones": 2,
-            "act_2_utility_bones": 0
-        },
         "progression": true
     },
     {
@@ -1636,13 +1484,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2otherenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 0,
-            "act_2_defense_high_energy": 2,
-            "act_2_utility_high_energy": 2
-        },
         "progression": true
     },
     {
@@ -1651,13 +1495,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagehighenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 2,
-            "act_2_utility_high_energy": 0
-        },
         "progression": true
     },
     {
@@ -1666,13 +1506,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2otherenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 0,
-            "act_2_defense_high_energy": 0,
-            "act_2_utility_high_energy": 2
-        },
         "progression": true
     },
     {
@@ -1681,13 +1517,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2otherenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 0,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 2
-        },
         "progression": true
     },
     {
@@ -1696,13 +1528,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damageenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 0,
-            "act_2_utility_high_energy": 2
-        },
         "progression": true
     },
     {
@@ -1711,13 +1539,9 @@
             "Act II",
             "Technology",
             "act2",
-            "Rare"
+            "Rare",
+            "act2damagehighenergyrare"
         ],
-        "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 1
-        },
         "progression": true
     },
     {
@@ -1728,12 +1552,10 @@
             "Act III",
             "Misc. Act III Area",
             "act2act3",
-            "act2cheap"
+            "act2cheap",
+            "act2otherenergy"
         ],
         "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 2,
-            "act_2_utility_energy": 0,
             "act_3_offense": 0,
             "act_3_defense": 2,
             "act_3_utility": 0
@@ -1745,13 +1567,9 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2otherenergy"
         ],
-        "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 1
-        },
         "progression": true
     },
     {
@@ -1761,12 +1579,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2otherenergy"
         ],
         "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 2,
-            "act_2_utility_energy": 0,
             "act_3_offense": 0,
             "act_3_defense": 3,
             "act_3_utility": 0
@@ -1780,12 +1596,7 @@
             "Technology",
             "act2"
         ],
-        "value": {
-            "act_2_offense_high_energy": 0,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 0
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "49er",
@@ -1795,12 +1606,10 @@
             "Act III",
             "Misc. Act III Area",
             "act2act3",
-            "act2start"
+            "act2start",
+            "act2damageenergy"
         ],
         "value": {
-            "act_2_offense_energy": 1,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 0,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -1814,12 +1623,10 @@
             "Technology",
             "Act III",
             "Resplendent Bastion",
-            "act2act3"
+            "act2act3",
+            "act2otherenergy"
         ],
         "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 1,
-            "act_2_utility_energy": 1,
             "act_3_offense_bridge": 0,
             "act_3_defense_bridge": 0,
             "act_3_utility_bridge": 2
@@ -1833,12 +1640,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2otherenergy"
         ],
         "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 1,
-            "act_2_utility_energy": 1,
             "act_3_offense": 0,
             "act_3_defense": 1,
             "act_3_utility": 1
@@ -1852,12 +1657,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2damageenergy"
         ],
         "value": {
-            "act_2_offense_energy": 1,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 1,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 1
@@ -1869,13 +1672,9 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2otherenergy"
         ],
-        "value": {
-            "act_2_offense_energy": 0,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 1
-        },
         "progression": true
     },
     {
@@ -1884,13 +1683,9 @@
             "Act II",
             "Technology",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damageenergy"
         ],
-        "value": {
-            "act_2_offense_energy": 1,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 0
-        },
         "progression": true
     },
     {
@@ -1898,13 +1693,9 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2otherenergy"
         ],
-        "value": {
-            "act_2_offense_high_energy": 0,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 1
-        },
         "progression": true
     },
     {
@@ -1912,13 +1703,9 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2damageenergy"
         ],
-        "value": {
-            "act_2_offense_energy": 2,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 0
-        },
         "progression": true
     },
     {
@@ -1928,12 +1715,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2damageenergy"
         ],
         "value": {
-            "act_2_offense_energy": 1,
-            "act_2_defense_energy": 0,
-            "act_2_utility_energy": 1,
             "act_3_offense": 1,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -1945,13 +1730,9 @@
         "category": [
             "Act II",
             "Technology",
-            "act2"
+            "act2",
+            "act2damagehighenergy"
         ],
-        "value": {
-            "act_2_offense_high_energy": 2,
-            "act_2_defense_high_energy": 0,
-            "act_2_utility_high_energy": 1
-        },
         "progression": true
     },
     {
@@ -1960,13 +1741,9 @@
             "Act II",
             "Technology",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damagehighenergy"
         ],
-        "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 0
-        },
         "progression": true
     },
     {
@@ -1976,12 +1753,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2damagehighenergy"
         ],
         "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 1,
-            "act_2_utility_high_energy": 0,
             "act_3_offense": 1,
             "act_3_defense": 1,
             "act_3_utility": 0
@@ -1995,12 +1770,10 @@
             "Technology",
             "Act III",
             "Misc. Act III Area",
-            "act2act3"
+            "act2act3",
+            "act2damagehighenergy"
         ],
         "value": {
-            "act_2_offense_high_energy": 2,
-            "act_2_defense_high_energy": 0,
-            "act_2_utility_high_energy": 0,
             "act_3_offense": 2,
             "act_3_defense": 0,
             "act_3_utility": 0
@@ -2013,13 +1786,9 @@
             "Act II",
             "Technology",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damagehighenergy"
         ],
-        "value": {
-            "act_2_offense_high_energy": 1,
-            "act_2_defense_high_energy": 0,
-            "act_2_utility_high_energy": 0
-        },
         "progression": true
     },
     {
@@ -2030,12 +1799,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Goranj's Mox",
@@ -2045,12 +1809,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Orlu's Mox",
@@ -2060,12 +1819,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Master Bleene",
@@ -2075,12 +1829,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Master Goranj",
@@ -2090,12 +1839,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Master Orlu",
@@ -2105,12 +1849,7 @@
             "act2",
             "Rare"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 1,
-            "act_2_utility": 2
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Emerald Mox",
@@ -2120,11 +1859,6 @@
             "act2",
             "act2cheap"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
-        },
         "progression": true
     },
     {
@@ -2135,11 +1869,6 @@
             "act2",
             "act2cheap"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
-        },
         "progression": true
     },
     {
@@ -2150,11 +1879,6 @@
             "act2",
             "act2cheap"
         ],
-        "value": {
-            "act_2_offense": 0,
-            "act_2_defense": 0,
-            "act_2_utility": 2
-        },
         "progression": true
     },
     {
@@ -2163,19 +1887,11 @@
             "Act II",
             "Magickal",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damageblue",
+            "act2damageorange",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 2,
-            "act_2_defense_e": 0,
-            "act_2_utility_e": 0,
-            "act_2_offense_r": 2,
-            "act_2_defense_r": 0,
-            "act_2_utility_r": 0,
-            "act_2_offense_s": 2,
-            "act_2_defense_s": 0,
-            "act_2_utility_s": 0
-        },
         "progression": true
     },
     {
@@ -2183,13 +1899,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 1,
-            "act_2_defense_e": 0,
-            "act_2_utility_e": 0
-        },
         "progression": true
     },
     {
@@ -2197,13 +1909,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 1,
-            "act_2_defense_e": 1,
-            "act_2_utility_e": 0
-        },
         "progression": true
     },
     {
@@ -2212,13 +1920,9 @@
             "Act II",
             "Magickal",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 1,
-            "act_2_defense_e": 1,
-            "act_2_utility_e": 0
-        },
         "progression": true
     },
     {
@@ -2226,13 +1930,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 1,
-            "act_2_defense_e": 0,
-            "act_2_utility_e": 0
-        },
         "progression": true
     },
     {
@@ -2240,13 +1940,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damagegreen"
         ],
-        "value": {
-            "act_2_offense_e": 2,
-            "act_2_defense_e": 1,
-            "act_2_utility_e": 0
-        },
         "progression": true
     },
     {
@@ -2255,13 +1951,9 @@
             "Act II",
             "Magickal",
             "act2",
-            "act2start"
+            "act2start",
+            "act2damageorange"
         ],
-        "value": {
-            "act_2_offense_r": 1,
-            "act_2_defense_r": 1,
-            "act_2_utility_r": 0
-        },
         "progression": true
     },
     {
@@ -2269,13 +1961,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damageorange"
         ],
-        "value": {
-            "act_2_offense_r": 1,
-            "act_2_defense_r": 0,
-            "act_2_utility_r": 0
-        },
         "progression": true
     },
     {
@@ -2283,7 +1971,8 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2otherorange"
         ],
         "value": {
             "act_2_offense_r": 0,
@@ -2297,13 +1986,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damageorange"
         ],
-        "value": {
-            "act_2_offense_r": 1,
-            "act_2_defense_r": 0,
-            "act_2_utility_r": 1
-        },
         "progression": true
     },
     {
@@ -2312,13 +1997,9 @@
             "Act II",
             "Magickal",
             "act2",
-            "act2start"
+            "act2start",
+            "act2otherblue"
         ],
-        "value": {
-            "act_2_offense_s": 0,
-            "act_2_defense_s": 0,
-            "act_2_utility_s": 2
-        },
         "progression": true
     },
     {
@@ -2328,25 +2009,16 @@
             "Magickal",
             "act2"
         ],
-        "value": {
-            "act_2_offense_s": 0,
-            "act_2_defense_s": 0,
-            "act_2_utility_s": 1
-        },
-        "progression": true
+        "useful": true
     },
     {
         "name": "Force Mage",
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2otherblue"
         ],
-        "value": {
-            "act_2_offense_s": 0,
-            "act_2_defense_s": 2,
-            "act_2_utility_s": 0
-        },
         "progression": true
     },
     {
@@ -2354,13 +2026,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damageblue"
         ],
-        "value": {
-            "act_2_offense_s": 2,
-            "act_2_defense_s": 0,
-            "act_2_utility_s": 0
-        },
         "progression": true
     },
     {
@@ -2368,13 +2036,9 @@
         "category": [
             "Act II",
             "Magickal",
-            "act2"
+            "act2",
+            "act2damageblue"
         ],
-        "value": {
-            "act_2_offense_s": 1,
-            "act_2_defense_s": 0,
-            "act_2_utility_s": 0
-        },
         "progression": true
     },
     {

@@ -171,62 +171,153 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
     starter = is_option_enabled(multiworld, player, "Starter_Deck_Rando_Enabled")
     hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
-    stack = is_option_enabled(multiworld, player, "Stack_Size_Rando")
-    deck = is_option_enabled(multiworld, player, "Deck_Size_Rando")
+    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
 
     def late_woodlands(state: CollectionState):
-        if act1:
-            return state.has("Squirrel", player, 1) and state.has_group("act1damage", player, 2)
-        return True
+        return state.has("Squirrel", player, 1) and state.has_group("act1damage", player, 2)
 
     def dagger(state:CollectionState):
-        if act1 and consumable:
-            return state.has("Caged Wolf", player, 1)
-        return True
+        return state.has("Caged Wolf", player, 1)
 
     def prospector(state:CollectionState):
-        if act1:
-            return state.has_group("act1damage", player, 3) or (state.has_group("act1damage", player, 2) and state.has_group("act1other", player, 1))
-        return True
+        return state.has_group("act1damage", player, 3) or (state.has_group("act1damage", player, 2) and state.has_group("act1other", player, 1))
 
     def late_wetlands(state:CollectionState):
-        if act1:
-            return state.has_group("act1damage", player, 4) or (state.has_group("act1damage", player, 3) and state.has_group("act1other", player, 1))
-        return True
+        return state.has_group("act1damage", player, 4) or (state.has_group("act1damage", player, 3) and state.has_group("act1other", player, 1))
 
     def angler(state:CollectionState):
-        if act1 and consumable:
+        if consumable:
             return state.has_group("act1consumable", player, 3) and (state.has_group("act1damage", player, 5) or (state.has_group("act1damage", player, 4) and state.has_group("act1other", player, 2)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 2)) or (state.has_group("act1damage", player, 4) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1)))
-        if act1:
+        else:
             return state.has_group("act1damage", player, 5) or (state.has_group("act1damage", player, 4) and state.has_group("act1other", player, 2)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 2)) or (state.has_group("act1damage", player, 4) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
-        return True
 
     def late_snow_line(state:CollectionState):
-        if act1:
-            return state.has_group("act1damage", player, 6) or (state.has_group("act1damage", player, 5) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 5) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
-        return True
+        return state.has_group("act1damage", player, 6) or (state.has_group("act1damage", player, 5) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 5) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
 
     def trapper(state:CollectionState):
-        if act1:
-            return state.has_group("act1consumable", player, 5) and (state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1)))
-        return True
+        return state.has_group("act1consumable", player, 5) and (state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1)))
 
     def leshy(state:CollectionState):
-        if act1:
-            return state.has_group("act1damage", player, 8) or (state.has_group("act1damage", player, 7) and state.has_group("act1other", player, 4)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1other", player, 4)) or (state.has_group("act1damage", player, 7) and state.has_group("act1otherrare", player, 2)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1otherrare", player, 2))
-        return True
+        return state.has_group("act1damage", player, 8) or (state.has_group("act1damage", player, 7) and state.has_group("act1other", player, 4)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1other", player, 4)) or (state.has_group("act1damage", player, 7) and state.has_group("act1otherrare", player, 2)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1otherrare", player, 2))
 
     def end(state:CollectionState):
-        if act1 and consumable:
+        if consumable:
             return state.has_all(["Caged Wolf", "Special Dagger"], player)
         elif act1:
             return state.has("Caged Wolf", player, 1)
         return True
 
     def eye(state:CollectionState):
-        if act1 and consumable:
+        if consumable:
             return state.has("Special Dagger", player, 1)
         return True
+    
+    def act2blood(state:CollectionState, count:int):
+        return (state.has_any(["Squirrel", "Skeleton"], player) or act2energy(state,count*2)) and state.has_group("act2damageblood", player, count + 1) and state.has_group("act2otherblood", player, count - 1) and (state.has_group("act2damagebloodrare", player, count/2) or state.has("Mole Man", player, 1))
+    
+    def act2bones(state:CollectionState, count:int):
+        return (state.has("Skeleton", player, 1) or act2blood(state,count*2)) and state.has_group("act2damagebones", player, count + 1) and state.has_group("act2otherbones", player, count) and (state.has_group("act2damagebonesrare", player, count/2) or state.has("Tomb Robber", player, 1))
+    
+    def act2energy(state:CollectionState, count:int):
+        return state.has_group("act2damageenergy", player, count) and state.has_group("act2otherenergy", player, count + 1) and (state.has_any(["Mrs. Bomb", "Shutterbug", "Curve Hopper"], player) or state.has_group("act2otherenergyrare", player, (count - 1)/2) or state.has_group("act2damagehighenergyrare", player, (count - 1)/2) or state.has_group("act2damagehighenergy", player, count))
+    
+    def act2blue(state:CollectionState, count:int):
+        return state.has("Sapphire Mox", player, 1) and state.has_group("act2damageblue", player, count/2) and state.has_group("act2otherblue", player, count/2)
+    
+    def act2orange(state:CollectionState, count:int):
+        return state.has("Ruby Mox", player, 1) and state.has_group("act2damageorange", player, count/2) or (state.has("Practice Wizard", player, 1) and state.has_group("act2damageorange", player, count/2))
+    
+    def act2green(state:CollectionState, count:int):
+        return state.has("Emerald Mox", player, 1) and state.has_group("act2damagegreen", player, count)
+    
+    def act2magick(state:CollectionState, count:int):
+        if count < 2:
+            return act2blue(state,count) or act2orange(state,count) or act2green(state,count)
+        else:
+            return act2blue(state,count) or act2orange(state,count) or act2green(state,count) or (act2blue(state,count-1) or act2orange(state,count-1)) or (act2blue(state,count-1) or act2green(state,count-1)) or (act2green(state,count-1) or act2orange(state,count-1))
+    
+    def act2single(state:CollectionState, count:int):
+        return act2blood(state,count) or act2bones(state,count) or act2energy(state,count) or act2magick(state,count)
+    
+    def act2double(state: CollectionState, count:int):
+        return (act2blood(state,count-1) or act2bones(state,count-1)) or (act2blood(state,count-1) or act2energy(state,count-1)) or (act2blood(state,count-1) or act2magick(state,count-1)) or (act2bones(state,count-1) or act2energy(state,count-1)) or (act2energy(state,count-1) or act2magick(state,count-1))
+    
+    def act2triple(state:CollectionState, count:int):
+        return (act2blood(state,count-2) and act2bones(state,count-2) and act2energy(state,count - 2)) or (act2blood(state,count-2) and act2bones(state,count-2) and act2magick(state,count-2)) or (act2blood(state,count-2) and act2energy(state,count-2) and act2magick(state,count-2)) or (act2bones(state,count-2) and act2energy(state,count-2) and act2magick(state,count-2))
+    
+    def act2quad(state:CollectionState, count:int):
+        return (act2blood(state,count-3) and act2bones(state,count-3) and act2energy(state,count-3) and act2magick(state,count-3))
+    
+    def act2power(state:CollectionState, count:int):
+        if count < 2:
+            return act2single(state, count)
+        if count < 3:
+            return act2single(state, count) or act2double(state, count)
+        if count < 4:
+            return act2single(state, count) or act2double(state, count) or act2triple(state, count)
+        else:
+            return act2single(state, count) or act2double(state, count) or act2triple(state, count) or act2quad(state, count)
+        
+    def act2powerDeck(state:CollectionState, count:int):
+        return act2power(state,count+3) or (act2power(state,count) and deckCheck(state,(count+1)/2))
+        
+    def act2powerStack(state:CollectionState, count:int):
+        return act2power(state,count+2) or (act2power(state,count) and stackCheck(state,(count-1)/2))
+        
+    def act2powerStackDeck(state:CollectionState, count:int):
+        return act2power(state,count+4) or (act2power(state,count) and stackCheck(state,(count-1)/2) and deckCheck(state,(count+1)/2))
+        
+    def act2powerTotal(state:CollectionState, count:int):
+        if hammer:
+            if stack > 1 and deck > 1:
+                return act2powerStackDeck(state,count+1) or (act2powerStackDeck(state,count) and state.has("Hammer", player, 1))
+            elif stack > 1:
+                return act2powerStack(state,count+1) or (act2powerStack(state,count) and state.has("Hammer", player, 1))
+            elif deck > 1:
+                return act2powerDeck(state,count+1) or (act2powerDeck(state,count) and state.has("Hammer", player, 1))
+            else: return act2power(state,count+1) or (act2power(state,count) and state.has("Hammer", player, 1))
+        else:
+            if stack > 1 and deck > 1:
+                return act2powerStackDeck(state,count)
+            elif stack > 1:
+                return act2powerStack(state,count)
+            elif deck > 1:
+                return act2powerDeck(state,count)
+            else: return act2power(state,count)
+
+    def deckCheck(state:CollectionState, count:int):
+        return 15-deck > count
+
+    def stackCheck(state:CollectionState, count:int):
+        return 15-deck > count
+
+    def prospector2(state:CollectionState):
+        return act2powerTotal(state,3)
+
+    def kaycee2(state:CollectionState):
+        return act2powerTotal(state,2)
+
+    def sawyer2(state:CollectionState):
+        return act2powerTotal(state,4)
+
+    def royal2(state:CollectionState):
+        return act2powerTotal(state,5)
+
+    def angler2(state:CollectionState):
+        return act2powerTotal(state,5)
+
+    def trapper2(state:CollectionState):
+        return act2powerTotal(state,6)
+
+    def leshy2(state:CollectionState):
+        return act2powerTotal(state,8) or (act2powerTotal(state,7) and state.has("Amalgam", player, 1))
+
+    def grimora2(state:CollectionState):
+        return act2powerTotal(state,8)
+
+    def leftboss2(state:CollectionState):
+        return act2powerTotal(state,9)
 
     def addReq(loc, req):
         if loc["requires"] == []:
@@ -257,16 +348,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             set_rule(multiworld.get_entrance(exit_obj.name, player), eye)
 
     if act2:
-        addReq(region_table["Act II - Prospector"], "{test()}")
-        addReq(region_table["Act II - Kaycee"], "{act_two_power(2)}")
-        addReq(region_table["Act II - Sawyer"], "{act_two_power(4)}")
-        addReq(region_table["Act II - Royal"], "{act_two_power(5)}")
-        addReq(region_table["Act II - Angler"], "{act_two_power(5)}")
-        addReq(region_table["Act II - Trapper"], "{act_two_power(6)}")
-        addReq(region_table["Act II - Leshy"], "{act_two_power(7)}")
-        addReq(region_table["Act II - Grimora"], "{act_two_power(7)}")
-        addReq(region_table["Act II - P03"], "{act_two_power(8)}")
-        addReq(region_table["Act II - Magnificus"], "{act_two_power(8)}")
+        for exit_obj in multiworld.get_region("Act II - Prospector", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), prospector2)
+        for exit_obj in multiworld.get_region("Act II - Kaycee", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), kaycee2)
+        for exit_obj in multiworld.get_region("Act II - Sawyer", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), sawyer2)
+        for exit_obj in multiworld.get_region("Act II - Royal", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), royal2)
+        for exit_obj in multiworld.get_region("Act II - Angler", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), angler2)
+        for exit_obj in multiworld.get_region("Act II - Trapper", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), trapper2)
+        for exit_obj in multiworld.get_region("Act II - Leshy", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), leshy2)
+        for exit_obj in multiworld.get_region("Act II - Grimora", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), grimora2)
+        for exit_obj in multiworld.get_region("Act II - P03", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), leftboss2)
+        for exit_obj in multiworld.get_region("Act II - Magnificus", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), leftboss2)
 
     if act3:
         addReq(region_table["Act III - Initial Gauntlet"], "|Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)")
@@ -300,38 +401,6 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         addReq(region_table["Kaycee's Mod - Bone Deck"], "|Bone Deck|")
         addReq(region_table["Kaycee's Mod - No Cost Deck"], "|No Cost Deck|")
         addReq(region_table["Kaycee's Mod - Curious Egg Deck"], "|Curious Egg Deck|")
-
-    if act2 and deck >= 1 and stack == 0:
-        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {test()}) or {test()}")
-        addReq(region_table["Act II - Sawyer"], "{enoughDeckSize(4)} or ({enoughDeckSize(3)} and {act_two_power(5)}) or {act_two_power(6)}")
-        addReq(region_table["Act II - Royal"], "{enoughDeckSize(5)} or ({enoughDeckSize(4)} and {act_two_power(6)}) or {act_two_power(7)}")
-        addReq(region_table["Act II - Angler"], "{enoughDeckSize(5)} or ({enoughDeckSize(4)} and {act_two_power(6)}) or {act_two_power(7)}")
-        addReq(region_table["Act II - Trapper"], "{enoughDeckSize(6)} or ({enoughDeckSize(5)} and {act_two_power(7)}) or {act_two_power(8)}")
-        addReq(region_table["Act II - Leshy"], "{enoughDeckSize(7)} or ({enoughDeckSize(6)} and {act_two_power(8)}) or {act_two_power(9)}")
-        addReq(region_table["Act II - Grimora"], "{enoughDeckSize(7)} or ({enoughDeckSize(6)} and {act_two_power(4)}) or {act_two_power(9)}")
-        addReq(region_table["Act II - P03"], "{enoughDeckSize(8)} or ({enoughDeckSize(7)} and {act_two_power(9)}) or {act_two_power(10)}")
-        addReq(region_table["Act II - Magnificus"], "{enoughDeckSize(8)} or ({enoughDeckSize(7)} and {act_two_power(9)}) or {act_two_power(10)}")
-
-    elif act2 and stack >= 1 and deck == 0:
-        addReq(region_table["Act II - Prospector"], "{enoughStackSize(1)} or {test()}")
-        addReq(region_table["Act II - Royal"], "{enoughStackSize(1)} or {act_two_power(6)}")
-        addReq(region_table["Act II - Angler"], "{enoughStackSize(1)} or {act_two_power(6)}")
-        addReq(region_table["Act II - Trapper"], "{enoughStackSize(2)} or {act_two_power(7)}")
-        addReq(region_table["Act II - Leshy"], "{enoughStackSize(3)} or {act_two_power(8)}")
-        addReq(region_table["Act II - Grimora"], "{enoughStackSize(3)} or {act_two_power(8)}")
-        addReq(region_table["Act II - P03"], "{enoughStackSize(4)} or {act_two_power(9)}")
-        addReq(region_table["Act II - Magnificus"], "{enoughStackSize(4)} or {act_two_power(9)}")
-
-    elif act2 and stack >= 1 and deck >= 1:
-        addReq(region_table["Act II - Prospector"], "{enoughDeckSize(3)} or ({enoughDeckSize(2)} and {test()}) or {test()}")
-        addReq(region_table["Act II - Sawyer"], "({enoughDeckSize(4)} and {enoughStackSize(1)}) or ({enoughDeckSize(3)} and {enoughStackSize(1)} and {act_two_power(5)}) or {act_two_power(6)}")
-        addReq(region_table["Act II - Royal"], "({enoughDeckSize(5)} and {enoughStackSize(1)}) or ({enoughDeckSize(4)} and {enoughStackSize(1)} and {act_two_power(6)}) or {act_two_power(7)}")
-        addReq(region_table["Act II - Angler"], "({enoughDeckSize(5)} and {enoughStackSize(1)}) or ({enoughDeckSize(4)} and {enoughStackSize(1)} and {act_two_power(6)}) or {act_two_power(7)}")
-        addReq(region_table["Act II - Trapper"], "({enoughDeckSize(6)} and {enoughStackSize(2)}) or ({enoughDeckSize(5)} and {enoughStackSize(1)} and {act_two_power(7)}) or {act_two_power(8)}")
-        addReq(region_table["Act II - Leshy"], "({enoughDeckSize(7)} and {enoughStackSize(3)}) or ({enoughDeckSize(6)} and {enoughStackSize(2)} and {act_two_power(8)}) or {act_two_power(9)}")
-        addReq(region_table["Act II - Grimora"], "({enoughDeckSize(7)} and {enoughStackSize(3)}) or ({enoughDeckSize(6)} and {enoughStackSize(2)} and {act_two_power(4)}) or {act_two_power(9)}")
-        addReq(region_table["Act II - P03"], "({enoughDeckSize(8)} and {enoughStackSize(4)}) or ({enoughDeckSize(7)} and {enoughStackSize(3)} and {act_two_power(9)}) or {act_two_power(10)}")
-        addReq(region_table["Act II - Magnificus"], "({enoughDeckSize(8)} and {enoughStackSize(4)}) or ({enoughDeckSize(7)} and {enoughStackSize(3)} and {act_two_power(9)}) or {act_two_power(10)}")
 
     if act1 and not act2 and not act3 and not kaycee: #1
         addReq(region_table["Act I - Skip"], "|@Act I:ALL|")
