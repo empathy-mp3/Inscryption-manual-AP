@@ -8,107 +8,76 @@
         "name": "Kingfisher",
         "category": [
             "Act I",
-            "Avian",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Raven Egg",
         "category": [
             "Act I",
-            "Avian",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Sparrow",
         "category": [
             "Act I",
-            "Avian",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Magpie",
         "category": [
             "Act I",
-            "Avian",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 3
-        },
         "progression": true
     },
     {
         "name": "Raven",
         "category": [
             "Act I",
-            "Avian",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Turkey Vulture",
         "category": [
             "Act I",
-            "Avian",
             "Kaycee's Mod",
             "act1kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Stunted Wolf",
         "category": [
             "Act I",
-            "Canine",
             "act1",
             "act1damage"
         ],
@@ -118,45 +87,34 @@
         "name": "Wolf Cub",
         "category": [
             "Act I",
-            "Canine",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Bloodhound",
         "category": [
             "Act I",
-            "Canine",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Caged Wolf",
         "category": [
             "Act I",
-            "Canine",
             "act1"
         ],
         "progression": true
@@ -165,263 +123,186 @@
         "name": "Wolf",
         "category": [
             "Act I",
-            "Canine",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Coyote",
         "category": [
             "Act I",
-            "Canine",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Alpha",
         "category": [
             "Act I",
-            "Canine",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Child 13",
         "category": [
             "Act I",
-            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "kayceedamagerare"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Long Elk",
         "category": [
             "Act I",
-            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "kayceedamagerare"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Black Goat",
         "category": [
             "Act I",
-            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1other"
+            "act1other",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 3
-        },
         "progression": true
     },
     {
         "name": "Elk Fawn",
         "category": [
             "Act I",
-            "Hooved",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Elk",
         "category": [
             "Act I",
-            "Hooved",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Pronghorn",
         "category": [
             "Act I",
-            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Moose Buck",
         "category": [
             "Act I",
-            "Hooved",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 4,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Mantis God",
         "category": [
             "Act I",
-            "Insect",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
             "act1damagerare",
-            "act2damagebloodrare"
+            "act2damagebloodrare",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 3,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Strange Larva",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare",
-            "act1otherrare"
+            "act1otherrare",
+            "kayceeotherrare"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Bee",
         "category": [
             "Act I",
-            "Insect",
             "Act III",
             "Kaycee's Mod",
-            "act1act3kaycee"
+            "act1act3kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Beehive",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1other"
+            "act1other",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Mantis",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Ring Worm",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
-            "act1kaycee",
-            "act1other"
+            "act1kaycee"
         ],
         "useful": true
     },
@@ -429,39 +310,28 @@
         "name": "Worker Ant",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Ant Queen",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Stinkbug",
         "category": [
             "Act I",
-            "Insect",
             "act1",
             "act1damage"
         ],
@@ -471,168 +341,115 @@
         "name": "Cockroach",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Corpse Maggots",
         "category": [
             "Act I",
-            "Insect",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Geck",
         "category": [
             "Act I",
-            "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "kayceedamagerare"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Ouroboros/Ourobot",
         "category": [
             "Act I",
-            "Reptile",
             "Act II",
-            "Beast",
             "Act III",
-            "Misc. Act III Area",
             "Kaycee's Mod",
             "Rare",
-            "Ouroboros Strat",
             "act1damagerare",
-            "act2damagebloodrare"
+            "act2damagebloodrare",
+            "kayceedamagerare"
         ],
-        "value": {
-            "act_3_offense": 8,
-            "act_3_defense": 3,
-            "act_3_utility": 7,
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Bullfrog",
         "category": [
             "Act I",
-            "Reptile",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Skink",
         "category": [
             "Act I",
-            "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Adder",
         "category": [
             "Act I",
-            "Reptile",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "River Snapper",
         "category": [
             "Act I",
-            "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
             "act1damage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Rattler",
         "category": [
             "Act I",
-            "Reptile",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Rabbit Pelt",
         "category": [
             "Act I",
-            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -642,7 +459,6 @@
         "name": "Wolf Pelt",
         "category": [
             "Act I",
-            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -652,7 +468,6 @@
         "name": "Golden Pelt",
         "category": [
             "Act I",
-            "Pelt",
             "Kaycee's Mod",
             "act1kaycee"
         ],
@@ -662,432 +477,304 @@
         "name": "Mole Man",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
             "act1otherrare",
-            "act2otherbloodrare"
+            "act2otherbloodrare",
+            "kayceeotherrare"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Amalgam",
         "category": [
             "Act I",
-            "Avian",
-            "Canine",
-            "Hooved",
-            "Insect",
-            "Reptile",
-            "Act II",
-            "Beast",
-            "Kaycee's Mod",
-            "act1act2kaycee",
-            "Rare",
-            "act1damagerare"
-        ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
-        "progression": true
-    },
-    {
-        "name": "Pack Rat",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare",
-            "act1damage"
-        ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 2
-        },
-        "progression": true
-    },
-    {
-        "name": "The Daus",
-        "category": [
-            "Act I",
-            "Tribeless",
-            "Kaycee's Mod",
-            "act1kaycee",
-            "Rare",
-            "act1damagerare"
-        ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
-        "progression": true
-    },
-    {
-        "name": "Urayuli",
-        "category": [
-            "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "Rare",
             "act1damagerare",
-            "act2damagebloodrare"
+            "kayceedamagerare"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
+        "progression": true
+    },
+    {
+        "name": "Pack Rat",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "act1kaycee",
+            "Rare",
+            "act1damage",
+            "kayceedamage"
+        ],
+        "progression": true
+    },
+    {
+        "name": "The Daus",
+        "category": [
+            "Act I",
+            "Kaycee's Mod",
+            "act1kaycee",
+            "Rare",
+            "act1damagerare",
+            "kayceedamagerare"
+        ],
+        "progression": true
+    },
+    {
+        "name": "Urayuli",
+        "category": [
+            "Act I",
+            "Act II",
+            "Beast",
+            "Kaycee's Mod",
+            "act1act2kaycee",
+            "Rare",
+            "act1damagerare",
+            "act2damagebloodrare",
+            "kayceedamagerare"
+        ],
         "progression": true
     },
     {
         "name": "Amoeba",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
             "Rare",
-            "act1damagerare"
+            "act1damagerare",
+            "kayceedamagerare"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Squirrel",
         "category": [
-            "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
-            "Kaycee's Mod",
             "act1act2kaycee",
             "Side Deck",
             "act2cheap"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Cat",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1other",
-            "act2otherblood"
+            "act2otherblood",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Hand Tentacle",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 3,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Mirror Tentacle",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1other"
+            "act1other",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Mole",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1other",
-            "act2oetherblood"
+            "act2oetherblood",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Porcupine",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "River Otter",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Skunk",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1other"
+            "act1other",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Stoat",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Warren",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2start",
             "act1other",
-            "act2otherblood"
+            "act2otherblood",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Beaver",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Bell Tentacle",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Field Mice",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Rat King",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Great White",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Grizzly",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1damage",
-            "act2damageblood"
+            "act2damageblood",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Opossum",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Bat",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1damage"
+            "act1damage",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Deathcard",
         "category": [
             "Act I",
-            "Tribeless",
             "act1",
             "act1damage"
         ],
@@ -1097,58 +784,40 @@
         "name": "Boulder",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Frozen Opossum",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Rabbit",
         "category": [
             "Act I",
-            "Tribeless",
             "Act II",
             "Beast",
             "Kaycee's Mod",
             "act1act2kaycee",
             "act2otherblood"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "The Smoke",
         "category": [
             "Act I",
-            "Tribeless",
             "Kaycee's Mod",
             "act1kaycee",
-            "act1otherrare"
+            "act1otherrare",
+            "kayceeotherrare"
         ],
         "progression": true
     },
@@ -1156,7 +825,6 @@
         "name": "Greater Smoke",
         "category": [
             "Act I",
-            "Tribeless",
             "act1damagerare"
         ],
         "progression": true
@@ -1168,13 +836,9 @@
             "Beast",
             "Kaycee's Mod",
             "act2kaycee",
-            "Rare"
+            "Rare",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
@@ -1473,7 +1137,6 @@
             "Act II",
             "Undead",
             "Act III",
-            "Resplendent Bastion",
             "act2act3",
             "act2damagebones"
         ],
@@ -1551,16 +1214,10 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2cheap",
             "act2otherenergy"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 2,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1579,15 +1236,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2otherenergy"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 3,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1605,16 +1256,10 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2start",
             "act2damageenergy"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1623,15 +1268,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Resplendent Bastion",
             "act2act3",
             "act2otherenergy"
         ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
@@ -1640,15 +1279,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2otherenergy"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 1,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
@@ -1657,15 +1290,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2damageenergy"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
@@ -1716,15 +1343,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2damageenergy"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1754,15 +1375,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2damagehighenergy"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 1,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1771,15 +1386,9 @@
             "Act II",
             "Technology",
             "Act III",
-            "Misc. Act III Area",
             "act2act3",
             "act2damagehighenergy"
         ],
-        "value": {
-            "act_3_offense": 2,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
@@ -1976,11 +1585,6 @@
             "act2",
             "act2otherorange"
         ],
-        "value": {
-            "act_2_offense_r": 0,
-            "act_2_defense_r": 2,
-            "act_2_utility_r": 0
-        },
         "progression": true
     },
     {
@@ -2047,445 +1651,254 @@
         "name": "Son1a",
         "category": [
             "Act III",
-            "Foul Backwater",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 2,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Qui77",
         "category": [
             "Act III",
-            "Foul Backwater",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 2,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Gr1zz",
         "category": [
             "Act III",
-            "Foul Backwater",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 1,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Bomb Latcher",
         "category": [
             "Act III",
-            "Filthy Corpse World",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Exeskeleton",
         "category": [
             "Act III",
-            "Filthy Corpse World",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Shield Latcher",
         "category": [
             "Act III",
-            "Filthy Corpse World",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 1,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Skel-e-latcher",
         "category": [
             "Act III",
-            "Filthy Corpse World",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Gems Conduit",
         "category": [
             "Act III",
-            "Resplendent Bastion",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
         "name": "Kind Cell",
         "category": [
             "Act III",
-            "Resplendent Bastion",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 1
-        },
         "progression": true
     },
     {
         "name": "Tough Cell",
         "category": [
             "Act III",
-            "Resplendent Bastion",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 1
-        },
         "progression": true
     },
     {
         "name": "Splinter Cell",
         "category": [
             "Act III",
-            "Resplendent Bastion",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 2,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 0
-        },
         "progression": true
     },
     {
         "name": "Bleene's Vessel",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 1,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
         "name": "Goranj's Vessel",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 1,
-            "act_3_utility_bridge": 0
-        },
         "progression": true
     },
     {
         "name": "Orlu's Vessel",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
         "name": "Gem Detonator",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
         "name": "Gem Guardian",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 1,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 1
-        },
         "progression": true
     },
     {
         "name": "Gembound Ripper",
         "category": [
             "Act III",
-            "Gaudy Gem Land",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 3,
-            "act_3_defense_bridge": 0,
-            "act_3_utility_bridge": 0
-        },
         "progression": true
     },
     {
         "name": "Empty Vessel",
         "category": [
-            "Act III",
-            "Misc. Act III Area",
             "act3",
             "Side Deck"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Emerald Vessel",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
             "act3",
             "Side Deck"
         ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 7,
-            "act_3_utility_bridge": 5
-        },
         "progression": true
     },
     {
         "name": "Ruby Vessel",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
             "act3",
             "Side Deck"
         ],
-        "value": {
-            "act_3_offense_bridge": 2,
-            "act_3_defense_bridge": 5,
-            "act_3_utility_bridge": 5
-        },
         "progression": true
     },
     {
         "name": "Sapphire Vessel",
         "category": [
-            "Act III",
-            "Gaudy Gem Land",
             "act3",
             "Side Deck"
         ],
-        "value": {
-            "act_3_offense_bridge": 0,
-            "act_3_defense_bridge": 5,
-            "act_3_utility_bridge": 7
-        },
         "progression": true
     },
     {
         "name": "Act 3 Custom Card",
         "category": [
             "Act III",
-            "Resplendent Bastion",
             "act3"
         ],
-        "value": {
-            "act_3_offense_bridge": 2,
-            "act_3_defense_bridge": 2,
-            "act_3_utility_bridge": 2
-        },
         "progression": true
     },
     {
         "name": "Amoebot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Gift Bot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 1,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Lonely Wizbot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 3,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Alarm Bot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 2,
-            "act_3_defense": 0,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Busted 3D Printer",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 0,
-            "act_3_defense": 2,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Fishbot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 2,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Shieldbot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 3,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Sniper Bot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 0,
-            "act_3_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Swapbot",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "value": {
-            "act_3_offense": 1,
-            "act_3_defense": 2,
-            "act_3_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Captive File",
         "category": [
             "Act III",
-            "Filthy Corpse World",
             "act3"
         ],
         "progression": true
@@ -2494,7 +1907,6 @@
         "name": "Bad Fish",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
@@ -2503,7 +1915,6 @@
         "name": "More Fish",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
@@ -2512,7 +1923,6 @@
         "name": "Good Fish",
         "category": [
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
         "useful": true
@@ -2521,269 +1931,170 @@
         "name": "Cuckoo",
         "category": [
             "Kaycee's Mod",
-            "Avian",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Lammergeier",
         "category": [
             "Kaycee's Mod",
-            "Avian",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Dire Wolf Pup",
         "category": [
             "Kaycee's Mod",
-            "Canine",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Dire Wolf",
         "category": [
             "Kaycee's Mod",
-            "Canine",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Red Hart",
         "category": [
             "Kaycee's Mod",
-            "Hooved",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Wild Bull",
         "category": [
             "Kaycee's Mod",
-            "Hooved",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Pelt Lice",
         "category": [
             "Kaycee's Mod",
-            "Insect",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Flying Ant",
         "category": [
             "Kaycee's Mod",
-            "Insect",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Mealworm",
         "category": [
             "Kaycee's Mod",
-            "Insect",
-            "kaycee"
+            "kaycee",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 1,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Tadpole",
         "category": [
             "Kaycee's Mod",
-            "Reptile",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Mud Turtle",
         "category": [
             "Kaycee's Mod",
-            "Reptile",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Ijiraq",
         "category": [
             "Kaycee's Mod",
-            "Tribeless",
             "kaycee",
-            "Rare"
+            "Rare",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 2
-        },
         "progression": true
     },
     {
         "name": "Hodag",
         "category": [
             "Kaycee's Mod",
-            "Tribeless",
             "kaycee",
-            "Rare"
+            "Rare",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 2,
-            "kaycees_mod_defense": 3,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Curious Egg",
         "category": [
             "Kaycee's Mod",
-            "Tribeless",
             "kaycee",
-            "Rare"
+            "Rare",
+            "kayceeother"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Aquasquirrel",
         "category": [
-            "Kaycee's Mod",
-            "Tribeless",
             "kaycee",
             "Side Deck"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Raccoon",
         "category": [
             "Kaycee's Mod",
-            "Tribeless",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 1
-        },
         "progression": true
     },
     {
         "name": "Wolverine",
         "category": [
             "Kaycee's Mod",
-            "Tribeless",
-            "kaycee"
+            "kaycee",
+            "kayceedamage"
         ],
-        "value": {
-            "kaycees_mod_offense": 1,
-            "kaycees_mod_defense": 2,
-            "kaycees_mod_utility": 0
-        },
         "progression": true
     },
     {
         "name": "Hydra",
         "category": [
             "Kaycee's Mod",
-            "Avian",
-            "Canine",
-            "Hooved",
-            "Insect",
-            "Reptile",
             "kaycee",
             "Rare"
         ],
-        "value": {
-            "kaycees_mod_offense": 0,
-            "kaycees_mod_defense": 0,
-            "kaycees_mod_utility": 0
-        },
         "useful": true
     },
     {
         "name": "Boulder in a Bottle",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2793,9 +2104,7 @@
     {
         "name": "Squirrel in a Bottle",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2806,7 +2115,6 @@
         "name": "Special Dagger",
         "category": [
             "Consumable",
-            "Act I",
             "act1",
             "act1consumable"
         ],
@@ -2815,9 +2123,7 @@
     {
         "name": "Scissors",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2827,9 +2133,7 @@
     {
         "name": "Pliers",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2839,9 +2143,7 @@
     {
         "name": "Hoggy Bank",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2851,9 +2153,7 @@
     {
         "name": "Hourglass",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2864,7 +2164,6 @@
         "name": "Failure",
         "category": [
             "Consumable",
-            "Act I",
             "act1"
         ],
         "useful": true
@@ -2872,9 +2171,7 @@
     {
         "name": "Black Goat in a Bottle",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2884,9 +2181,7 @@
     {
         "name": "Frozen Opossum in a Bottle",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2896,9 +2191,7 @@
     {
         "name": "Fish Hook",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2908,9 +2201,7 @@
     {
         "name": "Harpie's Birdleg Fan",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
-            "Act I",
             "act1kaycee",
             "act1consumable",
             "kayceeconsumable"
@@ -2921,7 +2212,6 @@
     {
         "name": "Extra Battery",
         "category": [
-            "Act III",
             "Consumable",
             "act3",
             "act3consumable"
@@ -2931,7 +2221,6 @@
     {
         "name": "Mrs. Bomb's Remote",
         "category": [
-            "Act III",
             "Consumable",
             "act3",
             "act3consumable"
@@ -2941,7 +2230,6 @@
     {
         "name": "Nano Armor Generator",
         "category": [
-            "Act III",
             "Consumable",
             "act3",
             "act3consumable"
@@ -2951,7 +2239,6 @@
     {
         "name": "Wiseclock",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
             "kaycee",
             "kayceeconsumable"
@@ -2961,7 +2248,6 @@
     {
         "name": "Magickal Bleach",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
             "kaycee",
             "kayceeconsumable"
@@ -2971,7 +2257,6 @@
     {
         "name": "Magpie's Lens",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
             "kaycee",
             "kayceeconsumable"
@@ -2981,90 +2266,9 @@
     {
         "name": "Skinning Knife",
         "category": [
-            "Kaycee's Mod",
             "Consumable",
             "kaycee",
             "kayceeconsumable"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Vanilla Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "High Cost Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Ant Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Mantis God Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Waterborne Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Bone Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "No Cost Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
-        ],
-        "progression": true
-    },
-    {
-        "name": "Curious Egg Deck",
-        "category": [
-            "Kaycee's Mod",
-            "Starter Deck",
-            "kaycee",
-            "kayceestarter"
         ],
         "progression": true
     },
@@ -3075,8 +2279,7 @@
             "Act III",
             "Misc. Restrictions",
             "hammer",
-            "act2act3",
-            "Ouroboros Strat"
+            "act2act3"
         ],
         "progression": true
     },

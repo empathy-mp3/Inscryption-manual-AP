@@ -722,7 +722,7 @@
         "region": "Act I - Late Snow Line"
     },
     {
-        "name": "Snow Line Node 13 (Prospector)",
+        "name": "Snow Line Node 13 (Trapper)",
         "category": [
             "Snow Line Map Area",
             "Act I",
@@ -731,7 +731,7 @@
         "region": "Act I - Trapper"
     },
     {
-        "name": "Snow Line Node 13 (Prospector) 2",
+        "name": "Snow Line Node 13 (Trapper) 2",
         "category": [
             "actonesecond",
             "Snow Line Map Area",
@@ -2368,7 +2368,7 @@
             "Act III",
             "act3"
         ],
-        "region": "Act III - Robobucks"
+        "region": "Act III - Photographer"
     },
     {
         "name": "Central Botopia: Holo Pelt from Shop",
@@ -2377,7 +2377,7 @@
             "Act III",
             "act3"
         ],
-        "region": "Act III - Robobucks"
+        "region": "Act III - Photographer"
     },
     {
         "name": "Eastern Botopia: First Skippable Encounter",
@@ -3073,15 +3073,6 @@
         "region": "Act III - Rickety Tower"
     },
     {
-        "name": "Rickety Tower: Gemification on Second Floor",
-        "category": [
-            "Rickety Tower",
-            "Act III",
-            "act3"
-        ],
-        "region": "Act III - Rickety Tower"
-    },
-    {
         "name": "Resplendent Bastion: Card Trade in Northwest Sector",
         "category": [
             "Resplendent Bastion",
@@ -3172,209 +3163,821 @@
         "region": "Act III - Resplendent Bastion"
     },
     {
-        "name": "Cuckoo",
+        "name": "First Area Node 1 (Starting)",
         "category": [
+            "First Map Area",
             "Kaycee's Mod",
-            "Avian",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Lammergeier",
-        "category": [
-            "Kaycee's Mod",
-            "Avian",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Dire Wolf Pup",
-        "category": [
-            "Kaycee's Mod",
-            "Canine",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Dire Wolf",
-        "category": [
-            "Kaycee's Mod",
-            "Canine",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Red Hart",
-        "category": [
-            "Kaycee's Mod",
-            "Hooved",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Wild Bull",
-        "category": [
-            "Kaycee's Mod",
-            "Hooved",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Pelt Lice",
-        "category": [
-            "Kaycee's Mod",
-            "Insect",
-            "kaycee",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - Post-Prospector",
-        "requires": "|Pelt Lice|"
-    },
-    {
-        "name": "Flying Ant",
-        "category": [
-            "Kaycee's Mod",
-            "Insect",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mealworm",
-        "category": [
-            "Kaycee's Mod",
-            "Insect",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Mud Turtle",
-        "category": [
-            "Kaycee's Mod",
-            "Reptile",
-            "kaycee"
-        ],
-        "region": "Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Ijiraq",
-        "category": [
-            "Kaycee's Mod",
-            "Tribeless",
-            "kaycee",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - Post-Prospector",
-        "requires": "|Ijiraq|"
-    },
-    {
-        "name": "Hodag",
-        "category": [
-            "Kaycee's Mod",
-            "Tribeless",
-            "kaycee",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - Post-Prospector"
-    },
-    {
-        "name": "Tadpole",
-        "category": [
-            "Kaycee's Mod",
-            "Reptile",
-            "kaycee",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - No Cost Deck or Kaycee's Mod - Pre-Prospector"
-    },
-    {
-        "name": "Curious Egg",
-        "category": [
-            "Kaycee's Mod",
-            "Tribeless",
-            "kaycee",
-            "Rare"
-        ],
-        "region": "Kaycee's Mod - Curious Egg Deck"
-    },
-    {
-        "name": "Aquasquirrel",
-        "category": [
-            "Kaycee's Mod",
-            "Tribeless",
             "kaycee"
         ],
         "region": "Kaycee's Mod - Beginning"
     },
     {
-        "name": "Raccoon",
+        "name": "First Area Node 1 (Starting) 2",
         "category": [
+            "kayceesecond",
+            "First Map Area",
             "Kaycee's Mod",
-            "Tribeless",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
-        "name": "Wolverine",
+        "name": "First Area Node 2 (Trader)",
         "category": [
+            "First Map Area",
             "Kaycee's Mod",
-            "Tribeless",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - Pre-Prospector"
+        "region": "Kaycee's Mod - Beginning"
     },
     {
-        "name": "Hydra",
+        "name": "First Area Node 2 (Trader) 2",
         "category": [
+            "kayceesecond",
+            "First Map Area",
             "Kaycee's Mod",
-            "Avian",
-            "Canine",
-            "Hooved",
-            "Insect",
-            "Reptile",
             "kaycee"
         ],
-        "region": "Kaycee's Mod - End",
-        "requires": "|Curious Egg Deck|"
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 3 (Buff)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 3 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 4 (Battle)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 4 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 5 (Card)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 5 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 6 (Buff)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 6 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Beginning"
+    },
+    {
+        "name": "First Area Node 7 (Battle)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 7 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 8 (Card)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 8 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 9 (Buff)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 9 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 10 (Battle)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 10 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 11 (Card)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 11 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 12 (Buff)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 12 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 13 (First Boss)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "First Area Node 13 (First Boss) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Second Area Node 1 (Starting)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 1 (Starting) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 2 (Card)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 2 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 3 (Buff)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 3 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 4 (Battle)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 4 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 5 (Card)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 5 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 6 (Buff)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 6 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Second Area"
+    },
+    {
+        "name": "Second Area Node 7 (Battle)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 7 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 8 (Card)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 8 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 9 (Buff)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 9 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 10 (Battle)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 10 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 11 (Card)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 11 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 12 (Buff)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 12 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 13 (Second Boss)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Second Area Node 13 (Second Boss) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Third Area Node 1 (Starting)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 1 (Starting) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 2 (Card)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 2 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 3 (Buff)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 3 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 4 (Battle)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 4 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 5 (Card)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 5 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 6 (Buff)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 6 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Early Third Area"
+    },
+    {
+        "name": "Third Area Node 7 (Battle)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 7 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 8 (Card)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 8 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 9 (Buff)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 9 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 10 (Battle)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 10 (Battle) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 11 (Card)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 11 (Card) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 12 (Buff)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 12 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 13 (Third Boss)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Third Area Node 13 (Third Boss) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Final Area Node 1 (Starting)",
+        "category": [
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Final Area Node 1 (Starting) 2",
+        "category": [
+            "kayceesecond",
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Final Area Node 2 (Buff)",
+        "category": [
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Final Area Node 2 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Final Area Node 3 (Final Boss)",
+        "category": [
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Final Area Node 3 (Final Boss) 2",
+        "category": [
+            "kayceesecond",
+            "Final Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
     },
     {
         "name": "End of Act I",
         "victory": true,
-        "category": [
-            "Victory"
-        ],
         "region": "Act I - End"
     },
     {
         "name": "End of Act II",
         "victory": true,
-        "category": [
-            "Victory"
-        ],
         "region": "Act II - End"
     },
     {
         "name": "End of Act III",
         "victory": true,
-        "category": [
-            "Victory"
-        ],
         "region": "Act III - End"
     },
     {
         "name": "End of Kaycee's Mod",
         "victory": true,
-        "category": [
-            "Victory"
-        ],
         "region": "Kaycee's Mod - End"
     }
 ]

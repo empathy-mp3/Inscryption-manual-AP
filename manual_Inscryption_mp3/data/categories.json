@@ -35,13 +35,6 @@
     "act1kaycee": {
         "hidden": true
     },
-    "mycobot": {
-        "yaml_option": [
-            "Act_3_Enabled",
-            "Act_2_Enabled"
-        ],
-        "hidden": true
-    },
     "Consumable": {
         "yaml_option": [
             "Consumable_Rando"
@@ -90,6 +83,18 @@
         "hidden": true
     },
     "act1otherrare": {
+        "hidden": true
+    },
+    "kayceedamage": {
+        "hidden": true
+    },
+    "kayceedamagerare": {
+        "hidden": true
+    },
+    "kayceeother": {
+        "hidden": true
+    },
+    "kayceeotherrare": {
         "hidden": true
     },
     "vesselupgrade": {

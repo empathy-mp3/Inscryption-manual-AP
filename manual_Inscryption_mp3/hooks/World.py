@@ -44,7 +44,6 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
     act3 = get_option_value(multiworld, player, "Act_3_Enabled") or False
     kaycee = get_option_value(multiworld, player, "Kaycees_Mod_Enabled") or False
     consumable = get_option_value(multiworld, player, "Consumable_Rando_Enabled") or False
-    starter = get_option_value(multiworld, player, "Starter_Deck_Rando_Enabled") or False
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
 
@@ -67,11 +66,7 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             locationNamesToRemove.append(location["name"])
         elif "act1kaycee" in location.get("category", []) and not (act1 or kaycee):
             locationNamesToRemove.append(location["name"])
-        elif "mycobot" in location.get("category", []) and not (act2 and act3):
-            locationNamesToRemove.append(location["name"])
         elif "Consumable" in location.get("category", []) and not consumable:
-            locationNamesToRemove.append(location["name"])
-        elif "Starter Deck" in location.get("category", []) and not starter:
             locationNamesToRemove.append(location["name"])
 
     for region in multiworld.regions:
@@ -325,33 +320,33 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     
     def postEasternBotopia(state:CollectionState):
         if hammer:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot"], player, 3) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 1) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot"], player, 4) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 2)))
+            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot"], player, 3) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 1) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot"], player, 4) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 2)))
         else:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot"], player, 3) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 1)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot"], player, 3) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot"], player, 1)
     
     def latePostEasternBotopia(state:CollectionState):
         if consumable and hammer:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has_group("act3consumable", player, 1)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has_group("act3consumable", player, 1)
         elif consumable:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has_group("act3consumable", player, 1)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has_group("act3consumable", player, 1)
         elif hammer:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
         else:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Qui77", "Gr1zz", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
         
     def eastboss3(state:CollectionState):
         if hammer:
-            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4))
+            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4))
         else:
-            return (state.has_from_list["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
+            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 3)
         
     def lateWesternBotopia(state:CollectionState):
         if consumable and hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2))
+            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2))
         elif hammer and consumable:
-            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1))
+            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1))
         elif hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1))
+            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1))
         elif consumable and vessel:
             return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 6) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 4))) and (state.has("Vessel Upgrade", player, 1) or state.has_group("act3consumable", player, 2))
         elif vessel:
@@ -371,17 +366,41 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     
     def g0lly(state:CollectionState):
         if consumable and hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2))
+            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2))
         elif hammer and consumable:
-            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1))
+            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1))
         elif hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1))
+            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1))
         elif consumable and vessel:
             return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and (state.has("Vessel Upgrade", player, 1) or state.has_group("act3consumable", player, 2))
         elif vessel:
             return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Vessel Upgrade", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))
         else:
             return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5)
+
+    def late_area1(state: CollectionState):
+        return (state.has("Squirrel", player, 1) or state.has("Aquasquirrel", player, 1)) and state.has_group("kayceedamage", player, 2)
+
+    def boss1(state:CollectionState):
+        return state.has_group("kayceedamage", player, 3) or (state.has_group("kayceedamage", player, 2) and state.has_group("kayceeother", player, 1))
+
+    def late_area2(state:CollectionState):
+        return state.has_group("kayceedamage", player, 4) or (state.has_group("kayceedamage", player, 3) and state.has_group("kayceeother", player, 1))
+
+    def boss2(state:CollectionState):
+        if consumable:
+            return state.has_group("kayceeconsumable", player, 3) and (state.has_group("kayceedamage", player, 5) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1)))
+        else:
+            return state.has_group("kayceedamage", player, 5) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1))
+
+    def late_area3(state:CollectionState):
+        return state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1))
+
+    def boss3(state:CollectionState):
+        return state.has_group("kayceeconsumable", player, 5) and (state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 1)))
+
+    def boss4(state:CollectionState):
+        return state.has_group("kayceedamage", player, 8) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2))
 
     def addReq(loc, req):
         if loc["requires"] == []:
@@ -434,112 +453,44 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             set_rule(multiworld.get_entrance(exit_obj.name, player), leftboss2)
 
     if act3:
-        addReq(region_table["Act III - Initial Gauntlet"], "|Empty Vessel| and ((|Shieldbot| and (|Energy Bot| or |Double Gunner|)) or |Sniper Bot|)")
-        addReq(region_table["Act III - Pre-Bridge"], "({ItemValue(act_3_offense:5)} or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_offense:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:3)}))")
-        addReq(region_table["Act III - Post-Bridge"], "({ItemValue(act_3_offense:8)} or {ItemValue(act_3_offense_bridge:5)} or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:6)}) or {ItemValue(act_3_defense_bridge:7)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:3)} and {ItemValue(act_3_utility:7)}) or {ItemValue(act_3_utility_bridge:6)} or ({ItemValue(act_3_offense:6)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_defense:4)} and {ItemValue(act_3_utility:4)}) or ({ItemValue(act_3_defense_bridge:4)} and {ItemValue(act_3_utility_bridge:5)}))")
-        addReq(region_table["Act III - End"], "({ItemValue(act_3_offense:9)} or {ItemValue(act_3_offense_bridge:6)} or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:7)}) or {ItemValue(act_3_defense_bridge:8)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:4)} and {ItemValue(act_3_utility:8)}) or {ItemValue(act_3_utility_bridge:7)} or ({ItemValue(act_3_offense:7)} and {ItemValue(act_3_defense:6)} and {ItemValue(act_3_utility:6)}) or ({ItemValue(act_3_offense_bridge:5)} and {ItemValue(act_3_defense:5)} and {ItemValue(act_3_utility:5)}) or ({ItemValue(act_3_defense_bridge:5)} and {ItemValue(act_3_utility_bridge:6)}))")
-
-    if act3 and consumable:
-        addReq(region_table["Act III - Pre-Bridge"], "|@act3consumable:1|")
-        addReq(region_table["Act III - Post-Bridge"], "|@act3consumable:2|")
+        for exit_obj in multiworld.get_region("Act III - Eastern Botopia", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), easternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Filthy Corpse World", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), postEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Late Filthy Corpse World", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), latePostEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Archivist", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), eastboss3)
+        for exit_obj in multiworld.get_region("Act III - Foul Backwater", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), postEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Late Foul Backwater", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), latePostEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Photographer", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), eastboss3)
+        for exit_obj in multiworld.get_region("Act III - Late Western Botopia", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), lateWesternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Gaudy Gem Land", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), gaudyGemLand)
+        for exit_obj in multiworld.get_region("Act III - Rickety Tower", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), ricketyTower)
+        for exit_obj in multiworld.get_region("Act III - G0lly", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), g0lly)
 
     if kaycee:
-        addReq(region_table["Kaycee's Mod - Pre-Prospector"], "{ItemValue(kaycees_mod_offense:1)} and (|Squirrel| or |Aquasquirrel|)")
-        addReq(region_table["Kaycee's Mod - Post-Prospector"], "|@Kaycee's Mod:4| and (|Squirrel| or |Aquasquirrel|) and {ItemValue(kaycees_mod_offense:4)}")
-        addReq(region_table["Kaycee's Mod - Post-Angler"], "({ItemValue(kaycees_mod_offense:6)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_utility:2)}) or ({ItemValue(kaycees_mod_offense:3)} and {ItemValue(kaycees_mod_defense:2)} and {ItemValue(kaycees_mod_utility:1)}))")
-        addReq(region_table["Kaycee's Mod - Post-Trapper"], "({ItemValue(kaycees_mod_offense:7)} or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_defense:4)}) or ({ItemValue(kaycees_mod_offense:5)} and {ItemValue(kaycees_mod_utility:3)}) or ({ItemValue(kaycees_mod_offense:4)} and {ItemValue(kaycees_mod_defense:3)} and {ItemValue(kaycees_mod_utility:2)}))")
-        addReq(region_table["Kaycee's Mod - End"], "({ItemValue(kaycees_mod_offense:8)} or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_defense:5)}) or ({ItemValue(kaycees_mod_offense:7)} and {ItemValue(kaycees_mod_utility:4)}) or ({ItemValue(kaycees_mod_offense:6)} and {ItemValue(kaycees_mod_defense:4)} and {ItemValue(kaycees_mod_utility:3)}))")
-
-    if kaycee and consumable:
-        addReq(region_table["Kaycee's Mod - Post-Prospector"], "|@kayceeconsumable:1|")
-        addReq(region_table["Kaycee's Mod - Post-Angler"], "|@kayceeconsumable:3|")
-        addReq(region_table["Kaycee's Mod - Post-Trapper"], "|@kayceeconsumable:5|")
-        addReq(region_table["Kaycee's Mod - End"], "|@kayceeconsumable:6|")
-
-    if kaycee and starter:
-        addReq(region_table["Kaycee's Mod - Vanilla Deck"], "|Vanilla Deck|")
-        addReq(region_table["Kaycee's Mod - High Cost Deck"], "|High Cost Deck|")
-        addReq(region_table["Kaycee's Mod - Ant Deck"], "|Ant Deck|")
-        addReq(region_table["Kaycee's Mod - Mantis God Deck"], "|Mantis God Deck|")
-        addReq(region_table["Kaycee's Mod - Waterborne Deck"], "|Waterborne Deck|")
-        addReq(region_table["Kaycee's Mod - Bone Deck"], "|Bone Deck|")
-        addReq(region_table["Kaycee's Mod - No Cost Deck"], "|No Cost Deck|")
-        addReq(region_table["Kaycee's Mod - Curious Egg Deck"], "|Curious Egg Deck|")
-
-    if act1 and not act2 and not act3 and not kaycee: #1
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act I:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act I:ALL|")
-
-    elif not act1 and act2 and not act3 and not kaycee: #2
-        addReq(region_table["Act I - Beginning"], "|@Act II:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act II:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act II:ALL|")
-
-    elif not act1 and not act2 and act3 and not kaycee: #3
-        addReq(region_table["Act I - Beginning"], "|@Act III:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act III:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act III:ALL|")
-
-    elif not act1 and not act2 and not act3 and kaycee: #k
-        addReq(region_table["Act I - Beginning"], "|@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Kaycee's Mod:ALL|")
-
-    elif act1 and act2 and not act3 and not kaycee: #12
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act II:ALL|")
-
-    elif act1 and not act2 and act3 and not kaycee: #13
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act III:ALL|")
-
-    elif act1 and not act2 and not act3 and kaycee: #1k
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Kaycee's Mod:ALL|")
-
-    elif not act1 and act2 and act3 and not kaycee: #23
-        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act II:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act II:ALL| and |@Act III:ALL|")
-
-    elif not act1 and act2 and not act3 and kaycee: #2k
-        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act II:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act II:ALL| and |@Act III:ALL|")
-
-    elif not act1 and not act2 and act3 and kaycee: #3k
-        addReq(region_table["Act I - Beginning"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act III:ALL| and |@Kaycee's Mod:ALL|")
-
-    elif act1 and act2 and act3 and not kaycee: #123
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL|")
-
-    elif act1 and act2 and not act3 and kaycee: #12k
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act II:ALL| and |@Kaycee's Mod:ALL|")
-
-    elif act1 and not act2 and act3 and kaycee: #13k
-        addReq(region_table["Act I - Beginning"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Beginning"], "|@Act I:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-
-    elif not act1 and act2 and act3 and kaycee: #23k
-        addReq(region_table["Act I - Beginning"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Beginning"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-
-    elif act1 and act2 and act3 and kaycee: #123k
-        addReq(region_table["Act I - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act II - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
-        addReq(region_table["Act III - Skip"], "|@Act I:ALL| and |@Act II:ALL| and |@Act III:ALL| and |@Kaycee's Mod:ALL|")
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late First Area", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_area1)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - First Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss1)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late Second Area", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_area2)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Second Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss2)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late Third Area", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), late_area3)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Third Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss3)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Final Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss4)
 
     def Example_Rule(state: CollectionState) -> bool:
         # Calculated rules take a CollectionState object and return a boolean

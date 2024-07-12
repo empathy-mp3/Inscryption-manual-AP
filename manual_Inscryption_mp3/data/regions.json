@@ -1,8 +1,7 @@
 {
     "start": {
         "connects_to": [
-            "Act I - Beginning",
-            "Act I - Skip"
+            "Act I - Beginning"
         ],
         "starting": true,
         "requires": []
@@ -11,12 +10,6 @@
         "connects_to": [
             "Act I - Late Woodlands",
             "Act I - Dagger"
-        ],
-        "requires": []
-    },
-    "Act I - Skip": {
-        "connects_to": [
-            "pre-act2"
         ],
         "requires": []
     },
@@ -85,14 +78,7 @@
     },
     "Act I - End": {
         "connects_to": [
-            "pre-act2"
-        ],
-        "requires": []
-    },
-    "pre-act2": {
-        "connects_to": [
-            "Act II - Beginning",
-            "Act II - Skip"
+            "Act II - Beginning"
         ],
         "requires": []
     },
@@ -101,12 +87,6 @@
             "Act II - Prospector",
             "Act II - Sawyer",
             "Act II - Kaycee"
-        ],
-        "requires": []
-    },
-    "Act II - Skip": {
-        "connects_to": [
-            "pre-act3"
         ],
         "requires": []
     },
@@ -223,12 +203,6 @@
         ],
         "requires": []
     },
-    "pre-act3": {
-        "connects_to": [
-            "Act III - Beginning"
-        ],
-        "requires": []
-    },
     "Act III - Beginning": {
         "connects_to": [
             "Act III - Eastern Botopia"
@@ -322,116 +296,59 @@
     },
     "Kaycee's Mod - Beginning": {
         "connects_to": [
-            "Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Kaycee's Mod - Beginning",
-            "Act II - Post-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Beginning",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Act I - Post-Angler or Kaycee's Mod - Beginning",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning",
-            "Kaycee's Mod - Vanilla Deck",
-            "Kaycee's Mod - High Cost Deck",
-            "Kaycee's Mod - Ant Deck",
-            "Kaycee's Mod - Mantis God Deck",
-            "Kaycee's Mod - Waterborne Deck",
-            "Kaycee's Mod - Bone Deck",
-            "Kaycee's Mod - No Cost Deck",
-            "Kaycee's Mod - Curious Egg Deck"
+            "Kaycee's Mod - Late First Area"
         ],
         "requires": []
     },
-    "Kaycee's Mod - Vanilla Deck": {
+    "Kaycee's Mod - Late First Area": {
         "connects_to": [
-            "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck"
-        ]
-    },
-    "Kaycee's Mod - High Cost Deck": {
-        "connects_to": [
-            "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector"
-        ]
-    },
-    "Kaycee's Mod - Ant Deck": {
-        "connects_to": [
-            "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector",
-            "Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector"
-        ]
-    },
-    "Kaycee's Mod - Mantis God Deck": {
-        "connects_to": [
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector"
-        ]
-    },
-    "Kaycee's Mod - Waterborne Deck": {
-        "connects_to": [
-            "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector",
-            "Act II - Post-Bridge or Kaycee's Mod - Waterborne Deck"
-        ]
-    },
-    "Kaycee's Mod - Bone Deck": {
-        "connects_to": [
-            "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector",
-            "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector"
-        ]
-    },
-    "Kaycee's Mod - No Cost Deck": {
-        "connects_to": [
-            "Act I - Pre-Prospector or Kaycee's Mod - No Cost Deck or Kaycee's Mod - Post-Prospector",
-            "Act II - Post-Bridge or Kaycee's Mod - No Cost Deck",
-            "Kaycee's Mod - No Cost Deck or Kaycee's Mod - Pre-Prospector"
-        ]
-    },
-    "Kaycee's Mod - Curious Egg Deck": {},
-    "Kaycee's Mod - Pre-Prospector": {
-        "connects_to": [
-            "Kaycee's Mod - Post-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector",
-            "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector",
-            "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector",
-            "Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector",
-            "Kaycee's Mod - No Cost Deck or Kaycee's Mod - Pre-Prospector"
+            "Kaycee's Mod - First Boss"
         ],
         "requires": []
     },
-    "Kaycee's Mod - Post-Prospector": {
+    "Kaycee's Mod - First Boss": {
         "connects_to": [
-            "Kaycee's Mod - Post-Angler",
-            "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector"
+            "Kaycee's Mod - Early Second Area"
         ],
         "requires": []
     },
-    "Kaycee's Mod - Post-Angler": {
+    "Kaycee's Mod - Early Second Area": {
         "connects_to": [
-            "Kaycee's Mod - Post-Trapper",
-            "Act I - Post-Angler or Kaycee's Mod - Post-Angler"
+            "Kaycee's Mod - Late Second Area"
         ],
         "requires": []
     },
-    "Kaycee's Mod - Post-Trapper": {
+    "Kaycee's Mod - Late Second Area": {
+        "connects_to": [
+            "Kaycee's Mod - Second Boss"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Second Boss": {
+        "connects_to": [
+            "Kaycee's Mod - Early Third Area"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Early Third Area": {
+        "connects_to": [
+            "Kaycee's Mod - Late Third Area"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Late Third Area": {
+        "connects_to": [
+            "Kaycee's Mod - Third Boss"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Third Boss": {
+        "connects_to": [
+            "Kaycee's Mod - Final Boss"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Final Boss": {
         "connects_to": [
             "Kaycee's Mod - End"
         ],
@@ -439,53 +356,5 @@
     },
     "Kaycee's Mod - End": {
         "requires": []
-    },
-    "Act I - Beginning or Kaycee's Mod - Beginning": {},
-    "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Beginning": {},
-    "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Beginning": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - Beginning": {},
-    "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Beginning": {},
-    "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning": {},
-    "Act I - Post-Prospector or Kaycee's Mod - Post-Prospector": {},
-    "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Post-Prospector": {},
-    "Act I - Post-Prospector or Kaycee's Mod - Beginning": {},
-    "Act II - Post-Bridge or Kaycee's Mod - Beginning": {},
-    "Act II - Pre-Bridge or Act III - Post-Bridge": {},
-    "Act II - Beginning or Act III - Initial Gauntlet": {},
-    "Act II - Pre-Bridge or Act III - Initial Gauntlet": {},
-    "Act II - Pre-Bridge or Act III - Beginning": {},
-    "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Beginning": {},
-    "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector": {},
-    "Act I - Beginning or Act II - Beginning or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Beginning or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Post-Angler or Kaycee's Mod - Post-Angler": {},
-    "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Act II - Beginning or Kaycee's Mod - Pre-Prospector": {},
-    "Act II - Pre-Bridge or Kaycee's Mod - Beginning": {},
-    "Act I - Post-Angler or Kaycee's Mod - Beginning": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - Waterborne Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Beginning or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Post-Prospector or Act II - Pre-Bridge or Kaycee's Mod - Mantis God Deck or Kaycee's Mod - Post-Prospector": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Pre-Prospector or Kaycee's Mod - No Cost Deck or Kaycee's Mod - Post-Prospector": {},
-    "Act I - Beginning or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Beginning": {},
-    "Act I - Pre-Prospector or Act II - Pre-Bridge or Kaycee's Mod - High Cost Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Act I - Beginning or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Vanilla Deck": {},
-    "Act I - Pre-Prospector or Act II - Beast Deck or Act II - Pre-Bridge or Kaycee's Mod - Pre-Prospector": {},
-    "Act II - Post-Bridge or Kaycee's Mod - No Cost Deck": {},
-    "Act II - Post-Bridge or Kaycee's Mod - Waterborne Deck": {},
-    "Act II - Beast Deck or Act II - Pre-Bridge": {},
-    "Act II - Undead Deck or Act II - Pre-Bridge": {},
-    "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet": {},
-    "Act II - Technology Deck or Act II - Pre-Bridge": {},
-    "Act II - Magick Deck or Act II - Pre-Bridge": {},
-    "Kaycee's Mod - Bone Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Kaycee's Mod - Ant Deck or Kaycee's Mod - Pre-Prospector": {},
-    "Kaycee's Mod - No Cost Deck or Kaycee's Mod - Pre-Prospector": {}
+    }
 }
