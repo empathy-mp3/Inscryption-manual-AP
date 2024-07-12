@@ -371,8 +371,9 @@
         "category": [
             "Act I",
             "Insect",
+            "Act III",
             "Kaycee's Mod",
-            "act1kaycee"
+            "act1act3kaycee"
         ],
         "value": {
             "kaycees_mod_offense": 0,
@@ -1681,8 +1682,9 @@
         "name": "Automaton",
         "category": [
             "Act II",
+            "Act III",
             "Technology",
-            "act2",
+            "act2act3",
             "act2start",
             "act2damageenergy"
         ],
@@ -3070,8 +3072,10 @@
         "name": "Hammer",
         "category": [
             "Act II",
+            "Act III",
             "Misc. Restrictions",
             "hammer",
+            "act2act3",
             "Ouroboros Strat"
         ],
         "progression": true
@@ -3081,7 +3085,8 @@
         "category": [
             "Act II",
             "Misc. Restrictions",
-            "clover"
+            "clover",
+            "act2"
         ],
         "useful": true
     },
@@ -3089,7 +3094,8 @@
         "name": "+1 Max Card Stack Size",
         "category": [
             "Act II",
-            "Misc. Restrictions"
+            "Misc. Restrictions",
+            "act2"
         ],
         "progression": true,
         "count": 15
@@ -3098,9 +3104,31 @@
         "name": "-1 Min Deck Size",
         "category": [
             "Act II",
-            "Misc. Restrictions"
+            "Misc. Restrictions",
+            "act2"
         ],
         "progression": true,
         "count": 15
+    },
+    {
+        "name": "Vessel Upgrade",
+        "category": [
+            "Act III",
+            "Misc. Restrictions",
+            "vesselupgrade",
+            "act3"
+        ],
+        "progression": true,
+        "count": 3
+    },
+    {
+        "name": "Conduit Upgrade",
+        "category": [
+            "Act III",
+            "Misc. Restrictions",
+            "vesselupgrade",
+            "act3"
+        ],
+        "useful": true
     }
 ]

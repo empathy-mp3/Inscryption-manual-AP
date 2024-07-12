@@ -44,7 +44,7 @@
     },
     "Consumable": {
         "yaml_option": [
-            "Consumable_Rando_Enabled"
+            "Consumable_Rando"
         ]
     },
     "act1consumable": {
@@ -56,13 +56,13 @@
     "hammer": {
         "hidden": true,
         "yaml_option": [
-            "Hammer_Rando_Enabled"
+            "Hammer_Rando"
         ]
     },
     "clover": {
         "hidden": true,
         "yaml_option": [
-            "Clover_Rando_Enabled"
+            "Clover_Rando"
         ]
     },
     "kayceeconsumable": {
@@ -91,5 +91,11 @@
     },
     "act1otherrare": {
         "hidden": true
+    },
+    "vesselupgrade": {
+        "hidden": true,
+        "yaml_option": [
+            "Vessel_Upgrade_Rando"
+        ]
     }
 }

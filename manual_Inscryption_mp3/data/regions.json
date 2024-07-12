@@ -225,44 +225,92 @@
     },
     "pre-act3": {
         "connects_to": [
-            "Act III - Beginning",
-            "Act III - Skip"
+            "Act III - Beginning"
         ],
         "requires": []
     },
     "Act III - Beginning": {
         "connects_to": [
-            "Act III - Initial Gauntlet",
-            "Act II - Pre-Bridge or Act III - Beginning"
+            "Act III - Eastern Botopia"
         ],
         "requires": []
     },
-    "Act III - Skip": {
+    "Act III - Eastern Botopia": {
         "connects_to": [
-            "Kaycee's Mod - Beginning"
+            "Act III - Filthy Corpse World",
+            "Act III - Foul Backwater"
         ],
         "requires": []
     },
-    "Act III - Initial Gauntlet": {
+    "Act III - Filthy Corpse World": {
         "connects_to": [
-            "Act III - Pre-Bridge",
-            "Act II - Beginning or Act III - Initial Gauntlet",
-            "Act II - Pre-Bridge or Act III - Initial Gauntlet",
-            "Act II - Technology Deck or Act II - Pre-Bridge or Act III - Initial Gauntlet"
+            "Act III - Late Filthy Corpse World"
         ],
         "requires": []
     },
-    "Act III - Pre-Bridge": {
+    "Act III - Late Filthy Corpse World": {
         "connects_to": [
-            "Act III - Post-Bridge",
-            "Act I - Post-Prospector or Act II - Pre-Bridge or Act III - Pre-Bridge or Kaycee's Mod - Post-Prospector"
+            "Act III - Archivist"
         ],
         "requires": []
     },
-    "Act III - Post-Bridge": {
+    "Act III - Archivist": {
         "connects_to": [
-            "Act III - End",
-            "Act II - Pre-Bridge or Act III - Post-Bridge"
+            "Act III - Western Botopia"
+        ],
+        "requires": []
+    },
+    "Act III - Foul Backwater": {
+        "connects_to": [
+            "Act III - Late Foul Backwater"
+        ],
+        "requires": []
+    },
+    "Act III - Late Foul Backwater": {
+        "connects_to": [
+            "Act III - Photographer"
+        ],
+        "requires": []
+    },
+    "Act III - Photographer": {
+        "connects_to": [
+            "Act III - Western Botopia"
+        ],
+        "requires": []
+    },
+    "Act III - Western Botopia": {
+        "connects_to": [
+            "Act III - Late Western Botopia"
+        ],
+        "requires": []
+    },
+    "Act III - Late Western Botopia": {
+        "connects_to": [
+            "Act III - Gaudy Gem Land"
+        ],
+        "requires": []
+    },
+    "Act III - Gaudy Gem Land": {
+        "connects_to": [
+            "Act III - Rickety Tower"
+        ],
+        "requires": []
+    },
+    "Act III - Rickety Tower": {
+        "connects_to": [
+            "Act III - Resplendent Bastion"
+        ],
+        "requires": []
+    },
+    "Act III - Resplendent Bastion": {
+        "connects_to": [
+            "Act III - G0lly"
+        ],
+        "requires": []
+    },
+    "Act III - G0lly": {
+        "connects_to": [
+            "Act III - End"
         ],
         "requires": []
     },

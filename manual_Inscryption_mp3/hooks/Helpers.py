@@ -16,6 +16,8 @@ def before_is_category_enabled(world: MultiWorld, player: int, category_name: st
         return Helpers.is_option_enabled(world, player, "Act_2_Enabled") or Helpers.is_option_enabled(world, player, "Act_2_Enabled") or Helpers.is_option_enabled(world, player, "Kaycees_Mod_Enabled")
     if category_name == "act1kaycee":
         return Helpers.is_option_enabled(world, player, "Act_1_Enabled") or Helpers.is_option_enabled(world, player, "Kaycees_Mod_Enabled")
+    if category_name == "act1act3kaycee":
+        return Helpers.is_option_enabled(world, player, "Act_2_Enabled") or Helpers.is_option_enabled(world, player, "Act_3_Enabled") or Helpers.is_option_enabled(world, player, "Kaycees_Mod_Enabled")
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled

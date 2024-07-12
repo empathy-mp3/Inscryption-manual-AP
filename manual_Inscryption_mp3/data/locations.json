@@ -2254,133 +2254,922 @@
         "region": "Act II - Magnificus"
     },
     {
-        "name": "Amoebot",
+        "name": "Central Botopia: First Encounter South of Start",
         "category": [
+            "Central Botopia",
             "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Gift Bot",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Lonely Wizbot",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Pre-Bridge"
-    },
-    {
-        "name": "Alarm Bot",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Busted 3D Printer",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Initial Gauntlet"
-    },
-    {
-        "name": "Fishbot",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Pre-Bridge"
-    },
-    {
-        "name": "Bad Fish",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Pre-Bridge",
-        "requires": "|Fishbot|"
-    },
-    {
-        "name": "More Fish",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Pre-Bridge",
-        "requires": "|Fishbot|"
-    },
-    {
-        "name": "Good Fish",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
-            "act3"
-        ],
-        "region": "Act III - Pre-Bridge",
-        "requires": "|Fishbot|"
-    },
-    {
-        "name": "Shieldbot",
-        "category": [
-            "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Beginning"
     },
     {
-        "name": "Sniper Bot",
+        "name": "Central Botopia: Card Choice after First Encounter",
         "category": [
+            "Central Botopia",
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
         "region": "Act III - Beginning"
     },
     {
-        "name": "Swapbot",
+        "name": "Central Botopia: Robobucks Hidden West after First Encounter",
         "category": [
+            "Central Botopia",
             "Act III",
-            "Misc. Act III Area",
             "act3"
         ],
-        "region": "Act III - Initial Gauntlet"
+        "region": "Act III - Beginning"
     },
     {
-        "name": "Captive File",
+        "name": "Central Botopia: Extra Battery before Second Encounter",
         "category": [
+            "Central Botopia",
             "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Second Encounter",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Card Choice after Second Encounter",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Sigil Modifier before Third Encounter",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Third Encounter",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Robobucks by Waypoint",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Holo Pelt Hidden West of Shop",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Card Choice West of Shop",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Robobucks by Broken Bridge",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Central Botopia: Nano Armor Generator from Shop",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Robobucks"
+    },
+    {
+        "name": "Central Botopia: Holo Pelt from Shop",
+        "category": [
+            "Central Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Robobucks"
+    },
+    {
+        "name": "Eastern Botopia: First Skippable Encounter",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Eastern Botopia: Card Choice Between Skippable Encounters",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Eastern Botopia: Robobucks North of Skippable Encounters",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Beginning"
+    },
+    {
+        "name": "Eastern Botopia: Second Skippable Encounter",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Eastern Botopia: Card Choice Floating By Bridge",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Eastern Botopia: Third Encounter on Bridge",
+        "category": [
+            "Eastern Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Main Factory Room: Ourobot from Cuckoo Clock",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Main Factory Room: Mrs. Bomb's Remote from Detonator Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Main Factory Room: Lonely Wizbot from Gem Detonator Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Inspection Room: Right Captcha Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Inspection Room: Left Captcha Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Inspection Room: Fishbot from GameCube",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Filthy Corpse World: Hidden Card Choice West of Entrance",
+        "category": [
             "Filthy Corpse World",
+            "Act III",
             "act3"
         ],
-        "region": "Act III - Pre-Bridge"
+        "region": "Act III - Eastern Botopia"
     },
     {
-        "name": "Mycobot",
+        "name": "Filthy Corpse World: Hidden Encounter West of Entrance",
         "category": [
+            "Filthy Corpse World",
             "Act III",
-            "Misc. Act III Area",
-            "mycobot"
+            "act3"
         ],
-        "region": "Act III - Post-Bridge"
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Hidden Overclocker West of Entrance",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: First Encounter South of Entrance",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Card Choice South of First Encounter",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Second Encounter",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Hidden Robobucks West of Second Encounter",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Card Trade South of Second Encounter",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Sigil Modifier South of Card Trade",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Filthy Corpse World"
+    },
+    {
+        "name": "Filthy Corpse World: Third Encounter on Bridge",
+        "category": [
+            "Filthy Corpse World",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Overclocker after Entering Crypt",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Card Choice West of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Card Trade West of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Holo Pelt West of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Encounter West of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Quill from Well",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Robobucks from Well",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Encounter East of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: First Robobucks East of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "Dank Crypt: Second Robobucks East of Crypt Entrance",
+        "category": [
+            "Dank Crypt",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Filthy Corpse World"
+    },
+    {
+        "name": "First Boss 1 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Archivist"
+    },
+    {
+        "name": "Second Boss 1 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Archivist"
+    },
+    {
+        "name": "Foul Backwater: Card Choice East of Entrance",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Foul Backwater: Time Bomb Encounter West of Entrance",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Foul Backwater: Sigil Modifier past Time Bomb Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Foul Backwater: Robobucks past Time Bomb Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Eastern Botopia"
+    },
+    {
+        "name": "Foul Backwater: First Encounter Northeast of Entrance",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Beast Form before Second Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Second Encounter North of Prospector",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Hidden Holo Pelt Past Second Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Card Choice South of Card Trade",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Card Trade Southwest of Third Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Beast Form West of Third Encounter",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "Foul Backwater: Third Encounter South of Cabin",
+        "category": [
+            "Foul Backwater",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Foul Backwater"
+    },
+    {
+        "name": "First Boss 2 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Photographer"
+    },
+    {
+        "name": "Second Boss 2 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Photographer"
+    },
+    {
+        "name": "Western Botopia: First Encounter on Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Hidden Robobucks past Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Hidden Sigil Modifier past Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Recycler past Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Card Choice South of Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Second Encounter South of Repaired Bridge",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Western Botopia: Third Encounter",
+        "category": [
+            "Western Botopia",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Smelting Room: Emotion Captcha Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Smelting Room: Math Captcha Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Smelting Room: Sigil Rotation Captcha Puzzle",
+        "category": [
+            "Factory Puzzles",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Gemification West of Entrance",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Hidden Robobucks West of Entrance",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Hidden Sigil Modifier West of Entrance",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Gemification East of Entrance",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: First Encounter East of Entrance",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Card Choice past First Encounter",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Holo Pelt Hidden past First Encounter",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Time Bomb Encounter",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Robobucks past Time Bomb Encounter",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Card Trade past Time Bomb Encounter",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Card Choice past Card Trade",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Late Western Botopia"
+    },
+    {
+        "name": "Gaudy Gem Land: Third Encounter past Card Trade",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Rickety Tower: Cuckoo Clock Password from Shop",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Rickety Tower: Sigil Modifier from Shop",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Rickety Tower: Recycler from Shop",
+        "category": [
+            "Gaudy Gem Land",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Rickety Tower: First Floor Encounter",
+        "category": [
+            "Rickety Tower",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Rickety Tower"
+    },
+    {
+        "name": "Rickety Tower: Gemification on Second Floor",
+        "category": [
+            "Rickety Tower",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Rickety Tower"
+    },
+    {
+        "name": "First Boss 3 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Rickety Tower"
+    },
+    {
+        "name": "Second Boss 3 Robobucks Reward",
+        "category": [
+            "Boss Reward",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Rickety Tower"
+    },
+    {
+        "name": "Rickety Tower: Gemification on Second Floor",
+        "category": [
+            "Rickety Tower",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Rickety Tower"
+    },
+    {
+        "name": "Resplendent Bastion: Card Trade in Northwest Sector",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Resplendent Bastion: Recycler in Northwest Sector",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Resplendent Bastion: Encounter in Northeast Sector",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Gaudy Gem Land"
+    },
+    {
+        "name": "Resplendent Bastion: Encounter in Southeast Sector",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Build-a-Card in Southeast Sector",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Card Trade after Elevator",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Encounter East of Factory Entrance",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Sigil Modifier East of Factory Entrance",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Time Bomb Encounter",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
+    },
+    {
+        "name": "Resplendent Bastion: Build-a-Card past Time Bomb Encounter",
+        "category": [
+            "Resplendent Bastion",
+            "Act III",
+            "act3"
+        ],
+        "region": "Act III - Resplendent Bastion"
     },
     {
         "name": "Cuckoo",

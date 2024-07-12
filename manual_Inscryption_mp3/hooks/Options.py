@@ -76,18 +76,26 @@ class DeckSizeRando(Range):
     range_end = 15
     display_name = "Deck Size Rando"
 
+class VesselUpgradeRando(Toggle):
+    """Should the empty vessel upgrades (in Act III) be randomized? This will create 3 "Vessel Upgrade" items.  
+    For each Vessel Upgrade item, you may pick up a vessel upgrade from Boss Rewards.
+    With none, you must leave them there (so that you may pick them up later).
+    There will be another item corresponding to the Conduit Upgrade in Resplendent Bastion."""
+    display_name = "Vessel Upgrade Rando"
+
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["Act_1_Enabled"] = Act1Enabled
     options["Act_2_Enabled"] = Act2Enabled
     options["Act_3_Enabled"] = Act3Enabled
     options["Kaycees_Mod_Enabled"] = KayceesModEnabled
-    options["Consumable_Rando_Enabled"] = ConsumableRando
-    options["Starter_Deck_Rando_Enabled"] = StarterDeckRando
-    options["Hammer_Rando_Enabled"] = HammerRando
-    options["Clover_Rando_Enabled"] = CloverRando
+    options["Consumable_Rando"] = ConsumableRando
+    options["Starter_Deck_Rando"] = StarterDeckRando
+    options["Hammer_Rando"] = HammerRando
+    options["Clover_Rando"] = CloverRando
     options["Stack_Size_Rando"] = StackSizeRando
     options["Deck_Size_Rando"] = DeckSizeRando
+    options["Vessel_Upgrade_Rando"] = VesselUpgradeRando
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options
