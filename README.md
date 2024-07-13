@@ -1,51 +1,73 @@
 # Inscryption Manual Randomizer Guide
 
-**Note: This fails generation about half the time when you play with more than one act. If I can figure out why it doesn't generate sometimes, I'll try to fix it. It works perfectly well with only one act, though.**
-
-This is my take on the Inscryption randomizer! There's 5 rules: 
+This is my take on the Inscryption randomizer! There's 3 rules: 
 1. If you haven't received the item for a card, you aren't allowed to play it.
 2. You also can't use a card that has a *soul* of a card you're not allowed to play (In the sacrifice altar)
-3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them (and thus the corresponding checks are locked behind those).
-4. If you have Consumable Rando turned on, you cannot play a Consumable Item unless you have the Archipelago Item for it.
-5. If you have Starter Deck Rando turned on, you cannot use a Starter Deck unless you have the Archipelago Item for it.
-
-However, you can play Stoat and 1 Squirrel in the first Act I tutorial battle, and no other place (until you get the item).
+3. Cards that can be played without being "played" (Corpse Maggots, Pelt Lice, Ijiraq) cannot be added to your deck until you have the item for them.
 
 ## Where is the settings page?
 
 The .yaml file is included with the GitHub release.
 
-## What does randomization do to this game?
+## How do the acts work?
 
-Every time you add a card to your deck (or side deck, like Squirrel), you get a check. You can receive those items that allow you to play a card.
-If you start with a certain card in your deck, you can get the check immediately.
-Cards that are only given to you (Bee, Boulder, Frozen Opossum, The Smoke, Greater Smoke, Good Fish, More Fish, Bad Fish, Captive File, and Hydra (and Amalgam if Act I is disabled)) have their locations whenever you obtain them in a fight.
-There are unique items and locations for each pre-made deathcard (e.g., Kaycee, Kaminski, etc.), and also an item and location for Custom Deathcards.
-There are also locations for the bosses that appear in each act (mostly because there are too few locations in this otherwise).
-Cards that appear in multiple acts have one associated item and one associated location, even if they're vastly different in different acts.
-If you have Consumable Rando turned on, their locations are obtained by getting that consumable.
-If you have Starter Deck Rando turned on, their locations are obtained by using that starter deck.
+There are 4 "acts" in this randomizer: Act I, Act II, Act III, and Kaycee's Mod, in that order.
+If you have every act enabled, you can only access Act II after beating Act I, you can only access Act III after beating Act II, and you can only access Kaycee's Mod after beating Act III
+You can disable whatever act you wish, so for instance if you only have Act I and Act III enabled, you beat Act I, and then move on to Act III, and once you beat that, you've beaten your goal.
+Disabled acts will remove all locations in them, and if an item isn't in any enabled acts, it will be removed as well.
 
-## What's up with the weird .yaml settings?
+## What are the items?
 
-The way this randomizer works, is you start in Act I, then go to Act II, then go to Act III, then go to Kaycee's Mod. (always this order)
-But you can disable acts (since playing both Act I and Kaycee's Mod is probably unnecessary), which will allow you to skip from Act I to Act III for example.
-Since there is overlap between cards in acts, there are other settings corresponding to multiple acts, but you can ignore them. The triggers in the template yaml will deal with them (unless you mess with those triggers).
+By default, the items are just Cards, which means you can't play a card until you receive the item for it.
+Note that some cards exist in multiple acts, so if you get the "Wolf Cub" item, you can play it in Act I, Act II, and Kaycee's Mod.
+The filler item is "Total Misplay", which does nothing.
 
-Also, make sure to check off the location that tells you to immediately check it off, when you've begun.
+There are additional items that can be enabled:
 
-If you want to mess around with the triggers, (which you shouldn't), you just need to enable every setting that has one of the acts you're playing in the name.
+- Consumable Rando: (Act I, III, and Kaycee's Mod only) You cannot play a consumable item until you receive the Archipelago Item for it.
+- Hammer Rando: (Act II and III only) You cannot use the hammer until you receive the Archipelago Item for it.
+- Clover Rando: (Act I and II only) You cannot use the clover until you receive the Archipelago Item for it.
+- Stack Size Rando: (Act II only) This option has a value from 5 to 20, creating up to 15 "+1 Max Card Stack Size" items when using the minimum of 5.
+  - With this option, you can only have up to the yaml option of the same card in your deck, which is alleviated by "+1 Max Card Stack Size" items
+  - For instance, if you selected 8, you cannot have more than 8 Squirrels in your deck, but if you receive 3 "+1 Max Card Stack Size" items, you can have up to 11 Squirrels.
+  - If you set this option to 20, this restriction is removed.
+- Deck Size Rando: (Act II only) This option has a value from 20 to 35, creating up to 15 "-1 Min Deck Size" items when using the maximum of 35.
+  - With this option, you can must have a minimum of the yaml option of cards in your deck, which is alleviated by "-1 Min Deck Size" items
+  - For instance, if you selected 27, you must have 27 cards in your deck, but if you receive 3 "-1 Min Deck Size" items, you can have 24 cards instead.
+  - If you set this option to 20, this restriction is removed.
+- Vessel Upgrade Rando: (Act III only) This option creates 3 "Vessel Upgrade" items, and 1 "Conduit Upgrade" item.
+  - You cannot pick up a Vessel Upgrade (from Uberbots) until you get a Vessel Upgrade item. You can only pick up as many as you have Archipelago Items for, so if you have 2 items, you'll have to ignore the third one once you beat the third Uberbot.
+  - You can't pick up the Conduit Upgrade (immediately after entering Resplendent Bastion) until you get the item for it.
+- Filler Traps: Replace a percentage of "Total Misplay" filler with "Ring the Bell" traps, which force you to ring the bell as soon as possible once you receive them.
+
+## What are the locations?
+
+By default, there are locations for progressing through the acts. They are as follows:
+
+- In Act I, there are locations for progressing forward on the map, and doing things around the Cabin.
+- In Act II, there are locations for gaining Card Packs, progressing the story, and beating enemies.
+- In Act III, there are locations for interacting with nodes and beating encounters, and doing things around the Factory.
+- In Kaycee's Mod, there are locations for progressing forward on the map, and beating bosses with each challenge enabled.
+
+By default, there are duplicates of each location in Act I, Act II, and Kaycee's Mod. You can disable them by act, but if you test generate and it says that it's removing items since you have more items than locations, consider enabling some of them.
+You can disable specific types of Act III locations (specifically: Robobucks Locations, Card Choice Locations, and Unique Card Locations.)
+You can disable the Challenge Locations with Kaycee's Mod.
+If you're playing just one act, you should enable every location option associated with that act (else you'll have too few locations.)
 
 ## What is the goal of Inscryption when randomized?
 
-4 Different Goals to choose from:
+7 Different Goals to choose from:
 
 - End of Act I
 - End of Act II
 - End of Act III
 - End of Kaycee's Mod
+- End of Kaycee's Mod (50 Challenge Points)
+- End of Kaycee's Mod (80 Challenge Points)
+- End of Kaycee's Mod (110 Challenge Points)
 
-Don't choose a goal that includes an act you're not going to play.
+Make sure to set you goal as the last enabled act.
+If you're going for every act, it may be wise to choose one of the goals with Challenge Points, since by then you'll have a lot of Kaycee's mod cards.
 
 ## Required Software
 
@@ -63,14 +85,16 @@ If you don't have a save with everything unlocked in the base game, you can pres
 1. Launch the launcher.
 2. Click on Manual client on the right.
 3. At the top enter your server's ip with the port provided (by default archipelago.gg:38281).
-4. In Manual Game ID put "Manual_Inscryption_empathymp3" then press the Connect button on the top right.
+4. In Manual Game ID put "Manual_Inscryption_mp3" then press the Connect button on the top right.
 5. In the command field at the bottom enter the name of your slot you chose in your Player.yaml then press enter
 
 ## Manual Client
 
-In the "Tracker and Locations" tab you'll find buttons corresponding with all the available locations in the Randomizer. Since this is a manual game its built on trust™ you press the locations when you get to them, hopefully in the future only what you can access will be visible but at the moment you could press victory and it would accept it. Also, if you have death_link enabled, there's a button at the top right to trigger and receive death links.
+In the "Manual" tab you'll find buttons corresponding with all the available locations in the Randomizer. Since this is a manual game its built on trust™ you press the locations when you get to them, hopefully in the future only what you can access will be visible but at the moment you could press victory and it would accept it. Also, if you have death_link enabled, there's a button at the top right to trigger and receive death links.
 
 ## How does the Modded Inscryption work?
+
+**Note: this is no longer being updated. You can find it in older releases of this, but its logic is broken in a lot of ways, and its design is heavily flawed.**
 
 You need to use the latest version of my [DontStarveExpansion mod](https://thunderstore.io/c/inscryption/p/empathymp3/DontStarveExpansion/).
 You need to use the alternate apworlds and yaml files. (with Modded in the name).
@@ -81,6 +105,8 @@ There are a few differences from the original rando:
 - Don't use the aquasquirrel challenge.
 - In the side deck selection screen, you should use the gem deer side deck that costs energy, until you get the "You No Longer Have To Use The Gem Deer Side Decks That Cost Energy" item, at which point you should use the gem deer side deck that doesn't cost energy. After you select either of those, you can choose your gem colors.
 - There are no cards that fly onto the board, so you don't have to be concerned about those.
+- There are locations for adding unique cards to your deck, instead of the current system.
+- There is a starter deck randomizer option, which means you can only use starter decks you have the item for.
 - The cards that have locations but cannot be added to your deck (whose locations are obtained by simply having it in your hand) are:
   - Dark Sword
   - Mossling

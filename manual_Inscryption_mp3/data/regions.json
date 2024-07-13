@@ -350,11 +350,23 @@
     },
     "Kaycee's Mod - Final Boss": {
         "connects_to": [
-            "Kaycee's Mod - End"
+            "Kaycee's Mod - Fifth Boss"
         ],
         "requires": []
     },
-    "Kaycee's Mod - End": {
+    "Kaycee's Mod - Fifth Boss": {
+        "connects_to": [
+            "Kaycee's Mod - Sixth Boss"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Sixth Boss": {
+        "connects_to": [
+            "Kaycee's Mod - Seventh Boss"
+        ],
+        "requires": []
+    },
+    "Kaycee's Mod - Seventh Boss": {
         "requires": []
     }
 }

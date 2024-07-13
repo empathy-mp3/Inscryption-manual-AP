@@ -39,11 +39,18 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    act1 = get_option_value(multiworld, player, "Act_1_Enabled") or False
-    act2 = get_option_value(multiworld, player, "Act_2_Enabled") or False
-    act3 = get_option_value(multiworld, player, "Act_3_Enabled") or False
-    kaycee = get_option_value(multiworld, player, "Kaycees_Mod_Enabled") or False
-    consumable = get_option_value(multiworld, player, "Consumable_Rando_Enabled") or False
+    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
+    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
+    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
+    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
+    act1dupe = is_option_enabled(multiworld, player, "Act_1_Duplicate_Locations")
+    act2dupe = is_option_enabled(multiworld, player, "Act_2_Duplicate_Locations")
+    bucks = is_option_enabled(multiworld, player, "Robobucks_Locations")
+    choice = is_option_enabled(multiworld, player, "Card_Choice_Locations")
+    unique = is_option_enabled(multiworld, player, "Unique_Card_Locations")
+    kayceedupe = is_option_enabled(multiworld, player, "Kaycees_Mod_Duplicate_Locations")
+    challenge = is_option_enabled(multiworld, player, "Kaycees_Mod_Challenge_Locations")
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
 
@@ -68,6 +75,20 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
             locationNamesToRemove.append(location["name"])
         elif "Consumable" in location.get("category", []) and not consumable:
             locationNamesToRemove.append(location["name"])
+        elif "actonesecond" in location.get("category", []) and not act1dupe:
+            locationNamesToRemove.append(location["name"])
+        elif "acttwosecond" in location.get("category", []) and not act2dupe:
+            locationNamesToRemove.append(location["name"])
+        elif "robobucks" in location.get("category", []) and not bucks:
+            locationNamesToRemove.append(location["name"])
+        elif "cardchoice" in location.get("category", []) and not choice:
+            locationNamesToRemove.append(location["name"])
+        elif "uniquecard" in location.get("category", []) and not unique:
+            locationNamesToRemove.append(location["name"])
+        elif "kayceesecond" in location.get("category", []) and not kayceedupe:
+            locationNamesToRemove.append(location["name"])
+        elif "Challenges" in location.get("category", []) and not challenge:
+            locationNamesToRemove.append(location["name"])
 
     for region in multiworld.regions:
         if region.player == player:
@@ -80,14 +101,8 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
     act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
-    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
     act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
     kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
-    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
-    starter = is_option_enabled(multiworld, player, "Starter_Deck_Rando_Enabled")
-    hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
-    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
-    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
 
     if act1:
         start_item_list = ["Squirrel"]
@@ -103,10 +118,10 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
             multiworld.push_precollected(item)
             item_pool.remove(item)
 
-    if kaycee and starter:
-        multiworld.random.shuffle(item_pool) # shuffles the pool to give random items
-        for count in range(1): # give 1 starting items
-            item = next(i for i in item_pool if "kayceestarter" in world.item_name_to_item[i.name].get("category", []))
+    if not act1 and kaycee:
+        start_item_list = ["Aquasquirrel"]
+        for item_name in start_item_list:
+            item = next(i for i in item_pool if i.name == item_name)
             multiworld.push_precollected(item)
             item_pool.remove(item)
     
@@ -116,8 +131,8 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
 
-    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
-    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
+    stack = 20 - get_option_value(multiworld, player, "Stack_Size_Rando")
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando") - 20
     act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
 
     # Use this hook to remove items from the item pool
@@ -165,8 +180,8 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
     consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
     hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
-    stack = get_option_value(multiworld, player, "Stack_Size_Rando")
-    deck = get_option_value(multiworld, player, "Deck_Size_Rando")
+    stack = 20 - get_option_value(multiworld, player, "Stack_Size_Rando")
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando") - 20
     vessel = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
 
     def late_woodlands(state: CollectionState):
@@ -191,7 +206,10 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         return state.has_group("act1damage", player, 6) or (state.has_group("act1damage", player, 5) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 5) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 2) and state.has_group("act1otherrare", player, 1))
 
     def trapper(state:CollectionState):
-        return state.has_group("act1consumable", player, 5) and (state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1)))
+        if consumable:
+            return state.has_group("act1consumable", player, 5) and (state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1)))
+        else:
+            return state.has_group("act1damage", player, 7) or (state.has_group("act1damage", player, 6) and state.has_group("act1other", player, 3)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1other", player, 3)) or (state.has_group("act1damage", player, 6) and state.has_group("act1otherrare", player, 1)) or (state.has_group("act1damagerare", player, 3) and state.has_group("act1otherrare", player, 1))
 
     def leshy(state:CollectionState):
         return state.has_group("act1damage", player, 8) or (state.has_group("act1damage", player, 7) and state.has_group("act1other", player, 4)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1other", player, 4)) or (state.has_group("act1damage", player, 7) and state.has_group("act1otherrare", player, 2)) or (state.has_group("act1damagerare", player, 4) and state.has_group("act1otherrare", player, 2))
@@ -355,17 +373,17 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     
     def g0lly(state:CollectionState):
         if consumable and hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2))
+            return state.has("Act 3 Custom Card", player, 1) or (((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and state.has("Vessel Upgrade", player, 1) and (state.has_group("act3consumable", player, 3) or (state.has("Hammer", player, 1) and state.has_group("act3consumable", player, 2)) or state.has("Vessel Upgrade", player, 2)))
         elif hammer and consumable:
-            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1))
+            return state.has("Act 3 Custom Card", player, 1) or ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6)) and (state.has_group("act3consumable", player, 2) or state.has("Hammer", player, 1)))
         elif hammer and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1))
+            return state.has("Act 3 Custom Card", player, 1) or (((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Hammer", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Ouroboros/Ourobot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))) and (state.has("Vessel Upgrade", player, 1) and state.has("Hammer", player, 1)))
         elif consumable and vessel:
-            return ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 5))) and (state.has("Vessel Upgrade", player, 1) or state.has_group("act3consumable", player, 2))
+            return state.has("Act 3 Custom Card", player, 1) or (((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5))) and (state.has("Vessel Upgrade", player, 1) or state.has_group("act3consumable", player, 2)))
         elif vessel:
-            return (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Vessel Upgrade", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6))
+            return state.has("Act 3 Custom Card", player, 1) or ((state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5) and state.has("Vessel Upgrade", player, 1)) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 8) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 6)))
         else:
-            return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5)
+            return state.has("Act 3 Custom Card", player, 1) or (state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian", "Gembound Ripper", "Kind Cell", "Tough Cell", "Splinter Cell"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5))
 
     def late_area1(state: CollectionState):
         return (state.has("Squirrel", player, 1) or state.has("Aquasquirrel", player, 1)) and state.has_group("kayceedamage", player, 3)
@@ -378,18 +396,33 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
 
     def boss2(state:CollectionState):
         if consumable:
-            return state.has_group("kayceeconsumable", player, 3) and (state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2)))
+            return state.has_group("kayceeconsumable", player, 3) and (state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2)))
         else:
-            return state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
+            return state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
 
     def late_area3(state:CollectionState):
-        return state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
+        return state.has_group("kayceedamage", player, 8) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
 
     def boss3(state:CollectionState):
-        return state.has_group("kayceeconsumable", player, 6) and (state.has_group("kayceedamage", player, 8) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2)))
+        if consumable:
+            return state.has_group("kayceeconsumable", player, 6) and (state.has_group("kayceedamage", player, 9) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2)))
+        else:
+            return state.has_group("kayceedamage", player, 9) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2))
 
     def boss4(state:CollectionState):
-        return state.has_group("kayceedamage", player, 9) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeotherrare", player, 3))
+        return state.has_group("kayceedamage", player, 11) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeotherrare", player, 3))
+
+    def boss5(state:CollectionState):
+        return state.has_group("kayceedamage", player, 12) or (state.has_group("kayceedamage", player, 9) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamage", player, 9) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 6) and state.has_group("kayceeotherrare", player, 3))
+
+    def boss6(state:CollectionState):
+        if consumable:
+            return state.has_group("kayceeconsumable", player, 9) and (state.has_group("kayceedamage", player, 13) or (state.has_group("kayceedamage", player, 10) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamagerare", player, 6) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamage", player, 10) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 6) and state.has_group("kayceeotherrare", player, 3)))
+        else:
+            return state.has_group("kayceedamage", player, 13) or (state.has_group("kayceedamage", player, 10) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamagerare", player, 6) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamage", player, 10) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 6) and state.has_group("kayceeotherrare", player, 3))
+
+    def boss7(state:CollectionState):
+        return state.has_group("kayceedamage", player, 14) or (state.has_group("kayceedamage", player, 11) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamagerare", player, 7) and state.has_group("kayceeother", player, 6)) or (state.has_group("kayceedamage", player, 11) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 7) and state.has_group("kayceeotherrare", player, 3))
 
     if act1:
         for exit_obj in multiworld.get_region("Act I - Late Woodlands", player).exits:
@@ -474,6 +507,12 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             set_rule(multiworld.get_entrance(exit_obj.name, player), boss3)
         for exit_obj in multiworld.get_region("Kaycee's Mod - Final Boss", player).exits:
             set_rule(multiworld.get_entrance(exit_obj.name, player), boss4)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Fifth Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss5)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Sixth Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss6)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Seventh Boss", player).exits:
+            set_rule(multiworld.get_entrance(exit_obj.name, player), boss7)
 
     def Example_Rule(state: CollectionState) -> bool:
         # Calculated rules take a CollectionState object and return a boolean

@@ -1,0 +1,135 @@
+﻿name: P03
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Sample Act III Manual_Inscryption_mp3 yaml
+
+game: Manual_Inscryption_mp3
+requires:
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_Inscryption_mp3:
+  # Game Options
+  progression_balancing: 50
+
+  accessibility: items
+
+  # Irrelevant options to Act III are shortened and have their description removed.
+  # Refer to the README or template.yaml for full descriptions.
+
+  Act_1_Enabled: 'false'
+
+  Act_2_Enabled: 'false'
+
+  Act_3_Enabled:
+    # Do you want to play Act III in this rando?
+    'false': 0
+    'true': 50
+
+  Kaycees_Mod_Enabled: 'false'
+
+  Consumable_Rando:
+    # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
+    'false': 0
+    'true': 50
+
+  Hammer_Rando:
+    # Should the ability to use the hammer (In Act II and III) be randomized?
+    'false': 0
+    'true': 50
+
+  Clover_Rando: 'false'
+
+  Stack_Size_Rando: 20
+
+  Deck_Size_Rando: 20
+
+  Vessel_Upgrade_Rando:
+    # Should the empty vessel upgrades (in Act III) be randomized? This will create 3 "Vessel Upgrade" items.  
+    # For each Vessel Upgrade item, you may pick up a vessel upgrade from Boss Rewards.
+    # With none, you must leave them there (so that you may pick them up later).
+    # There will be another item corresponding to the Conduit Upgrade in Resplendent Bastion.
+    'false': 0
+    'true': 50
+
+  # Additional Location Options
+  Act_1_Duplicate_Locations: 'false'
+
+  Act_2_Duplicate_Locations: 'false'
+
+  Robobucks_Locations:
+    # Should there be locations for each piece of robobucks you can pick up in Botopia? (Act III)
+    'false': 0
+    'true': 50
+
+  Card_Choice_Locations:
+    # Should there be locations for each Card Choice node in Act III?
+    # If this option is turned on, you're bound to have a deck with cards you can't play, making Act III harder.
+    # (However, this is a good thing. Act III is too easy, especially if you've already done the first 2 acts in the rando.)
+    'false': 0
+    'true': 50
+
+  Unique_Card_Locations:
+    # Should there be locations for each unique card pickup in Act III? (specifically, Ourobot, Lonely Wizbot, Fishbot)
+    'false': 0
+    'true': 50
+
+  Kaycees_Mod_Duplicate_Locations: 'false'
+
+  goal:
+    # Choose your victory condition.
+    end of act i: 0
+    end of act ii: 0
+    end of act iii: 50
+    end of kaycee's mod: 0
+    end of kaycee's mod (50 challenge points): 0
+    end of kaycee's mod (80 challenge points): 0
+    end of kaycee's mod (110 challenge points): 0
+
+  filler_traps:
+    # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    'false': 50
+    'true': 0
+
+  # Item & Location Options
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []

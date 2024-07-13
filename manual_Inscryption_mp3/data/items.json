@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ring the Bell at the Soonest Possible Moment",
+        "name": "Ring the Bell",
         "trap": true,
         "count": 0
     },
@@ -2274,8 +2274,6 @@
     {
         "name": "Hammer",
         "category": [
-            "Act II",
-            "Act III",
             "Misc. Restrictions",
             "hammer",
             "act2act3"
@@ -2285,17 +2283,15 @@
     {
         "name": "Clover",
         "category": [
-            "Act II",
             "Misc. Restrictions",
             "clover",
-            "act2"
+            "act1act2"
         ],
         "useful": true
     },
     {
         "name": "+1 Max Card Stack Size",
         "category": [
-            "Act II",
             "Misc. Restrictions",
             "act2"
         ],
@@ -2305,7 +2301,6 @@
     {
         "name": "-1 Min Deck Size",
         "category": [
-            "Act II",
             "Misc. Restrictions",
             "act2"
         ],
@@ -2315,7 +2310,6 @@
     {
         "name": "Vessel Upgrade",
         "category": [
-            "Act III",
             "Misc. Restrictions",
             "vesselupgrade",
             "act3"
@@ -2326,7 +2320,6 @@
     {
         "name": "Conduit Upgrade",
         "category": [
-            "Act III",
             "Misc. Restrictions",
             "vesselupgrade",
             "act3"

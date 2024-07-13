@@ -2267,7 +2267,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Beginning"
     },
@@ -2276,7 +2277,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Beginning"
     },
@@ -2303,7 +2305,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Beginning"
     },
@@ -2330,7 +2333,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Beginning"
     },
@@ -2348,7 +2352,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Beginning"
     },
@@ -2357,7 +2362,8 @@
         "category": [
             "Central Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Beginning"
     },
@@ -2393,7 +2399,8 @@
         "category": [
             "Eastern Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Beginning"
     },
@@ -2402,7 +2409,8 @@
         "category": [
             "Eastern Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Beginning"
     },
@@ -2420,7 +2428,8 @@
         "category": [
             "Eastern Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2438,7 +2447,8 @@
         "category": [
             "Factory Puzzles",
             "Act III",
-            "act3"
+            "act3",
+            "uniquecard"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2456,7 +2466,8 @@
         "category": [
             "Factory Puzzles",
             "Act III",
-            "act3"
+            "act3",
+            "uniquecard"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2483,7 +2494,8 @@
         "category": [
             "Factory Puzzles",
             "Act III",
-            "act3"
+            "act3",
+            "uniquecard"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2492,7 +2504,8 @@
         "category": [
             "Filthy Corpse World",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2528,7 +2541,8 @@
         "category": [
             "Filthy Corpse World",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Filthy Corpse World"
     },
@@ -2546,7 +2560,8 @@
         "category": [
             "Filthy Corpse World",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Filthy Corpse World"
     },
@@ -2591,7 +2606,8 @@
         "category": [
             "Dank Crypt",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Late Filthy Corpse World"
     },
@@ -2636,7 +2652,8 @@
         "category": [
             "Dank Crypt",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Late Filthy Corpse World"
     },
@@ -2654,7 +2671,8 @@
         "category": [
             "Dank Crypt",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Late Filthy Corpse World"
     },
@@ -2663,25 +2681,28 @@
         "category": [
             "Dank Crypt",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Late Filthy Corpse World"
     },
     {
-        "name": "First Boss 1 Robobucks Reward",
+        "name": "Act III: First Boss 1 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Archivist"
     },
     {
-        "name": "Second Boss 1 Robobucks Reward",
+        "name": "Act III: Second Boss 1 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Archivist"
     },
@@ -2690,7 +2711,8 @@
         "category": [
             "Foul Backwater",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2717,7 +2739,8 @@
         "category": [
             "Foul Backwater",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Eastern Botopia"
     },
@@ -2762,7 +2785,8 @@
         "category": [
             "Foul Backwater",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Late Foul Backwater"
     },
@@ -2794,7 +2818,7 @@
         "region": "Act III - Late Foul Backwater"
     },
     {
-        "name": "First Boss 2 Robobucks Reward",
+        "name": "Act III: First Boss 2 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
@@ -2803,11 +2827,12 @@
         "region": "Act III - Photographer"
     },
     {
-        "name": "Second Boss 2 Robobucks Reward",
+        "name": "Act III: Second Boss 2 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Photographer"
     },
@@ -2825,7 +2850,8 @@
         "category": [
             "Western Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Western Botopia"
     },
@@ -2852,7 +2878,8 @@
         "category": [
             "Western Botopia",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Western Botopia"
     },
@@ -2915,7 +2942,8 @@
         "category": [
             "Gaudy Gem Land",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Late Western Botopia"
     },
@@ -2951,7 +2979,8 @@
         "category": [
             "Gaudy Gem Land",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Late Western Botopia"
     },
@@ -2978,7 +3007,8 @@
         "category": [
             "Gaudy Gem Land",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Late Western Botopia"
     },
@@ -2996,7 +3026,8 @@
         "category": [
             "Gaudy Gem Land",
             "Act III",
-            "act3"
+            "act3",
+            "cardchoice"
         ],
         "region": "Act III - Late Western Botopia"
     },
@@ -3055,20 +3086,22 @@
         "region": "Act III - Rickety Tower"
     },
     {
-        "name": "First Boss 3 Robobucks Reward",
+        "name": "Act III: First Boss 3 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Rickety Tower"
     },
     {
-        "name": "Second Boss 3 Robobucks Reward",
+        "name": "Act III: Second Boss 3 Robobucks Reward",
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Rickety Tower"
     },
@@ -3961,6 +3994,482 @@
         "region": "Kaycee's Mod - Final Boss"
     },
     {
+        "name": "Defeat the First Boss with No Hook Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Smaller Backpack Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with No Clover Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Pricey Pelts Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Boss Totems Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the First Boss with All Totem Battles Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the First Boss with No Boss Rares Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with More Difficult Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Single Candle Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Annoying Starters Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the First Boss with Squirrel Fish Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss",
+        "requires": "|Aquasquirrel|"
+    },
+    {
+        "name": "Defeat the First Boss with Grizzly Bosses Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss",
+        "requires": "(|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat|"
+    },
+    {
+        "name": "Defeat the First Boss with Final Boss Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - First Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with No Hook Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Smaller Backpack Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with No Clover Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Pricey Pelts Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Boss Totems Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with All Totem Battles Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with No Boss Rares Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with More Difficult Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Single Candle Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Annoying Starters Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Second Boss with Squirrel Fish Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss",
+        "requires": "|Aquasquirrel|"
+    },
+    {
+        "name": "Defeat the Second Boss with Grizzly Bosses Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss",
+        "requires": "(|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat|"
+    },
+    {
+        "name": "Defeat the Second Boss with Final Boss Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Second Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with No Hook Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Smaller Backpack Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with No Clover Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Pricey Pelts Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Boss Totems Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with All Totem Battles Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with No Boss Rares Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with More Difficult Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Single Candle Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Annoying Starters Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Third Boss with Squirrel Fish Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss",
+        "requires": "|Aquasquirrel|"
+    },
+    {
+        "name": "Defeat the Third Boss with Grizzly Bosses Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss",
+        "requires": "(|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat|"
+    },
+    {
+        "name": "Defeat the Third Boss with Final Boss Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Third Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with No Hook Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Smaller Backpack Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with No Clover Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Pricey Pelts Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Boss Totems Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with All Totem Battles Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with No Boss Rares Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with More Difficult Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Single Candle Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Annoying Starters Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "Defeat the Final Boss with Squirrel Fish Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Final Boss",
+        "requires": "|Aquasquirrel|"
+    },
+    {
+        "name": "Defeat the Final Boss with Grizzly Bosses Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Sixth Boss",
+        "requires": "(|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat|"
+    },
+    {
+        "name": "Defeat the Final Boss with Final Boss Challenge",
+        "category": [
+            "Challenges",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
         "name": "End of Act I",
         "victory": true,
         "region": "Act I - End"
@@ -3978,6 +4487,23 @@
     {
         "name": "End of Kaycee's Mod",
         "victory": true,
-        "region": "Kaycee's Mod - End"
+        "region": "Kaycee's Mod - Final Boss"
+    },
+    {
+        "name": "End of Kaycee's Mod (50 Challenge Points)",
+        "victory": true,
+        "region": "Kaycee's Mod - Fifth Boss"
+    },
+    {
+        "name": "End of Kaycee's Mod (80 Challenge Points)",
+        "victory": true,
+        "region": "Kaycee's Mod - Sixth Boss",
+        "requires": "((|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat|) or |Aquasquirrel|"
+    },
+    {
+        "name": "End of Kaycee's Mod (110 Challenge Points)",
+        "victory": true,
+        "region": "Kaycee's Mod - Seventh Boss",
+        "requires": "(|Dire Wolf| or |Dire Wolf Pup| or |Grizzly| or |Great White|) and |Black Goat| and |Aquasquirrel|"
     }
 ]

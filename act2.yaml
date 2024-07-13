@@ -1,0 +1,147 @@
+﻿name: Magnificus
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Sample Act II Manual_Inscryption_mp3 yaml
+
+game: Manual_Inscryption_mp3
+requires:
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_Inscryption_mp3:
+  # Game Options
+  progression_balancing: 50
+
+  accessibility: items
+
+  # Irrelevant options to Act II are shortened and have their description removed.
+  # Refer to the README or template.yaml for full descriptions.
+
+  Act_1_Enabled: 'false'
+
+  Act_2_Enabled:
+    # Do you want to play Act II in this rando?
+    'false': 0
+    'true': 50
+
+  Act_3_Enabled: 'false'
+
+  Kaycees_Mod_Enabled: 'false'
+
+  Consumable_Rando: 'false'
+
+  Hammer_Rando:
+    # Should the ability to use the hammer (In Act II and III) be randomized?
+    'false': 0
+    'true': 50
+
+  Clover_Rando:
+    # Should the ability to use the clover (In Act I and II and Kaycee's Mod) be randomized?
+    # In Act I, you'll have to go get the clover yourself.
+    'false': 0
+    'true': 50
+
+  Stack_Size_Rando:
+    # This will reduce the maximum amount of one card you can have in your deck in Act II.
+    # The amount you set is how many items will be created that nullify this restriction, one at a time.
+    # At the minimum of 5, you can only have 5 of one card, and 15 items will exist that increase this.
+    # At the maximum of 20, this restriction is removed. This does not affect other acts.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 20
+    5: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  Deck_Size_Rando:
+    # This will increase the minimum amount of cards you must have in your deck in Act II.
+    # The amount you set is how many items will be created that nullify this restriction, one at a time.
+    # At the maximum of 35, you must have 35 cards in your deck, and 15 items will exist that decrease this.
+    # At the minimum of 20, this restriction is removed. This does not affect other acts.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 20
+    # Maximum value is 35
+    35: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  Vessel_Upgrade_Rando: 'false'
+
+  # Additional Location Options
+  Act_1_Duplicate_Locations: 'false'
+
+  Act_2_Duplicate_Locations:
+    # Should there be duplicate locations for every location in Act II?
+    # With Just Act II, leave this enabled.
+    'false': 0
+    'true': 50
+
+  Robobucks_Locations: 'false'
+
+  Card_Choice_Locations: 'false'
+
+  Unique_Card_Locations: 'false'
+
+  Kaycees_Mod_Duplicate_Locations: 'false'
+
+  goal:
+    # Choose your victory condition.
+    end of act i: 0
+    end of act ii: 50
+    end of act iii: 0
+    end of kaycee's mod: 0
+    end of kaycee's mod (50 challenge points): 0
+    end of kaycee's mod (80 challenge points): 0
+    end of kaycee's mod (110 challenge points): 0
+
+  filler_traps:
+    # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    'false': 50
+    'true': 0
+
+  # Item & Location Options
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []

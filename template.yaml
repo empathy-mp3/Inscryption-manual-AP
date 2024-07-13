@@ -1,0 +1,237 @@
+﻿# Q. What is this file?
+# A. This file contains options which allow you to configure your multiworld experience while allowing
+#    others to play how they want as well.
+#
+# Q. How do I use it?
+# A. The options in this file are weighted. This means the higher number you assign to a value, the
+#    more chances you have for that option to be chosen. For example, an option like this:
+#
+#    map_shuffle:
+#      on: 5
+#      off: 15
+#
+#    Means you have 5 chances for map shuffle to occur, and 15 chances for map shuffle to be turned
+#    off.
+#
+# Q. I've never seen a file like this before. What characters am I allowed to use?
+# A. This is a .yaml file. You are allowed to use most characters.
+#    To test if your yaml is valid or not, you can use this website:
+#        http://www.yamllint.com/
+#    You can also verify that your Archipelago options are valid at this site:
+#        https://archipelago.gg/check
+
+# Your name in-game, limited to 16 characters.
+#     {player} will be replaced with the player's slot number.
+#     {PLAYER} will be replaced with the player's slot number, if that slot number is greater than 1.
+#     {number} will be replaced with the counter value of the name.
+#     {NUMBER} will be replaced with the counter value of the name, if the counter value is greater than 1.
+name: Player{number}
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Manual_Inscryption_mp3 Template
+
+game: Manual_Inscryption_mp3
+requires:
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_Inscryption_mp3:
+  # Game Options
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # - **Locations:** ensure everything can be reached and acquired.
+    # - **Items:** ensure all logically relevant items can be acquired.
+    # - **Minimal:** ensure what is needed to reach your goal can be acquired.
+    locations: 0
+    items: 50
+    minimal: 0
+
+  Act_1_Enabled:
+    # Do you want to play Act I in this rando?
+    'false': 0
+    'true': 50
+
+  Act_2_Enabled:
+    # Do you want to play Act II in this rando?
+    'false': 50
+    'true': 0
+
+  Act_3_Enabled:
+    # Do you want to play Act III in this rando?
+    'false': 50
+    'true': 0
+
+  Kaycees_Mod_Enabled:
+    # Do you want to play Kaycee's Mod in this rando?
+    'false': 50
+    'true': 0
+
+  Consumable_Rando:
+    # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
+    'false': 0
+    'true': 50
+
+  Hammer_Rando:
+    # Should the ability to use the hammer (In Act II and III) be randomized?
+    'false': 50
+    'true': 0
+
+  Clover_Rando:
+    # Should the ability to use the clover (In Act I and II) be randomized?
+    # In Act I, you'll have to go get the clover yourself.
+    'false': 50
+    'true': 0
+
+  Stack_Size_Rando:
+    # This will reduce the maximum amount of one card you can have in your deck in Act II.
+    # The amount you set is how many items will be created that nullify this restriction, one at a time.
+    # At the minimum of 5, you can only have 5 of one card, and 15 items will exist that increase this.
+    # At the maximum of 20, this restriction is removed. This does not affect other acts.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 5
+    # Maximum value is 20
+    20: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  Deck_Size_Rando:
+    # This will increase the minimum amount of cards you must have in your deck in Act II.
+    # The amount you set is how many items will be created that nullify this restriction, one at a time.
+    # At the maximum of 35, you must have 35 cards in your deck, and 15 items will exist that decrease this.
+    # At the minimum of 20, this restriction is removed. This does not affect other acts.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 20
+    # Maximum value is 35
+    20: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  Vessel_Upgrade_Rando:
+    # Should the empty vessel upgrades (in Act III) be randomized? This will create 3 "Vessel Upgrade" items.  
+    # For each Vessel Upgrade item, you may pick up a vessel upgrade from Boss Rewards.
+    # With none, you must leave them there (so that you may pick them up later).
+    # There will be another item corresponding to the Conduit Upgrade in Resplendent Bastion.
+    'false': 50
+    'true': 0
+
+  Act_1_Duplicate_Locations:
+    # Should there be duplicate locations for every location in Act I?
+    # 
+    # Note: for this option and the next 6, consider how many acts you're playing.
+    # If you're playing just one Act, it's inadvisable to disable these options.
+    # Even if you're playing every act, you shouldn't disable all of these. (But you should disable most.)
+    # It's pretty easy to end up with too few locations if you disable any of these.
+    # That said, if you are playing acts with a lot of item overlap, disabling at least one of these is a good idea.
+    'false': 0
+    'true': 50
+
+  Act_2_Duplicate_Locations:
+    # Should there be duplicate locations for every location in Act II?
+    'false': 0
+    'true': 50
+
+  Robobucks_Locations:
+    # Should there be locations for each piece of robobucks you can pick up in Botopia? (Act III)
+    'false': 0
+    'true': 50
+
+  Card_Choice_Locations:
+    # Should there be locations for each Card Choice node in Act III?
+    # If this option is turned on, you're bound to have a deck with cards you can't play, making Act III harder.
+    # (However, this is a good thing. Act III is too easy, especially if you've already done the first 2 acts in the rando.)
+    'false': 0
+    'true': 50
+
+  Unique_Card_Locations:
+    # Should there be locations for each unique card pickup in Act III? (specifically, Ourobot, Lonely Wizbot, Fishbot)
+    'false': 0
+    'true': 50
+
+  Kaycees_Mod_Duplicate_Locations:
+    # Should there be duplicate locations for every location in Kaycee's Mod?
+    'false': 0
+    'true': 50
+
+  Kaycees_Mod_Challenge_Locations:
+    # Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
+    # There aren't duplicates of these.
+    'false': 0
+    'true': 50
+
+  goal:
+    # Choose your victory condition.
+    end of act i: 50
+    end of act ii: 0
+    end of act iii: 0
+    end of kaycee's mod: 0
+    end of kaycee's mod (50 challenge points): 0
+    end of kaycee's mod (80 challenge points): 0
+    end of kaycee's mod (110 challenge points): 0
+
+  filler_traps:
+    # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    'false': 50
+    'true': 0
+
+  # Item & Location Options
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []

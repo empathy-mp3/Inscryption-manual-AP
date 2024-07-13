@@ -61,11 +61,53 @@
     "kayceeconsumable": {
         "hidden": true
     },
+    "vesselupgrade": {
+        "hidden": true,
+        "yaml_option": [
+            "Vessel_Upgrade_Rando"
+        ]
+    },
     "actonesecond": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "Act_1_Duplicate_Locations"
+        ]
     },
     "acttwosecond": {
-        "hidden": true
+        "hidden": true,
+        "yaml_option": [
+            "Act_2_Duplicate_Locations"
+        ]
+    },
+    "robobucks": {
+        "hidden": true,
+        "yaml_option": [
+            "Robobucks_Locations"
+        ]
+    },
+    "cardchoice": {
+        "hidden": true,
+        "yaml_option": [
+            "Card_Choice_Locations"
+        ]
+    },
+    "uniquecard": {
+        "hidden": true,
+        "yaml_option": [
+            "Unique_Card_Locations"
+        ]
+    },
+    "kayceesecond": {
+        "hidden": true,
+        "yaml_option": [
+            "Kaycees_Mod_Duplicate_Locations"
+        ]
+    },
+    "Challenges": {
+        "hidden": true,
+        "yaml_option": [
+            "Kaycees_Mod_Challenge_Locations"
+        ]
     },
     "act2cheap": {
         "hidden": true
@@ -96,15 +138,6 @@
     },
     "kayceeotherrare": {
         "hidden": true
-    },
-    "kayceesecond": {
-        "hidden": true
-    },
-    "vesselupgrade": {
-        "hidden": true,
-        "yaml_option": [
-            "Vessel_Upgrade_Rando"
-        ]
     },
     "act1act3kaycee": {
         "hidden": true
