@@ -164,7 +164,6 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
     act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
     kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
     consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
-    starter = is_option_enabled(multiworld, player, "Starter_Deck_Rando_Enabled")
     hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
     stack = get_option_value(multiworld, player, "Stack_Size_Rando")
     deck = get_option_value(multiworld, player, "Deck_Size_Rando")
@@ -210,59 +209,49 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         return True
     
     def act2blood(state:CollectionState, count:int):
-        return (state.has_any(["Squirrel", "Skeleton"], player) or act2energy(state,count*2)) and state.has_group("act2damageblood", player, count + 1) and state.has_group("act2otherblood", player, count - 1) and (state.has_group("act2damagebloodrare", player, count/2) or state.has("Mole Man", player, 1))
+        return (state.has_any(["Squirrel", "Skeleton"], player) or act2energy(state,count*1.4)) and state.has_group("act2damageblood", player, count*0.7) and state.has_group("act2otherblood", player, count*0.3) and (state.has_group("act2damagebloodrare", player, count*0.3) or state.has("Mole Man", player, 1) or (state.has_group("act2damageblood", player, count*1) and state.has_group("act2otherblood", player, count*0.6)))
     
     def act2bones(state:CollectionState, count:int):
-        return (state.has("Skeleton", player, 1) or act2blood(state,count*2)) and state.has_group("act2damagebones", player, count + 1) and state.has_group("act2otherbones", player, count) and (state.has_group("act2damagebonesrare", player, count/2) or state.has("Tomb Robber", player, 1))
+        return (state.has("Skeleton", player, 1) or act2blood(state,count*1.3)) and state.has_group("act2damagebones", player, count*0.7) and state.has_group("act2otherbones", player, count*0.4) and (state.has_group("act2damagebonesrare", player, count*0.3) or state.has("Tomb Robber", player, 1) or (state.has_group("act2damagebones", player, count*1) and state.has_group("act2otherbones", player, count*0.6)))
     
     def act2energy(state:CollectionState, count:int):
-        return state.has_group("act2damageenergy", player, count) and state.has_group("act2otherenergy", player, count + 1) and (state.has_any(["Mrs. Bomb", "Shutterbug", "Curve Hopper"], player) or state.has_group("act2otherenergyrare", player, (count - 1)/2) or state.has_group("act2damagehighenergyrare", player, (count - 1)/2) or state.has_group("act2damagehighenergy", player, count))
+        return state.has_group("act2damageenergy", player, count*0.8) and state.has_group("act2otherenergy", player, count*0.5) and (state.has_any(["Mrs. Bomb", "Shutterbug", "Curve Hopper"], player) or state.has_group("act2otherenergyrare", player, count*0.2) or state.has_group("act2damagehighenergyrare", player, count*0.2) or state.has_group("act2damagehighenergy", player, count*0.7) or (state.has_group("act2damageenergy", player, count*1.2) and state.has_group("act2otherenergy", player, count*0.8)))
     
     def act2blue(state:CollectionState, count:int):
-        return state.has("Sapphire Mox", player, 1) and state.has_group("act2damageblue", player, count/2) and state.has_group("act2otherblue", player, count/2)
+        return state.has("Sapphire Mox", player, 1) and state.has_group("act2damageblue", player, count/2) and state.has_group("act2otherblue", player, count*0.3)
     
     def act2orange(state:CollectionState, count:int):
-        return state.has("Ruby Mox", player, 1) and state.has_group("act2damageorange", player, count/2) or (state.has("Practice Wizard", player, 1) and state.has_group("act2damageorange", player, count/2))
+        return state.has("Ruby Mox", player, 1) and (state.has_group("act2damageorange", player, count*0.9) or (state.has("Practice Wizard", player, 1) and state.has_group("act2damageorange", player, count*0.8)))
     
     def act2green(state:CollectionState, count:int):
-        return state.has("Emerald Mox", player, 1) and state.has_group("act2damagegreen", player, count)
+        return state.has("Emerald Mox", player, 1) and state.has_group("act2damagegreen", player, count*0.9)
     
     def act2magick(state:CollectionState, count:int):
-        if count < 2:
-            return act2blue(state,count) or act2orange(state,count) or act2green(state,count)
-        else:
-            return act2blue(state,count) or act2orange(state,count) or act2green(state,count) or (act2blue(state,count-1) or act2orange(state,count-1)) or (act2blue(state,count-1) or act2green(state,count-1)) or (act2green(state,count-1) or act2orange(state,count-1))
+        return act2blue(state,count) or act2orange(state,count) or act2green(state,count) or (act2blue(state,count*0.8) and act2orange(state,count*0.8)) or (act2blue(state,count*0.8) and act2green(state,count*0.8)) or (act2green(state,count*0.8) and act2orange(state,count*0.8)) or (act2blue(state,count*0.6) and act2orange(state,count*0.6) and act2green(state,count*0.6))
     
     def act2single(state:CollectionState, count:int):
-        return act2blood(state,count) or act2bones(state,count) or act2energy(state,count) or act2magick(state,count)
+        return act2blood(state,count*1.1) or act2bones(state,count*1.1) or act2energy(state,count*1.1) or act2magick(state,count*1.1)
     
     def act2double(state: CollectionState, count:int):
-        return (act2blood(state,count-1) or act2bones(state,count-1)) or (act2blood(state,count-1) or act2energy(state,count-1)) or (act2blood(state,count-1) or act2magick(state,count-1)) or (act2bones(state,count-1) or act2energy(state,count-1)) or (act2energy(state,count-1) or act2magick(state,count-1))
+        return (act2blood(state,count*0.8) and act2bones(state,count*0.8)) or (act2blood(state,count*0.8) and act2energy(state,count*0.8)) or (act2blood(state,count*0.8) and act2magick(state,count*0.8)) or (act2bones(state,count*0.8) and act2energy(state,count*0.8)) or (act2energy(state,count*0.8) and act2magick(state,count*0.8))
     
     def act2triple(state:CollectionState, count:int):
-        return (act2blood(state,count-2) and act2bones(state,count-2) and act2energy(state,count - 2)) or (act2blood(state,count-2) and act2bones(state,count-2) and act2magick(state,count-2)) or (act2blood(state,count-2) and act2energy(state,count-2) and act2magick(state,count-2)) or (act2bones(state,count-2) and act2energy(state,count-2) and act2magick(state,count-2))
+        return (act2blood(state,count*0.6) and act2bones(state,count*0.6) and act2energy(state,count - 2)) or (act2blood(state,count*0.6) and act2bones(state,count*0.6) and act2magick(state,count*0.6)) or (act2blood(state,count*0.6) and act2energy(state,count*0.6) and act2magick(state,count*0.6)) or (act2bones(state,count*0.6) and act2energy(state,count*0.6) and act2magick(state,count*0.6))
     
     def act2quad(state:CollectionState, count:int):
-        return (act2blood(state,count-3) and act2bones(state,count-3) and act2energy(state,count-3) and act2magick(state,count-3))
+        return (act2blood(state,count*0.4) and act2bones(state,count*0.4) and act2energy(state,count*0.4) and act2magick(state,count*0.4))
     
     def act2power(state:CollectionState, count:int):
-        if count < 2:
-            return act2single(state, count)
-        if count < 3:
-            return act2single(state, count) or act2double(state, count)
-        if count < 4:
-            return act2single(state, count) or act2double(state, count) or act2triple(state, count)
-        else:
-            return act2single(state, count) or act2double(state, count) or act2triple(state, count) or act2quad(state, count)
+        return act2single(state, count) or act2double(state, count) or act2triple(state, count) or act2quad(state, count)
         
     def act2powerDeck(state:CollectionState, count:int):
-        return act2power(state,count+3) or (act2power(state,count) and deckCheck(state,(count+1)/2))
+        return act2power(state,count+2) or (act2power(state,count) and deckCheck(state,(count+1)/2))
         
     def act2powerStack(state:CollectionState, count:int):
-        return act2power(state,count+2) or (act2power(state,count) and stackCheck(state,(count-1)/2))
+        return act2power(state,count+1) or (act2power(state,count) and stackCheck(state,(count-1)/2))
         
     def act2powerStackDeck(state:CollectionState, count:int):
-        return act2power(state,count+4) or (act2power(state,count) and stackCheck(state,(count-1)/2) and deckCheck(state,(count+1)/2))
+        return act2power(state,count+3) or (act2power(state,count) and stackCheck(state,(count-1)/2) and deckCheck(state,(count+1)/2))
         
     def act2powerTotal(state:CollectionState, count:int):
         if hammer:
@@ -282,11 +271,11 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
                 return act2powerDeck(state,count)
             else: return act2power(state,count)
 
-    def deckCheck(state:CollectionState, count:int):
-        return 15-deck > count
+    def deckCheck(state:CollectionState, req:int):
+        return state.count("-1 Min Deck Size", player) + 15-deck > req
 
-    def stackCheck(state:CollectionState, count:int):
-        return 15-deck > count
+    def stackCheck(state:CollectionState, req:int):
+        return state.count("+1 Max Card Stack Size", player) + 15-stack > req
 
     def prospector2(state:CollectionState):
         return act2powerTotal(state,3)
@@ -307,7 +296,7 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         return act2powerTotal(state,6)
 
     def leshy2(state:CollectionState):
-        return act2powerTotal(state,8) or (act2powerTotal(state,7) and state.has("Amalgam", player, 1))
+        return act2powerTotal(state,9) or (act2powerTotal(state,7) and state.has("Amalgam", player, 1))
 
     def grimora2(state:CollectionState):
         return act2powerTotal(state,8)
@@ -379,34 +368,28 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             return state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "Bolthound", "Double Gunner", "Swapbot", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher"], player, 7) and state.has_from_list(["49er", "Amoebot", "Explode Bot", "Alarm Bot", "Insectodrone", "Shieldbot", "Sniper Bot", "L33pB0t", "Sentry Drone", "Energy Bot", "Gift Bot", "Busted 3D Printer", "Lonely Wizbot", "Fishbot", "Son1a", "Bomb Latcher", "Exeskeleton", "Shield Latcher", "Skel-e-latcher", "Buff Conduit", "Gems Conduit", "Bleene's Vessel", "Goranj's Vessel", "Orlu's Vessel", "Gem Detonator", "Gem Guardian"], player, 5)
 
     def late_area1(state: CollectionState):
-        return (state.has("Squirrel", player, 1) or state.has("Aquasquirrel", player, 1)) and state.has_group("kayceedamage", player, 2)
+        return (state.has("Squirrel", player, 1) or state.has("Aquasquirrel", player, 1)) and state.has_group("kayceedamage", player, 3)
 
     def boss1(state:CollectionState):
-        return state.has_group("kayceedamage", player, 3) or (state.has_group("kayceedamage", player, 2) and state.has_group("kayceeother", player, 1))
+        return state.has_group("kayceedamage", player, 4) or (state.has_group("kayceedamage", player, 3) and state.has_group("kayceeother", player, 2))
 
     def late_area2(state:CollectionState):
-        return state.has_group("kayceedamage", player, 4) or (state.has_group("kayceedamage", player, 3) and state.has_group("kayceeother", player, 1))
+        return state.has_group("kayceedamage", player, 5) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeother", player, 2))
 
     def boss2(state:CollectionState):
         if consumable:
-            return state.has_group("kayceeconsumable", player, 3) and (state.has_group("kayceedamage", player, 5) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1)))
+            return state.has_group("kayceeconsumable", player, 3) and (state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2)))
         else:
-            return state.has_group("kayceedamage", player, 5) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 2)) or (state.has_group("kayceedamage", player, 4) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1))
+            return state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
 
     def late_area3(state:CollectionState):
-        return state.has_group("kayceedamage", player, 6) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 5) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 2) and state.has_group("kayceeotherrare", player, 1))
+        return state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 2))
 
     def boss3(state:CollectionState):
-        return state.has_group("kayceeconsumable", player, 5) and (state.has_group("kayceedamage", player, 7) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeother", player, 3)) or (state.has_group("kayceedamage", player, 6) and state.has_group("kayceeotherrare", player, 1)) or (state.has_group("kayceedamagerare", player, 3) and state.has_group("kayceeotherrare", player, 1)))
+        return state.has_group("kayceeconsumable", player, 6) and (state.has_group("kayceedamage", player, 8) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2)))
 
     def boss4(state:CollectionState):
-        return state.has_group("kayceedamage", player, 8) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeother", player, 4)) or (state.has_group("kayceedamage", player, 7) and state.has_group("kayceeotherrare", player, 2)) or (state.has_group("kayceedamagerare", player, 4) and state.has_group("kayceeotherrare", player, 2))
-
-    def addReq(loc, req):
-        if loc["requires"] == []:
-            loc["requires"] = req
-        else:
-            loc["requires"] = "(" + loc["requires"] + ") and (" + req + ")"
+        return state.has_group("kayceedamage", player, 9) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeother", player, 5)) or (state.has_group("kayceedamage", player, 8) and state.has_group("kayceeotherrare", player, 3)) or (state.has_group("kayceedamagerare", player, 5) and state.has_group("kayceeotherrare", player, 3))
 
     if act1:
         for exit_obj in multiworld.get_region("Act I - Late Woodlands", player).exits:

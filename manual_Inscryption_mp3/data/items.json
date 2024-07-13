@@ -609,7 +609,7 @@
             "Kaycee's Mod",
             "act1act2kaycee",
             "act1other",
-            "act2oetherblood",
+            "act2otherblood",
             "kayceeother"
         ],
         "progression": true
@@ -805,8 +805,7 @@
             "Act II",
             "Beast",
             "Kaycee's Mod",
-            "act1act2kaycee",
-            "act2otherblood"
+            "act1act2kaycee"
         ],
         "progression": true
     },

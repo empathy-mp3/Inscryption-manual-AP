@@ -971,7 +971,7 @@
     {
         "name": "Obtain Clover (Act 2)",
         "category": [
-            "Act II Misc.",
+            "Docks",
             "Act II",
             "act2"
         ],
@@ -984,7 +984,7 @@
         "name": "Obtain Clover (Act 2) 2",
         "category": [
             "acttwosecond",
-            "Act II Misc.",
+            "Docks",
             "Act II",
             "act2"
         ],
@@ -996,7 +996,7 @@
     {
         "name": "Open Salmon Chest",
         "category": [
-            "Act II Misc.",
+            "Docks",
             "Act II",
             "act2"
         ],
@@ -1009,7 +1009,7 @@
         "name": "Open Salmon Chest 2",
         "category": [
             "acttwosecond",
-            "Act II Misc.",
+            "Docks",
             "Act II",
             "act2"
         ],

@@ -97,10 +97,76 @@
     "kayceeotherrare": {
         "hidden": true
     },
+    "kayceesecond": {
+        "hidden": true
+    },
     "vesselupgrade": {
         "hidden": true,
         "yaml_option": [
             "Vessel_Upgrade_Rando"
         ]
+    },
+    "act1act3kaycee": {
+        "hidden": true
+    },
+    "act2damageblood": {
+        "hidden": true
+    },
+    "act2damagebloodrare": {
+        "hidden": true
+    },
+    "act2damageblue": {
+        "hidden": true
+    },
+    "act2damagebones": {
+        "hidden": true
+    },
+    "act2damagebonesrare": {
+        "hidden": true
+    },
+    "act2damageenergy": {
+        "hidden": true
+    },
+    "act2damageenergyrare": {
+        "hidden": true
+    },
+    "act2damagegreen": {
+        "hidden": true
+    },
+    "act2damagehighenergy": {
+        "hidden": true
+    },
+    "act2damagehighenergyrare": {
+        "hidden": true
+    },
+    "act2damageorange": {
+        "hidden": true
+    },
+    "act2damage": {
+        "hidden": true
+    },
+    "act2otherblood": {
+        "hidden": true
+    },
+    "act2otherbloodrare": {
+        "hidden": true
+    },
+    "act2otherblue": {
+        "hidden": true
+    },
+    "act2otherbones": {
+        "hidden": true
+    },
+    "act2otherbonesrare": {
+        "hidden": true
+    },
+    "act2otherenergy": {
+        "hidden": true
+    },
+    "act2otherenergyrare": {
+        "hidden": true
+    },
+    "act2otherorange": {
+        "hidden": true
     }
 }
