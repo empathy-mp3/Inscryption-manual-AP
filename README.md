@@ -15,6 +15,8 @@ There are 4 "acts" in this randomizer: Act I, Act II, Act III, and Kaycee's Mod,
 If you have every act enabled, you can only access Act II after beating Act I, you can only access Act III after beating Act II, and you can only access Kaycee's Mod after beating Act III
 You can disable whatever act you wish, so for instance if you only have Act I and Act III enabled, you beat Act I, and then move on to Act III, and once you beat that, you've beaten your goal.
 Disabled acts will remove all locations in them, and if an item isn't in any enabled acts, it will be removed as well.
+You start Act I at the second option in chapter select; skip the intro.
+For Act III, completely ignore all of this randomizer's restrictions until you reach the first waypoint (right before the shop.)
 
 ## What are the items?
 
