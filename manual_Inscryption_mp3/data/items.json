@@ -824,6 +824,7 @@
         "name": "Greater Smoke",
         "category": [
             "Act I",
+            "act1",
             "act1damagerare"
         ],
         "progression": true

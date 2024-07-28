@@ -2822,7 +2822,8 @@
         "category": [
             "Boss Reward",
             "Act III",
-            "act3"
+            "act3",
+            "robobucks"
         ],
         "region": "Act III - Photographer"
     },
@@ -3043,7 +3044,7 @@
     {
         "name": "Rickety Tower: Cuckoo Clock Password from Shop",
         "category": [
-            "Gaudy Gem Land",
+            "Rickety Tower",
             "Act III",
             "act3"
         ],
@@ -3052,7 +3053,7 @@
     {
         "name": "Rickety Tower: Sigil Modifier from Shop",
         "category": [
-            "Gaudy Gem Land",
+            "Rickety Tower",
             "Act III",
             "act3"
         ],
@@ -3061,7 +3062,7 @@
     {
         "name": "Rickety Tower: Recycler from Shop",
         "category": [
-            "Gaudy Gem Land",
+            "Rickety Tower",
             "Act III",
             "act3"
         ],

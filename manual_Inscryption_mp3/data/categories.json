@@ -201,5 +201,8 @@
     },
     "act2otherorange": {
         "hidden": true
+    },
+    "act1act2": {
+        "hidden": true
     }
 }
