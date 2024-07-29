@@ -445,6 +445,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             set_rule(exit_obj, end)
         for exit_obj in multiworld.get_region("Act I - Eye", player).entrances:
             set_rule(exit_obj, eye)
+        for exit_obj in multiworld.get_region("Act I - Late Woodlands", player).exits:
+            set_rule(exit_obj, late_woodlands)
+        for exit_obj in multiworld.get_region("Act I - Dagger", player).exits:
+            set_rule(exit_obj, dagger)
+        for exit_obj in multiworld.get_region("Act I - Prospector", player).exits:
+            set_rule(exit_obj, prospector)
+        for exit_obj in multiworld.get_region("Act I - Late Wetlands", player).exits:
+            set_rule(exit_obj, late_wetlands)
+        for exit_obj in multiworld.get_region("Act I - Angler", player).exits:
+            set_rule(exit_obj, angler)
+        for exit_obj in multiworld.get_region("Act I - Late Snow Line", player).exits:
+            set_rule(exit_obj, late_snow_line)
+        for exit_obj in multiworld.get_region("Act I - Trapper", player).exits:
+            set_rule(exit_obj, trapper)
+        for exit_obj in multiworld.get_region("Act I - Leshy", player).exits:
+            set_rule(exit_obj, leshy)
+        for exit_obj in multiworld.get_region("Act I - End", player).exits:
+            set_rule(exit_obj, end)
+        for exit_obj in multiworld.get_region("Act I - Eye", player).exits:
+            set_rule(exit_obj, eye)
 
     if act2:
         for exit_obj in multiworld.get_region("Act II - Prospector", player).entrances:
@@ -466,6 +486,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         for exit_obj in multiworld.get_region("Act II - P03", player).entrances:
             set_rule(exit_obj, leftboss2)
         for exit_obj in multiworld.get_region("Act II - Magnificus", player).entrances:
+            set_rule(exit_obj, leftboss2)
+        for exit_obj in multiworld.get_region("Act II - Prospector", player).exits:
+            set_rule(exit_obj, prospector2)
+        for exit_obj in multiworld.get_region("Act II - Kaycee", player).exits:
+            set_rule(exit_obj, kaycee2)
+        for exit_obj in multiworld.get_region("Act II - Sawyer", player).exits:
+            set_rule(exit_obj, sawyer2)
+        for exit_obj in multiworld.get_region("Act II - Royal", player).exits:
+            set_rule(exit_obj, royal2)
+        for exit_obj in multiworld.get_region("Act II - Angler", player).exits:
+            set_rule(exit_obj, angler2)
+        for exit_obj in multiworld.get_region("Act II - Trapper", player).exits:
+            set_rule(exit_obj, trapper2)
+        for exit_obj in multiworld.get_region("Act II - Leshy", player).exits:
+            set_rule(exit_obj, leshy2)
+        for exit_obj in multiworld.get_region("Act II - Grimora", player).exits:
+            set_rule(exit_obj, grimora2)
+        for exit_obj in multiworld.get_region("Act II - P03", player).exits:
+            set_rule(exit_obj, leftboss2)
+        for exit_obj in multiworld.get_region("Act II - Magnificus", player).exits:
             set_rule(exit_obj, leftboss2)
 
     if act3:
@@ -491,6 +531,28 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
             set_rule(exit_obj, ricketyTower)
         for exit_obj in multiworld.get_region("Act III - G0lly", player).entrances:
             set_rule(exit_obj, g0lly)
+        for exit_obj in multiworld.get_region("Act III - Eastern Botopia", player).exits:
+            set_rule(exit_obj, easternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Filthy Corpse World", player).exits:
+            set_rule(exit_obj, postEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Late Filthy Corpse World", player).exits:
+            set_rule(exit_obj, latePostEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Archivist", player).exits:
+            set_rule(exit_obj, eastboss3)
+        for exit_obj in multiworld.get_region("Act III - Foul Backwater", player).exits:
+            set_rule(exit_obj, postEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Late Foul Backwater", player).exits:
+            set_rule(exit_obj, latePostEasternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Photographer", player).exits:
+            set_rule(exit_obj, eastboss3)
+        for exit_obj in multiworld.get_region("Act III - Late Western Botopia", player).exits:
+            set_rule(exit_obj, lateWesternBotopia)
+        for exit_obj in multiworld.get_region("Act III - Gaudy Gem Land", player).exits:
+            set_rule(exit_obj, gaudyGemLand)
+        for exit_obj in multiworld.get_region("Act III - Rickety Tower", player).exits:
+            set_rule(exit_obj, ricketyTower)
+        for exit_obj in multiworld.get_region("Act III - G0lly", player).exits:
+            set_rule(exit_obj, g0lly)
 
     if kaycee:
         for exit_obj in multiworld.get_region("Kaycee's Mod - Late First Area", player).entrances:
@@ -512,6 +574,26 @@ def after_set_rules(world: World, multiworld: MultiWorld, player: int):
         for exit_obj in multiworld.get_region("Kaycee's Mod - Sixth Boss", player).entrances:
             set_rule(exit_obj, boss6)
         for exit_obj in multiworld.get_region("Kaycee's Mod - Seventh Boss", player).entrances:
+            set_rule(exit_obj, boss7)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late First Area", player).exits:
+            set_rule(exit_obj, late_area1)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - First Boss", player).exits:
+            set_rule(exit_obj, boss1)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late Second Area", player).exits:
+            set_rule(exit_obj, late_area2)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Second Boss", player).exits:
+            set_rule(exit_obj, boss2)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Late Third Area", player).exits:
+            set_rule(exit_obj, late_area3)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Third Boss", player).exits:
+            set_rule(exit_obj, boss3)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Final Boss", player).exits:
+            set_rule(exit_obj, boss4)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Fifth Boss", player).exits:
+            set_rule(exit_obj, boss5)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Sixth Boss", player).exits:
+            set_rule(exit_obj, boss6)
+        for exit_obj in multiworld.get_region("Kaycee's Mod - Seventh Boss", player).exits:
             set_rule(exit_obj, boss7)
 
     def Example_Rule(state: CollectionState) -> bool:
