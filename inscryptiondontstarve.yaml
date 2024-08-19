@@ -1,0 +1,134 @@
+﻿name: Charlie
+
+# Used to describe your yaml. Useful if you have multiple files.
+description: Default Manual_InscryptionDontStarve_mp3 Template
+
+game: Manual_InscryptionDontStarve_mp3
+requires:
+  version: 0.5.0 # Version of Archipelago required for this yaml to work as expected.
+
+Manual_InscryptionDontStarve_mp3:
+  # Game Options
+  progression_balancing:
+    # A system that can move progression earlier, to try and prevent the player from getting stuck and bored early.
+    # 
+    # A lower setting means more getting stuck. A higher setting means less getting stuck.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 99
+    random: 0
+    random-low: 0
+    random-high: 0
+    disabled: 0 # equivalent to 0
+    normal: 50 # equivalent to 50
+    extreme: 0 # equivalent to 99
+
+  accessibility:
+    # Set rules for reachability of your items/locations.
+    # 
+    # - **Locations:** ensure everything can be reached and acquired.
+    # - **Items:** ensure all logically relevant items can be acquired.
+    # - **Minimal:** ensure what is needed to reach your goal can be acquired.
+    locations: 0
+    items: 50
+    minimal: 0
+
+  Consumable_Rando:
+    # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
+    'false': 0
+    'true': 50
+
+  Duplicate_Locations:
+    # Should there be duplicate locations for every location?
+    # Also, this doesn't apply to challenge locations.
+    # You should have at least one set of duplicate locations enabled (or it will fail to generate).
+    'false': 50
+    'true': 0
+
+  Challenge_Locations:
+    # Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
+    'false': 0
+    'true': 50
+
+  Duplicate_Challenge_Locations:
+    # Should there be duplicates of Challenge Locations?
+    # Only does anything if Challenge_Locations are enabled.
+    'false': 0
+    'true': 50
+
+  Grizzly_Challenge_Locations:
+    # Should there be Challenge Locations for Grizzly Bosses?
+    # Personally, I really don't like that challenge. It sucks.
+    # Only does anything if Challenge_Locations are enabled.
+    'false': 50
+    'true': 0
+
+  Logic_Difficulty:
+    # How hard do you want your logic? The higher the number, the harder it is.
+    # You may be expected to do very difficult and/or grindy things with very little equipment.
+    # Specifically, how much do you like bashing your head against a wall?
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 4
+    0: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  goal:
+    # Choose your victory condition.
+    end of kaycee's mod: 0
+    end of kaycee's mod (50 challenge points): 0
+    end of kaycee's mod (80 challenge points): 0
+    end of kaycee's mod (110 challenge points): 50
+
+  filler_traps:
+    # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
+    #
+    # You can define additional values between the minimum and maximum values.
+    # Minimum value is 0
+    # Maximum value is 100
+    100: 50
+    random: 0
+    random-low: 0
+    random-high: 0
+
+  death_link:
+    # When you die, everyone dies. Of course the reverse is true too.
+    'false': 50
+    'true': 0
+
+  # Item & Location Options
+  local_items:
+    # Forces these items to be in their native world.
+    []
+
+  non_local_items:
+    # Forces these items to be outside their native world.
+    []
+
+  start_inventory:
+    # Start with these items.
+    {}
+
+  start_hints:
+    # Start with these item's locations prefilled into the ``!hint`` command.
+    []
+
+  start_location_hints:
+    # Start with these locations and their item prefilled into the ``!hint`` command.
+    []
+
+  exclude_locations:
+    # Prevent these locations from having an important item.
+    []
+
+  priority_locations:
+    # Prevent these locations from having an unimportant item.
+    []
+
+  item_links:
+    # Share part of your item pool with other players.
+    []

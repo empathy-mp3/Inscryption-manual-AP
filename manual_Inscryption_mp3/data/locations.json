@@ -228,7 +228,26 @@
         "region": "Act I - Late Woodlands"
     },
     {
-        "name": "Woodlands Node 13 (Prospector)",
+        "name": "Woodlands Node 13 (Buff)",
+        "category": [
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 13 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Woodlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Woodlands"
+    },
+    {
+        "name": "Woodlands Node 14 (Prospector)",
         "category": [
             "Woodlands Map Area",
             "Act I",
@@ -237,7 +256,7 @@
         "region": "Act I - Prospector"
     },
     {
-        "name": "Woodlands Node 13 (Prospector) 2",
+        "name": "Woodlands Node 14 (Prospector) 2",
         "category": [
             "actonesecond",
             "Woodlands Map Area",
@@ -475,7 +494,26 @@
         "region": "Act I - Late Wetlands"
     },
     {
-        "name": "Wetlands Node 13 (Angler)",
+        "name": "Wetlands Node 13 (Buff)",
+        "category": [
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 13 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Wetlands Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Wetlands"
+    },
+    {
+        "name": "Wetlands Node 14 (Angler)",
         "category": [
             "Wetlands Map Area",
             "Act I",
@@ -484,7 +522,7 @@
         "region": "Act I - Angler"
     },
     {
-        "name": "Wetlands Node 13 (Angler) 2",
+        "name": "Wetlands Node 14 (Angler) 2",
         "category": [
             "actonesecond",
             "Wetlands Map Area",
@@ -722,7 +760,26 @@
         "region": "Act I - Late Snow Line"
     },
     {
-        "name": "Snow Line Node 13 (Trapper)",
+        "name": "Snow Line Node 13 (Buff)",
+        "category": [
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 13 (Buff) 2",
+        "category": [
+            "actonesecond",
+            "Snow Line Map Area",
+            "Act I",
+            "act1"
+        ],
+        "region": "Act I - Late Snow Line"
+    },
+    {
+        "name": "Snow Line Node 14 (Trapper)",
         "category": [
             "Snow Line Map Area",
             "Act I",
@@ -731,7 +788,7 @@
         "region": "Act I - Trapper"
     },
     {
-        "name": "Snow Line Node 13 (Trapper) 2",
+        "name": "Snow Line Node 14 (Trapper) 2",
         "category": [
             "actonesecond",
             "Snow Line Map Area",
@@ -3425,7 +3482,26 @@
         "region": "Kaycee's Mod - Late First Area"
     },
     {
-        "name": "First Area Node 13 (First Boss)",
+        "name": "First Area Node 13 (Buff)",
+        "category": [
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 13 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "First Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late First Area"
+    },
+    {
+        "name": "First Area Node 14 (First Boss)",
         "category": [
             "First Map Area",
             "Kaycee's Mod",
@@ -3434,7 +3510,7 @@
         "region": "Kaycee's Mod - First Boss"
     },
     {
-        "name": "First Area Node 13 (First Boss) 2",
+        "name": "First Area Node 14 (First Boss) 2",
         "category": [
             "kayceesecond",
             "First Map Area",
@@ -3672,7 +3748,26 @@
         "region": "Kaycee's Mod - Late Second Area"
     },
     {
-        "name": "Second Area Node 13 (Second Boss)",
+        "name": "Second Area Node 13 (Buff)",
+        "category": [
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 13 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Second Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Second Area"
+    },
+    {
+        "name": "Second Area Node 14 (Second Boss)",
         "category": [
             "Second Map Area",
             "Kaycee's Mod",
@@ -3681,7 +3776,7 @@
         "region": "Kaycee's Mod - Second Boss"
     },
     {
-        "name": "Second Area Node 13 (Second Boss) 2",
+        "name": "Second Area Node 14 (Second Boss) 2",
         "category": [
             "kayceesecond",
             "Second Map Area",
@@ -3919,7 +4014,26 @@
         "region": "Kaycee's Mod - Late Third Area"
     },
     {
-        "name": "Third Area Node 13 (Third Boss)",
+        "name": "Third Area Node 13 (Buff)",
+        "category": [
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 13 (Buff) 2",
+        "category": [
+            "kayceesecond",
+            "Third Map Area",
+            "Kaycee's Mod",
+            "kaycee"
+        ],
+        "region": "Kaycee's Mod - Late Third Area"
+    },
+    {
+        "name": "Third Area Node 14 (Third Boss)",
         "category": [
             "Third Map Area",
             "Kaycee's Mod",
@@ -3928,7 +4042,7 @@
         "region": "Kaycee's Mod - Third Boss"
     },
     {
-        "name": "Third Area Node 13 (Third Boss) 2",
+        "name": "Third Area Node 14 (Third Boss) 2",
         "category": [
             "kayceesecond",
             "Third Map Area",

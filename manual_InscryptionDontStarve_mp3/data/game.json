@@ -1,0 +1,33 @@
+{
+  "$schema": "https://github.com/ManualForArchipelago/Manual/raw/main/schemas/Manual.game.schema.json",
+  "game": "InscryptionDontStarve",
+  "creator": "mp3",
+  "filler_item_name": "Ignore a Restriction Once",
+  "death_link": true,
+  "starting_items": [
+    {
+      "item_categories": [
+        "Side Deck"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "damage"
+      ],
+      "random": 3
+    },
+    {
+      "item_categories": [
+        "other"
+      ],
+      "random": 1
+    },
+    {
+      "item_categories": [
+        "Card"
+      ],
+      "random": 2
+    }
+  ]
+}

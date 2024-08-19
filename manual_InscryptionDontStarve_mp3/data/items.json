@@ -1,23 +1,27 @@
 [
     {
+        "name": "Bell Trap",
+        "trap": true,
+        "count": 0
+    },
+    {
         "name": "Ancient Guardian",
         "category": [
             "Don't Starve Mod",
             "Card",
             "Rare",
-            "Hooved",
-            "Shadow"
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Baby Doydoy",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian"
+            "damage"
         ],
-        "region": "Pre-Boss or Wes Deck"
+        "progression": true
     },
     {
         "name": "BFB",
@@ -25,28 +29,27 @@
             "Don't Starve Mod",
             "Card",
             "Rare",
-            "Avian"
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Birchnutter",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Blue Crocodog",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine",
-            "Reptile"
+            "damagerare"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Blue Gem Deer",
@@ -55,70 +58,70 @@
             "Card",
             "Side Deck"
         ],
-        "region": "Beginning"
+        "progression": true
     },
     {
         "name": "Blue Hound",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine"
+            "damage"
         ],
-        "region": "Pre-Boss or Wortox Deck"
+        "progression": true
     },
     {
         "name": "Cave Spider",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Chester",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Clockwork Bishop",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "damage"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Clockwork Knight",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Hooved"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Clockwork Rook",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Hooved"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Crawling Horror",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss or Wilson Deck"
+        "progression": true
     },
     {
         "name": "Crawling Nightmare",
@@ -126,66 +129,62 @@
             "Don't Starve Mod",
             "Card",
             "Rare",
-            "Shadow"
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Crocodog",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine",
-            "Reptile"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Dangling Depths Dweller",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Dark Sword",
         "category": [
             "Don't Starve Mod",
-            "Card",
-            "Shadow",
-            "Can't Be Added To Deck"
+            "Card"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+        "useful": true
     },
     {
         "name": "Depths Worm",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Doydoy",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian"
+            "damage"
         ],
-        "region": "Pre-Boss or Wes Deck"
+        "progression": true
     },
     {
         "name": "Gestalt",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Lunar"
+            "damage"
         ],
-        "region": "Pre-Boss or Wendy Deck"
+        "progression": true
     },
     {
         "name": "Green Gem Deer",
@@ -194,143 +193,139 @@
             "Card",
             "Side Deck"
         ],
-        "region": "Beginning"
+        "value": {
+            "offense": 0,
+            "defense": 1,
+            "utility": 2
+        },
+        "progression": true
     },
     {
         "name": "Horror Hound",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine",
-            "Lunar"
+            "damage"
         ],
-        "region": "Pre-Boss or Wanda Deck"
+        "progression": true
     },
     {
         "name": "Hound",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Hutch",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Reptile"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Krampus",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Hooved"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Lavae",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Misshapen Bird",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian",
-            "Lunar"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Moonblind Crow",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian",
-            "Lunar"
+            "damage"
         ],
-        "region": "Pre-Boss or WX-78 Deck"
+        "progression": true
     },
     {
         "name": "Moonrock Pengull",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian",
-            "Lunar"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Moose",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Hooved",
-            "Avian",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Mossling",
         "category": [
             "Don't Starve Mod",
-            "Card",
-            "Avian",
-            "Hooved",
-            "Can't Be Added To Deck"
+            "Card"
         ],
-        "region": "Post-Boss 1",
-        "requires": "|Moose|"
+        "useful": true
     },
     {
         "name": "Mr. Skitts",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Night Hand",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Nightmarebeak",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Nurse Spider",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Orange Gem Deer",
@@ -339,367 +334,362 @@
             "Card",
             "Side Deck"
         ],
-        "region": "Beginning"
+        "progression": true
     },
     {
         "name": "Piko",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "damage"
         ],
-        "region": "Pre-Boss or Woodie Deck"
+        "progression": true
     },
     {
         "name": "Pipspook",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Poison Birchnut Tree",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant"
+            "damage"
         ],
-        "region": "Pre-Boss or Woodie Deck"
+        "progression": true
     },
     {
         "name": "Poison Spear",
         "category": [
             "Don't Starve Mod",
-            "Card",
-            "Tribeless",
-            "Can't Be Added To Deck"
+            "Card"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+        "useful": true
     },
     {
         "name": "Pugalisk",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Reptile",
-            "Canine",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Rabbit",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Red Hound",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Retinazor",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Ro Bin",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Saladmander",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Lunar",
-            "Reptile",
-            "Plant"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Sea Strider",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Shattered Spider",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Snaptooth Flytrap",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Snaptooth Seedling",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Spazmatism",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Spider",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Spider Den",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Spider Monkey",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Spider Queen",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Spider Warrior",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Spitter",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Insect"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Swimming Horror",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Teen Doydoy",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Avian"
+            "damage"
         ],
-        "region": "Pre-Boss or Wes Deck"
+        "progression": true
     },
     {
         "name": "Terrorbeak",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss or Wilson Deck"
+        "progression": true
     },
     {
         "name": "Terrorclaw",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Treeguard",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant",
-            "Rare"
+            "Rare",
+            "damagerare"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Unassuming Plant",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Plant"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "value": {
+            "offense_green": 0,
+            "defense_green": 3,
+            "utility_green": 0
+        },
+        "progression": true
     },
     {
         "name": "Wanda",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Wanda Deck"
+        "progression": true
     },
     {
         "name": "Wavey Jones",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Shadow"
+            "other"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Weather Pain",
         "category": [
             "Don't Starve Mod",
-            "Card",
-            "Tribeless",
-            "Can't Be Added To Deck"
+            "Card"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Ro Bin| or |Hutch| or |Chester|"
+        "useful": true
     },
     {
         "name": "Wendy",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Wendy Deck"
+        "progression": true
     },
     {
         "name": "Wes",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Wes Deck"
+        "useful": true
     },
     {
         "name": "Wilson",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Wilson Deck"
+        "progression": true
     },
     {
         "name": "Woodie",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Woodie Deck"
+        "progression": true
     },
     {
         "name": "Wortox",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or Wortox Deck"
+        "progression": true
     },
     {
         "name": "WX-78",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Tribeless",
             "Rare",
-            "Survivor"
+            "damagerare"
         ],
-        "region": "Post-Boss 1 or WX-78 Deck"
+        "progression": true
     },
     {
         "name": "Yellow Crocodog",
         "category": [
             "Don't Starve Mod",
             "Card",
-            "Canine",
-            "Reptile"
+            "damage"
         ],
-        "region": "Pre-Boss"
+        "progression": true
+    },
+    {
+        "name": "You No Longer Have To Use The Gem Deer Side Decks That Cost Energy",
+        "category": [
+            "Misc. Restrictions"
+        ],
+        "progression": true
     },
     {
         "name": "Rabbit Pelt",
@@ -707,7 +697,7 @@
             "Base Game",
             "Card"
         ],
-        "region": "Beginning"
+        "useful": true
     },
     {
         "name": "Wolf Pelt",
@@ -715,7 +705,7 @@
             "Base Game",
             "Card"
         ],
-        "region": "Post-Boss 1"
+        "useful": true
     },
     {
         "name": "Golden Pelt",
@@ -723,277 +713,181 @@
             "Base Game",
             "Card"
         ],
-        "region": "Post-Boss 2"
+        "useful": true
     },
     {
         "name": "Squirrel",
         "category": [
             "Base Game",
             "Card",
-            "Can't Be Added To Deck"
+            "basecard",
+            "consume"
         ],
-        "region": "Beginning",
-        "requires": "|Squirrel in a Bottle| or |@noconsumable|"
+        "progression": true
     },
     {
         "name": "Black Goat",
         "category": [
             "Base Game",
             "Card",
-            "Can't Be Added To Deck"
+            "basecard",
+            "consume"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Black Goat in a Bottle| or |@noconsumable|"
+        "progression": true
     },
     {
         "name": "Boulder",
         "category": [
             "Base Game",
             "Card",
-            "Can't Be Added To Deck"
+            "basecard",
+            "consume"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Boulder in a Bottle| or |@noconsumable|"
+        "progression": true
     },
     {
         "name": "Frozen Opossum",
         "category": [
             "Base Game",
             "Card",
-            "Can't Be Added To Deck"
+            "basecard",
+            "consume"
         ],
-        "region": "Pre-Boss",
-        "requires": "|Frozen Opossum in a Bottle| or |@noconsumable|"
+        "progression": true
     },
     {
         "name": "The Smoke",
         "category": [
             "Base Game",
             "Card",
-            "Can't Be Added To Deck"
+            "basecard"
         ],
-        "region": "Post-Boss 1"
+        "progression": true
     },
     {
         "name": "Boulder in a Bottle",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Squirrel in a Bottle",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Beginning"
+        "progression": true
     },
     {
         "name": "Scissors",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Pliers",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Beginning"
+        "progression": true
     },
     {
         "name": "Hoggy Bank",
         "category": [
-            "Base Game"
+            "Consumable",
+            "Base Game",
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Hourglass",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Black Goat in a Bottle",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Frozen Opossum in a Bottle",
         "category": [
-            "Base Game"
+            "Consumable",
+            "Base Game",
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Fish Hook",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Beginning"
+        "progression": true
     },
     {
         "name": "Harpie's Birdleg Fan",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Wiseclock",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Magickal Bleach",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Magpie's Lens",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Pre-Boss"
+        "progression": true
     },
     {
         "name": "Skinning Knife",
         "category": [
+            "Consumable",
             "Base Game",
-            "Consumable"
+            "consume"
         ],
-        "region": "Post-Boss 2"
-    },
-    {
-        "name": "Wilson Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Wilson Deck|"
-    },
-    {
-        "name": "Wendy Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Wendy Deck|"
-    },
-    {
-        "name": "WX-78 Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|WX-78 Deck|"
-    },
-    {
-        "name": "Woodie Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Woodie Deck|"
-    },
-    {
-        "name": "Wes Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Wes Deck|"
-    },
-    {
-        "name": "Wortox Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Wortox Deck|"
-    },
-    {
-        "name": "Wanda Deck",
-        "category": [
-            "Starter Deck",
-            "starter"
-        ],
-        "region": "Beginning",
-        "requires": "|Wanda Deck|"
-    },
-    {
-        "name": "Boss 1",
-        "category": [
-            "Boss Fights"
-        ],
-        "region": "Post-Boss 1"
-    },
-    {
-        "name": "Boss 2",
-        "category": [
-            "Boss Fights"
-        ],
-        "region": "Post-Boss 2"
-    },
-    {
-        "name": "Boss 3",
-        "category": [
-            "Boss Fights"
-        ],
-        "region": "Post-Boss 3"
-    },
-    {
-        "name": "Final Boss",
-        "victory": true,
-        "category": [
-            "Victory"
-        ],
-        "region": "End"
-    },
-    {
-        "name": "Please Check off this Location Immediately",
-        "category": [
-            "check this immediately"
-        ],
-        "place_item_category": [
-            "Ignore This Category"
-        ],
-        "requires": []
-    },
-    {
-        "name": "Also Check off this Location Immediately",
-        "category": [
-            "check this immediately"
-        ],
-        "place_item_category": [
-            "Ignore This Category"
-        ],
-        "requires": []
+        "progression": true
     }
 ]

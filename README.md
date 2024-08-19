@@ -22,7 +22,7 @@ For Act III, completely ignore all of this randomizer's restrictions until you r
 
 By default, the items are just Cards, which means you can't play a card until you receive the item for it.
 Note that some cards exist in multiple acts, so if you get the "Wolf Cub" item, you can play it in Act I, Act II, and Kaycee's Mod.
-The filler item is "Total Misplay", which does nothing.
+The filler item is "Ignore a Restriction Once", which lets you play a banned card, use a banned consumable, use a hammer when you're not supposed to, etc. You can't use it to get vessel upgrades or ignore deck size or stack size limits, though.
 
 There are additional items that can be enabled:
 
@@ -40,7 +40,7 @@ There are additional items that can be enabled:
 - Vessel Upgrade Rando: (Act III only) This option creates 3 "Vessel Upgrade" items, and 1 "Conduit Upgrade" item.
   - You cannot pick up a Vessel Upgrade (from Uberbots) until you get a Vessel Upgrade item. You can only pick up as many as you have Archipelago Items for, so if you have 2 items, you'll have to ignore the third one once you beat the third Uberbot.
   - You can't pick up the Conduit Upgrade (immediately after entering Resplendent Bastion) until you get the item for it.
-- Filler Traps: Replace a percentage of "Total Misplay" filler with "Ring the Bell" traps, which force you to ring the bell as soon as possible once you receive them.
+- Filler Traps: Replace a percentage of "Ignore a Restriction Once" filler with "Bell Trap" traps, which force you to ring the bell as soon as possible once you receive them.
 
 ## What are the locations?
 
@@ -94,28 +94,17 @@ If you don't have a save with everything unlocked in the base game, you can pres
 
 In the "Manual" tab you'll find buttons corresponding with all the available locations in the Randomizer. Since this is a manual game its built on trust™ you press the locations when you get to them, hopefully in the future only what you can access will be visible but at the moment you could press victory and it would accept it. Also, if you have death_link enabled, there's a button at the top right to trigger and receive death links.
 
-## How does the Modded Inscryption work?
+## How does the Inscryption Don't Starve apworld work?
 
 **Note: this is no longer being updated. You can find it in older releases of this, but its logic is broken in a lot of ways, and its design is heavily flawed.**
 
 You need to use the latest version of my [DontStarveExpansion mod](https://thunderstore.io/c/inscryption/p/empathymp3/DontStarveExpansion/).
-You need to use the alternate apworlds and yaml files. (with Modded in the name).
+You need to use the alternate apworlds and yaml files. (with `DontStarve` in the name).
 There are a few differences from the original rando:
 - Play on Kaycee's Mod.
-- Disable the vanilla card pack.
-- Put "Manual_InscryptionModded_empathymp3" in the manual client.
+- Disable the vanilla card pack, and enable the Don't Starve card pack.
+- Put "Manual_InscryptionDontStarve_mp3" in the manual client.
 - Don't use the aquasquirrel challenge.
 - In the side deck selection screen, you should use the gem deer side deck that costs energy, until you get the "You No Longer Have To Use The Gem Deer Side Decks That Cost Energy" item, at which point you should use the gem deer side deck that doesn't cost energy. After you select either of those, you can choose your gem colors.
 - There are no cards that fly onto the board, so you don't have to be concerned about those.
-- There are locations for adding unique cards to your deck, instead of the current system.
-- There is a starter deck randomizer option, which means you can only use starter decks you have the item for.
-- The cards that have locations but cannot be added to your deck (whose locations are obtained by simply having it in your hand) are:
-  - Dark Sword
-  - Mossling
-  - Poison Spear
-  - Weather Pain
-  - Squirrel
-  - Black Goat
-  - Boulder
-  - Frozen Opossum
-  - The Smoke
+- Otherwise, it's like Kaycee's Mod, but with different cards.

@@ -1,0 +1,84 @@
+{
+    "start": {
+        "connects_to": [
+            "Beginning"
+        ],
+        "starting": true,
+        "requires": []
+    },
+    "Beginning": {
+        "connects_to": [
+            "Late First Area"
+        ],
+        "requires": []
+    },
+    "Late First Area": {
+        "connects_to": [
+            "First Boss"
+        ],
+        "requires": []
+    },
+    "First Boss": {
+        "connects_to": [
+            "Early Second Area"
+        ],
+        "requires": []
+    },
+    "Early Second Area": {
+        "connects_to": [
+            "Late Second Area"
+        ],
+        "requires": []
+    },
+    "Late Second Area": {
+        "connects_to": [
+            "Second Boss"
+        ],
+        "requires": []
+    },
+    "Second Boss": {
+        "connects_to": [
+            "Early Third Area"
+        ],
+        "requires": []
+    },
+    "Early Third Area": {
+        "connects_to": [
+            "Late Third Area"
+        ],
+        "requires": []
+    },
+    "Late Third Area": {
+        "connects_to": [
+            "Third Boss"
+        ],
+        "requires": []
+    },
+    "Third Boss": {
+        "connects_to": [
+            "Final Boss"
+        ],
+        "requires": []
+    },
+    "Final Boss": {
+        "connects_to": [
+            "Fifth Boss"
+        ],
+        "requires": []
+    },
+    "Fifth Boss": {
+        "connects_to": [
+            "Sixth Boss"
+        ],
+        "requires": []
+    },
+    "Sixth Boss": {
+        "connects_to": [
+            "Seventh Boss"
+        ],
+        "requires": []
+    },
+    "Seventh Boss": {
+        "requires": []
+    }
+}

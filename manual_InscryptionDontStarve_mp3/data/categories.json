@@ -1,0 +1,46 @@
+{
+    "consume": {
+        "yaml_option": [
+            "Consumable_Rando"
+        ],
+        "hidden": true
+    },
+    "second": {
+        "hidden": true,
+        "yaml_option": [
+            "Duplicate_Locations"
+        ]
+    },
+    "Challenges": {
+        "yaml_option": [
+            "Challenge_Locations"
+        ]
+    },
+    "act2cheap": {
+        "hidden": true
+    },
+    "challengesecond": {
+        "hidden": true,
+        "yaml_option": [
+            "Duplicate_Challenge_Locations"
+        ]
+    },
+    "grizzly": {
+        "hidden": true,
+        "yaml_option": [
+            "Grizzly_Challenge_Locations"
+        ]
+    },
+    "damage": {
+        "hidden": true
+    },
+    "damagerare": {
+        "hidden": true
+    },
+    "other": {
+        "hidden": true
+    },
+    "basecard": {
+        "hidden": true
+    }
+}

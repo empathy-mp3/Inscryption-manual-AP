@@ -1,27 +1,29 @@
 from typing import Optional
 from worlds.AutoWorld import World
-from ..Helpers import clamp, get_items_with_value
+from ..Helpers import clamp, get_items_with_value, get_option_value
 from BaseClasses import MultiWorld, CollectionState
 
 import re
 
 # Sometimes you have a requirement that is just too messy or repetitive to write out with boolean logic.
 # Define a function here, and you can use it in a requires string with {function_name()}.
-def overfishedAnywhere(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
-    """Has the player collected all fish from any fishing log?"""
-    for cat, items in world.item_name_groups:
-        if cat.endswith("Fishing Log") and state.has_all(items, player):
-            return True
+def enoughDeckSize(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
+    """does the player have a small enough deck?"""
+    deck = get_option_value(multiworld, player, "Deck_Size_Rando") - 20
+    if deck - state.count("-1 Min Deck Size", player) <= 15 - int(level):
+        return True
     return False
 
-# You can also pass an argument to your function, like {function_name(15)}
-# Note that all arguments are strings, so you'll need to convert them to ints if you want to do math.
-def anyClassLevel(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
-    """Has the player reached the given level in any class?"""
-    for item in ["Figher Level", "Black Belt Level", "Thief Level", "Red Mage Level", "White Mage Level", "Black Mage Level"]:
-        if state.count(item, player) >= int(level):
-            return True
+def enoughStackSize(world: World, multiworld: MultiWorld, state: CollectionState, player: int, level: str):
+    """can the player use enough of one card?"""
+    stack = 20 - get_option_value(multiworld, player, "Stack_Size_Rando")
+    if stack - state.count("+1 Max Card Stack Size", player) <= 15 - int(level):
+        return True
     return False
+
+def test(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
+    """test"""
+    return "(|Squirrel| or |Skeleton|) and ({ItemValue(act_2_offense_blood:2)} or ({ItemValue(act_2_offense_blood:1)} and {ItemValue(act_2_defense_blood:2)}) or ({ItemValue(act_2_offense_blood:1)} and {ItemValue(act_2_utility_blood:1)}))"
 
 # You can also return a string from your function, and it will be evaluated as a requires string.
 def requiresMelee(world: World, multiworld: MultiWorld, state: CollectionState, player: int):
@@ -128,3 +130,10 @@ def OptAll(world: World, multiworld: MultiWorld, state: CollectionState, player:
     for function in functions:
         requires_list = requires_list.replace("{" + function + "(temp)}", "{" + func_name + "(" + functions[func_name] + ")}")
     return requires_list
+
+# Rule to expose the can_reach_location core function
+def canReachLocation(world: World, multiworld: MultiWorld, state: CollectionState, player: int, location: str):
+    """Can the player reach the given location?"""
+    if state.can_reach_location(location, player):
+        return True
+    return False
