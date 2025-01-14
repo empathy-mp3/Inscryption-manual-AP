@@ -38,19 +38,14 @@ class DupeLocations(DefaultOnToggle):
     display_name = "Duplicate Locations"
 
 class ChallengeLocations(DefaultOnToggle):
-    """Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?"""
+    """Should there be locations for beating every encounter with a certain amount of challenge points?
+    You'll never be expected to do the Grizzly Bosses challenge (it sucks)."""
     display_name = "Challenge Locations"
 
 class DupeChallengeLocations(Toggle):
     """Should there be duplicates of Challenge Locations?
     Only does anything if Challenge_Locations are enabled."""
     display_name = "Dupe Challenge Locations"
-
-class GrizzlyChallengeLocations(Toggle):
-    """Should there be Challenge Locations for Grizzly Bosses?
-    Personally, I really don't like that challenge. It sucks.
-    Only does anything if Challenge_Locations are enabled."""
-    display_name = "Grizzly Challenge Locations"
 
 class LogicDifficulty(Range):
     """How hard do you want your logic? The higher the number, the harder it is.
@@ -67,7 +62,6 @@ def before_options_defined(options: dict) -> dict:
     options["Duplicate_Locations"] = DupeLocations
     options["Challenge_Locations"] = ChallengeLocations
     options["Duplicate_Challenge_Locations"] = DupeChallengeLocations
-    options["Grizzly_Challenge_Locations"] = GrizzlyChallengeLocations
     options["Logic_Difficulty"] = LogicDifficulty
     return options
 

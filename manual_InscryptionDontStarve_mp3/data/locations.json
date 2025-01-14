@@ -674,15 +674,31 @@
         ],
         "region": "Final Boss"
     },
+    
     {
-        "name": "Defeat the First Boss with No Hook Challenge",
+        "name": "40 Challenge Points - 1st Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Late First Area"
+    },
+    {
+        "name": "40 Challenge Points - 1st Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Late First Area"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with No Hook Challenge 2",
+        "name": "60 Challenge Points - 1st Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -690,14 +706,14 @@
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with Smaller Backpack Challenge",
+        "name": "80 Challenge Points - 1st Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with Smaller Backpack Challenge 2",
+        "name": "80 Challenge Points - 1st Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -705,44 +721,14 @@
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with No Clover Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with No Clover Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Pricey Pelts Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Pricey Pelts Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Boss Totems Challenge",
+        "name": "100 Challenge Points - 1st Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the First Boss with Boss Totems Challenge 2",
+        "name": "100 Challenge Points - 1st Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -750,74 +736,29 @@
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the First Boss with All Totem Battles Challenge",
+        "name": "120 Challenge Points - 1st Area 1st Encounter",
         "category": [
             "Challenges"
         ],
-        "region": "Second Boss"
+        "region": "Third Boss"
     },
     {
-        "name": "Defeat the First Boss with All Totem Battles Challenge 2",
+        "name": "120 Challenge Points - 1st Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
         ],
-        "region": "Second Boss"
+        "region": "Third Boss"
     },
     {
-        "name": "Defeat the First Boss with No Boss Rares Challenge",
+        "name": "40 Challenge Points - 1st Area 2nd Encounter",
         "category": [
             "Challenges"
         ],
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with No Boss Rares Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with More Difficult Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the First Boss with More Difficult Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Single Candle Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Single Candle Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Annoying Starters Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "First Boss"
-    },
-    {
-        "name": "Defeat the First Boss with Annoying Starters Challenge 2",
+        "name": "40 Challenge Points - 1st Area 2nd Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -825,61 +766,224 @@
         "region": "First Boss"
     },
     {
-        "name": "Defeat the First Boss with Grizzly Bosses Challenge",
+        "name": "60 Challenge Points - 1st Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area 2nd Encounter 2",
         "category": [
             "Challenges",
-            "grizzly"
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "100 Challenge Points - 1st Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "100 Challenge Points - 1st Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "120 Challenge Points - 1st Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "120 Challenge Points - 1st Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "40 Challenge Points - 1st Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "40 Challenge Points - 1st Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "100 Challenge Points - 1st Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "100 Challenge Points - 1st Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "120 Challenge Points - 1st Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "120 Challenge Points - 1st Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "40 Challenge Points - 1st Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "40 Challenge Points - 1st Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Second Boss"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "60 Challenge Points - 1st Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "80 Challenge Points - 1st Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "100 Challenge Points - 1st Area Boss Encounter",
+        "category": [
+            "Challenges"
         ],
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the First Boss with Grizzly Bosses Challenge 2",
+        "name": "100 Challenge Points - 1st Area Boss Encounter 2",
         "category": [
             "Challenges",
-            "challengesecond",
-            "grizzly"
+            "challengesecond"
         ],
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the First Boss with Final Boss Challenge",
+        "name": "120 Challenge Points - 1st Area Boss Encounter",
         "category": [
             "Challenges"
         ],
-        "region": "First Boss"
+        "region": "Final Boss"
     },
     {
-        "name": "Defeat the First Boss with Final Boss Challenge 2",
+        "name": "120 Challenge Points - 1st Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
         ],
-        "region": "First Boss"
+        "region": "Final Boss"
     },
     {
-        "name": "Defeat the Second Boss with No Hook Challenge",
+        "name": "40 Challenge Points - 2nd Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the Second Boss with No Hook Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Smaller Backpack Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Smaller Backpack Challenge 2",
+        "name": "40 Challenge Points - 2nd Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -887,44 +991,14 @@
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the Second Boss with No Clover Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with No Clover Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Pricey Pelts Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Pricey Pelts Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Boss Totems Challenge",
+        "name": "60 Challenge Points - 2nd Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Second Boss with Boss Totems Challenge 2",
+        "name": "60 Challenge Points - 2nd Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -932,14 +1006,14 @@
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Second Boss with All Totem Battles Challenge",
+        "name": "80 Challenge Points - 2nd Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Second Boss with All Totem Battles Challenge 2",
+        "name": "80 Challenge Points - 2nd Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -947,59 +1021,44 @@
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Second Boss with No Boss Rares Challenge",
+        "name": "100 Challenge Points - 2nd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "40 Challenge Points - 2nd Area 2nd Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the Second Boss with No Boss Rares Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with More Difficult Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with More Difficult Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Single Candle Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Single Candle Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Annoying Starters Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Annoying Starters Challenge 2",
+        "name": "40 Challenge Points - 2nd Area 2nd Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1007,45 +1066,149 @@
         "region": "Second Boss"
     },
     {
-        "name": "Defeat the Second Boss with Grizzly Bosses Challenge",
+        "name": "60 Challenge Points - 2nd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "60 Challenge Points - 2nd Area 2nd Encounter 2",
         "category": [
             "Challenges",
-            "grizzly"
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "80 Challenge Points - 2nd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "80 Challenge Points - 2nd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "40 Challenge Points - 2nd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "40 Challenge Points - 2nd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "60 Challenge Points - 2nd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "60 Challenge Points - 2nd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "80 Challenge Points - 2nd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 2nd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area 3rd Encounter",
+        "category": [
+            "Challenges"
         ],
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Second Boss with Grizzly Bosses Challenge 2",
+        "name": "120 Challenge Points - 2nd Area 3rd Encounter 2",
         "category": [
             "Challenges",
-            "grizzly"
+            "challengesecond"
         ],
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Second Boss with Final Boss Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Second Boss with Final Boss Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Second Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with No Hook Challenge",
+        "name": "40 Challenge Points - 2nd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Third Boss with No Hook Challenge 2",
+        "name": "40 Challenge Points - 2nd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1053,59 +1216,14 @@
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Third Boss with Smaller Backpack Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Smaller Backpack Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with No Clover Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with No Clover Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Pricey Pelts Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Pricey Pelts Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Boss Totems Challenge",
+        "name": "60 Challenge Points - 2nd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Third Boss with Boss Totems Challenge 2",
+        "name": "60 Challenge Points - 2nd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1113,14 +1231,14 @@
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Third Boss with All Totem Battles Challenge",
+        "name": "80 Challenge Points - 2nd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Third Boss with All Totem Battles Challenge 2",
+        "name": "80 Challenge Points - 2nd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1128,59 +1246,44 @@
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Third Boss with No Boss Rares Challenge",
+        "name": "100 Challenge Points - 2nd Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "100 Challenge Points - 2nd Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 2nd Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "40 Challenge Points - 3rd Area 1st Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Third Boss with No Boss Rares Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with More Difficult Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with More Difficult Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Single Candle Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Single Candle Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Annoying Starters Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Annoying Starters Challenge 2",
+        "name": "40 Challenge Points - 3rd Area 1st Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1188,46 +1291,224 @@
         "region": "Third Boss"
     },
     {
-        "name": "Defeat the Third Boss with Grizzly Bosses Challenge",
+        "name": "60 Challenge Points - 3rd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "60 Challenge Points - 3rd Area 1st Encounter 2",
         "category": [
             "Challenges",
-            "grizzly"
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area 1st Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area 1st Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "40 Challenge Points - 3rd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "40 Challenge Points - 3rd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Third Boss"
+    },
+    {
+        "name": "60 Challenge Points - 3rd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "60 Challenge Points - 3rd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area 2nd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area 2nd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "40 Challenge Points - 3rd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "40 Challenge Points - 3rd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "60 Challenge Points - 3rd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "60 Challenge Points - 3rd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Final Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "80 Challenge Points - 3rd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 3rd Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "100 Challenge Points - 3rd Area 3rd Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area 3rd Encounter",
+        "category": [
+            "Challenges"
         ],
         "region": "Sixth Boss"
     },
     {
-        "name": "Defeat the Third Boss with Grizzly Bosses Challenge 2",
+        "name": "120 Challenge Points - 3rd Area 3rd Encounter 2",
         "category": [
             "Challenges",
-            "challengesecond",
-            "grizzly"
+            "challengesecond"
         ],
         "region": "Sixth Boss"
     },
     {
-        "name": "Defeat the Third Boss with Final Boss Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Third Boss with Final Boss Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Third Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with No Hook Challenge",
+        "name": "40 Challenge Points - 3rd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Final Boss with No Hook Challenge 2",
+        "name": "40 Challenge Points - 3rd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1235,59 +1516,14 @@
         "region": "Final Boss"
     },
     {
-        "name": "Defeat the Final Boss with Smaller Backpack Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Smaller Backpack Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with No Clover Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with No Clover Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Pricey Pelts Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Pricey Pelts Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Boss Totems Challenge",
+        "name": "60 Challenge Points - 3rd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Final Boss with Boss Totems Challenge 2",
+        "name": "60 Challenge Points - 3rd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1295,14 +1531,14 @@
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Final Boss with All Totem Battles Challenge",
+        "name": "80 Challenge Points - 3rd Area Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Final Boss with All Totem Battles Challenge 2",
+        "name": "80 Challenge Points - 3rd Area Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
@@ -1310,96 +1546,109 @@
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Final Boss with No Boss Rares Challenge",
+        "name": "100 Challenge Points - 3rd Area Boss Encounter",
         "category": [
             "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with No Boss Rares Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with More Difficult Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Fifth Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with More Difficult Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Fifth Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Single Candle Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Fifth Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Single Candle Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Fifth Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Annoying Starters Challenge",
-        "category": [
-            "Challenges"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Annoying Starters Challenge 2",
-        "category": [
-            "Challenges",
-            "challengesecond"
-        ],
-        "region": "Final Boss"
-    },
-    {
-        "name": "Defeat the Final Boss with Grizzly Bosses Challenge",
-        "category": [
-            "Challenges",
-            "grizzly"
         ],
         "region": "Sixth Boss"
     },
     {
-        "name": "Defeat the Final Boss with Grizzly Bosses Challenge 2",
+        "name": "100 Challenge Points - 3rd Area Boss Encounter 2",
         "category": [
             "Challenges",
-            "challengesecond",
-            "grizzly"
+            "challengesecond"
         ],
         "region": "Sixth Boss"
     },
     {
-        "name": "Defeat the Final Boss with Final Boss Challenge",
+        "name": "120 Challenge Points - 3rd Area Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "120 Challenge Points - 3rd Area Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "40 Challenge Points - Final Boss Encounter",
         "category": [
             "Challenges"
         ],
         "region": "Fifth Boss"
     },
     {
-        "name": "Defeat the Final Boss with Final Boss Challenge 2",
+        "name": "40 Challenge Points - Final Boss Encounter 2",
         "category": [
             "Challenges",
             "challengesecond"
         ],
         "region": "Fifth Boss"
+    },
+    {
+        "name": "60 Challenge Points - Final Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "60 Challenge Points - Final Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Fifth Boss"
+    },
+    {
+        "name": "80 Challenge Points - Final Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "80 Challenge Points - Final Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "100 Challenge Points - Final Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "100 Challenge Points - Final Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Sixth Boss"
+    },
+    {
+        "name": "120 Challenge Points - Final Boss Encounter",
+        "category": [
+            "Challenges"
+        ],
+        "region": "Seventh Boss"
+    },
+    {
+        "name": "120 Challenge Points - Final Boss Encounter 2",
+        "category": [
+            "Challenges",
+            "challengesecond"
+        ],
+        "region": "Seventh Boss"
     },
     {
         "name": "End of Kaycee's Mod",
@@ -1407,7 +1656,7 @@
         "region": "Final Boss"
     },
     {
-        "name": "End of Kaycee's Mod (50 Challenge Points)",
+        "name": "End of Kaycee's Mod (40 Challenge Points)",
         "victory": true,
         "region": "Fifth Boss"
     },
@@ -1417,7 +1666,7 @@
         "region": "Sixth Boss"
     },
     {
-        "name": "End of Kaycee's Mod (110 Challenge Points)",
+        "name": "End of Kaycee's Mod (120 Challenge Points)",
         "victory": true,
         "region": "Seventh Boss"
     }

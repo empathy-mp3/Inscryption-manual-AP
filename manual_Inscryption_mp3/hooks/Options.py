@@ -116,8 +116,9 @@ class KayceesModDupeLocations(DefaultOnToggle):
     display_name = "Kaycee's Mod Duplicate Locations"
 
 class KayceesModChallengeLocations(DefaultOnToggle):
-    """Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
-    There aren't duplicates of these."""
+    """Should there be locations for beating every encounter with a certain amount of challenge points?
+    There aren't duplicates of these.
+    You'll never be expected to do the Grizzly Bosses challenge (it sucks)."""
     display_name = "Kaycee's Mod Challenge Locations"
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
