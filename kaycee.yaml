@@ -64,8 +64,9 @@ Manual_Inscryption_mp3:
     'true': 50
 
   kaycees_mod_challenge_locations:
-    # Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
+    # Should there be locations for beating every encounter with a certain amount of challenge points?
     # There aren't duplicates of these.
+    # You'll never be expected to do the Grizzly Bosses challenge (it sucks).
     'false': 0
     'true': 50
 
@@ -75,9 +76,9 @@ Manual_Inscryption_mp3:
     end of act ii: 0
     end of act iii: 0
     end of kaycee's mod: 50
-    end of kaycee's mod (50 challenge points): 0
+    end of kaycee's mod (40 challenge points): 0
     end of kaycee's mod (80 challenge points): 0
-    end of kaycee's mod (110 challenge points): 0
+    end of kaycee's mod (120 challenge points): 0
 
   filler_traps:
     # How many fillers will be replaced with traps. 0 means no additional traps, 100 means all fillers are traps.
