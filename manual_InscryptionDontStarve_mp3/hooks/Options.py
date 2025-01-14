@@ -44,7 +44,7 @@ class ChallengeLocations(DefaultOnToggle):
 
 class DupeChallengeLocations(Toggle):
     """Should there be duplicates of Challenge Locations?
-    Only does anything if Challenge_Locations are enabled."""
+    Only does anything if challenge_locations are enabled."""
     display_name = "Dupe Challenge Locations"
 
 class LogicDifficulty(Range):
@@ -59,10 +59,10 @@ class LogicDifficulty(Range):
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
     options["consumable_rando"] = ConsumableRando
-    options["Duplicate_Locations"] = DupeLocations
-    options["Challenge_Locations"] = ChallengeLocations
-    options["Duplicate_Challenge_Locations"] = DupeChallengeLocations
-    options["Logic_Difficulty"] = LogicDifficulty
+    options["duplicate_locations"] = DupeLocations
+    options["challenge_locations"] = ChallengeLocations
+    options["duplicate_challenge_locations"] = DupeChallengeLocations
+    options["logic_difficulty"] = LogicDifficulty
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

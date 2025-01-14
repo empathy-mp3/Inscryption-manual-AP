@@ -39,32 +39,25 @@ Manual_InscryptionDontStarve_mp3:
     'false': 0
     'true': 50
 
-  Duplicate_Locations:
+  duplicate_locations:
     # Should there be duplicate locations for every location?
     # Also, this doesn't apply to challenge locations.
     # You should have at least one set of duplicate locations enabled (or it will fail to generate).
     'false': 50
     'true': 0
 
-  Challenge_Locations:
+  challenge_locations:
     # Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
     'false': 0
     'true': 50
 
-  Duplicate_Challenge_Locations:
+  duplicate_challenge_locations:
     # Should there be duplicates of Challenge Locations?
-    # Only does anything if Challenge_Locations are enabled.
+    # Only does anything if challenge_locations are enabled.
     'false': 0
     'true': 50
 
-  Grizzly_Challenge_Locations:
-    # Should there be Challenge Locations for Grizzly Bosses?
-    # Personally, I really don't like that challenge. It sucks.
-    # Only does anything if Challenge_Locations are enabled.
-    'false': 50
-    'true': 0
-
-  Logic_Difficulty:
+  logic_difficulty:
     # How hard do you want your logic? The higher the number, the harder it is.
     # You may be expected to do very difficult and/or grindy things with very little equipment.
     # Specifically, how much do you like bashing your head against a wall?

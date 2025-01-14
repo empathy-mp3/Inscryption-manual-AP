@@ -8,12 +8,12 @@
     "second": {
         "hidden": true,
         "yaml_option": [
-            "Duplicate_Locations"
+            "duplicate_locations"
         ]
     },
     "Challenges": {
         "yaml_option": [
-            "Challenge_Locations"
+            "challenge_locations"
         ]
     },
     "act2cheap": {
@@ -22,7 +22,7 @@
     "challengesecond": {
         "hidden": true,
         "yaml_option": [
-            "Duplicate_Challenge_Locations"
+            "duplicate_challenge_locations"
         ]
     },
     "damage": {
