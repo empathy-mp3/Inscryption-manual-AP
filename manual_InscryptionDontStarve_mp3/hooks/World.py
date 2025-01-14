@@ -43,7 +43,7 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
+    consumable = is_option_enabled(multiworld, player, "consumable_rando_Enabled")
     dupe = is_option_enabled(multiworld, player, "Duplicate_Locations")
     challenge = is_option_enabled(multiworld, player, "Challenge_Locations")
     challengedupe = is_option_enabled(multiworld, player, "Duplicate_Challenge_Locations")
@@ -110,7 +110,7 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
+    consumable = is_option_enabled(multiworld, player, "consumable_rando_Enabled")
     hard = get_option_value(multiworld, player, "Logic_Difficulty")
 
     def late_area1(state: CollectionState):

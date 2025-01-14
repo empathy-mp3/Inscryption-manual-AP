@@ -123,23 +123,23 @@ class KayceesModChallengeLocations(DefaultOnToggle):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
-    options["Act_1_Enabled"] = Act1Enabled
-    options["Act_2_Enabled"] = Act2Enabled
-    options["Act_3_Enabled"] = Act3Enabled
-    options["Kaycees_Mod_Enabled"] = KayceesModEnabled
-    options["Consumable_Rando"] = ConsumableRando
-    options["Hammer_Rando"] = HammerRando
-    options["Clover_Rando"] = CloverRando
-    options["Stack_Size_Rando"] = StackSizeRando
-    options["Deck_Size_Rando"] = DeckSizeRando
-    options["Vessel_Upgrade_Rando"] = VesselUpgradeRando
-    options["Act_1_Duplicate_Locations"] = Act1DupeLocations
-    options["Act_2_Duplicate_Locations"] = Act2DupeLocations
-    options["Robobucks_Locations"] = RobobucksLocations
-    options["Card_Choice_Locations"] = CardChoiceLocations
-    options["Unique_Card_Locations"] = UniqueCardLocations
-    options["Kaycees_Mod_Duplicate_Locations"] = KayceesModDupeLocations
-    options["Kaycees_Mod_Challenge_Locations"] = KayceesModChallengeLocations
+    options["act_1_enabled"] = Act1Enabled
+    options["act_2_enabled"] = Act2Enabled
+    options["act_3_enabled"] = Act3Enabled
+    options["kaycees_mod_enabled"] = KayceesModEnabled
+    options["consumable_rando"] = ConsumableRando
+    options["hammer_rando"] = HammerRando
+    options["clover_rando"] = CloverRando
+    options["stack_size_rando"] = StackSizeRando
+    options["deck_size_rando"] = DeckSizeRando
+    options["vessel_upgrade_rando"] = VesselUpgradeRando
+    options["act_1_duplicate_locations"] = Act1DupeLocations
+    options["act_2_duplicate_locations"] = Act2DupeLocations
+    options["robobucks_locations"] = RobobucksLocations
+    options["card_choice_locations"] = CardChoiceLocations
+    options["unique_card_locations"] = UniqueCardLocations
+    options["kaycees_mod_duplicate_locations"] = KayceesModDupeLocations
+    options["kaycees_mod_challenge_locations"] = KayceesModChallengeLocations
     return options
 
 # This is called after any manual options are defined, in case you want to see what options are defined or want to modify the defined options

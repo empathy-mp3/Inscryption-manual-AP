@@ -34,7 +34,7 @@ Manual_InscryptionDontStarve_mp3:
     items: 50
     minimal: 0
 
-  Consumable_Rando:
+  consumable_rando:
     # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
     'false': 0
     'true': 50

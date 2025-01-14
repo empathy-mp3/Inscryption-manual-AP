@@ -1,25 +1,25 @@
 {
     "act1": {
         "yaml_option": [
-            "Act_1_Enabled"
+            "act_1_enabled"
         ],
         "hidden": true
     },
     "act2": {
         "yaml_option": [
-            "Act_2_Enabled"
+            "act_2_enabled"
         ],
         "hidden": true
     },
     "act3": {
         "yaml_option": [
-            "Act_3_Enabled"
+            "act_3_enabled"
         ],
         "hidden": true
     },
     "kaycee": {
         "yaml_option": [
-            "Kaycees_Mod_Enabled"
+            "kaycees_mod_enabled"
         ],
         "hidden": true
     },
@@ -37,7 +37,7 @@
     },
     "Consumable": {
         "yaml_option": [
-            "Consumable_Rando"
+            "consumable_rando"
         ]
     },
     "act1consumable": {
@@ -49,13 +49,13 @@
     "hammer": {
         "hidden": true,
         "yaml_option": [
-            "Hammer_Rando"
+            "hammer_rando"
         ]
     },
     "clover": {
         "hidden": true,
         "yaml_option": [
-            "Clover_Rando"
+            "clover_rando"
         ]
     },
     "kayceeconsumable": {
@@ -64,48 +64,48 @@
     "vesselupgrade": {
         "hidden": true,
         "yaml_option": [
-            "Vessel_Upgrade_Rando"
+            "vessel_upgrade_rando"
         ]
     },
     "actonesecond": {
         "hidden": true,
         "yaml_option": [
-            "Act_1_Duplicate_Locations"
+            "act_1_duplicate_locations"
         ]
     },
     "acttwosecond": {
         "hidden": true,
         "yaml_option": [
-            "Act_2_Duplicate_Locations"
+            "act_2_duplicate_locations"
         ]
     },
     "robobucks": {
         "hidden": true,
         "yaml_option": [
-            "Robobucks_Locations"
+            "robobucks_locations"
         ]
     },
     "cardchoice": {
         "hidden": true,
         "yaml_option": [
-            "Card_Choice_Locations"
+            "card_choice_locations"
         ]
     },
     "uniquecard": {
         "hidden": true,
         "yaml_option": [
-            "Unique_Card_Locations"
+            "unique_card_locations"
         ]
     },
     "kayceesecond": {
         "hidden": true,
         "yaml_option": [
-            "Kaycees_Mod_Duplicate_Locations"
+            "kaycees_mod_duplicate_locations"
         ]
     },
     "Challenges": {
         "yaml_option": [
-            "Kaycees_Mod_Challenge_Locations"
+            "kaycees_mod_challenge_locations"
         ]
     },
     "act2cheap": {

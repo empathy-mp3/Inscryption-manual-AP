@@ -9,17 +9,17 @@ from .. import Helpers
 # Return True to enable the category, False to disable it, or None to use the default behavior
 def before_is_category_enabled(multiworld: MultiWorld, player: int, category_name: str) -> Optional[bool]:
     if category_name == "act2kaycee":
-        return Helpers.is_option_enabled(multiworld, player, "Act_2_Enabled") or Helpers.is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_2_enabled") or Helpers.is_option_enabled(multiworld, player, "kaycees_mod_enabled")
     if category_name == "act2act3":
-        return Helpers.is_option_enabled(multiworld, player, "Act_2_Enabled") or Helpers.is_option_enabled(multiworld, player, "Act_3_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_2_enabled") or Helpers.is_option_enabled(multiworld, player, "act_3_enabled")
     if category_name == "act1act2kaycee":
-        return Helpers.is_option_enabled(multiworld, player, "Act_1_Enabled") or Helpers.is_option_enabled(multiworld, player, "Act_2_Enabled") or Helpers.is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_1_enabled") or Helpers.is_option_enabled(multiworld, player, "act_2_enabled") or Helpers.is_option_enabled(multiworld, player, "kaycees_mod_enabled")
     if category_name == "act1kaycee":
-        return Helpers.is_option_enabled(multiworld, player, "Act_1_Enabled") or Helpers.is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_1_enabled") or Helpers.is_option_enabled(multiworld, player, "kaycees_mod_enabled")
     if category_name == "act1act3kaycee":
-        return Helpers.is_option_enabled(multiworld, player, "Act_1_Enabled") or Helpers.is_option_enabled(multiworld, player, "Act_3_Enabled") or Helpers.is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_1_enabled") or Helpers.is_option_enabled(multiworld, player, "act_3_enabled") or Helpers.is_option_enabled(multiworld, player, "kaycees_mod_enabled")
     if category_name == "act1act2":
-        return Helpers.is_option_enabled(multiworld, player, "Act_1_Enabled") or Helpers.is_option_enabled(multiworld, player, "Act_2_Enabled")
+        return Helpers.is_option_enabled(multiworld, player, "act_1_enabled") or Helpers.is_option_enabled(multiworld, player, "act_2_enabled")
     return None
 
 # Use this if you want to override the default behavior of is_option_enabled

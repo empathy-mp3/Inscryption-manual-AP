@@ -58,7 +58,7 @@ class LogicDifficulty(Range):
 
 # This is called before any manual options are defined, in case you want to define your own with a clean slate or let Manual define over them
 def before_options_defined(options: dict) -> dict:
-    options["Consumable_Rando"] = ConsumableRando
+    options["consumable_rando"] = ConsumableRando
     options["Duplicate_Locations"] = DupeLocations
     options["Challenge_Locations"] = ChallengeLocations
     options["Duplicate_Challenge_Locations"] = DupeChallengeLocations

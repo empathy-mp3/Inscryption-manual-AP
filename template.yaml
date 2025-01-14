@@ -61,43 +61,43 @@ Manual_Inscryption_mp3:
     items: 50
     minimal: 0
 
-  Act_1_Enabled:
+  act_1_enabled:
     # Do you want to play Act I in this rando?
     'false': 0
     'true': 50
 
-  Act_2_Enabled:
+  act_2_enabled:
     # Do you want to play Act II in this rando?
     'false': 50
     'true': 0
 
-  Act_3_Enabled:
+  act_3_enabled:
     # Do you want to play Act III in this rando?
     'false': 50
     'true': 0
 
-  Kaycees_Mod_Enabled:
+  kaycees_mod_enabled:
     # Do you want to play Kaycee's Mod in this rando?
     'false': 50
     'true': 0
 
-  Consumable_Rando:
+  consumable_rando:
     # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
     'false': 0
     'true': 50
 
-  Hammer_Rando:
+  hammer_rando:
     # Should the ability to use the hammer (In Act II and III) be randomized?
     'false': 50
     'true': 0
 
-  Clover_Rando:
+  clover_rando:
     # Should the ability to use the clover (In Act I and II) be randomized?
     # In Act I, you'll have to go get the clover yourself.
     'false': 50
     'true': 0
 
-  Stack_Size_Rando:
+  stack_size_rando:
     # This will reduce the maximum amount of one card you can have in your deck in Act II.
     # The amount you set is how many items will be created that nullify this restriction, one at a time.
     # At the minimum of 5, you can only have 5 of one card, and 15 items will exist that increase this.
@@ -111,7 +111,7 @@ Manual_Inscryption_mp3:
     random-low: 0
     random-high: 0
 
-  Deck_Size_Rando:
+  deck_size_rando:
     # This will increase the minimum amount of cards you must have in your deck in Act II.
     # The amount you set is how many items will be created that nullify this restriction, one at a time.
     # At the maximum of 35, you must have 35 cards in your deck, and 15 items will exist that decrease this.
@@ -125,7 +125,7 @@ Manual_Inscryption_mp3:
     random-low: 0
     random-high: 0
 
-  Vessel_Upgrade_Rando:
+  vessel_upgrade_rando:
     # Should the empty vessel upgrades (in Act III) be randomized? This will create 3 "Vessel Upgrade" items.  
     # For each Vessel Upgrade item, you may pick up a vessel upgrade from Boss Rewards.
     # With none, you must leave them there (so that you may pick them up later).
@@ -133,7 +133,7 @@ Manual_Inscryption_mp3:
     'false': 50
     'true': 0
 
-  Act_1_Duplicate_Locations:
+  act_1_duplicate_locations:
     # Should there be duplicate locations for every location in Act I?
     # 
     # Note: for this option and the next 6, consider how many acts you're playing.
@@ -144,34 +144,34 @@ Manual_Inscryption_mp3:
     'false': 0
     'true': 50
 
-  Act_2_Duplicate_Locations:
+  act_2_duplicate_locations:
     # Should there be duplicate locations for every location in Act II?
     'false': 0
     'true': 50
 
-  Robobucks_Locations:
+  robobucks_locations:
     # Should there be locations for each piece of robobucks you can pick up in Botopia? (Act III)
     'false': 0
     'true': 50
 
-  Card_Choice_Locations:
+  card_choice_locations:
     # Should there be locations for each Card Choice node in Act III?
     # If this option is turned on, you're bound to have a deck with cards you can't play, making Act III harder.
     # (However, this is a good thing. Act III is too easy, especially if you've already done the first 2 acts in the rando.)
     'false': 0
     'true': 50
 
-  Unique_Card_Locations:
+  unique_card_locations:
     # Should there be locations for each unique card pickup in Act III? (specifically, Ourobot, Lonely Wizbot, Fishbot)
     'false': 0
     'true': 50
 
-  Kaycees_Mod_Duplicate_Locations:
+  kaycees_mod_duplicate_locations:
     # Should there be duplicate locations for every location in Kaycee's Mod?
     'false': 0
     'true': 50
 
-  Kaycees_Mod_Challenge_Locations:
+  kaycees_mod_challenge_locations:
     # Should there be locations for beating every boss with each individual challenge in Kaycee's Mod?
     # There aren't duplicates of these.
     'false': 0

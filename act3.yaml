@@ -16,34 +16,34 @@ Manual_Inscryption_mp3:
   # Irrelevant options to Act III are shortened and have their description removed.
   # Refer to the README or template.yaml for full descriptions.
 
-  Act_1_Enabled: 'false'
+  act_1_enabled: 'false'
 
-  Act_2_Enabled: 'false'
+  act_2_enabled: 'false'
 
-  Act_3_Enabled:
+  act_3_enabled:
     # Do you want to play Act III in this rando?
     'false': 0
     'true': 50
 
-  Kaycees_Mod_Enabled: 'false'
+  kaycees_mod_enabled: 'false'
 
-  Consumable_Rando:
+  consumable_rando:
     # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
     'false': 0
     'true': 50
 
-  Hammer_Rando:
+  hammer_rando:
     # Should the ability to use the hammer (In Act II and III) be randomized?
     'false': 0
     'true': 50
 
-  Clover_Rando: 'false'
+  clover_rando: 'false'
 
-  Stack_Size_Rando: 20
+  stack_size_rando: 20
 
-  Deck_Size_Rando: 20
+  deck_size_rando: 20
 
-  Vessel_Upgrade_Rando:
+  vessel_upgrade_rando:
     # Should the empty vessel upgrades (in Act III) be randomized? This will create 3 "Vessel Upgrade" items.  
     # For each Vessel Upgrade item, you may pick up a vessel upgrade from Boss Rewards.
     # With none, you must leave them there (so that you may pick them up later).
@@ -52,28 +52,28 @@ Manual_Inscryption_mp3:
     'true': 50
 
   # Additional Location Options
-  Act_1_Duplicate_Locations: 'false'
+  act_1_duplicate_locations: 'false'
 
-  Act_2_Duplicate_Locations: 'false'
+  act_2_duplicate_locations: 'false'
 
-  Robobucks_Locations:
+  robobucks_locations:
     # Should there be locations for each piece of robobucks you can pick up in Botopia? (Act III)
     'false': 0
     'true': 50
 
-  Card_Choice_Locations:
+  card_choice_locations:
     # Should there be locations for each Card Choice node in Act III?
     # If this option is turned on, you're bound to have a deck with cards you can't play, making Act III harder.
     # (However, this is a good thing. Act III is too easy, especially if you've already done the first 2 acts in the rando.)
     'false': 0
     'true': 50
 
-  Unique_Card_Locations:
+  unique_card_locations:
     # Should there be locations for each unique card pickup in Act III? (specifically, Ourobot, Lonely Wizbot, Fishbot)
     'false': 0
     'true': 50
 
-  Kaycees_Mod_Duplicate_Locations: 'false'
+  kaycees_mod_duplicate_locations: 'false'
 
   goal:
     # Choose your victory condition.

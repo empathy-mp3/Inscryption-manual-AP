@@ -44,18 +44,18 @@ def before_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # Called after regions and locations are created, in case you want to see or modify that information. Victory location is included.
 def after_create_regions(world: World, multiworld: MultiWorld, player: int):
-    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
-    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
-    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
-    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
-    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
-    act1dupe = is_option_enabled(multiworld, player, "Act_1_Duplicate_Locations")
-    act2dupe = is_option_enabled(multiworld, player, "Act_2_Duplicate_Locations")
-    bucks = is_option_enabled(multiworld, player, "Robobucks_Locations")
-    choice = is_option_enabled(multiworld, player, "Card_Choice_Locations")
-    unique = is_option_enabled(multiworld, player, "Unique_Card_Locations")
-    kayceedupe = is_option_enabled(multiworld, player, "Kaycees_Mod_Duplicate_Locations")
-    challenge = is_option_enabled(multiworld, player, "Kaycees_Mod_Challenge_Locations")
+    act1 = is_option_enabled(multiworld, player, "act_1_enabled")
+    act2 = is_option_enabled(multiworld, player, "act_2_enabled")
+    act3 = is_option_enabled(multiworld, player, "act_3_enabled")
+    kaycee = is_option_enabled(multiworld, player, "kaycees_mod_enabled")
+    consumable = is_option_enabled(multiworld, player, "consumable_rando_Enabled")
+    act1dupe = is_option_enabled(multiworld, player, "act_1_duplicate_locations")
+    act2dupe = is_option_enabled(multiworld, player, "act_2_duplicate_locations")
+    bucks = is_option_enabled(multiworld, player, "robobucks_locations")
+    choice = is_option_enabled(multiworld, player, "card_choice_locations")
+    unique = is_option_enabled(multiworld, player, "unique_card_locations")
+    kayceedupe = is_option_enabled(multiworld, player, "kaycees_mod_duplicate_locations")
+    challenge = is_option_enabled(multiworld, player, "kaycees_mod_challenge_locations")
     # Use this hook to remove locations from the world
     locationNamesToRemove = [] # List of location names
 
@@ -105,9 +105,9 @@ def after_create_regions(world: World, multiworld: MultiWorld, player: int):
 
 # The item pool before starting items are processed, in case you want to see the raw item pool at that stage
 def before_create_items_starting(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
-    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
-    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
-    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
+    act1 = is_option_enabled(multiworld, player, "act_1_enabled")
+    act3 = is_option_enabled(multiworld, player, "act_3_enabled")
+    kaycee = is_option_enabled(multiworld, player, "kaycees_mod_enabled")
 
     if act1:
         start_item_list = ["Squirrel"]
@@ -136,9 +136,9 @@ def before_create_items_starting(item_pool: list, world: World, multiworld: Mult
 # The item pool after starting items are processed but before filler is added, in case you want to see the raw item pool at that stage
 def before_create_items_filler(item_pool: list, world: World, multiworld: MultiWorld, player: int) -> list:
 
-    stack = 20 - get_option_value(multiworld, player, "Stack_Size_Rando")
-    deck = get_option_value(multiworld, player, "Deck_Size_Rando") - 20
-    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
+    stack = 20 - get_option_value(multiworld, player, "stack_size_rando")
+    deck = get_option_value(multiworld, player, "deck_size_rando") - 20
+    act2 = is_option_enabled(multiworld, player, "act_2_enabled")
 
     # Use this hook to remove items from the item pool
     itemNamesToRemove = [] # List of item names
@@ -179,15 +179,15 @@ def before_set_rules(world: World, multiworld: MultiWorld, player: int):
 
 # Called after rules for accessing regions and locations are created, in case you want to see or modify that information.
 def after_set_rules(world: World, multiworld: MultiWorld, player: int):
-    act1 = is_option_enabled(multiworld, player, "Act_1_Enabled")
-    act2 = is_option_enabled(multiworld, player, "Act_2_Enabled")
-    act3 = is_option_enabled(multiworld, player, "Act_3_Enabled")
-    kaycee = is_option_enabled(multiworld, player, "Kaycees_Mod_Enabled")
-    consumable = is_option_enabled(multiworld, player, "Consumable_Rando_Enabled")
-    hammer = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
-    stack = 20 - get_option_value(multiworld, player, "Stack_Size_Rando")
-    deck = get_option_value(multiworld, player, "Deck_Size_Rando") - 20
-    vessel = is_option_enabled(multiworld, player, "Hammer_Rando_Enabled")
+    act1 = is_option_enabled(multiworld, player, "act_1_enabled")
+    act2 = is_option_enabled(multiworld, player, "act_2_enabled")
+    act3 = is_option_enabled(multiworld, player, "act_3_enabled")
+    kaycee = is_option_enabled(multiworld, player, "kaycees_mod_enabled")
+    consumable = is_option_enabled(multiworld, player, "consumable_rando_Enabled")
+    hammer = is_option_enabled(multiworld, player, "hammer_rando_Enabled")
+    stack = 20 - get_option_value(multiworld, player, "stack_size_rando")
+    deck = get_option_value(multiworld, player, "deck_size_rando") - 20
+    vessel = is_option_enabled(multiworld, player, "hammer_rando_Enabled")
 
     def late_woodlands(state: CollectionState):
         return state.has("Squirrel", player, 1) and state.has_group("act1damage", player, 2)

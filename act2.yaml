@@ -16,31 +16,31 @@ Manual_Inscryption_mp3:
   # Irrelevant options to Act II are shortened and have their description removed.
   # Refer to the README or template.yaml for full descriptions.
 
-  Act_1_Enabled: 'false'
+  act_1_enabled: 'false'
 
-  Act_2_Enabled:
+  act_2_enabled:
     # Do you want to play Act II in this rando?
     'false': 0
     'true': 50
 
-  Act_3_Enabled: 'false'
+  act_3_enabled: 'false'
 
-  Kaycees_Mod_Enabled: 'false'
+  kaycees_mod_enabled: 'false'
 
-  Consumable_Rando: 'false'
+  consumable_rando: 'false'
 
-  Hammer_Rando:
+  hammer_rando:
     # Should the ability to use the hammer (In Act II and III) be randomized?
     'false': 0
     'true': 50
 
-  Clover_Rando:
+  clover_rando:
     # Should the ability to use the clover (In Act I and II and Kaycee's Mod) be randomized?
     # In Act I, you'll have to go get the clover yourself.
     'false': 0
     'true': 50
 
-  Stack_Size_Rando:
+  stack_size_rando:
     # This will reduce the maximum amount of one card you can have in your deck in Act II.
     # The amount you set is how many items will be created that nullify this restriction, one at a time.
     # At the minimum of 5, you can only have 5 of one card, and 15 items will exist that increase this.
@@ -54,7 +54,7 @@ Manual_Inscryption_mp3:
     random-low: 0
     random-high: 0
 
-  Deck_Size_Rando:
+  deck_size_rando:
     # This will increase the minimum amount of cards you must have in your deck in Act II.
     # The amount you set is how many items will be created that nullify this restriction, one at a time.
     # At the maximum of 35, you must have 35 cards in your deck, and 15 items will exist that decrease this.
@@ -68,24 +68,24 @@ Manual_Inscryption_mp3:
     random-low: 0
     random-high: 0
 
-  Vessel_Upgrade_Rando: 'false'
+  vessel_upgrade_rando: 'false'
 
   # Additional Location Options
-  Act_1_Duplicate_Locations: 'false'
+  act_1_duplicate_locations: 'false'
 
-  Act_2_Duplicate_Locations:
+  act_2_duplicate_locations:
     # Should there be duplicate locations for every location in Act II?
     # With Just Act II, leave this enabled.
     'false': 0
     'true': 50
 
-  Robobucks_Locations: 'false'
+  robobucks_locations: 'false'
 
-  Card_Choice_Locations: 'false'
+  card_choice_locations: 'false'
 
-  Unique_Card_Locations: 'false'
+  unique_card_locations: 'false'
 
-  Kaycees_Mod_Duplicate_Locations: 'false'
+  kaycees_mod_duplicate_locations: 'false'
 
   goal:
     # Choose your victory condition.

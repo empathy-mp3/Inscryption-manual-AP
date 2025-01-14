@@ -16,52 +16,52 @@ Manual_Inscryption_mp3:
   # Irrelevant options to Act I are shortened and have their description removed.
   # Refer to the README or template.yaml for full descriptions.
 
-  Act_1_Enabled:
+  act_1_enabled:
     # Do you want to play Act I in this rando?
     'false': 0
     'true': 50
 
-  Act_2_Enabled: 'false'
+  act_2_enabled: 'false'
 
-  Act_3_Enabled: 'false'
+  act_3_enabled: 'false'
 
-  Kaycees_Mod_Enabled: 'false'
+  kaycees_mod_enabled: 'false'
 
-  Consumable_Rando:
+  consumable_rando:
     # Should the ability to play consumables (In Act I, Act III, and Kaycee's Mod) be randomized?
     'false': 0
     'true': 50
 
-  Hammer_Rando: 'false'
+  hammer_rando: 'false'
 
-  Clover_Rando:
+  clover_rando:
     # Should the ability to use the clover (In Act I and II and Kaycee's Mod) be randomized?
     # In Act I, you'll have to go get the clover yourself.
     'false': 0
     'true': 50
 
-  Stack_Size_Rando: 20
+  stack_size_rando: 20
 
-  Deck_Size_Rando: 20
+  deck_size_rando: 20
 
-  Vessel_Upgrade_Rando: 'false'
+  vessel_upgrade_rando: 'false'
 
   # Additional Location Options
-  Act_1_Duplicate_Locations:
+  act_1_duplicate_locations:
     # Should there be duplicate locations for every location in Act I?
     # With Just Act I, leave this enabled.
     'false': 0
     'true': 50
 
-  Act_2_Duplicate_Locations: 'false'
+  act_2_duplicate_locations: 'false'
 
-  Robobucks_Locations: 'false'
+  robobucks_locations: 'false'
 
-  Card_Choice_Locations: 'false'
+  card_choice_locations: 'false'
 
-  Unique_Card_Locations: 'false'
+  unique_card_locations: 'false'
 
-  Kaycees_Mod_Duplicate_Locations: 'false'
+  kaycees_mod_duplicate_locations: 'false'
 
   goal:
     # Choose your victory condition.

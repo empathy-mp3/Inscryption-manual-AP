@@ -1,7 +1,7 @@
 {
     "consume": {
         "yaml_option": [
-            "Consumable_Rando"
+            "consumable_rando"
         ],
         "hidden": true
     },
