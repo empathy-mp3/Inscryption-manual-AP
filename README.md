@@ -49,7 +49,7 @@ By default, there are locations for progressing through the acts. They are as fo
 - In Act I, there are locations for progressing forward on the map, and doing things around the Cabin.
 - In Act II, there are locations for gaining Card Packs, progressing the story, and beating enemies.
 - In Act III, there are locations for interacting with nodes and beating encounters, and doing things around the Factory.
-- In Kaycee's Mod, there are locations for progressing forward on the map, and beating bosses with each challenge enabled.
+- In Kaycee's Mod, there are locations for progressing forward on the map, and beating encounters with certain amounts of challenge points.
 
 By default, there are duplicates of each location in Act I, Act II, and Kaycee's Mod. You can disable them by act, but if you test generate and it says that it's removing items since you have more items than locations, consider enabling some of them.
 You can disable specific types of Act III locations (specifically: Robobucks Locations, Card Choice Locations, and Unique Card Locations.)
